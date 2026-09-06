@@ -11,6 +11,8 @@
 
 在工具链确定前，不添加虚构的安装、运行或测试命令。相关决定形成后记录到 [`DECISIONS.md`](DECISIONS.md)。
 
+三人使用独立 Codex 时，从 [最小协作方式](docs/team_workflow.md) 开始；可复用 Skills 在独立的 [CUMCM-skill](https://github.com/MrRoam/CUMCM-skill) 维护，安装说明以所选提交的 README 为准。
+
 ## 目录说明
 
 ```text
@@ -53,6 +55,8 @@ inputs → experiments → src → outputs → paper → submission
 6. 从一个明确的冻结 Git 提交生成 `submission/` 中的论文与支撑材料。
 
 ## Git 协作
+
+以下 GitHub 推送与 PR 方式适用于赛前演练等允许的场景。2026 正式赛期先按[协作说明中的官方规则](docs/team_workflow.md)确认边界；当前保守使用本地 Git 与队内文件传递，不自行假定私有 GitHub 仓库豁免。
 
 - 不直接向 `main` 推送。每项工作从最新 `main` 创建短生命周期分支。
 - 一个分支只处理一个明确问题，使用小而完整的提交并频繁同步。
