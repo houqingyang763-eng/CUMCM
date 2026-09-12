@@ -23,6 +23,8 @@
 
 ## 跨方法综述与整理记录
 
+- [三人交接：各负责一个方向](cross_method/TEAM_HANDOFF.md)：用户做路线，两个队友分别做测量取舍与开局；共同F3、固定8例、启动检查和交付范围。
+- [精简实验安排：3方向、7候选](cross_method/METHOD_COMBINATION_MATRIX.md)：内部2＋3＋2小组合，各自与F3比较后再汇合，替代旧顺序单候选安排。
 - [AI1/AI2/AI3完整综述](cross_method/README.md)：跨路线的优化历程、性能分组、时间尺度与现象总结。
 - [整理记录](ORGANIZATION.md)：原路径到新路径、保留边界、校验说明。
 

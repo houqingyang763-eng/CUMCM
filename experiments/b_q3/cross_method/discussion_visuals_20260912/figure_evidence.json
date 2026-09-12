@@ -1,0 +1,299 @@
+{
+  "scope": "Only plot existing self-built experiment logs; no policy or simulator execution.",
+  "sources": [
+    "experiments/b_q3/refinement/runs/demo_f3_20260912/uniform_hashed_186539142/f3",
+    "experiments/b_q3/clearability/runs/fixed_demo/uniform_hashed_186539142/s4",
+    "experiments/b_q3/adaptive_second/demonstration",
+    "experiments/b_q3/belief_tree/runs/dev_macro_loaded/line_biased_330020/m3"
+  ],
+  "f3_s4": {
+    "case": "uniform_hashed_186539142",
+    "f3_total_min": 52.68443552782957,
+    "s4_total_min": 60.112729076153904,
+    "delta_total_min": 7.428293548324336,
+    "measurement_counts": [
+      123,
+      91
+    ],
+    "move_km": [
+      11.785330658348874,
+      14.878818722846173
+    ]
+  },
+  "local_alternatives": {
+    "actual": {
+      "q": [
+        711.3519429542396,
+        -1353.81612646771
+      ],
+      "radius_from_origin": 1529.3265481998299,
+      "move_s": 129.24365272049852,
+      "visible_true_channels": [
+        15,
+        1,
+        20
+      ],
+      "new_found": [
+        1,
+        15
+      ],
+      "replies": [
+        [
+          20,
+          "direction"
+        ],
+        [
+          1,
+          "direction"
+        ],
+        [
+          2,
+          "no_signal"
+        ],
+        [
+          5,
+          "no_signal"
+        ],
+        [
+          6,
+          "no_signal"
+        ],
+        [
+          7,
+          "no_signal"
+        ],
+        [
+          8,
+          "no_signal"
+        ],
+        [
+          9,
+          "no_signal"
+        ],
+        [
+          10,
+          "no_signal"
+        ],
+        [
+          13,
+          "no_signal"
+        ],
+        [
+          15,
+          "direction"
+        ],
+        [
+          16,
+          "no_signal"
+        ]
+      ],
+      "c20_radius_after": 34.72298266891791,
+      "radii_after": {
+        "1": 326.65399748356214,
+        "3": 13.339682754946766,
+        "4": 39.130008282723004,
+        "11": 26.001352868387745,
+        "15": 405.48518797420934,
+        "17": 29.672995275643302,
+        "19": 20.447595266899608,
+        "20": 34.72298266891791
+      },
+      "area_fraction_r1000": 0.18796,
+      "new_area_fraction_r1000": 0.020775,
+      "batch_elapsed_s": 200.2436527204984
+    },
+    "reflected": {
+      "q": [
+        173.4457644765597,
+        -1142.3087301109304
+      ],
+      "radius_from_origin": 1155.401518132335,
+      "move_s": 129.24365272081224,
+      "visible_true_channels": [
+        10,
+        4,
+        15,
+        1,
+        20
+      ],
+      "new_found": [
+        1,
+        10,
+        15
+      ],
+      "replies": [
+        [
+          20,
+          "direction"
+        ],
+        [
+          1,
+          "direction"
+        ],
+        [
+          2,
+          "no_signal"
+        ],
+        [
+          4,
+          "direction"
+        ],
+        [
+          5,
+          "no_signal"
+        ],
+        [
+          6,
+          "no_signal"
+        ],
+        [
+          7,
+          "no_signal"
+        ],
+        [
+          8,
+          "no_signal"
+        ],
+        [
+          9,
+          "no_signal"
+        ],
+        [
+          10,
+          "direction"
+        ],
+        [
+          13,
+          "no_signal"
+        ],
+        [
+          15,
+          "direction"
+        ],
+        [
+          16,
+          "no_signal"
+        ]
+      ],
+      "c20_radius_after": 38.91659619312581,
+      "radii_after": {
+        "1": 255.6859770247078,
+        "3": 13.339682754946766,
+        "4": 19.875014665159892,
+        "10": 555.3280765486342,
+        "11": 26.001352868387745,
+        "15": 336.20458658204774,
+        "17": 29.672995275643302,
+        "19": 20.447595266899608,
+        "20": 38.91659619312581
+      },
+      "area_fraction_r1000": 0.26051,
+      "new_area_fraction_r1000": 0.05932,
+      "batch_elapsed_s": 206.24365272081218
+    },
+    "equal_distance_left": {
+      "q": [
+        7.687986397507416,
+        -710.15625
+      ],
+      "radius_from_origin": 710.1978629571556,
+      "move_s": 129.24365272049852,
+      "visible_true_channels": [
+        10,
+        4,
+        15,
+        1,
+        3,
+        20
+      ],
+      "new_found": [
+        1,
+        10,
+        15
+      ],
+      "replies": [
+        [
+          20,
+          "direction"
+        ],
+        [
+          1,
+          "direction"
+        ],
+        [
+          2,
+          "no_signal"
+        ],
+        [
+          4,
+          "direction"
+        ],
+        [
+          5,
+          "no_signal"
+        ],
+        [
+          6,
+          "no_signal"
+        ],
+        [
+          7,
+          "no_signal"
+        ],
+        [
+          8,
+          "no_signal"
+        ],
+        [
+          9,
+          "no_signal"
+        ],
+        [
+          10,
+          "direction"
+        ],
+        [
+          13,
+          "no_signal"
+        ],
+        [
+          15,
+          "direction"
+        ],
+        [
+          16,
+          "no_signal"
+        ]
+      ],
+      "c20_radius_after": 46.842152353231874,
+      "radii_after": {
+        "1": 274.4727792461677,
+        "3": 13.339682754946766,
+        "4": 16.891978641118982,
+        "10": 401.78635422824897,
+        "11": 26.001352868387745,
+        "15": 336.8370717188211,
+        "17": 29.672995275643302,
+        "19": 20.447595266899608,
+        "20": 46.842152353231874
+      },
+      "area_fraction_r1000": 0.30893,
+      "new_area_fraction_r1000": 0.05064,
+      "batch_elapsed_s": 206.2436527204984
+    }
+  },
+  "m3_tail": {
+    "last_clear_step": 134,
+    "source_count": 15,
+    "last_clear_min": 33.68088774730202,
+    "tail_min": 25.613344261161792,
+    "total_min": 59.294232008463815
+  },
+  "checks": [
+    "Completed runs",
+    "Independent action costs match stored total",
+    "Detection counts match logs",
+    "F3/S4 same case and initial positions",
+    "M3 all true sources cleared before tail; tail contains measurements only"
+  ]
+}
