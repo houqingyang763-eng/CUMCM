@@ -1,0 +1,456 @@
+{
+  "config": {
+    "name": "r3_covering",
+    "initial_points": [
+      [
+        -129.903811,
+        -75.0
+      ],
+      [
+        519.615242,
+        300.0
+      ]
+    ],
+    "try_radius_m": 30.0,
+    "local_action_limit": 16,
+    "local_offset_fraction": 0.5,
+    "local_offset_min_m": 30.0,
+    "local_offset_max_m": 300.0,
+    "shared_scan_gap_m": 0.0,
+    "route_mode": "nearest",
+    "planning": "covering"
+  },
+  "phase": "service",
+  "initial_finish_s": 149.00000007488248,
+  "initial_statistics": {
+    "found": 0,
+    "two_bearings": 0,
+    "radius_le20": 0,
+    "radius_le60": 0,
+    "radii_m": {}
+  },
+  "stations": 27,
+  "target": 15,
+  "reason": "certain_center",
+  "planned_unknown_stops": 0,
+  "planned_route_m": 690.2430233145026,
+  "planned_coverage_complete": true,
+  "plan_has_unknown_channels": false,
+  "selected_second": {
+    "id": "p1_all",
+    "q": [
+      -129.903811,
+      -75.0
+    ],
+    "channels": [],
+    "set": "all",
+    "costs_s": [
+      3128.9106871246827,
+      3286.4855363876677,
+      3636.956259354763,
+      3552.8230690654727,
+      3134.9825255873748,
+      3409.141995857794,
+      3025.7840353258166,
+      3076.4138127816136,
+      3224.56675219629,
+      3316.1373917727674,
+      3257.402871556878,
+      3503.2330087822193,
+      3453.9960473766155,
+      3382.3324778639903,
+      3094.675148504072,
+      3358.9368468582147
+    ],
+    "mean_s": 3302.6736541497644,
+    "errors": []
+  },
+  "utility_level": 1,
+  "utility_choices": [
+    {
+      "at_action": 46,
+      "channel": 6,
+      "q": [
+        -1400.5924481191491,
+        -375.28761539865513
+      ],
+      "why": "current_vs_better_view",
+      "mean_u": 0.8900686088855551,
+      "gain": 0.8900686088855551,
+      "before_u": 3.9059881213325463e-38,
+      "rate": 0.1483447681475925,
+      "alternative_rate": 0.0689830508257636
+    },
+    {
+      "at_action": 56,
+      "channel": 16,
+      "q": [
+        -1400.5924481191491,
+        -375.28761539865513
+      ],
+      "why": "current_vs_better_view",
+      "mean_u": 0.5285511573730178,
+      "gain": 0.5285511573730178,
+      "before_u": 2.9242237631778307e-41,
+      "rate": 0.08809185956216964,
+      "alternative_rate": 0.007622182059089163
+    },
+    {
+      "at_action": 60,
+      "channel": 15,
+      "q": [
+        -1745.428126209425,
+        -19.57149333932223
+      ],
+      "why": "target_measurement_or_sampling_fallback",
+      "mean_u": 1.0,
+      "gain": 0.9879384766038354,
+      "before_u": 0.012061523396164626
+    },
+    {
+      "at_action": 67,
+      "channel": 6,
+      "q": [
+        -1745.428126209425,
+        -19.57149333932223
+      ],
+      "why": "current_vs_better_view",
+      "mean_u": 0.9990625566755469,
+      "gain": 0.2665002161280051,
+      "before_u": 0.7325623405475418,
+      "rate": 0.04441670268800085,
+      "alternative_rate": 0.002024262974970516
+    },
+    {
+      "at_action": 76,
+      "channel": 16,
+      "q": [
+        -1745.428126209425,
+        -19.57149333932223
+      ],
+      "why": "current_vs_better_view",
+      "mean_u": 0.8112754011261283,
+      "gain": 0.013895939815081748,
+      "before_u": 0.7973794613110465,
+      "rate": 0.002315989969180291,
+      "alternative_rate": 0.0007594809007131975
+    },
+    {
+      "at_action": 80,
+      "channel": 17,
+      "q": [
+        -1645.2566703097727,
+        630.6824672816558
+      ],
+      "why": "target_measurement_or_sampling_fallback",
+      "mean_u": 1.0,
+      "gain": 0.9997443504267359,
+      "before_u": 0.00025564957326404235
+    },
+    {
+      "at_action": 98,
+      "channel": 20,
+      "q": [
+        -1445.2108717561814,
+        1203.2561014414491
+      ],
+      "why": "target_measurement_or_sampling_fallback",
+      "mean_u": 0.9722727570811796,
+      "gain": 0.9722727570811796,
+      "before_u": 1.8186283413227003e-28
+    },
+    {
+      "at_action": 114,
+      "channel": 20,
+      "why": "certified_cover",
+      "plan": {
+        "id": "clear2",
+        "kind": "multiclear",
+        "channel": 20,
+        "points": [
+          [
+            -1265.9085680726462,
+            1270.049354904904
+          ],
+          [
+            -1243.203204277692,
+            1282.5102553380075
+          ]
+        ],
+        "radii": [
+          13.44505120597522,
+          13.445051205014272
+        ],
+        "worst_local_s": 51.447812569253365
+      }
+    },
+    {
+      "at_action": 115,
+      "channel": 13,
+      "q": [
+        -825.192361161382,
+        1445.832724626013
+      ],
+      "why": "target_measurement_or_sampling_fallback",
+      "mean_u": 1.0,
+      "gain": 1.0,
+      "before_u": 4.0940970980116556e-26
+    },
+    {
+      "at_action": 131,
+      "channel": 19,
+      "q": [
+        -695.2477741767661,
+        1657.6220679412288
+      ],
+      "why": "current_vs_better_view",
+      "mean_u": 0.10350641707525154,
+      "gain": 0.10350641707525154,
+      "before_u": 6.47763058164322e-32,
+      "rate": 0.017251069512541923,
+      "alternative_rate": 0.010137629953397962
+    },
+    {
+      "at_action": 132,
+      "channel": 19,
+      "q": [
+        -69.74005760993037,
+        1819.5918726741513
+      ],
+      "why": "target_measurement_or_sampling_fallback",
+      "mean_u": 1.0,
+      "gain": 0.999939740499251,
+      "before_u": 6.0259500748943206e-05
+    },
+    {
+      "at_action": 147,
+      "channel": 9,
+      "q": [
+        474.8559852980358,
+        1372.3463560120135
+      ],
+      "why": "target_measurement_or_sampling_fallback",
+      "mean_u": 0.9681651185632738,
+      "gain": 0.9681651185632738,
+      "before_u": 7.169000314927843e-36
+    },
+    {
+      "at_action": 148,
+      "channel": 2,
+      "q": [
+        474.8559852980358,
+        1372.3463560120135
+      ],
+      "why": "current_vs_better_view",
+      "mean_u": 0.6160460919337009,
+      "gain": 0.6160460919337009,
+      "before_u": 1.9423651025470674e-41,
+      "rate": 0.10267434865561681,
+      "alternative_rate": 0.01075588134713783
+    },
+    {
+      "at_action": 149,
+      "channel": 9,
+      "why": "certified_cover",
+      "plan": {
+        "id": "clear2",
+        "kind": "multiclear",
+        "channel": 9,
+        "points": [
+          [
+            664.1130436210674,
+            1636.094367292723
+          ],
+          [
+            677.0061032330542,
+            1655.6995108648853
+          ]
+        ],
+        "radii": [
+          13.134527651959012,
+          13.134527652473857
+        ],
+        "worst_local_s": 77.61789804282472
+      }
+    },
+    {
+      "at_action": 151,
+      "channel": 2,
+      "q": [
+        677.0061032330542,
+        1655.6995108648853
+      ],
+      "why": "current_vs_better_view",
+      "mean_u": 0.9396462879895827,
+      "gain": 0.7847101031544818,
+      "before_u": 0.154936184835101,
+      "rate": 0.15694202063089635,
+      "alternative_rate": 0.005926973376102236
+    },
+    {
+      "at_action": 152,
+      "channel": 2,
+      "why": "certified_cover",
+      "plan": {
+        "id": "clear2",
+        "kind": "multiclear",
+        "channel": 2,
+        "points": [
+          [
+            1256.5994673505486,
+            1256.5879453742455
+          ],
+          [
+            1277.8588118902999,
+            1253.5146263925355
+          ]
+        ],
+        "radii": [
+          17.154375860143876,
+          17.15437590499307
+        ],
+        "worst_local_s": 153.0395950090094
+      }
+    },
+    {
+      "at_action": 164,
+      "channel": 14,
+      "q": [
+        1576.7914512645254,
+        657.1486561860554
+      ],
+      "why": "target_measurement_or_sampling_fallback",
+      "mean_u": 1.0,
+      "gain": 0.9999999999999482,
+      "before_u": 5.184383452058149e-14
+    },
+    {
+      "at_action": 176,
+      "channel": 10,
+      "q": [
+        1852.727049310756,
+        169.92846496847244
+      ],
+      "why": "target_measurement_or_sampling_fallback",
+      "mean_u": 0.9713316872089486,
+      "gain": 0.9713316872089486,
+      "before_u": 1.5857531038158487e-26
+    },
+    {
+      "at_action": 186,
+      "channel": 10,
+      "why": "certified_cover",
+      "plan": {
+        "id": "clear2",
+        "kind": "multiclear",
+        "channel": 10,
+        "points": [
+          [
+            1789.8162761922142,
+            -2.9286276582340545
+          ],
+          [
+            1784.7700356306593,
+            -27.33994545986193
+          ]
+        ],
+        "radii": [
+          12.939209173515971,
+          12.939209174476034
+        ],
+        "worst_local_s": 49.775344073380275
+      }
+    },
+    {
+      "at_action": 214,
+      "channel": 5,
+      "q": [
+        -551.889432183225,
+        -1285.9861552844156
+      ],
+      "why": "target_measurement_or_sampling_fallback",
+      "mean_u": 0.8105284801875767,
+      "gain": 0.8105284801875767,
+      "before_u": 7.009953439292732e-41
+    },
+    {
+      "at_action": 215,
+      "channel": 16,
+      "q": [
+        -551.889432183225,
+        -1285.9861552844156
+      ],
+      "why": "current_vs_better_view",
+      "mean_u": 1.0,
+      "gain": 0.20262053868895347,
+      "before_u": 0.7973794613110465,
+      "rate": 0.03377008978149224,
+      "alternative_rate": 0.0014006235266059756
+    }
+  ],
+  "utility_skips": [
+    {
+      "at_action": 98,
+      "channel": 20,
+      "q": [
+        -1660.6667418079387,
+        687.6935569895171
+      ],
+      "why": "current_vs_better_view",
+      "mean_u": 1.339701907899853e-07,
+      "gain": 1.339701907899853e-07,
+      "before_u": 1.8186283413227003e-28,
+      "rate": 2.6794038157997063e-08,
+      "alternative_rate": 0.008383480636035359
+    },
+    {
+      "at_action": 115,
+      "channel": 13,
+      "q": [
+        -1265.9085680726462,
+        1270.049354904904
+      ],
+      "why": "current_vs_better_view",
+      "mean_u": 1.0397000586747075e-06,
+      "gain": 1.0397000586747075e-06,
+      "before_u": 4.0940970980116556e-26,
+      "rate": 1.7328334311245125e-07,
+      "alternative_rate": 0.009911210226329075
+    },
+    {
+      "at_action": 176,
+      "channel": 10,
+      "q": [
+        1648.7788145695845,
+        681.8208952582579
+      ],
+      "why": "current_vs_better_view",
+      "mean_u": 0.002925839770719587,
+      "gain": 0.002925839770719587,
+      "before_u": 1.5857531038158487e-26,
+      "rate": 0.00048763996178659784,
+      "alternative_rate": 0.00835877454437196
+    },
+    {
+      "at_action": 214,
+      "channel": 16,
+      "q": [
+        -1.8369701987210297e-13,
+        -1000.0
+      ],
+      "why": "current_vs_better_view",
+      "mean_u": 0.7973794613110465,
+      "gain": 0.0,
+      "before_u": 0.7973794613110465,
+      "rate": 0.0,
+      "alternative_rate": 0.0007810917028335993
+    }
+  ],
+  "prediction_failures": [],
+  "utility_spec": {
+    "midpoint_m": 35,
+    "scale_m": 3.5,
+    "near_repeat_m": 30,
+    "breakthrough": 0.8
+  }
+}

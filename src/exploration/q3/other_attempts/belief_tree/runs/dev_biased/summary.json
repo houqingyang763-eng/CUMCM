@@ -1,0 +1,574 @@
+{
+  "summary": {
+    "baseline": {
+      "finished": 4,
+      "all_clear": true,
+      "failures": [],
+      "mean_min": 65.52266730680584,
+      "per_source_min": 4.672698137917663,
+      "worst_min": 78.42610795664686,
+      "mean_wall_s": 0.7366877000022214,
+      "vs_f3": {
+        "saving_min": -5.2995932052311865,
+        "wins": 1,
+        "losses": 3,
+        "worst_loss_min": 11.031502747365373
+      }
+    },
+    "f3": {
+      "finished": 4,
+      "all_clear": true,
+      "failures": [],
+      "mean_min": 60.22307410157467,
+      "per_source_min": 4.295678403742266,
+      "worst_min": 76.07361422927734,
+      "mean_wall_s": 216.99565055000858,
+      "vs_baseline": {
+        "saving_min": 5.2995932052311865,
+        "wins": 3,
+        "losses": 1,
+        "worst_loss_min": 0.5092487250631772
+      }
+    },
+    "t3": {
+      "finished": 4,
+      "all_clear": false,
+      "failures": [
+        "uniform_biased_330011",
+        "edge_biased_330014",
+        "cluster_biased_330017",
+        "line_biased_330020"
+      ]
+    }
+  },
+  "rows": [
+    {
+      "case": "uniform_biased_330011",
+      "layout": "uniform",
+      "noise": "biased",
+      "baseline": {
+        "case": "uniform_biased_330011",
+        "seed": 330011,
+        "layout": "uniform",
+        "noise": "biased",
+        "policy": "baseline",
+        "real_n": 13,
+        "source_count": 13,
+        "success": true,
+        "cleared": 13,
+        "total_s": 4218.380756325938,
+        "per_source_s": 324.49082740968754,
+        "wall_s": 0.39967780001461506,
+        "actions": 149,
+        "initial_finish_s": 2129.0,
+        "phase_costs": {
+          "scan": {
+            "actions": 115,
+            "move_s": 1440.0000000000002,
+            "measure_s": 575.0,
+            "switch_s": 114.0,
+            "success_clear_s": 0.0,
+            "fail_clear_s": 0.0
+          },
+          "service": {
+            "actions": 34,
+            "move_s": 1936.3807563259386,
+            "measure_s": 45.0,
+            "switch_s": 7.0,
+            "success_clear_s": 65.0,
+            "fail_clear_s": 36.0
+          }
+        },
+        "move_s": 3376.3807563259375,
+        "measure_s": 620.0,
+        "switch_s": 121.0,
+        "success_clear_s": 65.0,
+        "fail_clear_s": 36.0,
+        "error": null,
+        "failreason": null,
+        "fail_clears": 12,
+        "measure_count": 124
+      },
+      "f3": {
+        "case": "uniform_biased_330011",
+        "seed": 330011,
+        "layout": "uniform",
+        "noise": "biased",
+        "policy": "patrol",
+        "real_n": 13,
+        "source_count": 13,
+        "success": true,
+        "cleared": 13,
+        "total_s": 3556.4905914840156,
+        "per_source_s": 273.57619934492425,
+        "wall_s": 250.1115456999978,
+        "actions": 186,
+        "initial_finish_s": 388.00000007488245,
+        "phase_costs": {
+          "initial": {
+            "actions": 40,
+            "move_s": 150.00000007488248,
+            "measure_s": 200.0,
+            "switch_s": 38.0,
+            "success_clear_s": 0.0,
+            "fail_clear_s": 0.0
+          },
+          "service": {
+            "actions": 130,
+            "move_s": 2072.891141247538,
+            "measure_s": 550.0,
+            "switch_s": 103.0,
+            "success_clear_s": 65.0,
+            "fail_clear_s": 21.0
+          },
+          "completion": {
+            "actions": 16,
+            "move_s": 262.5994501615956,
+            "measure_s": 80.0,
+            "switch_s": 14.0,
+            "success_clear_s": 0.0,
+            "fail_clear_s": 0.0
+          }
+        },
+        "move_s": 2485.490591484016,
+        "measure_s": 830.0,
+        "switch_s": 155.0,
+        "success_clear_s": 65.0,
+        "fail_clear_s": 21.0,
+        "error": null,
+        "failreason": null,
+        "fail_clears": 7,
+        "measure_count": 166
+      },
+      "t3": {
+        "case": "uniform_biased_330011",
+        "seed": 330011,
+        "layout": "uniform",
+        "noise": "biased",
+        "policy": "patrol",
+        "real_n": 13,
+        "source_count": 13,
+        "success": false,
+        "cleared": 3,
+        "total_s": 1480.8180904960836,
+        "per_source_s": null,
+        "wall_s": 7275.04171640001,
+        "actions": 74,
+        "initial_finish_s": null,
+        "phase_costs": {
+          "belief": {
+            "actions": 74,
+            "move_s": 1047.8180904960839,
+            "measure_s": 350.0,
+            "switch_s": 65.0,
+            "success_clear_s": 15.0,
+            "fail_clear_s": 3.0
+          }
+        },
+        "move_s": 1047.8180904960839,
+        "measure_s": 350.0,
+        "switch_s": 65.0,
+        "success_clear_s": 15.0,
+        "fail_clear_s": 3.0,
+        "error": "Traceback (most recent call last):\n  File \"C:\\Users\\HOU\\Desktop\\CUMCM\\experiments\\b_q3\\probability_patrol\\runner.py\", line 242, in execute_case\n    raise TimeoutError('wall_limit')\nTimeoutError: wall_limit\n",
+        "failreason": "TimeoutError: wall_limit",
+        "fail_clears": 1,
+        "measure_count": 70
+      }
+    },
+    {
+      "case": "edge_biased_330014",
+      "layout": "edge",
+      "noise": "biased",
+      "baseline": {
+        "case": "edge_biased_330014",
+        "seed": 330014,
+        "layout": "edge",
+        "noise": "biased",
+        "policy": "baseline",
+        "real_n": 16,
+        "source_count": 16,
+        "success": true,
+        "cleared": 16,
+        "total_s": 4705.566477398812,
+        "per_source_s": 294.09790483742574,
+        "wall_s": 1.319169199996395,
+        "actions": 173,
+        "initial_finish_s": 2255.0,
+        "phase_costs": {
+          "scan": {
+            "actions": 136,
+            "move_s": 1440.0000000000002,
+            "measure_s": 680.0,
+            "switch_s": 135.0,
+            "success_clear_s": 0.0,
+            "fail_clear_s": 0.0
+          },
+          "service": {
+            "actions": 37,
+            "move_s": 2258.566477398812,
+            "measure_s": 85.0,
+            "switch_s": 15.0,
+            "success_clear_s": 80.0,
+            "fail_clear_s": 12.0
+          }
+        },
+        "move_s": 3698.5664773988124,
+        "measure_s": 765.0,
+        "switch_s": 150.0,
+        "success_clear_s": 80.0,
+        "fail_clear_s": 12.0,
+        "error": null,
+        "failreason": null,
+        "fail_clears": 4,
+        "measure_count": 153
+      },
+      "f3": {
+        "case": "edge_biased_330014",
+        "seed": 330014,
+        "layout": "edge",
+        "noise": "biased",
+        "policy": "patrol",
+        "real_n": 16,
+        "source_count": 16,
+        "success": true,
+        "cleared": 16,
+        "total_s": 4564.41685375664,
+        "per_source_s": 285.27605335979,
+        "wall_s": 130.0267751000065,
+        "actions": 237,
+        "initial_finish_s": 149.00000007488248,
+        "phase_costs": {
+          "initial": {
+            "actions": 20,
+            "move_s": 30.00000007488248,
+            "measure_s": 100.0,
+            "switch_s": 19.0,
+            "success_clear_s": 0.0,
+            "fail_clear_s": 0.0
+          },
+          "completion": {
+            "actions": 20,
+            "move_s": 148.95017992769579,
+            "measure_s": 100.0,
+            "switch_s": 19.0,
+            "success_clear_s": 0.0,
+            "fail_clear_s": 0.0
+          },
+          "service": {
+            "actions": 197,
+            "move_s": 3003.4666737540624,
+            "measure_s": 885.0,
+            "switch_s": 167.0,
+            "success_clear_s": 80.0,
+            "fail_clear_s": 12.0
+          }
+        },
+        "move_s": 3182.4168537566406,
+        "measure_s": 1085.0,
+        "switch_s": 205.0,
+        "success_clear_s": 80.0,
+        "fail_clear_s": 12.0,
+        "error": null,
+        "failreason": null,
+        "fail_clears": 4,
+        "measure_count": 217
+      },
+      "t3": {
+        "case": "edge_biased_330014",
+        "seed": 330014,
+        "layout": "edge",
+        "noise": "biased",
+        "policy": "patrol",
+        "real_n": 16,
+        "source_count": 16,
+        "success": false,
+        "cleared": 5,
+        "total_s": 2365.6050763159124,
+        "per_source_s": null,
+        "wall_s": 7295.482360099995,
+        "actions": 73,
+        "initial_finish_s": null,
+        "phase_costs": {
+          "belief": {
+            "actions": 73,
+            "move_s": 1938.6050763159128,
+            "measure_s": 340.0,
+            "switch_s": 62.0,
+            "success_clear_s": 25.0,
+            "fail_clear_s": 0.0
+          }
+        },
+        "move_s": 1938.6050763159128,
+        "measure_s": 340.0,
+        "switch_s": 62.0,
+        "success_clear_s": 25.0,
+        "fail_clear_s": 0.0,
+        "error": "Traceback (most recent call last):\n  File \"C:\\Users\\HOU\\Desktop\\CUMCM\\experiments\\b_q3\\probability_patrol\\runner.py\", line 242, in execute_case\n    raise TimeoutError('wall_limit')\nTimeoutError: wall_limit\n",
+        "failreason": "TimeoutError: wall_limit",
+        "fail_clears": 0,
+        "measure_count": 68
+      }
+    },
+    {
+      "case": "cluster_biased_330017",
+      "layout": "cluster",
+      "noise": "biased",
+      "baseline": {
+        "case": "cluster_biased_330017",
+        "seed": 330017,
+        "layout": "cluster",
+        "noise": "biased",
+        "policy": "baseline",
+        "real_n": 12,
+        "source_count": 12,
+        "success": true,
+        "cleared": 12,
+        "total_s": 2965.557571552932,
+        "per_source_s": 247.129797629411,
+        "wall_s": 0.3267012999858707,
+        "actions": 131,
+        "initial_finish_s": 2075.0,
+        "phase_costs": {
+          "scan": {
+            "actions": 106,
+            "move_s": 1440.0000000000002,
+            "measure_s": 530.0,
+            "switch_s": 105.0,
+            "success_clear_s": 0.0,
+            "fail_clear_s": 0.0
+          },
+          "service": {
+            "actions": 25,
+            "move_s": 764.5575715529312,
+            "measure_s": 45.0,
+            "switch_s": 9.0,
+            "success_clear_s": 60.0,
+            "fail_clear_s": 12.0
+          }
+        },
+        "move_s": 2204.557571552931,
+        "measure_s": 575.0,
+        "switch_s": 114.0,
+        "success_clear_s": 60.0,
+        "fail_clear_s": 12.0,
+        "error": null,
+        "failreason": null,
+        "fail_clears": 4,
+        "measure_count": 115
+      },
+      "f3": {
+        "case": "cluster_biased_330017",
+        "seed": 330017,
+        "layout": "cluster",
+        "noise": "biased",
+        "policy": "patrol",
+        "real_n": 12,
+        "source_count": 12,
+        "success": true,
+        "cleared": 12,
+        "total_s": 2996.1124950567228,
+        "per_source_s": 249.6760412547269,
+        "wall_s": 265.55024740000954,
+        "actions": 198,
+        "initial_finish_s": 388.00000007488245,
+        "phase_costs": {
+          "initial": {
+            "actions": 40,
+            "move_s": 150.00000007488248,
+            "measure_s": 200.0,
+            "switch_s": 38.0,
+            "success_clear_s": 0.0,
+            "fail_clear_s": 0.0
+          },
+          "service": {
+            "actions": 150,
+            "move_s": 1489.590697894125,
+            "measure_s": 675.0,
+            "switch_s": 126.0,
+            "success_clear_s": 60.0,
+            "fail_clear_s": 9.0
+          },
+          "completion": {
+            "actions": 8,
+            "move_s": 201.5217970877159,
+            "measure_s": 40.0,
+            "switch_s": 7.0,
+            "success_clear_s": 0.0,
+            "fail_clear_s": 0.0
+          }
+        },
+        "move_s": 1841.1124950567234,
+        "measure_s": 915.0,
+        "switch_s": 171.0,
+        "success_clear_s": 60.0,
+        "fail_clear_s": 9.0,
+        "error": null,
+        "failreason": null,
+        "fail_clears": 3,
+        "measure_count": 183
+      },
+      "t3": {
+        "case": "cluster_biased_330017",
+        "seed": 330017,
+        "layout": "cluster",
+        "noise": "biased",
+        "policy": "patrol",
+        "real_n": 12,
+        "source_count": 12,
+        "success": false,
+        "cleared": 7,
+        "total_s": 2222.204607195817,
+        "per_source_s": null,
+        "wall_s": 7250.072150200023,
+        "actions": 87,
+        "initial_finish_s": null,
+        "phase_costs": {
+          "belief": {
+            "actions": 87,
+            "move_s": 1732.204607195817,
+            "measure_s": 370.0,
+            "switch_s": 67.0,
+            "success_clear_s": 35.0,
+            "fail_clear_s": 18.0
+          }
+        },
+        "move_s": 1732.204607195817,
+        "measure_s": 370.0,
+        "switch_s": 67.0,
+        "success_clear_s": 35.0,
+        "fail_clear_s": 18.0,
+        "error": "Traceback (most recent call last):\n  File \"C:\\Users\\HOU\\Desktop\\CUMCM\\experiments\\b_q3\\probability_patrol\\runner.py\", line 242, in execute_case\n    raise TimeoutError('wall_limit')\nTimeoutError: wall_limit\n",
+        "failreason": "TimeoutError: wall_limit",
+        "fail_clears": 6,
+        "measure_count": 74
+      }
+    },
+    {
+      "case": "line_biased_330020",
+      "layout": "line",
+      "noise": "biased",
+      "baseline": {
+        "case": "line_biased_330020",
+        "seed": 330020,
+        "layout": "line",
+        "noise": "biased",
+        "policy": "baseline",
+        "real_n": 15,
+        "source_count": 15,
+        "success": true,
+        "cleared": 15,
+        "total_s": 3835.9353483557225,
+        "per_source_s": 255.72902322371482,
+        "wall_s": 0.9012025000120047,
+        "actions": 193,
+        "initial_finish_s": 2279.0,
+        "phase_costs": {
+          "scan": {
+            "actions": 140,
+            "move_s": 1440.0000000000002,
+            "measure_s": 700.0,
+            "switch_s": 139.0,
+            "success_clear_s": 0.0,
+            "fail_clear_s": 0.0
+          },
+          "service": {
+            "actions": 53,
+            "move_s": 1296.9353483557202,
+            "measure_s": 140.0,
+            "switch_s": 15.0,
+            "success_clear_s": 75.0,
+            "fail_clear_s": 30.0
+          }
+        },
+        "move_s": 2736.9353483557215,
+        "measure_s": 840.0,
+        "switch_s": 154.0,
+        "success_clear_s": 75.0,
+        "fail_clear_s": 30.0,
+        "error": null,
+        "failreason": null,
+        "fail_clears": 10,
+        "measure_count": 168
+      },
+      "f3": {
+        "case": "line_biased_330020",
+        "seed": 330020,
+        "layout": "line",
+        "noise": "biased",
+        "policy": "patrol",
+        "real_n": 15,
+        "source_count": 15,
+        "success": true,
+        "cleared": 15,
+        "total_s": 3336.517844080541,
+        "per_source_s": 222.43452293870274,
+        "wall_s": 222.29403400002047,
+        "actions": 170,
+        "initial_finish_s": 388.0000000748825,
+        "phase_costs": {
+          "initial": {
+            "actions": 40,
+            "move_s": 150.0000000748825,
+            "measure_s": 200.0,
+            "switch_s": 38.0,
+            "success_clear_s": 0.0,
+            "fail_clear_s": 0.0
+          },
+          "service": {
+            "actions": 130,
+            "move_s": 2199.5178440056584,
+            "measure_s": 565.0,
+            "switch_s": 103.0,
+            "success_clear_s": 75.0,
+            "fail_clear_s": 6.0
+          }
+        },
+        "move_s": 2349.517844080541,
+        "measure_s": 765.0,
+        "switch_s": 141.0,
+        "success_clear_s": 75.0,
+        "fail_clear_s": 6.0,
+        "error": null,
+        "failreason": null,
+        "fail_clears": 2,
+        "measure_count": 153
+      },
+      "t3": {
+        "case": "line_biased_330020",
+        "seed": 330020,
+        "layout": "line",
+        "noise": "biased",
+        "policy": "patrol",
+        "real_n": 15,
+        "source_count": 15,
+        "success": false,
+        "cleared": 5,
+        "total_s": 2628.6794281878833,
+        "per_source_s": null,
+        "wall_s": 7244.015048600006,
+        "actions": 90,
+        "initial_finish_s": null,
+        "phase_costs": {
+          "belief": {
+            "actions": 90,
+            "move_s": 2109.6794281878833,
+            "measure_s": 415.0,
+            "switch_s": 73.0,
+            "success_clear_s": 25.0,
+            "fail_clear_s": 6.0
+          }
+        },
+        "move_s": 2109.6794281878833,
+        "measure_s": 415.0,
+        "switch_s": 73.0,
+        "success_clear_s": 25.0,
+        "fail_clear_s": 6.0,
+        "error": "Traceback (most recent call last):\n  File \"C:\\Users\\HOU\\Desktop\\CUMCM\\experiments\\b_q3\\probability_patrol\\runner.py\", line 242, in execute_case\n    raise TimeoutError('wall_limit')\nTimeoutError: wall_limit\n",
+        "failreason": "TimeoutError: wall_limit",
+        "fail_clears": 2,
+        "measure_count": 83
+      }
+    }
+  ]
+}

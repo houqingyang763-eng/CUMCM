@@ -1,0 +1,312 @@
+[
+  {
+    "title": "强基础参照",
+    "directory": "batch_commitment/independent",
+    "reference": "committed_base",
+    "common_cases": 12,
+    "policies": [
+      {
+        "policy": "committed_base",
+        "common_cases": 12,
+        "all_cleared": true,
+        "per_source_s": {
+          "mean": 326.0943867763435,
+          "median": 338.60566834943063,
+          "maximum": 467.04722704603756,
+          "worst_quarter_mean": 450.5715633073962
+        },
+        "total_s": {
+          "mean": 3991.5000161521943,
+          "median": 3890.427710544023,
+          "maximum": 5480.620608578256,
+          "worst_quarter_mean": 5359.759132031942
+        },
+        "worst_per_source_case": "uniform_biased_94101"
+      },
+      {
+        "policy": "completion",
+        "common_cases": 12,
+        "all_cleared": true,
+        "per_source_s": {
+          "mean": 316.021149282907,
+          "median": 340.212788161886,
+          "maximum": 473.0282912428021,
+          "worst_quarter_mean": 419.0394182137061
+        },
+        "total_s": {
+          "mean": 3859.104721796718,
+          "median": 4017.7995733352805,
+          "maximum": 4757.482797194313,
+          "worst_quarter_mean": 4724.514515146751
+        },
+        "worst_per_source_case": "uniform_biased_94101"
+      },
+      {
+        "policy": "configured",
+        "common_cases": 12,
+        "all_cleared": true,
+        "per_source_s": {
+          "mean": 320.3789786151782,
+          "median": 341.678062614812,
+          "maximum": 465.1550099678463,
+          "worst_quarter_mean": 431.49518621364
+        },
+        "total_s": {
+          "mean": 3911.001708979721,
+          "median": 4057.4882867128017,
+          "maximum": 4790.502389106852,
+          "worst_quarter_mean": 4757.197305753699
+        },
+        "worst_per_source_case": "uniform_biased_94101"
+      }
+    ]
+  },
+  {
+    "title": "Q3集中巡查",
+    "directory": "q3_sweep_validation",
+    "reference": "committed_baseline",
+    "common_cases": 12,
+    "policies": [
+      {
+        "policy": "committed_baseline",
+        "common_cases": 12,
+        "all_cleared": true,
+        "per_source_s": {
+          "mean": 336.4608322295091,
+          "median": 328.4727774479112,
+          "maximum": 520.9666943946439,
+          "worst_quarter_mean": 480.67625812573294
+        },
+        "total_s": {
+          "mean": 4337.002646869141,
+          "median": 4434.546832093727,
+          "maximum": 6267.528099994169,
+          "worst_quarter_mean": 5743.219104785806
+        },
+        "worst_per_source_case": "edge_biased_48104"
+      },
+      {
+        "policy": "completion",
+        "common_cases": 12,
+        "all_cleared": true,
+        "per_source_s": {
+          "mean": 311.54482722625636,
+          "median": 302.7250598808506,
+          "maximum": 499.903376256291,
+          "worst_quarter_mean": 426.3296677082679
+        },
+        "total_s": {
+          "mean": 4013.5585134298017,
+          "median": 4383.896508768348,
+          "maximum": 5390.26372537727,
+          "worst_quarter_mean": 5081.087621389462
+        },
+        "worst_per_source_case": "edge_biased_48104"
+      },
+      {
+        "policy": "sweep",
+        "common_cases": 12,
+        "all_cleared": true,
+        "per_source_s": {
+          "mean": 296.6526797358883,
+          "median": 280.57586251186615,
+          "maximum": 461.523792391975,
+          "worst_quarter_mean": 411.7321931755632
+        },
+        "total_s": {
+          "mean": 3821.626973668079,
+          "median": 3898.341343114823,
+          "maximum": 4827.588324199837,
+          "worst_quarter_mean": 4720.040598243383
+        },
+        "worst_per_source_case": "edge_biased_48104"
+      }
+    ]
+  },
+  {
+    "title": "Q4网络与联合状态",
+    "directory": "q4_integrated_validation",
+    "reference": "directional",
+    "common_cases": 12,
+    "policies": [
+      {
+        "policy": "directional",
+        "common_cases": 12,
+        "all_cleared": true,
+        "per_source_s": {
+          "mean": 790.2073267217082,
+          "median": 845.3984587387755,
+          "maximum": 1107.58589185303,
+          "worst_quarter_mean": 1079.0773641267967
+        },
+        "total_s": {
+          "mean": 9568.239489119378,
+          "median": 10419.324277342053,
+          "maximum": 12266.005242419631,
+          "worst_quarter_mean": 11472.218376957948
+        },
+        "worst_per_source_case": "q4_cluster_random_hashed_45108"
+      },
+      {
+        "policy": "anchors25",
+        "common_cases": 12,
+        "all_cleared": true,
+        "per_source_s": {
+          "mean": 548.699570248785,
+          "median": 601.5204797535239,
+          "maximum": 765.4195237475107,
+          "worst_quarter_mean": 691.8250423165441
+        },
+        "total_s": {
+          "mean": 6723.767217736118,
+          "median": 6805.61962601901,
+          "maximum": 8260.870090816212,
+          "worst_quarter_mean": 7904.916735917462
+        },
+        "worst_per_source_case": "q4_cluster_random_hashed_45108"
+      },
+      {
+        "policy": "joint25",
+        "common_cases": 12,
+        "all_cleared": true,
+        "per_source_s": {
+          "mean": 540.9415723825925,
+          "median": 567.1918408274933,
+          "maximum": 766.4484804309888,
+          "worst_quarter_mean": 695.633641146437
+        },
+        "total_s": {
+          "mean": 6620.613149166666,
+          "median": 6872.71379850306,
+          "maximum": 7664.484804309887,
+          "worst_quarter_mean": 7589.740297626162
+        },
+        "worst_per_source_case": "q4_cluster_random_hashed_45108"
+      }
+    ]
+  },
+  {
+    "title": "Q4集中巡查",
+    "directory": "q4_sweep_validation",
+    "reference": "joint25",
+    "common_cases": 12,
+    "policies": [
+      {
+        "policy": "joint25",
+        "common_cases": 12,
+        "all_cleared": true,
+        "per_source_s": {
+          "mean": 560.2592647671881,
+          "median": 562.7673053113379,
+          "maximum": 706.3003389033244,
+          "worst_quarter_mean": 654.5233177730756
+        },
+        "total_s": {
+          "mean": 7151.548430423897,
+          "median": 7034.391629002539,
+          "maximum": 7760.491018048135,
+          "worst_quarter_mean": 7601.40525556276
+        },
+        "worst_per_source_case": "q4_cluster_tangent_smooth_48706"
+      },
+      {
+        "policy": "sweep25",
+        "common_cases": 12,
+        "all_cleared": true,
+        "per_source_s": {
+          "mean": 563.4542660485125,
+          "median": 552.0049166350531,
+          "maximum": 698.0351516565456,
+          "worst_quarter_mean": 679.3935853087876
+        },
+        "total_s": {
+          "mean": 7238.891197402268,
+          "median": 6953.389584645065,
+          "maximum": 8951.938726134758,
+          "worst_quarter_mean": 8612.004654838154
+        },
+        "worst_per_source_case": "q4_uniform_outward_biased_48701"
+      }
+    ]
+  },
+  {
+    "title": "两轮参数的独立核验",
+    "directory": "q3_refinement_validation",
+    "reference": "baseline",
+    "common_cases": 24,
+    "policies": [
+      {
+        "policy": "baseline",
+        "common_cases": 24,
+        "all_cleared": true,
+        "per_source_s": {
+          "mean": 379.4558585008004,
+          "median": 366.4316373639447,
+          "maximum": 633.3653875997342,
+          "worst_quarter_mean": 567.3711321494948
+        },
+        "total_s": {
+          "mean": 4778.691875140843,
+          "median": 4467.121208636732,
+          "maximum": 7971.815735903191,
+          "worst_quarter_mean": 6666.644388402536
+        },
+        "worst_per_source_case": "edge_hashed_46110"
+      },
+      {
+        "policy": "completion",
+        "common_cases": 24,
+        "all_cleared": true,
+        "per_source_s": {
+          "mean": 323.76784827323365,
+          "median": 342.88673157066654,
+          "maximum": 489.0168990497246,
+          "worst_quarter_mean": 441.00419357325137
+        },
+        "total_s": {
+          "mean": 4078.076194319501,
+          "median": 4379.849723451498,
+          "maximum": 5379.18588954697,
+          "worst_quarter_mean": 5020.672364321195
+        },
+        "worst_per_source_case": "uniform_biased_46103"
+      },
+      {
+        "policy": "configured",
+        "common_cases": 24,
+        "all_cleared": true,
+        "per_source_s": {
+          "mean": 324.31524439898317,
+          "median": 344.95820982671637,
+          "maximum": 496.8203536186626,
+          "worst_quarter_mean": 446.00853082718925
+        },
+        "total_s": {
+          "mean": 4079.011516969596,
+          "median": 4316.951656842473,
+          "maximum": 5270.826830317187,
+          "worst_quarter_mean": 5052.52205082383
+        },
+        "worst_per_source_case": "uniform_biased_46102"
+      },
+      {
+        "policy": "refined",
+        "common_cases": 24,
+        "all_cleared": true,
+        "per_source_s": {
+          "mean": 322.5056037540044,
+          "median": 336.8002883314098,
+          "maximum": 549.3870927178798,
+          "worst_quarter_mean": 441.78474173498324
+        },
+        "total_s": {
+          "mean": 4077.339523057399,
+          "median": 4181.632952541995,
+          "maximum": 6043.258019896678,
+          "worst_quarter_mean": 5270.270974581871
+        },
+        "worst_per_source_case": "edge_hashed_46110"
+      }
+    ]
+  }
+]

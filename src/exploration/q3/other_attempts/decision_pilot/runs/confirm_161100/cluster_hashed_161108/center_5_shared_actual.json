@@ -1,0 +1,622 @@
+{
+  "remaining_s": 941.498512772524,
+  "total_s": 3016.498512772524,
+  "costs": {
+    "move_s": 795.4985127725224,
+    "measure_s": 70.0,
+    "switch_s": 11.0,
+    "success_clear_s": 65.0,
+    "fail_clear_s": 0.0
+  },
+  "actions": [
+    {
+      "step": 1,
+      "action": {
+        "kind": "measure",
+        "position": [
+          1100.1667483904048,
+          -68.53391337168449
+        ],
+        "channel": 19,
+        "reason": "center_5_shared"
+      },
+      "response": {
+        "accepted": true,
+        "measure_result": "direction",
+        "svd_deg": 174.61,
+        "virtual_time_s": 2298.395843319046,
+        "costs": {
+          "move_s": 218.3958433190458,
+          "switch_s": 0,
+          "operation_s": 5
+        }
+      }
+    },
+    {
+      "step": 2,
+      "action": {
+        "kind": "measure",
+        "position": [
+          1100.1667483904048,
+          -68.53391337168449
+        ],
+        "channel": 1,
+        "reason": "center_5_shared"
+      },
+      "response": {
+        "accepted": true,
+        "measure_result": "direction",
+        "svd_deg": 72.02,
+        "virtual_time_s": 2304.395843319046,
+        "costs": {
+          "move_s": 0.0,
+          "switch_s": 1,
+          "operation_s": 5
+        }
+      }
+    },
+    {
+      "step": 3,
+      "action": {
+        "kind": "measure",
+        "position": [
+          1100.1667483904048,
+          -68.53391337168449
+        ],
+        "channel": 5,
+        "reason": "center_5_shared"
+      },
+      "response": {
+        "accepted": true,
+        "measure_result": "direction",
+        "svd_deg": 32.74,
+        "virtual_time_s": 2310.395843319046,
+        "costs": {
+          "move_s": 0.0,
+          "switch_s": 1,
+          "operation_s": 5
+        }
+      }
+    },
+    {
+      "step": 4,
+      "action": {
+        "kind": "measure",
+        "position": [
+          1100.1667483904048,
+          -68.53391337168449
+        ],
+        "channel": 8,
+        "reason": "center_5_shared"
+      },
+      "response": {
+        "accepted": true,
+        "measure_result": "direction",
+        "svd_deg": 136.61,
+        "virtual_time_s": 2316.395843319046,
+        "costs": {
+          "move_s": 0.0,
+          "switch_s": 1,
+          "operation_s": 5
+        }
+      }
+    },
+    {
+      "step": 5,
+      "action": {
+        "kind": "measure",
+        "position": [
+          1100.1667483904048,
+          -68.53391337168449
+        ],
+        "channel": 15,
+        "reason": "center_5_shared"
+      },
+      "response": {
+        "accepted": true,
+        "measure_result": "direction",
+        "svd_deg": 115.8,
+        "virtual_time_s": 2322.395843319046,
+        "costs": {
+          "move_s": 0.0,
+          "switch_s": 1,
+          "operation_s": 5
+        }
+      }
+    },
+    {
+      "step": 6,
+      "action": {
+        "kind": "clear",
+        "position": [
+          1114.3802245097709,
+          -59.743492771261856
+        ],
+        "channel": 5,
+        "reason": "guaranteed_center"
+      },
+      "response": {
+        "accepted": true,
+        "clear_result": "success",
+        "virtual_time_s": 2330.738263985139,
+        "costs": {
+          "move_s": 3.3424206660929108,
+          "switch_s": 0,
+          "operation_s": 5
+        }
+      }
+    },
+    {
+      "step": 7,
+      "action": {
+        "kind": "clear",
+        "position": [
+          1075.5144830337192,
+          -45.299495987187086
+        ],
+        "channel": 8,
+        "reason": "guaranteed_center"
+      },
+      "response": {
+        "accepted": true,
+        "clear_result": "success",
+        "virtual_time_s": 2344.0308508036937,
+        "costs": {
+          "move_s": 8.292586818554614,
+          "switch_s": 0,
+          "operation_s": 5
+        }
+      }
+    },
+    {
+      "step": 8,
+      "action": {
+        "kind": "clear",
+        "position": [
+          1148.2962469296085,
+          80.01847364747215
+        ],
+        "channel": 1,
+        "reason": "guaranteed_center"
+      },
+      "response": {
+        "accepted": true,
+        "clear_result": "success",
+        "virtual_time_s": 2378.0148316684063,
+        "costs": {
+          "move_s": 28.98398086471239,
+          "switch_s": 0,
+          "operation_s": 5
+        }
+      }
+    },
+    {
+      "step": 9,
+      "action": {
+        "kind": "clear",
+        "position": [
+          1032.0033463389782,
+          72.23657111660695
+        ],
+        "channel": 15,
+        "reason": "guaranteed_center"
+      },
+      "response": {
+        "accepted": true,
+        "clear_result": "success",
+        "virtual_time_s": 2406.3254273148345,
+        "costs": {
+          "move_s": 23.310595646428354,
+          "switch_s": 0,
+          "operation_s": 5
+        }
+      }
+    },
+    {
+      "step": 10,
+      "action": {
+        "kind": "measure",
+        "position": [
+          87.38207411466347,
+          -82.27274456246268
+        ],
+        "channel": 16,
+        "reason": "approach_center_and_measure"
+      },
+      "response": {
+        "accepted": true,
+        "measure_result": "direction",
+        "svd_deg": 141.65,
+        "virtual_time_s": 2603.7602701800033,
+        "costs": {
+          "move_s": 191.43484286516883,
+          "switch_s": 1,
+          "operation_s": 5
+        }
+      }
+    },
+    {
+      "step": 11,
+      "action": {
+        "kind": "clear",
+        "position": [
+          71.62934845859739,
+          -69.35401624992636
+        ],
+        "channel": 16,
+        "reason": "one_small_center_try"
+      },
+      "response": {
+        "accepted": true,
+        "clear_result": "success",
+        "virtual_time_s": 2612.834785644735,
+        "costs": {
+          "move_s": 4.07451546473153,
+          "switch_s": 0,
+          "operation_s": 5
+        }
+      }
+    },
+    {
+      "step": 12,
+      "action": {
+        "kind": "measure",
+        "position": [
+          76.60586268661376,
+          27.318471054742833
+        ],
+        "channel": 19,
+        "reason": "approach_center_and_measure"
+      },
+      "response": {
+        "accepted": true,
+        "measure_result": "direction",
+        "svd_deg": 198.3,
+        "virtual_time_s": 2638.1948842968936,
+        "costs": {
+          "move_s": 19.36009865215885,
+          "switch_s": 1,
+          "operation_s": 5
+        }
+      }
+    },
+    {
+      "step": 13,
+      "action": {
+        "kind": "clear",
+        "position": [
+          55.35127615818912,
+          20.26671838294392
+        ],
+        "channel": 19,
+        "reason": "one_small_center_try"
+      },
+      "response": {
+        "accepted": true,
+        "clear_result": "success",
+        "virtual_time_s": 2647.673654950716,
+        "costs": {
+          "move_s": 4.478770653822378,
+          "switch_s": 0,
+          "operation_s": 5
+        }
+      }
+    },
+    {
+      "step": 14,
+      "action": {
+        "kind": "clear",
+        "position": [
+          42.500683175559374,
+          69.56594862477225
+        ],
+        "channel": 10,
+        "reason": "one_small_center_try"
+      },
+      "response": {
+        "accepted": true,
+        "clear_result": "success",
+        "virtual_time_s": 2662.8629666888896,
+        "costs": {
+          "move_s": 10.189311738173513,
+          "switch_s": 0,
+          "operation_s": 5
+        }
+      }
+    },
+    {
+      "step": 15,
+      "action": {
+        "kind": "clear",
+        "position": [
+          23.620654740013705,
+          37.36153223584937
+        ],
+        "channel": 13,
+        "reason": "one_small_center_try"
+      },
+      "response": {
+        "accepted": true,
+        "clear_result": "success",
+        "virtual_time_s": 2675.3291033302276,
+        "costs": {
+          "move_s": 7.466136641337708,
+          "switch_s": 0,
+          "operation_s": 5
+        }
+      }
+    },
+    {
+      "step": 16,
+      "action": {
+        "kind": "measure",
+        "position": [
+          -1046.6023951764778,
+          58.582063398681946
+        ],
+        "channel": 12,
+        "reason": "approach_center_and_measure"
+      },
+      "response": {
+        "accepted": true,
+        "measure_result": "direction",
+        "svd_deg": 135.51,
+        "virtual_time_s": 2895.4157855423996,
+        "costs": {
+          "move_s": 214.08668221217212,
+          "switch_s": 1,
+          "operation_s": 5
+        }
+      }
+    },
+    {
+      "step": 17,
+      "action": {
+        "kind": "clear",
+        "position": [
+          -1046.6023951764778,
+          58.582063398681946
+        ],
+        "channel": 12,
+        "reason": "guaranteed_here"
+      },
+      "response": {
+        "accepted": true,
+        "clear_result": "success",
+        "virtual_time_s": 2900.4157855423996,
+        "costs": {
+          "move_s": 0.0,
+          "switch_s": 0,
+          "operation_s": 5
+        }
+      }
+    },
+    {
+      "step": 18,
+      "action": {
+        "kind": "measure",
+        "position": [
+          -1044.1059698434265,
+          41.99372957268743
+        ],
+        "channel": 20,
+        "reason": "approach_center_and_measure"
+      },
+      "response": {
+        "accepted": true,
+        "measure_result": "direction",
+        "svd_deg": 157.25,
+        "virtual_time_s": 2909.7708113757794,
+        "costs": {
+          "move_s": 3.355025833379733,
+          "switch_s": 1,
+          "operation_s": 5
+        }
+      }
+    },
+    {
+      "step": 19,
+      "action": {
+        "kind": "clear",
+        "position": [
+          -1044.1059698434265,
+          41.99372957268743
+        ],
+        "channel": 20,
+        "reason": "guaranteed_here"
+      },
+      "response": {
+        "accepted": true,
+        "clear_result": "success",
+        "virtual_time_s": 2914.7708113757794,
+        "costs": {
+          "move_s": 0.0,
+          "switch_s": 0,
+          "operation_s": 5
+        }
+      }
+    },
+    {
+      "step": 20,
+      "action": {
+        "kind": "measure",
+        "position": [
+          -1094.9687693112025,
+          -0.47661987771265046
+        ],
+        "channel": 7,
+        "reason": "approach_center_and_measure"
+      },
+      "response": {
+        "accepted": true,
+        "measure_result": "direction",
+        "svd_deg": 178.45,
+        "virtual_time_s": 2934.023365774292,
+        "costs": {
+          "move_s": 13.252554398512464,
+          "switch_s": 1,
+          "operation_s": 5
+        }
+      }
+    },
+    {
+      "step": 21,
+      "action": {
+        "kind": "measure",
+        "position": [
+          -1135.8820285156835,
+          -0.08743950817785112
+        ],
+        "channel": 7,
+        "reason": "approach_center_and_measure"
+      },
+      "response": {
+        "accepted": true,
+        "measure_result": "direction",
+        "svd_deg": 359.16,
+        "virtual_time_s": 2947.206387807974,
+        "costs": {
+          "move_s": 8.183022033681873,
+          "switch_s": 0,
+          "operation_s": 5
+        }
+      }
+    },
+    {
+      "step": 22,
+      "action": {
+        "kind": "clear",
+        "position": [
+          -1115.4253989141798,
+          -0.28202972826253636
+        ],
+        "channel": 7,
+        "reason": "one_small_center_try"
+      },
+      "response": {
+        "accepted": true,
+        "clear_result": "success",
+        "virtual_time_s": 2956.2978988247346,
+        "costs": {
+          "move_s": 4.091511016760769,
+          "switch_s": 0,
+          "operation_s": 5
+        }
+      }
+    },
+    {
+      "step": 23,
+      "action": {
+        "kind": "measure",
+        "position": [
+          -1110.644547818637,
+          -10.65129256845886
+        ],
+        "channel": 17,
+        "reason": "approach_center_and_measure"
+      },
+      "response": {
+        "accepted": true,
+        "measure_result": "direction",
+        "svd_deg": 193.53,
+        "virtual_time_s": 2964.5815638531208,
+        "costs": {
+          "move_s": 2.2836650283859905,
+          "switch_s": 1,
+          "operation_s": 5
+        }
+      }
+    },
+    {
+      "step": 24,
+      "action": {
+        "kind": "clear",
+        "position": [
+          -1123.505580699713,
+          -13.985765070734098
+        ],
+        "channel": 17,
+        "reason": "guaranteed_center"
+      },
+      "response": {
+        "accepted": true,
+        "clear_result": "success",
+        "virtual_time_s": 2972.2388171239745,
+        "costs": {
+          "move_s": 2.657253270853548,
+          "switch_s": 0,
+          "operation_s": 5
+        }
+      }
+    },
+    {
+      "step": 25,
+      "action": {
+        "kind": "measure",
+        "position": [
+          -1100.6609469770451,
+          -67.3840980450093
+        ],
+        "channel": 6,
+        "reason": "approach_center_and_measure"
+      },
+      "response": {
+        "accepted": true,
+        "measure_result": "direction",
+        "svd_deg": 144.93,
+        "virtual_time_s": 2989.85477038551,
+        "costs": {
+          "move_s": 11.615953261535477,
+          "switch_s": 1,
+          "operation_s": 5
+        }
+      }
+    },
+    {
+      "step": 26,
+      "action": {
+        "kind": "measure",
+        "position": [
+          -1150.3304711838086,
+          -33.69205070157407
+        ],
+        "channel": 6,
+        "reason": "approach_center_and_measure"
+      },
+      "response": {
+        "accepted": true,
+        "measure_result": "direction",
+        "svd_deg": 144.55,
+        "virtual_time_s": 3006.858462632679,
+        "costs": {
+          "move_s": 12.003692247168868,
+          "switch_s": 0,
+          "operation_s": 5
+        }
+      }
+    },
+    {
+      "step": 27,
+      "action": {
+        "kind": "clear",
+        "position": [
+          -1169.4630108458277,
+          -20.569643963931593
+        ],
+        "channel": 6,
+        "reason": "one_small_center_try"
+      },
+      "response": {
+        "accepted": true,
+        "clear_result": "success",
+        "virtual_time_s": 3016.498512772524,
+        "costs": {
+          "move_s": 4.640050139844864,
+          "switch_s": 0,
+          "operation_s": 5
+        }
+      }
+    }
+  ],
+  "wall_s": 0.07880429999204352
+}

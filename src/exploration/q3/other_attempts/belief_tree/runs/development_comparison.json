@@ -1,0 +1,2588 @@
+{
+  "rows": [
+    {
+      "case": {
+        "name": "uniform_smooth_330010",
+        "seed": 330010,
+        "layout": "uniform",
+        "noise": "smooth",
+        "sources": [
+          {
+            "channel": 11,
+            "position": [
+              -1079.9057952380385,
+              1038.348996012947
+            ],
+            "radius": 1016.5845500533255,
+            "orientation": null
+          },
+          {
+            "channel": 16,
+            "position": [
+              -755.7338606174096,
+              240.17827620646025
+            ],
+            "radius": 1040.549503058679,
+            "orientation": null
+          },
+          {
+            "channel": 5,
+            "position": [
+              227.48264437865947,
+              -1198.535875239276
+            ],
+            "radius": 1232.1388525546752,
+            "orientation": null
+          },
+          {
+            "channel": 15,
+            "position": [
+              -275.43556350810013,
+              203.22028466177346
+            ],
+            "radius": 1432.029640870742,
+            "orientation": null
+          },
+          {
+            "channel": 13,
+            "position": [
+              1555.198940116694,
+              -472.8160954213708
+            ],
+            "radius": 1394.2925665217267,
+            "orientation": null
+          },
+          {
+            "channel": 9,
+            "position": [
+              -1475.9383005869126,
+              171.94761968585513
+            ],
+            "radius": 1457.2400086998405,
+            "orientation": null
+          },
+          {
+            "channel": 12,
+            "position": [
+              -429.7462537318449,
+              -75.4881419753059
+            ],
+            "radius": 1008.9321933905969,
+            "orientation": null
+          },
+          {
+            "channel": 18,
+            "position": [
+              882.7650712931419,
+              -1150.7152881156817
+            ],
+            "radius": 1043.5044191343088,
+            "orientation": null
+          },
+          {
+            "channel": 4,
+            "position": [
+              -166.58610974024506,
+              1172.0466827334483
+            ],
+            "radius": 1060.9325121709735,
+            "orientation": null
+          },
+          {
+            "channel": 8,
+            "position": [
+              -1107.4152035505015,
+              -1197.42709423435
+            ],
+            "radius": 1043.0594232241613,
+            "orientation": null
+          },
+          {
+            "channel": 2,
+            "position": [
+              1579.3354578376393,
+              -307.02365892667075
+            ],
+            "radius": 1373.8177341148291,
+            "orientation": null
+          },
+          {
+            "channel": 17,
+            "position": [
+              1155.8856820841922,
+              19.066390659057475
+            ],
+            "radius": 1440.1004251891093,
+            "orientation": null
+          }
+        ]
+      },
+      "versions": {
+        "baseline": {
+          "path": "experiments/b_q3/belief_tree/runs/dev_macro_smooth/uniform_smooth_330010/baseline/result.json",
+          "result": {
+            "case": "uniform_smooth_330010",
+            "seed": 330010,
+            "layout": "uniform",
+            "noise": "smooth",
+            "policy": "baseline",
+            "real_n": 12,
+            "source_count": 12,
+            "success": true,
+            "cleared": 12,
+            "total_s": 4128.3725017458355,
+            "per_source_s": 344.031041812153,
+            "wall_s": 0.4198820000165142,
+            "actions": 141,
+            "initial_finish_s": 2165.0,
+            "phase_costs": {
+              "scan": {
+                "actions": 121,
+                "move_s": 1440.0000000000002,
+                "measure_s": 605.0,
+                "switch_s": 120.0,
+                "success_clear_s": 0.0,
+                "fail_clear_s": 0.0
+              },
+              "service": {
+                "actions": 20,
+                "move_s": 1857.3725017458357,
+                "measure_s": 40.0,
+                "switch_s": 6.0,
+                "success_clear_s": 60.0,
+                "fail_clear_s": 0.0
+              }
+            },
+            "move_s": 3297.3725017458355,
+            "measure_s": 645.0,
+            "switch_s": 126.0,
+            "success_clear_s": 60.0,
+            "fail_clear_s": 0.0,
+            "error": null,
+            "failreason": null,
+            "fail_clears": 0,
+            "measure_count": 129
+          }
+        },
+        "f3": {
+          "path": "experiments/b_q3/belief_tree/runs/dev_macro_smooth/uniform_smooth_330010/f3/result.json",
+          "result": {
+            "case": "uniform_smooth_330010",
+            "seed": 330010,
+            "layout": "uniform",
+            "noise": "smooth",
+            "policy": "patrol",
+            "real_n": 12,
+            "source_count": 12,
+            "success": true,
+            "cleared": 12,
+            "total_s": 3209.4523077185645,
+            "per_source_s": 267.45435897654704,
+            "wall_s": 278.50310150001314,
+            "actions": 175,
+            "initial_finish_s": 388.00000007488245,
+            "phase_costs": {
+              "initial": {
+                "actions": 40,
+                "move_s": 150.00000007488248,
+                "measure_s": 200.0,
+                "switch_s": 38.0,
+                "success_clear_s": 0.0,
+                "fail_clear_s": 0.0
+              },
+              "service": {
+                "actions": 135,
+                "move_s": 2031.4523076436824,
+                "measure_s": 615.0,
+                "switch_s": 115.0,
+                "success_clear_s": 60.0,
+                "fail_clear_s": 0.0
+              }
+            },
+            "move_s": 2181.4523077185645,
+            "measure_s": 815.0,
+            "switch_s": 153.0,
+            "success_clear_s": 60.0,
+            "fail_clear_s": 0.0,
+            "error": null,
+            "failreason": null,
+            "fail_clears": 0,
+            "measure_count": 163
+          }
+        },
+        "t3": {
+          "path": "experiments/b_q3/belief_tree/runs/dev_merged/uniform_smooth_330010/t3/result.json",
+          "result": {
+            "case": "uniform_smooth_330010",
+            "seed": 330010,
+            "layout": "uniform",
+            "noise": "smooth",
+            "policy": "patrol",
+            "real_n": 12,
+            "source_count": 12,
+            "success": false,
+            "cleared": 2,
+            "total_s": 1870.9369607901249,
+            "per_source_s": null,
+            "wall_s": 7277.485501499992,
+            "actions": 66,
+            "initial_finish_s": null,
+            "phase_costs": {
+              "belief": {
+                "actions": 66,
+                "move_s": 1486.936960790125,
+                "measure_s": 315.0,
+                "switch_s": 56.0,
+                "success_clear_s": 10.0,
+                "fail_clear_s": 3.0
+              }
+            },
+            "move_s": 1486.936960790125,
+            "measure_s": 315.0,
+            "switch_s": 56.0,
+            "success_clear_s": 10.0,
+            "fail_clear_s": 3.0,
+            "error": "Traceback (most recent call last):\n  File \"C:\\Users\\HOU\\Desktop\\CUMCM\\experiments\\b_q3\\probability_patrol\\runner.py\", line 242, in execute_case\n    raise TimeoutError('wall_limit')\nTimeoutError: wall_limit\n",
+            "failreason": "TimeoutError: wall_limit",
+            "fail_clears": 1,
+            "measure_count": 63
+          }
+        },
+        "m3": {
+          "path": "experiments/b_q3/belief_tree/runs/dev_macro_smooth/uniform_smooth_330010/m3/result.json",
+          "result": {
+            "case": "uniform_smooth_330010",
+            "seed": 330010,
+            "layout": "uniform",
+            "noise": "smooth",
+            "policy": "patrol",
+            "real_n": 12,
+            "source_count": 12,
+            "success": true,
+            "cleared": 12,
+            "total_s": 3625.4570929688352,
+            "per_source_s": 302.1214244140696,
+            "wall_s": 2332.0122189999965,
+            "actions": 169,
+            "initial_finish_s": null,
+            "phase_costs": {
+              "belief": {
+                "actions": 169,
+                "move_s": 2639.457092968835,
+                "measure_s": 775.0,
+                "switch_s": 145.0,
+                "success_clear_s": 60.0,
+                "fail_clear_s": 6.0
+              }
+            },
+            "move_s": 2639.457092968835,
+            "measure_s": 775.0,
+            "switch_s": 145.0,
+            "success_clear_s": 60.0,
+            "fail_clear_s": 6.0,
+            "error": null,
+            "failreason": null,
+            "fail_clears": 2,
+            "measure_count": 155
+          }
+        }
+      }
+    },
+    {
+      "case": {
+        "name": "edge_smooth_330013",
+        "seed": 330013,
+        "layout": "edge",
+        "noise": "smooth",
+        "sources": [
+          {
+            "channel": 8,
+            "position": [
+              1760.3318166775468,
+              374.170078351323
+            ],
+            "radius": 1000,
+            "orientation": null
+          },
+          {
+            "channel": 5,
+            "position": [
+              1454.5806283415582,
+              1056.814686902902
+            ],
+            "radius": 1000,
+            "orientation": null
+          },
+          {
+            "channel": 3,
+            "position": [
+              898.8031874915239,
+              1556.7727867401745
+            ],
+            "radius": 1000,
+            "orientation": null
+          },
+          {
+            "channel": 11,
+            "position": [
+              187.2620611295699,
+              1781.6794980356367
+            ],
+            "radius": 1000,
+            "orientation": null
+          },
+          {
+            "channel": 16,
+            "position": [
+              -553.3338669836266,
+              1702.98653297703
+            ],
+            "radius": 1000,
+            "orientation": null
+          },
+          {
+            "channel": 17,
+            "position": [
+              -1202.8753548684797,
+              1335.9284228965412
+            ],
+            "radius": 1000,
+            "orientation": null
+          },
+          {
+            "channel": 15,
+            "position": [
+              -1641.9088540827693,
+              731.0249204997161
+            ],
+            "radius": 1000,
+            "orientation": null
+          },
+          {
+            "channel": 9,
+            "position": [
+              -1798.7487664172,
+              2.202831919263074e-13
+            ],
+            "radius": 1000,
+            "orientation": null
+          },
+          {
+            "channel": 10,
+            "position": [
+              -1636.2520722791064,
+              -728.5063589741936
+            ],
+            "radius": 1000,
+            "orientation": null
+          },
+          {
+            "channel": 12,
+            "position": [
+              -1200.3963087087589,
+              -1333.175163206714
+            ],
+            "radius": 1000,
+            "orientation": null
+          },
+          {
+            "channel": 6,
+            "position": [
+              -556.1298008483575,
+              -1711.5915326035413
+            ],
+            "radius": 1000,
+            "orientation": null
+          },
+          {
+            "channel": 2,
+            "position": [
+              187.47072229526128,
+              -1783.6647764134757
+            ],
+            "radius": 1000,
+            "orientation": null
+          },
+          {
+            "channel": 20,
+            "position": [
+              896.6157916586457,
+              -1552.984106021365
+            ],
+            "radius": 1000,
+            "orientation": null
+          },
+          {
+            "channel": 18,
+            "position": [
+              1448.9682037888895,
+              -1052.7370217801672
+            ],
+            "radius": 1000,
+            "orientation": null
+          },
+          {
+            "channel": 14,
+            "position": [
+              1754.1405122506474,
+              -372.85407597008987
+            ],
+            "radius": 1000,
+            "orientation": null
+          }
+        ]
+      },
+      "versions": {
+        "baseline": {
+          "path": "experiments/b_q3/belief_tree/runs/dev_macro_smooth/edge_smooth_330013/baseline/result.json",
+          "result": {
+            "case": "edge_smooth_330013",
+            "seed": 330013,
+            "layout": "edge",
+            "noise": "smooth",
+            "policy": "baseline",
+            "real_n": 15,
+            "source_count": 15,
+            "success": true,
+            "cleared": 15,
+            "total_s": 4715.41001582006,
+            "per_source_s": 314.36066772133734,
+            "wall_s": 1.0212315000244416,
+            "actions": 172,
+            "initial_finish_s": 2279.0,
+            "phase_costs": {
+              "scan": {
+                "actions": 140,
+                "move_s": 1440.0000000000002,
+                "measure_s": 700.0,
+                "switch_s": 139.0,
+                "success_clear_s": 0.0,
+                "fail_clear_s": 0.0
+              },
+              "service": {
+                "actions": 32,
+                "move_s": 2261.4100158200604,
+                "measure_s": 85.0,
+                "switch_s": 15.0,
+                "success_clear_s": 75.0,
+                "fail_clear_s": 0.0
+              }
+            },
+            "move_s": 3701.41001582006,
+            "measure_s": 785.0,
+            "switch_s": 154.0,
+            "success_clear_s": 75.0,
+            "fail_clear_s": 0.0,
+            "error": null,
+            "failreason": null,
+            "fail_clears": 0,
+            "measure_count": 157
+          }
+        },
+        "f3": {
+          "path": "experiments/b_q3/belief_tree/runs/dev_macro_smooth/edge_smooth_330013/f3/result.json",
+          "result": {
+            "case": "edge_smooth_330013",
+            "seed": 330013,
+            "layout": "edge",
+            "noise": "smooth",
+            "policy": "patrol",
+            "real_n": 15,
+            "source_count": 15,
+            "success": true,
+            "cleared": 15,
+            "total_s": 4476.554264138778,
+            "per_source_s": 298.4369509425852,
+            "wall_s": 155.64006629999494,
+            "actions": 234,
+            "initial_finish_s": 149.00000007488248,
+            "phase_costs": {
+              "initial": {
+                "actions": 20,
+                "move_s": 30.00000007488248,
+                "measure_s": 100.0,
+                "switch_s": 19.0,
+                "success_clear_s": 0.0,
+                "fail_clear_s": 0.0
+              },
+              "completion": {
+                "actions": 20,
+                "move_s": 148.95017992769579,
+                "measure_s": 100.0,
+                "switch_s": 19.0,
+                "success_clear_s": 0.0,
+                "fail_clear_s": 0.0
+              },
+              "service": {
+                "actions": 194,
+                "move_s": 2925.604084136199,
+                "measure_s": 885.0,
+                "switch_s": 168.0,
+                "success_clear_s": 75.0,
+                "fail_clear_s": 6.0
+              }
+            },
+            "move_s": 3104.554264138778,
+            "measure_s": 1085.0,
+            "switch_s": 206.0,
+            "success_clear_s": 75.0,
+            "fail_clear_s": 6.0,
+            "error": null,
+            "failreason": null,
+            "fail_clears": 2,
+            "measure_count": 217
+          }
+        },
+        "t3": {
+          "path": "experiments/b_q3/belief_tree/runs/dev_merged/edge_smooth_330013/t3/result.json",
+          "result": {
+            "case": "edge_smooth_330013",
+            "seed": 330013,
+            "layout": "edge",
+            "noise": "smooth",
+            "policy": "patrol",
+            "real_n": 15,
+            "source_count": 15,
+            "success": false,
+            "cleared": 4,
+            "total_s": 1589.3939896773322,
+            "per_source_s": null,
+            "wall_s": 7223.846879599994,
+            "actions": 71,
+            "initial_finish_s": null,
+            "phase_costs": {
+              "belief": {
+                "actions": 71,
+                "move_s": 1175.3939896773322,
+                "measure_s": 330.0,
+                "switch_s": 61.0,
+                "success_clear_s": 20.0,
+                "fail_clear_s": 3.0
+              }
+            },
+            "move_s": 1175.3939896773322,
+            "measure_s": 330.0,
+            "switch_s": 61.0,
+            "success_clear_s": 20.0,
+            "fail_clear_s": 3.0,
+            "error": "Traceback (most recent call last):\n  File \"C:\\Users\\HOU\\Desktop\\CUMCM\\experiments\\b_q3\\probability_patrol\\runner.py\", line 242, in execute_case\n    raise TimeoutError('wall_limit')\nTimeoutError: wall_limit\n",
+            "failreason": "TimeoutError: wall_limit",
+            "fail_clears": 1,
+            "measure_count": 66
+          }
+        },
+        "m3": {
+          "path": "experiments/b_q3/belief_tree/runs/dev_macro_smooth/edge_smooth_330013/m3/result.json",
+          "result": {
+            "case": "edge_smooth_330013",
+            "seed": 330013,
+            "layout": "edge",
+            "noise": "smooth",
+            "policy": "patrol",
+            "real_n": 15,
+            "source_count": 15,
+            "success": true,
+            "cleared": 15,
+            "total_s": 4568.366284284344,
+            "per_source_s": 304.55775228562294,
+            "wall_s": 2186.5559811999847,
+            "actions": 230,
+            "initial_finish_s": null,
+            "phase_costs": {
+              "belief": {
+                "actions": 230,
+                "move_s": 3218.366284284344,
+                "measure_s": 1075.0,
+                "switch_s": 200.0,
+                "success_clear_s": 75.0,
+                "fail_clear_s": 0.0
+              }
+            },
+            "move_s": 3218.366284284344,
+            "measure_s": 1075.0,
+            "switch_s": 200.0,
+            "success_clear_s": 75.0,
+            "fail_clear_s": 0.0,
+            "error": null,
+            "failreason": null,
+            "fail_clears": 0,
+            "measure_count": 215
+          }
+        }
+      }
+    },
+    {
+      "case": {
+        "name": "cluster_smooth_330016",
+        "seed": 330016,
+        "layout": "cluster",
+        "noise": "smooth",
+        "sources": [
+          {
+            "channel": 5,
+            "position": [
+              -1176.3553687789051,
+              -20.43168090251161
+            ],
+            "radius": 1490.5997775978838,
+            "orientation": null
+          },
+          {
+            "channel": 1,
+            "position": [
+              53.26635522708989,
+              55.2268932466836
+            ],
+            "radius": 1378.0256897411605,
+            "orientation": null
+          },
+          {
+            "channel": 11,
+            "position": [
+              1157.6242940442107,
+              -44.21670935007256
+            ],
+            "radius": 1061.9452269511323,
+            "orientation": null
+          },
+          {
+            "channel": 18,
+            "position": [
+              -1095.6298392194292,
+              5.648221012976933
+            ],
+            "radius": 1084.6860709212697,
+            "orientation": null
+          },
+          {
+            "channel": 14,
+            "position": [
+              -43.48760926906921,
+              79.86800594975438
+            ],
+            "radius": 1004.5241092456463,
+            "orientation": null
+          },
+          {
+            "channel": 10,
+            "position": [
+              1070.3374705959677,
+              54.00479906903681
+            ],
+            "radius": 1034.2107550469616,
+            "orientation": null
+          },
+          {
+            "channel": 16,
+            "position": [
+              -1051.448075609049,
+              -74.27286633691124
+            ],
+            "radius": 1118.8013917861604,
+            "orientation": null
+          },
+          {
+            "channel": 6,
+            "position": [
+              -11.334409985340102,
+              -60.320506823158375
+            ],
+            "radius": 1342.8653039109392,
+            "orientation": null
+          },
+          {
+            "channel": 4,
+            "position": [
+              1140.4805614914249,
+              23.795640931018767
+            ],
+            "radius": 1127.1925701097355,
+            "orientation": null
+          },
+          {
+            "channel": 12,
+            "position": [
+              -1075.2546294307942,
+              65.63858342324795
+            ],
+            "radius": 1392.5445371322662,
+            "orientation": null
+          },
+          {
+            "channel": 8,
+            "position": [
+              9.413256077811937,
+              70.98320735384661
+            ],
+            "radius": 1455.5304290554113,
+            "orientation": null
+          }
+        ]
+      },
+      "versions": {
+        "baseline": {
+          "path": "experiments/b_q3/belief_tree/runs/dev_macro_smooth/cluster_smooth_330016/baseline/result.json",
+          "result": {
+            "case": "cluster_smooth_330016",
+            "seed": 330016,
+            "layout": "cluster",
+            "noise": "smooth",
+            "policy": "baseline",
+            "real_n": 11,
+            "source_count": 11,
+            "success": true,
+            "cleared": 11,
+            "total_s": 3040.6450137565525,
+            "per_source_s": 276.42227397786843,
+            "wall_s": 0.3616080000065267,
+            "actions": 137,
+            "initial_finish_s": 2141.0,
+            "phase_costs": {
+              "scan": {
+                "actions": 117,
+                "move_s": 1440.0000000000002,
+                "measure_s": 585.0,
+                "switch_s": 116.0,
+                "success_clear_s": 0.0,
+                "fail_clear_s": 0.0
+              },
+              "service": {
+                "actions": 20,
+                "move_s": 791.6450137565528,
+                "measure_s": 45.0,
+                "switch_s": 8.0,
+                "success_clear_s": 55.0,
+                "fail_clear_s": 0.0
+              }
+            },
+            "move_s": 2231.645013756553,
+            "measure_s": 630.0,
+            "switch_s": 124.0,
+            "success_clear_s": 55.0,
+            "fail_clear_s": 0.0,
+            "error": null,
+            "failreason": null,
+            "fail_clears": 0,
+            "measure_count": 126
+          }
+        },
+        "f3": {
+          "path": "experiments/b_q3/belief_tree/runs/dev_macro_smooth/cluster_smooth_330016/f3/result.json",
+          "result": {
+            "case": "cluster_smooth_330016",
+            "seed": 330016,
+            "layout": "cluster",
+            "noise": "smooth",
+            "policy": "patrol",
+            "real_n": 11,
+            "source_count": 11,
+            "success": true,
+            "cleared": 11,
+            "total_s": 2854.6759220393683,
+            "per_source_s": 259.51599291266984,
+            "wall_s": 297.1444521000085,
+            "actions": 196,
+            "initial_finish_s": 418.0000001028847,
+            "phase_costs": {
+              "initial": {
+                "actions": 40,
+                "move_s": 180.0000001028847,
+                "measure_s": 200.0,
+                "switch_s": 38.0,
+                "success_clear_s": 0.0,
+                "fail_clear_s": 0.0
+              },
+              "service": {
+                "actions": 138,
+                "move_s": 1471.356804828194,
+                "measure_s": 630.0,
+                "switch_s": 117.0,
+                "success_clear_s": 55.0,
+                "fail_clear_s": 3.0
+              },
+              "completion": {
+                "actions": 18,
+                "move_s": 53.319117108289774,
+                "measure_s": 90.0,
+                "switch_s": 17.0,
+                "success_clear_s": 0.0,
+                "fail_clear_s": 0.0
+              }
+            },
+            "move_s": 1704.6759220393683,
+            "measure_s": 920.0,
+            "switch_s": 172.0,
+            "success_clear_s": 55.0,
+            "fail_clear_s": 3.0,
+            "error": null,
+            "failreason": null,
+            "fail_clears": 1,
+            "measure_count": 184
+          }
+        },
+        "m3": {
+          "path": "experiments/b_q3/belief_tree/runs/dev_macro_smooth/cluster_smooth_330016/m3/result.json",
+          "result": {
+            "case": "cluster_smooth_330016",
+            "seed": 330016,
+            "layout": "cluster",
+            "noise": "smooth",
+            "policy": "patrol",
+            "real_n": 11,
+            "source_count": 11,
+            "success": true,
+            "cleared": 11,
+            "total_s": 3096.5046828760073,
+            "per_source_s": 281.5004257160007,
+            "wall_s": 2146.4705714999873,
+            "actions": 180,
+            "initial_finish_s": null,
+            "phase_costs": {
+              "belief": {
+                "actions": 180,
+                "move_s": 2041.5046828760062,
+                "measure_s": 840.0,
+                "switch_s": 157.0,
+                "success_clear_s": 55.0,
+                "fail_clear_s": 3.0
+              }
+            },
+            "move_s": 2041.5046828760062,
+            "measure_s": 840.0,
+            "switch_s": 157.0,
+            "success_clear_s": 55.0,
+            "fail_clear_s": 3.0,
+            "error": null,
+            "failreason": null,
+            "fail_clears": 1,
+            "measure_count": 168
+          }
+        }
+      }
+    },
+    {
+      "case": {
+        "name": "line_smooth_330019",
+        "seed": 330019,
+        "layout": "line",
+        "noise": "smooth",
+        "sources": [
+          {
+            "channel": 20,
+            "position": [
+              728.3150713395016,
+              0.6095062518209327
+            ],
+            "radius": 1000,
+            "orientation": null
+          },
+          {
+            "channel": 13,
+            "position": [
+              1444.5839260259654,
+              2.966107046112797
+            ],
+            "radius": 1000,
+            "orientation": null
+          },
+          {
+            "channel": 8,
+            "position": [
+              -255.47418226056016,
+              -1.531999462140644
+            ],
+            "radius": 1000,
+            "orientation": null
+          },
+          {
+            "channel": 6,
+            "position": [
+              -1715.0988502258044,
+              -1.6180956579604924
+            ],
+            "radius": 1000,
+            "orientation": null
+          },
+          {
+            "channel": 2,
+            "position": [
+              159.1269409895051,
+              -2.393718037308126
+            ],
+            "radius": 1000,
+            "orientation": null
+          },
+          {
+            "channel": 12,
+            "position": [
+              -1156.8491197772187,
+              -2.4837713634713836
+            ],
+            "radius": 1000,
+            "orientation": null
+          },
+          {
+            "channel": 16,
+            "position": [
+              -1305.8192602089657,
+              0.9210840317862408
+            ],
+            "radius": 1000,
+            "orientation": null
+          },
+          {
+            "channel": 19,
+            "position": [
+              1655.5506261138294,
+              -0.6813933514312986
+            ],
+            "radius": 1000,
+            "orientation": null
+          },
+          {
+            "channel": 15,
+            "position": [
+              1532.240590536493,
+              -1.9337131278930428
+            ],
+            "radius": 1000,
+            "orientation": null
+          },
+          {
+            "channel": 9,
+            "position": [
+              -624.8009615731862,
+              -1.4142029548397497
+            ],
+            "radius": 1000,
+            "orientation": null
+          },
+          {
+            "channel": 11,
+            "position": [
+              1065.7971820145322,
+              0.39669729332643655
+            ],
+            "radius": 1000,
+            "orientation": null
+          },
+          {
+            "channel": 17,
+            "position": [
+              -732.9063442590325,
+              -0.43963529764939757
+            ],
+            "radius": 1000,
+            "orientation": null
+          },
+          {
+            "channel": 18,
+            "position": [
+              -492.8915045154506,
+              1.9802770149813025
+            ],
+            "radius": 1000,
+            "orientation": null
+          },
+          {
+            "channel": 5,
+            "position": [
+              622.4354499479005,
+              -1.255850158690077
+            ],
+            "radius": 1000,
+            "orientation": null
+          }
+        ]
+      },
+      "versions": {
+        "baseline": {
+          "path": "experiments/b_q3/belief_tree/runs/dev_macro_smooth/line_smooth_330019/baseline/result.json",
+          "result": {
+            "case": "line_smooth_330019",
+            "seed": 330019,
+            "layout": "line",
+            "noise": "smooth",
+            "policy": "baseline",
+            "real_n": 14,
+            "source_count": 14,
+            "success": true,
+            "cleared": 14,
+            "total_s": 4002.9580692648674,
+            "per_source_s": 285.92557637606194,
+            "wall_s": 0.8913231999904383,
+            "actions": 183,
+            "initial_finish_s": 2279.0,
+            "phase_costs": {
+              "scan": {
+                "actions": 140,
+                "move_s": 1440.0000000000002,
+                "measure_s": 700.0,
+                "switch_s": 139.0,
+                "success_clear_s": 0.0,
+                "fail_clear_s": 0.0
+              },
+              "service": {
+                "actions": 43,
+                "move_s": 1494.9580692648672,
+                "measure_s": 145.0,
+                "switch_s": 14.0,
+                "success_clear_s": 70.0,
+                "fail_clear_s": 0.0
+              }
+            },
+            "move_s": 2934.9580692648674,
+            "measure_s": 845.0,
+            "switch_s": 153.0,
+            "success_clear_s": 70.0,
+            "fail_clear_s": 0.0,
+            "error": null,
+            "failreason": null,
+            "fail_clears": 0,
+            "measure_count": 169
+          }
+        },
+        "f3": {
+          "path": "experiments/b_q3/belief_tree/runs/dev_macro_smooth/line_smooth_330019/f3/result.json",
+          "result": {
+            "case": "line_smooth_330019",
+            "seed": 330019,
+            "layout": "line",
+            "noise": "smooth",
+            "policy": "patrol",
+            "real_n": 14,
+            "source_count": 14,
+            "success": true,
+            "cleared": 14,
+            "total_s": 3466.4791090903727,
+            "per_source_s": 247.60565064931234,
+            "wall_s": 331.8698764999863,
+            "actions": 192,
+            "initial_finish_s": 418.0000001028847,
+            "phase_costs": {
+              "initial": {
+                "actions": 40,
+                "move_s": 180.0000001028847,
+                "measure_s": 200.0,
+                "switch_s": 38.0,
+                "success_clear_s": 0.0,
+                "fail_clear_s": 0.0
+              },
+              "service": {
+                "actions": 140,
+                "move_s": 1909.1100596140482,
+                "measure_s": 630.0,
+                "switch_s": 121.0,
+                "success_clear_s": 70.0,
+                "fail_clear_s": 0.0
+              },
+              "completion": {
+                "actions": 12,
+                "move_s": 248.3690493734382,
+                "measure_s": 60.0,
+                "switch_s": 10.0,
+                "success_clear_s": 0.0,
+                "fail_clear_s": 0.0
+              }
+            },
+            "move_s": 2337.4791090903714,
+            "measure_s": 890.0,
+            "switch_s": 169.0,
+            "success_clear_s": 70.0,
+            "fail_clear_s": 0.0,
+            "error": null,
+            "failreason": null,
+            "fail_clears": 0,
+            "measure_count": 178
+          }
+        },
+        "m3": {
+          "path": "experiments/b_q3/belief_tree/runs/dev_macro_smooth/line_smooth_330019/m3/result.json",
+          "result": {
+            "case": "line_smooth_330019",
+            "seed": 330019,
+            "layout": "line",
+            "noise": "smooth",
+            "policy": "patrol",
+            "real_n": 14,
+            "source_count": 14,
+            "success": true,
+            "cleared": 14,
+            "total_s": 4044.5497529792638,
+            "per_source_s": 288.89641092709024,
+            "wall_s": 2818.5782173000043,
+            "actions": 219,
+            "initial_finish_s": null,
+            "phase_costs": {
+              "belief": {
+                "actions": 219,
+                "move_s": 2762.549752979264,
+                "measure_s": 1025.0,
+                "switch_s": 187.0,
+                "success_clear_s": 70.0,
+                "fail_clear_s": 0.0
+              }
+            },
+            "move_s": 2762.549752979264,
+            "measure_s": 1025.0,
+            "switch_s": 187.0,
+            "success_clear_s": 70.0,
+            "fail_clear_s": 0.0,
+            "error": null,
+            "failreason": null,
+            "fail_clears": 0,
+            "measure_count": 205
+          }
+        }
+      }
+    },
+    {
+      "case": {
+        "name": "uniform_biased_330011",
+        "seed": 330011,
+        "layout": "uniform",
+        "noise": "biased",
+        "sources": [
+          {
+            "channel": 9,
+            "position": [
+              -1009.595837154149,
+              1180.9491469703778
+            ],
+            "radius": 1077.9317163175351,
+            "orientation": null
+          },
+          {
+            "channel": 8,
+            "position": [
+              363.52947196727143,
+              662.594471651251
+            ],
+            "radius": 1079.9256527228533,
+            "orientation": null
+          },
+          {
+            "channel": 12,
+            "position": [
+              -1666.475738181122,
+              46.33483680489319
+            ],
+            "radius": 1150.6150603807998,
+            "orientation": null
+          },
+          {
+            "channel": 15,
+            "position": [
+              -354.7317993091293,
+              -1054.99951874673
+            ],
+            "radius": 1272.399684711402,
+            "orientation": null
+          },
+          {
+            "channel": 18,
+            "position": [
+              88.78371899970817,
+              1768.3594366292741
+            ],
+            "radius": 1499.3490972179527,
+            "orientation": null
+          },
+          {
+            "channel": 14,
+            "position": [
+              263.05384238944487,
+              1585.8139063614444
+            ],
+            "radius": 1238.528048948633,
+            "orientation": null
+          },
+          {
+            "channel": 6,
+            "position": [
+              659.9939373341392,
+              813.6756754790885
+            ],
+            "radius": 1486.2219531009694,
+            "orientation": null
+          },
+          {
+            "channel": 7,
+            "position": [
+              -1797.6437149139342,
+              -30.90063064293939
+            ],
+            "radius": 1191.8082760397995,
+            "orientation": null
+          },
+          {
+            "channel": 19,
+            "position": [
+              11.707745317216245,
+              -141.44511348302186
+            ],
+            "radius": 1107.0311261914871,
+            "orientation": null
+          },
+          {
+            "channel": 1,
+            "position": [
+              1276.0732133937295,
+              -808.8611187564222
+            ],
+            "radius": 1014.2204333705183,
+            "orientation": null
+          },
+          {
+            "channel": 3,
+            "position": [
+              -189.90194916222384,
+              -443.2851886115364
+            ],
+            "radius": 1017.3226060835736,
+            "orientation": null
+          },
+          {
+            "channel": 20,
+            "position": [
+              -26.752772675683005,
+              1695.9658767940937
+            ],
+            "radius": 1493.04933655914,
+            "orientation": null
+          },
+          {
+            "channel": 13,
+            "position": [
+              1247.0734351704843,
+              253.26292903551243
+            ],
+            "radius": 1257.7637780217888,
+            "orientation": null
+          }
+        ]
+      },
+      "versions": {
+        "baseline": {
+          "path": "experiments/b_q3/belief_tree/runs/dev_biased/uniform_biased_330011/baseline/result.json",
+          "result": {
+            "case": "uniform_biased_330011",
+            "seed": 330011,
+            "layout": "uniform",
+            "noise": "biased",
+            "policy": "baseline",
+            "real_n": 13,
+            "source_count": 13,
+            "success": true,
+            "cleared": 13,
+            "total_s": 4218.380756325938,
+            "per_source_s": 324.49082740968754,
+            "wall_s": 0.39967780001461506,
+            "actions": 149,
+            "initial_finish_s": 2129.0,
+            "phase_costs": {
+              "scan": {
+                "actions": 115,
+                "move_s": 1440.0000000000002,
+                "measure_s": 575.0,
+                "switch_s": 114.0,
+                "success_clear_s": 0.0,
+                "fail_clear_s": 0.0
+              },
+              "service": {
+                "actions": 34,
+                "move_s": 1936.3807563259386,
+                "measure_s": 45.0,
+                "switch_s": 7.0,
+                "success_clear_s": 65.0,
+                "fail_clear_s": 36.0
+              }
+            },
+            "move_s": 3376.3807563259375,
+            "measure_s": 620.0,
+            "switch_s": 121.0,
+            "success_clear_s": 65.0,
+            "fail_clear_s": 36.0,
+            "error": null,
+            "failreason": null,
+            "fail_clears": 12,
+            "measure_count": 124
+          }
+        },
+        "f3": {
+          "path": "experiments/b_q3/belief_tree/runs/dev_biased/uniform_biased_330011/f3/result.json",
+          "result": {
+            "case": "uniform_biased_330011",
+            "seed": 330011,
+            "layout": "uniform",
+            "noise": "biased",
+            "policy": "patrol",
+            "real_n": 13,
+            "source_count": 13,
+            "success": true,
+            "cleared": 13,
+            "total_s": 3556.4905914840156,
+            "per_source_s": 273.57619934492425,
+            "wall_s": 250.1115456999978,
+            "actions": 186,
+            "initial_finish_s": 388.00000007488245,
+            "phase_costs": {
+              "initial": {
+                "actions": 40,
+                "move_s": 150.00000007488248,
+                "measure_s": 200.0,
+                "switch_s": 38.0,
+                "success_clear_s": 0.0,
+                "fail_clear_s": 0.0
+              },
+              "service": {
+                "actions": 130,
+                "move_s": 2072.891141247538,
+                "measure_s": 550.0,
+                "switch_s": 103.0,
+                "success_clear_s": 65.0,
+                "fail_clear_s": 21.0
+              },
+              "completion": {
+                "actions": 16,
+                "move_s": 262.5994501615956,
+                "measure_s": 80.0,
+                "switch_s": 14.0,
+                "success_clear_s": 0.0,
+                "fail_clear_s": 0.0
+              }
+            },
+            "move_s": 2485.490591484016,
+            "measure_s": 830.0,
+            "switch_s": 155.0,
+            "success_clear_s": 65.0,
+            "fail_clear_s": 21.0,
+            "error": null,
+            "failreason": null,
+            "fail_clears": 7,
+            "measure_count": 166
+          }
+        },
+        "t3": {
+          "path": "experiments/b_q3/belief_tree/runs/dev_biased/uniform_biased_330011/t3/result.json",
+          "result": {
+            "case": "uniform_biased_330011",
+            "seed": 330011,
+            "layout": "uniform",
+            "noise": "biased",
+            "policy": "patrol",
+            "real_n": 13,
+            "source_count": 13,
+            "success": false,
+            "cleared": 3,
+            "total_s": 1480.8180904960836,
+            "per_source_s": null,
+            "wall_s": 7275.04171640001,
+            "actions": 74,
+            "initial_finish_s": null,
+            "phase_costs": {
+              "belief": {
+                "actions": 74,
+                "move_s": 1047.8180904960839,
+                "measure_s": 350.0,
+                "switch_s": 65.0,
+                "success_clear_s": 15.0,
+                "fail_clear_s": 3.0
+              }
+            },
+            "move_s": 1047.8180904960839,
+            "measure_s": 350.0,
+            "switch_s": 65.0,
+            "success_clear_s": 15.0,
+            "fail_clear_s": 3.0,
+            "error": "Traceback (most recent call last):\n  File \"C:\\Users\\HOU\\Desktop\\CUMCM\\experiments\\b_q3\\probability_patrol\\runner.py\", line 242, in execute_case\n    raise TimeoutError('wall_limit')\nTimeoutError: wall_limit\n",
+            "failreason": "TimeoutError: wall_limit",
+            "fail_clears": 1,
+            "measure_count": 70
+          }
+        },
+        "m3": {
+          "path": "experiments/b_q3/belief_tree/runs/dev_macro_loaded/uniform_biased_330011/m3/result.json",
+          "result": {
+            "case": "uniform_biased_330011",
+            "seed": 330011,
+            "layout": "uniform",
+            "noise": "biased",
+            "policy": "patrol",
+            "real_n": 13,
+            "source_count": 13,
+            "success": true,
+            "cleared": 13,
+            "total_s": 4426.461437275171,
+            "per_source_s": 340.49703363655163,
+            "wall_s": 3836.3442127000017,
+            "actions": 239,
+            "initial_finish_s": null,
+            "phase_costs": {
+              "belief": {
+                "actions": 239,
+                "move_s": 3032.461437275169,
+                "measure_s": 1110.0,
+                "switch_s": 207.0,
+                "success_clear_s": 65.0,
+                "fail_clear_s": 12.0
+              }
+            },
+            "move_s": 3032.461437275169,
+            "measure_s": 1110.0,
+            "switch_s": 207.0,
+            "success_clear_s": 65.0,
+            "fail_clear_s": 12.0,
+            "error": null,
+            "failreason": null,
+            "fail_clears": 4,
+            "measure_count": 222
+          }
+        }
+      }
+    },
+    {
+      "case": {
+        "name": "edge_biased_330014",
+        "seed": 330014,
+        "layout": "edge",
+        "noise": "biased",
+        "sources": [
+          {
+            "channel": 13,
+            "position": [
+              1797.665665169246,
+              0.0
+            ],
+            "radius": 1000,
+            "orientation": null
+          },
+          {
+            "channel": 3,
+            "position": [
+              1657.0376516786475,
+              686.3674686881604
+            ],
+            "radius": 1000,
+            "orientation": null
+          },
+          {
+            "channel": 12,
+            "position": [
+              1269.2787939207503,
+              1269.2787939207503
+            ],
+            "radius": 1000,
+            "orientation": null
+          },
+          {
+            "channel": 10,
+            "position": [
+              688.3597055817663,
+              1661.8473370066508
+            ],
+            "radius": 1000,
+            "orientation": null
+          },
+          {
+            "channel": 4,
+            "position": [
+              1.0970315953604031e-13,
+              1791.5885561848513
+            ],
+            "radius": 1000,
+            "orientation": null
+          },
+          {
+            "channel": 14,
+            "position": [
+              -686.3002060430248,
+              1656.8752652885203
+            ],
+            "radius": 1000,
+            "orientation": null
+          },
+          {
+            "channel": 7,
+            "position": [
+              -1271.7314793414698,
+              1271.7314793414698
+            ],
+            "radius": 1000,
+            "orientation": null
+          },
+          {
+            "channel": 19,
+            "position": [
+              -1657.998725046822,
+              686.7655583116941
+            ],
+            "radius": 1000,
+            "orientation": null
+          },
+          {
+            "channel": 2,
+            "position": [
+              -1791.228997529585,
+              2.1936228583645287e-13
+            ],
+            "radius": 1000,
+            "orientation": null
+          },
+          {
+            "channel": 16,
+            "position": [
+              -1662.883315726899,
+              -688.7888220180228
+            ],
+            "radius": 1000,
+            "orientation": null
+          },
+          {
+            "channel": 20,
+            "position": [
+              -1270.6750829393425,
+              -1270.675082939342
+            ],
+            "radius": 1000,
+            "orientation": null
+          },
+          {
+            "channel": 9,
+            "position": [
+              -686.2069824384134,
+              -1656.650203597931
+            ],
+            "radius": 1000,
+            "orientation": null
+          },
+          {
+            "channel": 5,
+            "position": [
+              -3.300967426428229e-13,
+              -1796.9629712700246
+            ],
+            "radius": 1000,
+            "orientation": null
+          },
+          {
+            "channel": 11,
+            "position": [
+              688.5284583857997,
+              -1662.2547423148355
+            ],
+            "radius": 1000,
+            "orientation": null
+          },
+          {
+            "channel": 17,
+            "position": [
+              1270.8867665786456,
+              -1270.8867665786463
+            ],
+            "radius": 1000,
+            "orientation": null
+          },
+          {
+            "channel": 6,
+            "position": [
+              1656.0591551310526,
+              -685.9621621474126
+            ],
+            "radius": 1000,
+            "orientation": null
+          }
+        ]
+      },
+      "versions": {
+        "baseline": {
+          "path": "experiments/b_q3/belief_tree/runs/dev_biased/edge_biased_330014/baseline/result.json",
+          "result": {
+            "case": "edge_biased_330014",
+            "seed": 330014,
+            "layout": "edge",
+            "noise": "biased",
+            "policy": "baseline",
+            "real_n": 16,
+            "source_count": 16,
+            "success": true,
+            "cleared": 16,
+            "total_s": 4705.566477398812,
+            "per_source_s": 294.09790483742574,
+            "wall_s": 1.319169199996395,
+            "actions": 173,
+            "initial_finish_s": 2255.0,
+            "phase_costs": {
+              "scan": {
+                "actions": 136,
+                "move_s": 1440.0000000000002,
+                "measure_s": 680.0,
+                "switch_s": 135.0,
+                "success_clear_s": 0.0,
+                "fail_clear_s": 0.0
+              },
+              "service": {
+                "actions": 37,
+                "move_s": 2258.566477398812,
+                "measure_s": 85.0,
+                "switch_s": 15.0,
+                "success_clear_s": 80.0,
+                "fail_clear_s": 12.0
+              }
+            },
+            "move_s": 3698.5664773988124,
+            "measure_s": 765.0,
+            "switch_s": 150.0,
+            "success_clear_s": 80.0,
+            "fail_clear_s": 12.0,
+            "error": null,
+            "failreason": null,
+            "fail_clears": 4,
+            "measure_count": 153
+          }
+        },
+        "f3": {
+          "path": "experiments/b_q3/belief_tree/runs/dev_biased/edge_biased_330014/f3/result.json",
+          "result": {
+            "case": "edge_biased_330014",
+            "seed": 330014,
+            "layout": "edge",
+            "noise": "biased",
+            "policy": "patrol",
+            "real_n": 16,
+            "source_count": 16,
+            "success": true,
+            "cleared": 16,
+            "total_s": 4564.41685375664,
+            "per_source_s": 285.27605335979,
+            "wall_s": 130.0267751000065,
+            "actions": 237,
+            "initial_finish_s": 149.00000007488248,
+            "phase_costs": {
+              "initial": {
+                "actions": 20,
+                "move_s": 30.00000007488248,
+                "measure_s": 100.0,
+                "switch_s": 19.0,
+                "success_clear_s": 0.0,
+                "fail_clear_s": 0.0
+              },
+              "completion": {
+                "actions": 20,
+                "move_s": 148.95017992769579,
+                "measure_s": 100.0,
+                "switch_s": 19.0,
+                "success_clear_s": 0.0,
+                "fail_clear_s": 0.0
+              },
+              "service": {
+                "actions": 197,
+                "move_s": 3003.4666737540624,
+                "measure_s": 885.0,
+                "switch_s": 167.0,
+                "success_clear_s": 80.0,
+                "fail_clear_s": 12.0
+              }
+            },
+            "move_s": 3182.4168537566406,
+            "measure_s": 1085.0,
+            "switch_s": 205.0,
+            "success_clear_s": 80.0,
+            "fail_clear_s": 12.0,
+            "error": null,
+            "failreason": null,
+            "fail_clears": 4,
+            "measure_count": 217
+          }
+        },
+        "t3": {
+          "path": "experiments/b_q3/belief_tree/runs/dev_biased/edge_biased_330014/t3/result.json",
+          "result": {
+            "case": "edge_biased_330014",
+            "seed": 330014,
+            "layout": "edge",
+            "noise": "biased",
+            "policy": "patrol",
+            "real_n": 16,
+            "source_count": 16,
+            "success": false,
+            "cleared": 5,
+            "total_s": 2365.6050763159124,
+            "per_source_s": null,
+            "wall_s": 7295.482360099995,
+            "actions": 73,
+            "initial_finish_s": null,
+            "phase_costs": {
+              "belief": {
+                "actions": 73,
+                "move_s": 1938.6050763159128,
+                "measure_s": 340.0,
+                "switch_s": 62.0,
+                "success_clear_s": 25.0,
+                "fail_clear_s": 0.0
+              }
+            },
+            "move_s": 1938.6050763159128,
+            "measure_s": 340.0,
+            "switch_s": 62.0,
+            "success_clear_s": 25.0,
+            "fail_clear_s": 0.0,
+            "error": "Traceback (most recent call last):\n  File \"C:\\Users\\HOU\\Desktop\\CUMCM\\experiments\\b_q3\\probability_patrol\\runner.py\", line 242, in execute_case\n    raise TimeoutError('wall_limit')\nTimeoutError: wall_limit\n",
+            "failreason": "TimeoutError: wall_limit",
+            "fail_clears": 0,
+            "measure_count": 68
+          }
+        },
+        "m3": {
+          "path": "experiments/b_q3/belief_tree/runs/dev_macro_loaded/edge_biased_330014/m3/result.json",
+          "result": {
+            "case": "edge_biased_330014",
+            "seed": 330014,
+            "layout": "edge",
+            "noise": "biased",
+            "policy": "patrol",
+            "real_n": 16,
+            "source_count": 16,
+            "success": true,
+            "cleared": 16,
+            "total_s": 4310.6027762566355,
+            "per_source_s": 269.4126735160397,
+            "wall_s": 2540.421891999984,
+            "actions": 226,
+            "initial_finish_s": null,
+            "phase_costs": {
+              "belief": {
+                "actions": 226,
+                "move_s": 3003.602776256635,
+                "measure_s": 1025.0,
+                "switch_s": 187.0,
+                "success_clear_s": 80.0,
+                "fail_clear_s": 15.0
+              }
+            },
+            "move_s": 3003.602776256635,
+            "measure_s": 1025.0,
+            "switch_s": 187.0,
+            "success_clear_s": 80.0,
+            "fail_clear_s": 15.0,
+            "error": null,
+            "failreason": null,
+            "fail_clears": 5,
+            "measure_count": 205
+          }
+        }
+      }
+    },
+    {
+      "case": {
+        "name": "cluster_biased_330017",
+        "seed": 330017,
+        "layout": "cluster",
+        "noise": "biased",
+        "sources": [
+          {
+            "channel": 8,
+            "position": [
+              -1129.4316830563046,
+              5.169260814092553
+            ],
+            "radius": 1247.471195689585,
+            "orientation": null
+          },
+          {
+            "channel": 13,
+            "position": [
+              69.26960791354708,
+              51.65889686821839
+            ],
+            "radius": 1144.8387995507642,
+            "orientation": null
+          },
+          {
+            "channel": 17,
+            "position": [
+              1170.6965203528168,
+              -42.8220568249956
+            ],
+            "radius": 1404.3506333026153,
+            "orientation": null
+          },
+          {
+            "channel": 16,
+            "position": [
+              -1130.874730371539,
+              63.70739046800347
+            ],
+            "radius": 1289.3793438197551,
+            "orientation": null
+          },
+          {
+            "channel": 4,
+            "position": [
+              -53.17210285430182,
+              -21.517324898617538
+            ],
+            "radius": 1372.399926911704,
+            "orientation": null
+          },
+          {
+            "channel": 19,
+            "position": [
+              1135.7002636950308,
+              -17.819278545423707
+            ],
+            "radius": 1232.934160451175,
+            "orientation": null
+          },
+          {
+            "channel": 1,
+            "position": [
+              -1157.9962490540124,
+              -48.94214018168911
+            ],
+            "radius": 1260.0215545391045,
+            "orientation": null
+          },
+          {
+            "channel": 6,
+            "position": [
+              -63.662609047191836,
+              -3.028582212800316
+            ],
+            "radius": 1289.5899126583504,
+            "orientation": null
+          },
+          {
+            "channel": 12,
+            "position": [
+              1079.513980132811,
+              -17.48421566157031
+            ],
+            "radius": 1111.8962978204981,
+            "orientation": null
+          },
+          {
+            "channel": 2,
+            "position": [
+              -1028.5688484787615,
+              23.672542053895114
+            ],
+            "radius": 1416.116731372403,
+            "orientation": null
+          },
+          {
+            "channel": 11,
+            "position": [
+              46.20654822030872,
+              -63.11291244209188
+            ],
+            "radius": 1060.8696381131056,
+            "orientation": null
+          },
+          {
+            "channel": 3,
+            "position": [
+              1119.4756903530429,
+              -16.729451977296073
+            ],
+            "radius": 1110.4164085912373,
+            "orientation": null
+          }
+        ]
+      },
+      "versions": {
+        "baseline": {
+          "path": "experiments/b_q3/belief_tree/runs/dev_biased/cluster_biased_330017/baseline/result.json",
+          "result": {
+            "case": "cluster_biased_330017",
+            "seed": 330017,
+            "layout": "cluster",
+            "noise": "biased",
+            "policy": "baseline",
+            "real_n": 12,
+            "source_count": 12,
+            "success": true,
+            "cleared": 12,
+            "total_s": 2965.557571552932,
+            "per_source_s": 247.129797629411,
+            "wall_s": 0.3267012999858707,
+            "actions": 131,
+            "initial_finish_s": 2075.0,
+            "phase_costs": {
+              "scan": {
+                "actions": 106,
+                "move_s": 1440.0000000000002,
+                "measure_s": 530.0,
+                "switch_s": 105.0,
+                "success_clear_s": 0.0,
+                "fail_clear_s": 0.0
+              },
+              "service": {
+                "actions": 25,
+                "move_s": 764.5575715529312,
+                "measure_s": 45.0,
+                "switch_s": 9.0,
+                "success_clear_s": 60.0,
+                "fail_clear_s": 12.0
+              }
+            },
+            "move_s": 2204.557571552931,
+            "measure_s": 575.0,
+            "switch_s": 114.0,
+            "success_clear_s": 60.0,
+            "fail_clear_s": 12.0,
+            "error": null,
+            "failreason": null,
+            "fail_clears": 4,
+            "measure_count": 115
+          }
+        },
+        "f3": {
+          "path": "experiments/b_q3/belief_tree/runs/dev_biased/cluster_biased_330017/f3/result.json",
+          "result": {
+            "case": "cluster_biased_330017",
+            "seed": 330017,
+            "layout": "cluster",
+            "noise": "biased",
+            "policy": "patrol",
+            "real_n": 12,
+            "source_count": 12,
+            "success": true,
+            "cleared": 12,
+            "total_s": 2996.1124950567228,
+            "per_source_s": 249.6760412547269,
+            "wall_s": 265.55024740000954,
+            "actions": 198,
+            "initial_finish_s": 388.00000007488245,
+            "phase_costs": {
+              "initial": {
+                "actions": 40,
+                "move_s": 150.00000007488248,
+                "measure_s": 200.0,
+                "switch_s": 38.0,
+                "success_clear_s": 0.0,
+                "fail_clear_s": 0.0
+              },
+              "service": {
+                "actions": 150,
+                "move_s": 1489.590697894125,
+                "measure_s": 675.0,
+                "switch_s": 126.0,
+                "success_clear_s": 60.0,
+                "fail_clear_s": 9.0
+              },
+              "completion": {
+                "actions": 8,
+                "move_s": 201.5217970877159,
+                "measure_s": 40.0,
+                "switch_s": 7.0,
+                "success_clear_s": 0.0,
+                "fail_clear_s": 0.0
+              }
+            },
+            "move_s": 1841.1124950567234,
+            "measure_s": 915.0,
+            "switch_s": 171.0,
+            "success_clear_s": 60.0,
+            "fail_clear_s": 9.0,
+            "error": null,
+            "failreason": null,
+            "fail_clears": 3,
+            "measure_count": 183
+          }
+        },
+        "t3": {
+          "path": "experiments/b_q3/belief_tree/runs/dev_biased/cluster_biased_330017/t3/result.json",
+          "result": {
+            "case": "cluster_biased_330017",
+            "seed": 330017,
+            "layout": "cluster",
+            "noise": "biased",
+            "policy": "patrol",
+            "real_n": 12,
+            "source_count": 12,
+            "success": false,
+            "cleared": 7,
+            "total_s": 2222.204607195817,
+            "per_source_s": null,
+            "wall_s": 7250.072150200023,
+            "actions": 87,
+            "initial_finish_s": null,
+            "phase_costs": {
+              "belief": {
+                "actions": 87,
+                "move_s": 1732.204607195817,
+                "measure_s": 370.0,
+                "switch_s": 67.0,
+                "success_clear_s": 35.0,
+                "fail_clear_s": 18.0
+              }
+            },
+            "move_s": 1732.204607195817,
+            "measure_s": 370.0,
+            "switch_s": 67.0,
+            "success_clear_s": 35.0,
+            "fail_clear_s": 18.0,
+            "error": "Traceback (most recent call last):\n  File \"C:\\Users\\HOU\\Desktop\\CUMCM\\experiments\\b_q3\\probability_patrol\\runner.py\", line 242, in execute_case\n    raise TimeoutError('wall_limit')\nTimeoutError: wall_limit\n",
+            "failreason": "TimeoutError: wall_limit",
+            "fail_clears": 6,
+            "measure_count": 74
+          }
+        },
+        "m3": {
+          "path": "experiments/b_q3/belief_tree/runs/dev_macro_loaded/cluster_biased_330017/m3/result.json",
+          "result": {
+            "case": "cluster_biased_330017",
+            "seed": 330017,
+            "layout": "cluster",
+            "noise": "biased",
+            "policy": "patrol",
+            "real_n": 12,
+            "source_count": 12,
+            "success": true,
+            "cleared": 12,
+            "total_s": 3011.7242363000655,
+            "per_source_s": 250.97701969167213,
+            "wall_s": 1273.4961928000266,
+            "actions": 188,
+            "initial_finish_s": null,
+            "phase_costs": {
+              "belief": {
+                "actions": 188,
+                "move_s": 1909.724236300066,
+                "measure_s": 880.0,
+                "switch_s": 162.0,
+                "success_clear_s": 60.0,
+                "fail_clear_s": 0.0
+              }
+            },
+            "move_s": 1909.724236300066,
+            "measure_s": 880.0,
+            "switch_s": 162.0,
+            "success_clear_s": 60.0,
+            "fail_clear_s": 0.0,
+            "error": null,
+            "failreason": null,
+            "fail_clears": 0,
+            "measure_count": 176
+          }
+        }
+      }
+    },
+    {
+      "case": {
+        "name": "line_biased_330020",
+        "seed": 330020,
+        "layout": "line",
+        "noise": "biased",
+        "sources": [
+          {
+            "channel": 11,
+            "position": [
+              210.44338152568594,
+              -2.964618641795639
+            ],
+            "radius": 1000,
+            "orientation": null
+          },
+          {
+            "channel": 1,
+            "position": [
+              566.5724940080822,
+              -2.7412891575294003
+            ],
+            "radius": 1000,
+            "orientation": null
+          },
+          {
+            "channel": 17,
+            "position": [
+              -1497.4747604241165,
+              0.8736722835203197
+            ],
+            "radius": 1000,
+            "orientation": null
+          },
+          {
+            "channel": 6,
+            "position": [
+              -517.7627113882386,
+              -0.3045010736909317
+            ],
+            "radius": 1000,
+            "orientation": null
+          },
+          {
+            "channel": 20,
+            "position": [
+              -109.66442593475676,
+              -2.356091621559562
+            ],
+            "radius": 1000,
+            "orientation": null
+          },
+          {
+            "channel": 4,
+            "position": [
+              -1129.8603356634517,
+              -1.6758332654097388
+            ],
+            "radius": 1000,
+            "orientation": null
+          },
+          {
+            "channel": 19,
+            "position": [
+              727.8108899050717,
+              -0.19735103371765028
+            ],
+            "radius": 1000,
+            "orientation": null
+          },
+          {
+            "channel": 8,
+            "position": [
+              1180.1284831878634,
+              -2.265163690207012
+            ],
+            "radius": 1000,
+            "orientation": null
+          },
+          {
+            "channel": 15,
+            "position": [
+              1057.6911540290635,
+              -1.1693752562482282
+            ],
+            "radius": 1000,
+            "orientation": null
+          },
+          {
+            "channel": 16,
+            "position": [
+              -1132.085514989777,
+              1.7334949187852047
+            ],
+            "radius": 1000,
+            "orientation": null
+          },
+          {
+            "channel": 5,
+            "position": [
+              796.9771305082427,
+              -1.4149453916202865
+            ],
+            "radius": 1000,
+            "orientation": null
+          },
+          {
+            "channel": 10,
+            "position": [
+              457.5985784356376,
+              -1.9432718336345238
+            ],
+            "radius": 1000,
+            "orientation": null
+          },
+          {
+            "channel": 14,
+            "position": [
+              -839.1234848375613,
+              1.7302283894753137
+            ],
+            "radius": 1000,
+            "orientation": null
+          },
+          {
+            "channel": 7,
+            "position": [
+              -1371.085215436844,
+              -0.004418153516446921
+            ],
+            "radius": 1000,
+            "orientation": null
+          },
+          {
+            "channel": 12,
+            "position": [
+              1388.8729495453158,
+              1.979707656971681
+            ],
+            "radius": 1000,
+            "orientation": null
+          }
+        ]
+      },
+      "versions": {
+        "baseline": {
+          "path": "experiments/b_q3/belief_tree/runs/dev_biased/line_biased_330020/baseline/result.json",
+          "result": {
+            "case": "line_biased_330020",
+            "seed": 330020,
+            "layout": "line",
+            "noise": "biased",
+            "policy": "baseline",
+            "real_n": 15,
+            "source_count": 15,
+            "success": true,
+            "cleared": 15,
+            "total_s": 3835.9353483557225,
+            "per_source_s": 255.72902322371482,
+            "wall_s": 0.9012025000120047,
+            "actions": 193,
+            "initial_finish_s": 2279.0,
+            "phase_costs": {
+              "scan": {
+                "actions": 140,
+                "move_s": 1440.0000000000002,
+                "measure_s": 700.0,
+                "switch_s": 139.0,
+                "success_clear_s": 0.0,
+                "fail_clear_s": 0.0
+              },
+              "service": {
+                "actions": 53,
+                "move_s": 1296.9353483557202,
+                "measure_s": 140.0,
+                "switch_s": 15.0,
+                "success_clear_s": 75.0,
+                "fail_clear_s": 30.0
+              }
+            },
+            "move_s": 2736.9353483557215,
+            "measure_s": 840.0,
+            "switch_s": 154.0,
+            "success_clear_s": 75.0,
+            "fail_clear_s": 30.0,
+            "error": null,
+            "failreason": null,
+            "fail_clears": 10,
+            "measure_count": 168
+          }
+        },
+        "f3": {
+          "path": "experiments/b_q3/belief_tree/runs/dev_biased/line_biased_330020/f3/result.json",
+          "result": {
+            "case": "line_biased_330020",
+            "seed": 330020,
+            "layout": "line",
+            "noise": "biased",
+            "policy": "patrol",
+            "real_n": 15,
+            "source_count": 15,
+            "success": true,
+            "cleared": 15,
+            "total_s": 3336.517844080541,
+            "per_source_s": 222.43452293870274,
+            "wall_s": 222.29403400002047,
+            "actions": 170,
+            "initial_finish_s": 388.0000000748825,
+            "phase_costs": {
+              "initial": {
+                "actions": 40,
+                "move_s": 150.0000000748825,
+                "measure_s": 200.0,
+                "switch_s": 38.0,
+                "success_clear_s": 0.0,
+                "fail_clear_s": 0.0
+              },
+              "service": {
+                "actions": 130,
+                "move_s": 2199.5178440056584,
+                "measure_s": 565.0,
+                "switch_s": 103.0,
+                "success_clear_s": 75.0,
+                "fail_clear_s": 6.0
+              }
+            },
+            "move_s": 2349.517844080541,
+            "measure_s": 765.0,
+            "switch_s": 141.0,
+            "success_clear_s": 75.0,
+            "fail_clear_s": 6.0,
+            "error": null,
+            "failreason": null,
+            "fail_clears": 2,
+            "measure_count": 153
+          }
+        },
+        "t3": {
+          "path": "experiments/b_q3/belief_tree/runs/dev_biased/line_biased_330020/t3/result.json",
+          "result": {
+            "case": "line_biased_330020",
+            "seed": 330020,
+            "layout": "line",
+            "noise": "biased",
+            "policy": "patrol",
+            "real_n": 15,
+            "source_count": 15,
+            "success": false,
+            "cleared": 5,
+            "total_s": 2628.6794281878833,
+            "per_source_s": null,
+            "wall_s": 7244.015048600006,
+            "actions": 90,
+            "initial_finish_s": null,
+            "phase_costs": {
+              "belief": {
+                "actions": 90,
+                "move_s": 2109.6794281878833,
+                "measure_s": 415.0,
+                "switch_s": 73.0,
+                "success_clear_s": 25.0,
+                "fail_clear_s": 6.0
+              }
+            },
+            "move_s": 2109.6794281878833,
+            "measure_s": 415.0,
+            "switch_s": 73.0,
+            "success_clear_s": 25.0,
+            "fail_clear_s": 6.0,
+            "error": "Traceback (most recent call last):\n  File \"C:\\Users\\HOU\\Desktop\\CUMCM\\experiments\\b_q3\\probability_patrol\\runner.py\", line 242, in execute_case\n    raise TimeoutError('wall_limit')\nTimeoutError: wall_limit\n",
+            "failreason": "TimeoutError: wall_limit",
+            "fail_clears": 2,
+            "measure_count": 83
+          }
+        },
+        "m3": {
+          "path": "experiments/b_q3/belief_tree/runs/dev_macro_loaded/line_biased_330020/m3/result.json",
+          "result": {
+            "case": "line_biased_330020",
+            "seed": 330020,
+            "layout": "line",
+            "noise": "biased",
+            "policy": "patrol",
+            "real_n": 15,
+            "source_count": 15,
+            "success": true,
+            "cleared": 15,
+            "total_s": 3557.653920507829,
+            "per_source_s": 237.17692803385526,
+            "wall_s": 1653.0818823000009,
+            "actions": 165,
+            "initial_finish_s": null,
+            "phase_costs": {
+              "belief": {
+                "actions": 165,
+                "move_s": 2607.653920507829,
+                "measure_s": 730.0,
+                "switch_s": 133.0,
+                "success_clear_s": 75.0,
+                "fail_clear_s": 12.0
+              }
+            },
+            "move_s": 2607.653920507829,
+            "measure_s": 730.0,
+            "switch_s": 133.0,
+            "success_clear_s": 75.0,
+            "fail_clear_s": 12.0,
+            "error": null,
+            "failreason": null,
+            "fail_clears": 4,
+            "measure_count": 146
+          }
+        }
+      }
+    }
+  ],
+  "comparisons": [
+    {
+      "mode": "baseline",
+      "reference": "f3",
+      "finished_pairs": 8,
+      "failures": [],
+      "mean_min": 65.8600536546265,
+      "reference_mean_min": 59.29312372367709,
+      "saving_min": -6.566929930949409,
+      "wins": 1,
+      "losses": 7,
+      "worst_loss_min": 15.315336567121184,
+      "cases": [
+        "uniform_smooth_330010",
+        "edge_smooth_330013",
+        "cluster_smooth_330016",
+        "line_smooth_330019",
+        "uniform_biased_330011",
+        "edge_biased_330014",
+        "cluster_biased_330017",
+        "line_biased_330020"
+      ],
+      "cost_savings_min": {
+        "move_s": -10.40651326428274,
+        "measure_s": 3.3333333333333335,
+        "switch_s": 0.575,
+        "success_clear_s": 0.0,
+        "fail_clear_s": -0.06875
+      },
+      "paired_bootstrap95_min": [
+        -10.078544471077848,
+        -3.316848093652641
+      ]
+    },
+    {
+      "mode": "baseline",
+      "reference": "t3",
+      "finished_pairs": 6,
+      "failures": [
+        "uniform_smooth_330010",
+        "edge_smooth_330013",
+        "uniform_biased_330011",
+        "edge_biased_330014",
+        "cluster_biased_330017",
+        "line_biased_330020"
+      ]
+    },
+    {
+      "mode": "f3",
+      "reference": "baseline",
+      "finished_pairs": 8,
+      "failures": [],
+      "mean_min": 59.29312372367709,
+      "reference_mean_min": 65.8600536546265,
+      "saving_min": 6.566929930949409,
+      "wins": 7,
+      "losses": 1,
+      "worst_loss_min": 0.5092487250631772,
+      "cases": [
+        "uniform_smooth_330010",
+        "edge_smooth_330013",
+        "cluster_smooth_330016",
+        "line_smooth_330019",
+        "uniform_biased_330011",
+        "edge_biased_330014",
+        "cluster_biased_330017",
+        "line_biased_330020"
+      ],
+      "cost_savings_min": {
+        "move_s": 10.40651326428274,
+        "measure_s": -3.3333333333333335,
+        "switch_s": -0.575,
+        "success_clear_s": 0.0,
+        "fail_clear_s": 0.06875
+      },
+      "paired_bootstrap95_min": [
+        3.316848093652641,
+        10.078544471077848
+      ]
+    },
+    {
+      "mode": "f3",
+      "reference": "t3",
+      "finished_pairs": 6,
+      "failures": [
+        "uniform_smooth_330010",
+        "edge_smooth_330013",
+        "uniform_biased_330011",
+        "edge_biased_330014",
+        "cluster_biased_330017",
+        "line_biased_330020"
+      ]
+    },
+    {
+      "mode": "m3",
+      "reference": "f3",
+      "finished_pairs": 8,
+      "failures": [],
+      "mean_min": 63.836083715516985,
+      "reference_mean_min": 59.29312372367709,
+      "saving_min": -4.542959991839892,
+      "wins": 1,
+      "losses": 7,
+      "worst_loss_min": 14.49951409651926,
+      "cases": [
+        "uniform_smooth_330010",
+        "edge_smooth_330013",
+        "cluster_smooth_330016",
+        "line_smooth_330019",
+        "uniform_biased_330011",
+        "edge_biased_330014",
+        "cluster_biased_330017",
+        "line_biased_330020"
+      ],
+      "cost_savings_min": {
+        "move_s": -4.226293325173218,
+        "measure_s": -0.3229166666666667,
+        "switch_s": -0.012500000000000004,
+        "success_clear_s": 0.0,
+        "fail_clear_s": 0.018749999999999996
+      },
+      "paired_bootstrap95_min": [
+        -8.505342802124787,
+        -0.896303769149507
+      ]
+    },
+    {
+      "mode": "m3",
+      "reference": "baseline",
+      "finished_pairs": 8,
+      "failures": [],
+      "mean_min": 63.836083715516985,
+      "reference_mean_min": 65.8600536546265,
+      "saving_min": 2.0239699391095174,
+      "wins": 4,
+      "losses": 4,
+      "worst_loss_min": 3.468011349153888,
+      "cases": [
+        "uniform_smooth_330010",
+        "edge_smooth_330013",
+        "cluster_smooth_330016",
+        "line_smooth_330019",
+        "uniform_biased_330011",
+        "edge_biased_330014",
+        "cluster_biased_330017",
+        "line_biased_330020"
+      ],
+      "cost_savings_min": {
+        "move_s": 6.180219939109522,
+        "measure_s": -3.65625,
+        "switch_s": -0.5875,
+        "success_clear_s": 0.0,
+        "fail_clear_s": 0.0875
+      },
+      "paired_bootstrap95_min": [
+        -0.6295116182975656,
+        4.837417595855302
+      ]
+    },
+    {
+      "mode": "m3",
+      "reference": "t3",
+      "finished_pairs": 6,
+      "failures": [
+        "uniform_smooth_330010",
+        "edge_smooth_330013",
+        "uniform_biased_330011",
+        "edge_biased_330014",
+        "cluster_biased_330017",
+        "line_biased_330020"
+      ]
+    },
+    {
+      "mode": "t3",
+      "reference": "f3",
+      "finished_pairs": 6,
+      "failures": [
+        "uniform_smooth_330010",
+        "edge_smooth_330013",
+        "uniform_biased_330011",
+        "edge_biased_330014",
+        "cluster_biased_330017",
+        "line_biased_330020"
+      ]
+    },
+    {
+      "mode": "t3",
+      "reference": "baseline",
+      "finished_pairs": 6,
+      "failures": [
+        "uniform_smooth_330010",
+        "edge_smooth_330013",
+        "uniform_biased_330011",
+        "edge_biased_330014",
+        "cluster_biased_330017",
+        "line_biased_330020"
+      ]
+    }
+  ],
+  "note": "只有完整配对计算均值；开发例区间只作描述，不是独立确认"
+}

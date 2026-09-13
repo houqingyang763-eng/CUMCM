@@ -1,0 +1,23 @@
+{
+  "stage": "holdout",
+  "python": "3.13.5",
+  "code_sha256": {
+    "geometry.py": "68a081fcaec7fc084a0293c8674c7a2fc363606058e79b44fa359ce36b4bdbaf",
+    "policy.py": "0885c02e697e655bca498ee0d2b88368be778fdf3a529b67432af962e5b9a05f",
+    "run_local.py": "cc528fc6d77d286e8b1b7e80f3e0a621bcfa506c97bc015245a5fdd892f04ba9",
+    "simulation.py": "76bc0037c08d3b2a3cc347daa8a36a6d789103d943b42afdf9d8823f974494cc",
+    "state.py": "1ea0699e5051b66c51649da0a7812eae1852381e79d41b1d0e88eb4b5e18f15b",
+    "test_core.py": "e70ebfeaf358efbf3c34a3b4a45d7acd9b16903b64ccce9cbe3ca19283037c93"
+  },
+  "case_sha256": "4d9776a0e4cff7a130f63e845ebedff68889beaab6af5760af73ce19b241897b",
+  "config_sha256": "42be9bc0977866764b4593e0abfd2cb58fa21aed88edb0bbfc21fe287b12060b",
+  "created_local": "2026-09-11 00:45:31 +0800",
+  "assumptions": [
+    "自建 Q3 全向源",
+    "空间误差场同点固定",
+    "方向角四舍五入到两位小数",
+    "smooth/biased/hashed 是测试假设而非官方噪声分布"
+  ],
+  "paired_reference": true,
+  "reference_only": false
+}

@@ -1,0 +1,52 @@
+{
+  "config": {
+    "name": "r4_arc1000",
+    "initial_points": [
+      [
+        0.0,
+        -1000.0
+      ],
+      [
+        866.0254037844386,
+        -500.0
+      ]
+    ],
+    "try_radius_m": 30.0,
+    "local_action_limit": 16,
+    "local_offset_fraction": 0.5,
+    "local_offset_min_m": 30.0,
+    "local_offset_max_m": 300.0,
+    "shared_scan_gap_m": 0.0,
+    "route_mode": "nearest",
+    "planning": "covering"
+  },
+  "phase": "service",
+  "initial_finish_s": 638.0,
+  "initial_statistics": {
+    "found": 11,
+    "two_bearings": 5,
+    "radius_le20": 0,
+    "radius_le60": 5,
+    "radii_m": {
+      "1": 34.92205392560345,
+      "2": 34.0296386131577,
+      "3": 750.2140622687293,
+      "7": 33.43689325104692,
+      "8": 35.726987025075616,
+      "9": 750.2081981984128,
+      "11": 36.26836394450919,
+      "13": 750.2308009524536,
+      "14": 750.2158666728518,
+      "18": 750.1804379319851,
+      "20": 750.2308009524534
+    }
+  },
+  "stations": 22,
+  "target": 15,
+  "reason": "certain_center",
+  "planned_unknown_stops": 0,
+  "planned_route_m": 85.60815943365711,
+  "planned_coverage_complete": true,
+  "plan_has_unknown_channels": false,
+  "plans_made": 21
+}

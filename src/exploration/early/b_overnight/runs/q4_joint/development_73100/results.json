@@ -1,0 +1,510 @@
+[
+  {
+    "case": "q4_uniform_random_smooth_73100",
+    "seed": 73100,
+    "layout": "uniform_random",
+    "noise": "smooth",
+    "policy": "directional",
+    "source_count": 16,
+    "directional_count": 10,
+    "cleared": 16,
+    "success": true,
+    "error": null,
+    "cleared_ratio": 1.0,
+    "average_localization_clear_s": 481.63333151694246,
+    "virtual_time_s": 7706.133304271079,
+    "wall_time_s": 1.7852907000051346,
+    "planning_s": 1.6826226999473874,
+    "checking_s": 0.08851640008651884,
+    "actions": 263,
+    "measure_count": 222,
+    "scan_position_count": 50,
+    "failed_clears": 25,
+    "no_signal_count": 173,
+    "fallback": false,
+    "absence_proofs": {
+      "4": {
+        "kind": "sixteen_source_cap"
+      },
+      "6": {
+        "kind": "sixteen_source_cap"
+      },
+      "12": {
+        "kind": "sixteen_source_cap"
+      },
+      "19": {
+        "kind": "sixteen_source_cap"
+      }
+    },
+    "move_s": 6251.133304271077,
+    "switch_s": 190.0,
+    "measure_s": 1110.0,
+    "clear_s": 155.0,
+    "joint_statistics": {}
+  },
+  {
+    "case": "q4_uniform_random_smooth_73100",
+    "seed": 73100,
+    "layout": "uniform_random",
+    "noise": "smooth",
+    "policy": "joint",
+    "source_count": 16,
+    "directional_count": 10,
+    "cleared": 16,
+    "success": true,
+    "error": null,
+    "cleared_ratio": 1.0,
+    "average_localization_clear_s": 337.3047797558039,
+    "virtual_time_s": 5396.8764760928625,
+    "wall_time_s": 1.759193799996865,
+    "planning_s": 1.6106736000074307,
+    "checking_s": 0.13837310006056214,
+    "actions": 184,
+    "measure_count": 168,
+    "scan_position_count": 45,
+    "failed_clears": 0,
+    "no_signal_count": 116,
+    "fallback": false,
+    "absence_proofs": {
+      "4": {
+        "kind": "sixteen_source_cap"
+      },
+      "6": {
+        "kind": "sixteen_source_cap"
+      },
+      "12": {
+        "kind": "sixteen_source_cap"
+      },
+      "19": {
+        "kind": "sixteen_source_cap"
+      }
+    },
+    "move_s": 4333.876476092863,
+    "switch_s": 143.0,
+    "measure_s": 840.0,
+    "clear_s": 80.0,
+    "joint_statistics": {
+      "unique_removed_cells": 163,
+      "channels_with_removal": 6,
+      "certificate_calls": 1927,
+      "effective_negative_uses": 1811
+    }
+  },
+  {
+    "case": "q4_edge_outward_biased_73101",
+    "seed": 73101,
+    "layout": "edge_outward",
+    "noise": "biased",
+    "policy": "directional",
+    "source_count": 10,
+    "directional_count": 6,
+    "cleared": 10,
+    "success": true,
+    "error": null,
+    "cleared_ratio": 1.0,
+    "average_localization_clear_s": 1228.00198308894,
+    "virtual_time_s": 12280.0198308894,
+    "wall_time_s": 1.147640399998636,
+    "planning_s": 0.9728218000236666,
+    "checking_s": 0.14990400003443938,
+    "actions": 655,
+    "measure_count": 548,
+    "scan_position_count": 53,
+    "failed_clears": 97,
+    "no_signal_count": 530,
+    "fallback": true,
+    "absence_proofs": {
+      "13": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "1": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "3": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "7": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "8": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "11": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "12": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "14": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "18": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "19": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      }
+    },
+    "move_s": 8688.019830889392,
+    "switch_s": 511.0,
+    "measure_s": 2740.0,
+    "clear_s": 341.0,
+    "joint_statistics": {}
+  },
+  {
+    "case": "q4_edge_outward_biased_73101",
+    "seed": 73101,
+    "layout": "edge_outward",
+    "noise": "biased",
+    "policy": "joint",
+    "source_count": 10,
+    "directional_count": 6,
+    "cleared": 10,
+    "success": true,
+    "error": null,
+    "cleared_ratio": 1.0,
+    "average_localization_clear_s": 1160.0741242033996,
+    "virtual_time_s": 11600.741242033997,
+    "wall_time_s": 0.5140799000000698,
+    "planning_s": 0.34823940008936916,
+    "checking_s": 0.1441930999280885,
+    "actions": 578,
+    "measure_count": 557,
+    "scan_position_count": 62,
+    "failed_clears": 11,
+    "no_signal_count": 537,
+    "fallback": false,
+    "absence_proofs": {
+      "3": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "19": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "18": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "14": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "13": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "12": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "11": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "8": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "7": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "1": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      }
+    },
+    "move_s": 8217.741242033999,
+    "switch_s": 515.0,
+    "measure_s": 2785.0,
+    "clear_s": 83.0,
+    "joint_statistics": {
+      "unique_removed_cells": 271,
+      "channels_with_removal": 7,
+      "certificate_calls": 956,
+      "effective_negative_uses": 2014
+    }
+  },
+  {
+    "case": "q4_edge_tangent_hashed_73102",
+    "seed": 73102,
+    "layout": "edge_tangent",
+    "noise": "hashed",
+    "policy": "directional",
+    "source_count": 11,
+    "directional_count": 7,
+    "cleared": 11,
+    "success": true,
+    "error": null,
+    "cleared_ratio": 1.0,
+    "average_localization_clear_s": 996.0624714482487,
+    "virtual_time_s": 10956.687185930736,
+    "wall_time_s": 0.66169059999811,
+    "planning_s": 0.5597086000052514,
+    "checking_s": 0.08080579993111314,
+    "actions": 557,
+    "measure_count": 538,
+    "scan_position_count": 62,
+    "failed_clears": 8,
+    "no_signal_count": 500,
+    "fallback": false,
+    "absence_proofs": {
+      "2": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "18": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "14": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "11": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "10": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "9": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "8": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "7": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "1": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      }
+    },
+    "move_s": 7693.687185930735,
+    "switch_s": 494.0,
+    "measure_s": 2690.0,
+    "clear_s": 79.0,
+    "joint_statistics": {}
+  },
+  {
+    "case": "q4_edge_tangent_hashed_73102",
+    "seed": 73102,
+    "layout": "edge_tangent",
+    "noise": "hashed",
+    "policy": "joint",
+    "source_count": 11,
+    "directional_count": 7,
+    "cleared": 11,
+    "success": true,
+    "error": null,
+    "cleared_ratio": 1.0,
+    "average_localization_clear_s": 966.263377869538,
+    "virtual_time_s": 10628.897156564917,
+    "wall_time_s": 0.5404000999988057,
+    "planning_s": 0.3992547000525519,
+    "checking_s": 0.12032349996297853,
+    "actions": 534,
+    "measure_count": 522,
+    "scan_position_count": 61,
+    "failed_clears": 1,
+    "no_signal_count": 488,
+    "fallback": false,
+    "absence_proofs": {
+      "2": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "18": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "14": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "11": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "10": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "9": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "8": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "7": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "1": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      }
+    },
+    "move_s": 7479.897156564918,
+    "switch_s": 481.0,
+    "measure_s": 2610.0,
+    "clear_s": 58.0,
+    "joint_statistics": {
+      "unique_removed_cells": 42,
+      "channels_with_removal": 2,
+      "certificate_calls": 721,
+      "effective_negative_uses": 542
+    }
+  },
+  {
+    "case": "q4_line_aligned_hashed_73103",
+    "seed": 73103,
+    "layout": "line_aligned",
+    "noise": "hashed",
+    "policy": "directional",
+    "source_count": 12,
+    "directional_count": 8,
+    "cleared": 12,
+    "success": true,
+    "error": null,
+    "cleared_ratio": 1.0,
+    "average_localization_clear_s": 866.7049494248562,
+    "virtual_time_s": 10400.459393098274,
+    "wall_time_s": 1.647533499999554,
+    "planning_s": 1.4793222999505815,
+    "checking_s": 0.14686289995006518,
+    "actions": 519,
+    "measure_count": 460,
+    "scan_position_count": 72,
+    "failed_clears": 47,
+    "no_signal_count": 425,
+    "fallback": false,
+    "absence_proofs": {
+      "5": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "20": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "19": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "17": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "15": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "13": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "12": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "10": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      }
+    },
+    "move_s": 7491.459393098273,
+    "switch_s": 408.0,
+    "measure_s": 2300.0,
+    "clear_s": 201.0,
+    "joint_statistics": {}
+  },
+  {
+    "case": "q4_line_aligned_hashed_73103",
+    "seed": 73103,
+    "layout": "line_aligned",
+    "noise": "hashed",
+    "policy": "joint",
+    "source_count": 12,
+    "directional_count": 8,
+    "cleared": 12,
+    "success": true,
+    "error": null,
+    "cleared_ratio": 1.0,
+    "average_localization_clear_s": 865.0046870434472,
+    "virtual_time_s": 10380.056244521367,
+    "wall_time_s": 1.2952222999956575,
+    "planning_s": 1.0441366999730235,
+    "checking_s": 0.2327768000177457,
+    "actions": 478,
+    "measure_count": 455,
+    "scan_position_count": 74,
+    "failed_clears": 11,
+    "no_signal_count": 415,
+    "fallback": false,
+    "absence_proofs": {
+      "10": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "20": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "19": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "17": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "15": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "13": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "12": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "5": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      }
+    },
+    "move_s": 7611.056244521368,
+    "switch_s": 401.0,
+    "measure_s": 2275.0,
+    "clear_s": 93.0,
+    "joint_statistics": {
+      "unique_removed_cells": 340,
+      "channels_with_removal": 7,
+      "certificate_calls": 2828,
+      "effective_negative_uses": 5678
+    }
+  }
+]

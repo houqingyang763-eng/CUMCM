@@ -1,0 +1,35 @@
+{
+  "case": "edge_biased_330014",
+  "seed": 330014,
+  "layout": "edge",
+  "noise": "biased",
+  "policy": "patrol",
+  "real_n": 16,
+  "source_count": 16,
+  "success": false,
+  "cleared": 5,
+  "total_s": 2365.6050763159124,
+  "per_source_s": null,
+  "wall_s": 7295.482360099995,
+  "actions": 73,
+  "initial_finish_s": null,
+  "phase_costs": {
+    "belief": {
+      "actions": 73,
+      "move_s": 1938.6050763159128,
+      "measure_s": 340.0,
+      "switch_s": 62.0,
+      "success_clear_s": 25.0,
+      "fail_clear_s": 0.0
+    }
+  },
+  "move_s": 1938.6050763159128,
+  "measure_s": 340.0,
+  "switch_s": 62.0,
+  "success_clear_s": 25.0,
+  "fail_clear_s": 0.0,
+  "error": "Traceback (most recent call last):\n  File \"C:\\Users\\HOU\\Desktop\\CUMCM\\experiments\\b_q3\\probability_patrol\\runner.py\", line 242, in execute_case\n    raise TimeoutError('wall_limit')\nTimeoutError: wall_limit\n",
+  "failreason": "TimeoutError: wall_limit",
+  "fail_clears": 0,
+  "measure_count": 68
+}

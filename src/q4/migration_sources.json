@@ -1,0 +1,170 @@
+[
+  {
+    "source": "experiments/b_adaptive_q3/geometry.py",
+    "destination": "src/q4/core/geometry.py",
+    "source_sha256": "68a081fcaec7fc084a0293c8674c7a2fc363606058e79b44fa359ce36b4bdbaf",
+    "promoted_sha256": "68a081fcaec7fc084a0293c8674c7a2fc363606058e79b44fa359ce36b4bdbaf",
+    "change": "逐字节晋升；计算逻辑不变"
+  },
+  {
+    "source": "experiments/b_adaptive_q3/state.py",
+    "destination": "src/q4/core/state.py",
+    "source_sha256": "1ea0699e5051b66c51649da0a7812eae1852381e79d41b1d0e88eb4b5e18f15b",
+    "promoted_sha256": "1ea0699e5051b66c51649da0a7812eae1852381e79d41b1d0e88eb4b5e18f15b",
+    "change": "逐字节晋升；计算逻辑不变"
+  },
+  {
+    "source": "experiments/b_adaptive_q3/policy.py",
+    "destination": "src/q4/core/policy.py",
+    "source_sha256": "0885c02e697e655bca498ee0d2b88368be778fdf3a529b67432af962e5b9a05f",
+    "promoted_sha256": "0885c02e697e655bca498ee0d2b88368be778fdf3a529b67432af962e5b9a05f",
+    "change": "逐字节晋升；计算逻辑不变"
+  },
+  {
+    "source": "experiments/b_adaptive_q3/simulation.py",
+    "destination": "src/q4/core/simulation.py",
+    "source_sha256": "76bc0037c08d3b2a3cc347daa8a36a6d789103d943b42afdf9d8823f974494cc",
+    "promoted_sha256": "76bc0037c08d3b2a3cc347daa8a36a6d789103d943b42afdf9d8823f974494cc",
+    "change": "逐字节晋升；计算逻辑不变"
+  },
+  {
+    "source": "experiments/b_overnight/q4.py",
+    "destination": "src/q4/core/q4.py",
+    "source_sha256": "e9227c873c2da3ecf0f948762d5ef2da7f48f346d624cd57482f86c967cd3a9f",
+    "promoted_sha256": "e9227c873c2da3ecf0f948762d5ef2da7f48f346d624cd57482f86c967cd3a9f",
+    "change": "逐字节晋升；计算逻辑不变"
+  },
+  {
+    "source": "experiments/b_overnight/q4_coverage.py",
+    "destination": "src/q4/core/q4_coverage.py",
+    "source_sha256": "d4fba2dee928c9dd70343c0056ce8f886868b0cf9d5ec9fafae172fad16f209d",
+    "promoted_sha256": "d4fba2dee928c9dd70343c0056ce8f886868b0cf9d5ec9fafae172fad16f209d",
+    "change": "逐字节晋升；计算逻辑不变"
+  },
+  {
+    "source": "experiments/b_overnight/q4_joint_state.py",
+    "destination": "src/q4/core/q4_joint_state.py",
+    "source_sha256": "b18a39ffbbde1713a98a30f8d47c9efd178b6832187b3fb25d0d3502da581196",
+    "promoted_sha256": "b18a39ffbbde1713a98a30f8d47c9efd178b6832187b3fb25d0d3502da581196",
+    "change": "逐字节晋升；计算逻辑不变"
+  },
+  {
+    "source": "experiments/b_overnight/task_cost.py",
+    "destination": "src/q4/core/task_cost.py",
+    "source_sha256": "47b20e3bff43ce86fb9d4d0ba1e795a042dea3b984887811033e09dd5c21d283",
+    "promoted_sha256": "5e0fa2fbe138c28a2eed05afe3fab102a18b39a9c9bb5fad8f4cafb63ae36cfd",
+    "change": "移除旧目录Path/sys.path配置；全部类与函数AST保持不变"
+  },
+  {
+    "source": "experiments/b_overnight/coverage.py",
+    "destination": "src/q4/core/coverage.py",
+    "source_sha256": "fab46e91db92b4b7f622bbb3bcd746e5153f217158f80b4e57de38c66ddf61e8",
+    "promoted_sha256": "18398ad1f78a18d6cf1e67b6ae3888cf45af6c0e75ba62d4ca7a4474ac2dafc2",
+    "change": "移除旧目录Path/sys.path配置；全部类与函数AST保持不变"
+  },
+  {
+    "source": "experiments/b_overnight/q2_geometry.py",
+    "destination": "src/q4/core/q2_geometry.py",
+    "source_sha256": "0b45c88ba595cab9345f035749b466cfb940b8082cc9780fc1a8b7553d9eea33",
+    "promoted_sha256": "d4ff07b12de244bc9a3c4d8710d7570ae65bd4eb3841ada6b5c7f64c500dc7f9",
+    "change": "仅保留reception_certificate、guaranteed_reception，AST不变；几何底座改本地静态导入；不迁移CLI或其他无关定义"
+  },
+  {
+    "source": "experiments/b_oracle_q3/oracle.py",
+    "destination": "src/q4/core/route_dp.py",
+    "source_sha256": "1b1118bff78f46e112ff6b2a536092a8e0a33686cec6cde57d6df5c5cc3aba19",
+    "promoted_sha256": "f2b89299c5d4104c77b2539340b23d77d564d6999c1f085ec616ca97b6c5c8cc",
+    "change": "仅保留SCALE、INF、distance_floor、shortest_open_path；函数AST不变；去除真值接口与历史运行入口"
+  },
+  {
+    "source": "experiments/b_env_probe/client.py",
+    "destination": "src/q4/core/public_client.py",
+    "source_sha256": "e3c2ee4b663544d31b5f2e8297335b0663265561fc5af0ce24cfceb10eeea271",
+    "promoted_sha256": "e3c2ee4b663544d31b5f2e8297335b0663265561fc5af0ce24cfceb10eeea271",
+    "change": "逐字节晋升；计算逻辑不变"
+  },
+  {
+    "source": "experiments/q4/common.py",
+    "destination": "src/q4/common.py",
+    "source_sha256": "bf54166bdc93e28c66763b4fe4f881b2281dc9fe4db1a1f20bedab0d3c776644",
+    "promoted_sha256": "58fa74680fe18abdde450d22b36d69df2b2e4a0123f0b897c473499117e747b2",
+    "change": "bootstrap只加入本地core；类与常量计算逻辑不变"
+  },
+  {
+    "source": "experiments/q4/candidate.py",
+    "destination": "src/q4/candidate.py",
+    "source_sha256": "dbf9c515135f2a4c3d47e2ab28f289f487ffc1318dd796de0ec1c527e17168d5",
+    "promoted_sha256": "dbf9c515135f2a4c3d47e2ab28f289f487ffc1318dd796de0ec1c527e17168d5",
+    "change": "逐字节晋升；计算逻辑不变"
+  },
+  {
+    "source": "experiments/q4/belief.py",
+    "destination": "src/q4/belief.py",
+    "source_sha256": "bf5439be973282ad9a9ae9c9608609a6b180c22811a73326935a2c4f825478d2",
+    "promoted_sha256": "bf5439be973282ad9a9ae9c9608609a6b180c22811a73326935a2c4f825478d2",
+    "change": "逐字节晋升；计算逻辑不变"
+  },
+  {
+    "source": "experiments/q4/planner.py",
+    "destination": "src/q4/planner.py",
+    "source_sha256": "65ab2d8b95baaff12b51e56abef93198cb98250a77f1fa40bd6390dc87f342a7",
+    "promoted_sha256": "65ab2d8b95baaff12b51e56abef93198cb98250a77f1fa40bd6390dc87f342a7",
+    "change": "逐字节晋升；计算逻辑不变"
+  },
+  {
+    "source": "experiments/q4/cases.py",
+    "destination": "src/q4/cases.py",
+    "source_sha256": "c3df1c5fcb942176119ee69b118de89d8b00f21432c4a09e3a1ea5b689d14394",
+    "promoted_sha256": "c3df1c5fcb942176119ee69b118de89d8b00f21432c4a09e3a1ea5b689d14394",
+    "change": "逐字节晋升；计算逻辑不变"
+  },
+  {
+    "source": "experiments/q4/analyze.py",
+    "destination": "src/q4/analyze.py",
+    "source_sha256": "4b731ce2744cfe8017ad099e7c11ca7f420af8526cc2470a489bdf30b27883fe",
+    "promoted_sha256": "4b731ce2744cfe8017ad099e7c11ca7f420af8526cc2470a489bdf30b27883fe",
+    "change": "逐字节晋升；计算逻辑不变"
+  },
+  {
+    "source": "experiments/q4/baseline.py",
+    "destination": "src/q4/baseline.py",
+    "source_sha256": "f8103d0c37ba6fddcafe15d2a968f08ea9a634af2093e10c545e17eb011b7074",
+    "promoted_sha256": "b286b8fdfcf8acf7703a7d0922866b51464ce9536e254f205f7be57b3e8ead80",
+    "change": "路线DP改为本地core/route_dp；全部类和函数AST不变"
+  },
+  {
+    "source": "experiments/q4/run.py",
+    "destination": "src/q4/run.py",
+    "source_sha256": "ba6265a2a0983cbf2efc5fe66e75b7e130ad7746c99cfd7e626b7b0a575221eb",
+    "promoted_sha256": "386eaf1a55751d9e578c9f15513b6daddaddf0e243cae8e739894321d7e45527",
+    "change": "正式输出根改outputs/q4；固定selected入口与本地依赖清单"
+  },
+  {
+    "source": "experiments/q4/practice.py",
+    "destination": "src/q4/practice.py",
+    "source_sha256": "35e700f60435f6b469e2af47cfe2d51b5d01a2de4cef836b0656f9c37998f3a2",
+    "promoted_sha256": "3a2ccba178d6e7b68ed248eb5da9e3451af7164347d7b1f45e7780c8595c83df",
+    "change": "正式输出根改outputs/q4；本地公开客户端与固定selected入口；收据/协议边界不变"
+  },
+  {
+    "source": "experiments/q4/test_practice.py",
+    "destination": "src/q4/test_practice.py",
+    "source_sha256": "088a6bf8d09d8c5893ce94e7d0bd307903467f3a3ee2f3b9317e3f3f8cc2297d",
+    "promoted_sha256": "088a6bf8d09d8c5893ce94e7d0bd307903467f3a3ee2f3b9317e3f3f8cc2297d",
+    "change": "逐字节晋升；计算逻辑不变"
+  },
+  {
+    "source": "experiments/q4/test_runner.py",
+    "destination": "src/q4/test_runner.py",
+    "source_sha256": "c0d3308dd339eb3bb55a2e6f0c2adea9358306519826fef598336299fd4cbb7e",
+    "promoted_sha256": "1ab35559445bcc51391085035abd75c226f0ab5bdf6acb444aa6aca8f6223240",
+    "change": "移除依赖历史文件的AST测试；其余6项接口/状态/审计测试保持原样，迁移AST另单独记录"
+  },
+  {
+    "source": "experiments/q4/verify_practice.py",
+    "destination": "src/q4/verify_practice.py",
+    "source_sha256": "021946ea7335bf062193f299c3eafa4ba4ab639175cc387cb75aa8669e10078d",
+    "promoted_sha256": "021946ea7335bf062193f299c3eafa4ba4ab639175cc387cb75aa8669e10078d",
+    "change": "原样迁移；不读取隐藏案例，核对当前官方终局记录"
+  }
+]

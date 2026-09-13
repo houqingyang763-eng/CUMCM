@@ -1,0 +1,1123 @@
+{
+  "purpose": "第四轮唯一修正：初始两点作为同向外围巡回前缀；半径与角度事先固定，不按后续结果继续搜索",
+  "seed": 260912142,
+  "probability_samples": 100000,
+  "geometry_samples_per_case": 2000,
+  "noise": "hashed; same position fixed",
+  "candidates": [
+    {
+      "name": "arc_r1000",
+      "radius_m": 1000,
+      "angles_deg": [
+        -90,
+        -30
+      ],
+      "points": [
+        [
+          6.123233995736766e-14,
+          -1000.0
+        ],
+        [
+          866.0254037844387,
+          -499.99999999999994
+        ]
+      ],
+      "initial_move_min": 6.666666666666667,
+      "initial_full_scan_min": 10.65,
+      "cases": [
+        {
+          "layout": "uniform",
+          "radius_mode": "uniform",
+          "probability": {
+            "points": [
+              [
+                6.123233995736766e-14,
+                -1000.0
+              ],
+              [
+                866.0254037844387,
+                -499.99999999999994
+              ]
+            ],
+            "p_discovered": 0.561248244576306,
+            "radius_integrated_analytically": true,
+            "p_two_detected": 0.23720545862183007,
+            "p_two_directions_angle_30_150": 0.2072718137469802,
+            "initial_move_s": 400.0,
+            "initial_20_channel_scan_s": 239.0,
+            "initial_full_scan_time_min": 10.65,
+            "per_n": {
+              "10": {
+                "expected_discovered": 5.612482445763059,
+                "expected_undiscovered": 4.387517554236941,
+                "p_all_discovered_iid": 0.0031013441138701236
+              },
+              "11": {
+                "expected_discovered": 6.173730690339365,
+                "expected_undiscovered": 4.826269309660635,
+                "p_all_discovered_iid": 0.001740623939736666
+              },
+              "12": {
+                "expected_discovered": 6.734978934915672,
+                "expected_undiscovered": 5.265021065084328,
+                "p_all_discovered_iid": 0.0009769221306446976
+              },
+              "13": {
+                "expected_discovered": 7.296227179491978,
+                "expected_undiscovered": 5.703772820508022,
+                "p_all_discovered_iid": 0.0005482958309120811
+              },
+              "14": {
+                "expected_discovered": 7.857475424068284,
+                "expected_undiscovered": 6.142524575931716,
+                "p_all_discovered_iid": 0.0003077300726079126
+              },
+              "15": {
+                "expected_discovered": 8.418723668644589,
+                "expected_undiscovered": 6.581276331355411,
+                "p_all_discovered_iid": 0.00017271296305453013
+              },
+              "16": {
+                "expected_discovered": 8.979971913220895,
+                "expected_undiscovered": 7.020028086779105,
+                "p_all_discovered_iid": 9.693484732992742e-05
+              }
+            }
+          },
+          "geometry": {
+            "n": 2000,
+            "noise": "hashed",
+            "p_discovered": 0.5515,
+            "p_two_detected": 0.2395,
+            "p_two_direction_feedbacks": 0.2395,
+            "p_conservative_radius_le_20": 0.063,
+            "p_conservative_radius_le_60": 0.2175,
+            "radius_m_quantiles_given_discovered": {
+              "0.1": 19.481350828112667,
+              "0.25": 30.663146561106224,
+              "0.5": 426.3820567422916,
+              "0.75": 750.1810343648265,
+              "0.9": 750.2251632054413,
+              "0.99": 750.2308010020298
+            },
+            "radius_m_quantiles_given_two_detected": {
+              "0.1": 17.85253844704723,
+              "0.25": 19.893311120149065,
+              "0.5": 27.52966794824563,
+              "0.75": 38.40418430466565,
+              "0.9": 56.58436469290189,
+              "0.99": 250.7293351572614
+            },
+            "truth_preservation_failures": []
+          },
+          "independent_area_integral": {
+            "p_discovered": 0.5606479929689416,
+            "p_two_detected": 0.23656949466983296
+          }
+        },
+        {
+          "layout": "uniform",
+          "radius_mode": "1000",
+          "probability": {
+            "points": [
+              [
+                6.123233995736766e-14,
+                -1000.0
+              ],
+              [
+                866.0254037844387,
+                -499.99999999999994
+              ]
+            ],
+            "p_discovered": 0.45333,
+            "radius_integrated_analytically": false,
+            "p_two_detected": 0.12172,
+            "p_two_directions_angle_30_150": 0.10412,
+            "initial_move_s": 400.0,
+            "initial_20_channel_scan_s": 239.0,
+            "initial_full_scan_time_min": 10.65,
+            "per_n": {
+              "10": {
+                "expected_discovered": 4.5333000000000006,
+                "expected_undiscovered": 5.4666999999999994,
+                "p_all_discovered_iid": 0.00036655960425305826
+              },
+              "11": {
+                "expected_discovered": 4.98663,
+                "expected_undiscovered": 6.01337,
+                "p_all_discovered_iid": 0.0001661724653960389
+              },
+              "12": {
+                "expected_discovered": 5.43996,
+                "expected_undiscovered": 6.56004,
+                "p_all_discovered_iid": 7.533096373798632e-05
+              },
+              "13": {
+                "expected_discovered": 5.89329,
+                "expected_undiscovered": 7.10671,
+                "p_all_discovered_iid": 3.414978579134134e-05
+              },
+              "14": {
+                "expected_discovered": 6.34662,
+                "expected_undiscovered": 7.65338,
+                "p_all_discovered_iid": 1.5481122392788768e-05
+              },
+              "15": {
+                "expected_discovered": 6.79995,
+                "expected_undiscovered": 8.20005,
+                "p_all_discovered_iid": 7.018057214322933e-06
+              },
+              "16": {
+                "expected_discovered": 7.25328,
+                "expected_undiscovered": 8.74672,
+                "p_all_discovered_iid": 3.1814958769690152e-06
+              }
+            }
+          },
+          "geometry": {
+            "n": 2000,
+            "noise": "hashed",
+            "p_discovered": 0.45,
+            "p_two_detected": 0.124,
+            "p_two_direction_feedbacks": 0.124,
+            "p_conservative_radius_le_20": 0.0595,
+            "p_conservative_radius_le_60": 0.114,
+            "radius_m_quantiles_given_discovered": {
+              "0.1": 19.073020485637823,
+              "0.25": 49.250327568484884,
+              "0.5": 475.90303998596005,
+              "0.75": 750.1824954285128,
+              "0.9": 750.2285380208921,
+              "0.99": 750.2308010020323
+            },
+            "radius_m_quantiles_given_two_detected": {
+              "0.1": 17.6438927359841,
+              "0.25": 18.236225861410183,
+              "0.5": 20.21830041096868,
+              "0.75": 25.468483702865164,
+              "0.9": 39.68202407331661,
+              "0.99": 311.4433831251449
+            },
+            "truth_preservation_failures": []
+          },
+          "independent_area_integral": {
+            "p_discovered": 0.4523299939203502,
+            "p_two_detected": 0.12067969727784583
+          }
+        },
+        {
+          "layout": "edge",
+          "radius_mode": "1000",
+          "probability": {
+            "points": [
+              [
+                6.123233995736766e-14,
+                -1000.0
+              ],
+              [
+                866.0254037844387,
+                -499.99999999999994
+              ]
+            ],
+            "p_discovered": 0.29191,
+            "radius_integrated_analytically": false,
+            "p_two_detected": 0.0,
+            "p_two_directions_angle_30_150": 0.0,
+            "initial_move_s": 400.0,
+            "initial_20_channel_scan_s": 239.0,
+            "initial_full_scan_time_min": 10.65,
+            "per_n": {
+              "10": {
+                "expected_discovered": 2.9191000000000003,
+                "expected_undiscovered": 7.0809,
+                "p_all_discovered_iid": 4.492517000893846e-06
+              },
+              "11": {
+                "expected_discovered": 3.21101,
+                "expected_undiscovered": 7.78899,
+                "p_all_discovered_iid": 1.3114106377309227e-06
+              },
+              "12": {
+                "expected_discovered": 3.50292,
+                "expected_undiscovered": 8.49708,
+                "p_all_discovered_iid": 3.828138792600336e-07
+              },
+              "13": {
+                "expected_discovered": 3.79483,
+                "expected_undiscovered": 9.20517,
+                "p_all_discovered_iid": 1.1174719949479642e-07
+              },
+              "14": {
+                "expected_discovered": 4.08674,
+                "expected_undiscovered": 9.91326,
+                "p_all_discovered_iid": 3.262012500452602e-08
+              },
+              "15": {
+                "expected_discovered": 4.37865,
+                "expected_undiscovered": 10.62135,
+                "p_all_discovered_iid": 9.522140690071192e-09
+              },
+              "16": {
+                "expected_discovered": 4.67056,
+                "expected_undiscovered": 11.32944,
+                "p_all_discovered_iid": 2.7796080888386815e-09
+              }
+            }
+          },
+          "geometry": {
+            "n": 2000,
+            "noise": "hashed",
+            "p_discovered": 0.2855,
+            "p_two_detected": 0.0,
+            "p_two_direction_feedbacks": 0.0,
+            "p_conservative_radius_le_20": 0.0,
+            "p_conservative_radius_le_60": 0.0,
+            "radius_m_quantiles_given_discovered": {
+              "0.1": 402.7248096781832,
+              "0.25": 408.8258808349004,
+              "0.5": 429.92598865988094,
+              "0.75": 463.9465777226558,
+              "0.9": 488.53592648840373,
+              "0.99": 506.77259181204346
+            },
+            "radius_m_quantiles_given_two_detected": {},
+            "truth_preservation_failures": []
+          }
+        },
+        {
+          "layout": "line",
+          "radius_mode": "1000",
+          "probability": {
+            "points": [
+              [
+                6.123233995736766e-14,
+                -1000.0
+              ],
+              [
+                866.0254037844387,
+                -499.99999999999994
+              ]
+            ],
+            "p_discovered": 0.48948,
+            "radius_integrated_analytically": false,
+            "p_two_detected": 0.00754,
+            "p_two_directions_angle_30_150": 0.00754,
+            "initial_move_s": 400.0,
+            "initial_20_channel_scan_s": 239.0,
+            "initial_full_scan_time_min": 10.65,
+            "per_n": {
+              "10": {
+                "expected_discovered": 4.8948,
+                "expected_undiscovered": 5.1052,
+                "p_all_discovered_iid": 0.0007894952358728495
+              },
+              "11": {
+                "expected_discovered": 5.38428,
+                "expected_undiscovered": 5.61572,
+                "p_all_discovered_iid": 0.00038644212805504245
+              },
+              "12": {
+                "expected_discovered": 5.873760000000001,
+                "expected_undiscovered": 6.126239999999999,
+                "p_all_discovered_iid": 0.00018915569284038217
+              },
+              "13": {
+                "expected_discovered": 6.36324,
+                "expected_undiscovered": 6.63676,
+                "p_all_discovered_iid": 9.258792853151028e-05
+              },
+              "14": {
+                "expected_discovered": 6.852720000000001,
+                "expected_undiscovered": 7.147279999999999,
+                "p_all_discovered_iid": 4.531993925760365e-05
+              },
+              "15": {
+                "expected_discovered": 7.3422,
+                "expected_undiscovered": 7.6578,
+                "p_all_discovered_iid": 2.2183203867811837e-05
+              },
+              "16": {
+                "expected_discovered": 7.83168,
+                "expected_undiscovered": 8.16832,
+                "p_all_discovered_iid": 1.0858234629216538e-05
+              }
+            }
+          },
+          "geometry": {
+            "n": 2000,
+            "noise": "hashed",
+            "p_discovered": 0.4845,
+            "p_two_detected": 0.0085,
+            "p_two_direction_feedbacks": 0.0085,
+            "p_conservative_radius_le_20": 0.0,
+            "p_conservative_radius_le_60": 0.0085,
+            "radius_m_quantiles_given_discovered": {
+              "0.1": 576.3677170472569,
+              "0.25": 660.6103973212273,
+              "0.5": 750.1847698366176,
+              "0.75": 750.2182058481831,
+              "0.9": 750.2308009524535,
+              "0.99": 750.230801002032
+            },
+            "radius_m_quantiles_given_two_detected": {
+              "0.1": 33.24387666571724,
+              "0.25": 33.62880041106125,
+              "0.5": 34.51896810838231,
+              "0.75": 34.831815356563816,
+              "0.9": 35.24588409514929,
+              "0.99": 35.77442323981248
+            },
+            "truth_preservation_failures": []
+          }
+        }
+      ],
+      "boundary1800_R1000_arc_fraction": 0.2871325862574125
+    },
+    {
+      "name": "arc_r1200",
+      "radius_m": 1200,
+      "angles_deg": [
+        -90,
+        -30
+      ],
+      "points": [
+        [
+          7.347880794884119e-14,
+          -1200.0
+        ],
+        [
+          1039.2304845413264,
+          -599.9999999999999
+        ]
+      ],
+      "initial_move_min": 8.0,
+      "initial_full_scan_min": 11.983333333333333,
+      "cases": [
+        {
+          "layout": "uniform",
+          "radius_mode": "uniform",
+          "probability": {
+            "points": [
+              [
+                7.347880794884119e-14,
+                -1200.0
+              ],
+              [
+                1039.2304845413264,
+                -599.9999999999999
+              ]
+            ],
+            "p_discovered": 0.5173236097533084,
+            "radius_integrated_analytically": true,
+            "p_two_detected": 0.1863467268576365,
+            "p_two_directions_angle_30_150": 0.15887088518812395,
+            "initial_move_s": 480.0,
+            "initial_20_channel_scan_s": 239.0,
+            "initial_full_scan_time_min": 11.983333333333333,
+            "per_n": {
+              "10": {
+                "expected_discovered": 5.173236097533084,
+                "expected_undiscovered": 4.826763902466916,
+                "p_all_discovered_iid": 0.001372849699820541
+              },
+              "11": {
+                "expected_discovered": 5.6905597072863925,
+                "expected_undiscovered": 5.3094402927136075,
+                "p_all_discovered_iid": 0.000710207562359908
+              },
+              "12": {
+                "expected_discovered": 6.2078833170397,
+                "expected_undiscovered": 5.7921166829603,
+                "p_all_discovered_iid": 0.0003674071398341255
+              },
+              "13": {
+                "expected_discovered": 6.725206926793009,
+                "expected_undiscovered": 6.274793073206991,
+                "p_all_discovered_iid": 0.00019006838782812833
+              },
+              "14": {
+                "expected_discovered": 7.242530536546317,
+                "expected_undiscovered": 6.757469463453683,
+                "p_all_discovered_iid": 9.832686449123914e-05
+              },
+              "15": {
+                "expected_discovered": 7.7598541462996256,
+                "expected_undiscovered": 7.2401458537003744,
+                "p_all_discovered_iid": 5.086680847433223e-05
+              },
+              "16": {
+                "expected_discovered": 8.277177756052934,
+                "expected_undiscovered": 7.722822243947066,
+                "p_all_discovered_iid": 2.6314600976571726e-05
+              }
+            }
+          },
+          "geometry": {
+            "n": 2000,
+            "noise": "hashed",
+            "p_discovered": 0.5135,
+            "p_two_detected": 0.1895,
+            "p_two_direction_feedbacks": 0.1895,
+            "p_conservative_radius_le_20": 0.0015,
+            "p_conservative_radius_le_60": 0.1695,
+            "radius_m_quantiles_given_discovered": {
+              "0.1": 22.63899771908265,
+              "0.25": 31.610822294039778,
+              "0.5": 494.9010234764884,
+              "0.75": 750.1886702420907,
+              "0.9": 750.2308009524531,
+              "0.99": 750.2308010020328
+            },
+            "radius_m_quantiles_given_two_detected": {
+              "0.1": 21.267304552076443,
+              "0.25": 22.420994290365,
+              "0.5": 25.838698327035054,
+              "0.75": 36.65265895944409,
+              "0.9": 64.53423857867752,
+              "0.99": 549.0422356713839
+            },
+            "truth_preservation_failures": []
+          },
+          "independent_area_integral": {
+            "p_discovered": 0.5162006185419166,
+            "p_two_detected": 0.18549014948176087
+          }
+        },
+        {
+          "layout": "uniform",
+          "radius_mode": "1000",
+          "probability": {
+            "points": [
+              [
+                7.347880794884119e-14,
+                -1200.0
+              ],
+              [
+                1039.2304845413264,
+                -599.9999999999999
+              ]
+            ],
+            "p_discovered": 0.41737,
+            "radius_integrated_analytically": false,
+            "p_two_detected": 0.08843,
+            "p_two_directions_angle_30_150": 0.06658,
+            "initial_move_s": 480.0,
+            "initial_20_channel_scan_s": 239.0,
+            "initial_full_scan_time_min": 11.983333333333333,
+            "per_n": {
+              "10": {
+                "expected_discovered": 4.1737,
+                "expected_undiscovered": 5.8263,
+                "p_all_discovered_iid": 0.00016040292865563405
+              },
+              "11": {
+                "expected_discovered": 4.59107,
+                "expected_undiscovered": 6.40893,
+                "p_all_discovered_iid": 6.6947370333002e-05
+              },
+              "12": {
+                "expected_discovered": 5.00844,
+                "expected_undiscovered": 6.99156,
+                "p_all_discovered_iid": 2.7941823955885043e-05
+              },
+              "13": {
+                "expected_discovered": 5.42581,
+                "expected_undiscovered": 7.57419,
+                "p_all_discovered_iid": 1.1662079064467741e-05
+              },
+              "14": {
+                "expected_discovered": 5.84318,
+                "expected_undiscovered": 8.15682,
+                "p_all_discovered_iid": 4.867401939136901e-06
+              },
+              "15": {
+                "expected_discovered": 6.26055,
+                "expected_undiscovered": 8.73945,
+                "p_all_discovered_iid": 2.0315075473375684e-06
+              },
+              "16": {
+                "expected_discovered": 6.67792,
+                "expected_undiscovered": 9.32208,
+                "p_all_discovered_iid": 8.47890305032281e-07
+              }
+            }
+          },
+          "geometry": {
+            "n": 2000,
+            "noise": "hashed",
+            "p_discovered": 0.419,
+            "p_two_detected": 0.09,
+            "p_two_direction_feedbacks": 0.09,
+            "p_conservative_radius_le_20": 0.0,
+            "p_conservative_radius_le_60": 0.075,
+            "radius_m_quantiles_given_discovered": {
+              "0.1": 24.649085094131816,
+              "0.25": 303.09513201402706,
+              "0.5": 530.6886261269776,
+              "0.75": 750.1914617454541,
+              "0.9": 750.2308009524533,
+              "0.99": 750.2308010020307
+            },
+            "radius_m_quantiles_given_two_detected": {
+              "0.1": 21.239433029933092,
+              "0.25": 22.017532779350724,
+              "0.5": 24.991342818725656,
+              "0.75": 48.413967812371396,
+              "0.9": 89.25544273539208,
+              "0.99": 564.0608537506133
+            },
+            "truth_preservation_failures": []
+          },
+          "independent_area_integral": {
+            "p_discovered": 0.41638193881049806,
+            "p_two_detected": 0.08769276959405804
+          }
+        },
+        {
+          "layout": "edge",
+          "radius_mode": "1000",
+          "probability": {
+            "points": [
+              [
+                7.347880794884119e-14,
+                -1200.0
+              ],
+              [
+                1039.2304845413264,
+                -599.9999999999999
+              ]
+            ],
+            "p_discovered": 0.34389,
+            "radius_integrated_analytically": false,
+            "p_two_detected": 0.0097,
+            "p_two_directions_angle_30_150": 0.0097,
+            "initial_move_s": 480.0,
+            "initial_20_channel_scan_s": 239.0,
+            "initial_full_scan_time_min": 11.983333333333333,
+            "per_n": {
+              "10": {
+                "expected_discovered": 3.4389,
+                "expected_undiscovered": 6.5611,
+                "p_all_discovered_iid": 2.3131056599059135e-05
+              },
+              "11": {
+                "expected_discovered": 3.78279,
+                "expected_undiscovered": 7.21721,
+                "p_all_discovered_iid": 7.954539053850445e-06
+              },
+              "12": {
+                "expected_discovered": 4.1266799999999995,
+                "expected_undiscovered": 7.87332,
+                "p_all_discovered_iid": 2.7354864352286294e-06
+              },
+              "13": {
+                "expected_discovered": 4.4705699999999995,
+                "expected_undiscovered": 8.52943,
+                "p_all_discovered_iid": 9.407064302107733e-07
+              },
+              "14": {
+                "expected_discovered": 4.8144599999999995,
+                "expected_undiscovered": 9.18554,
+                "p_all_discovered_iid": 3.234995342851828e-07
+              },
+              "15": {
+                "expected_discovered": 5.1583499999999995,
+                "expected_undiscovered": 9.84165,
+                "p_all_discovered_iid": 1.1124825484533151e-07
+              },
+              "16": {
+                "expected_discovered": 5.50224,
+                "expected_undiscovered": 10.49776,
+                "p_all_discovered_iid": 3.825716235876105e-08
+              }
+            }
+          },
+          "geometry": {
+            "n": 2000,
+            "noise": "hashed",
+            "p_discovered": 0.3425,
+            "p_two_detected": 0.0125,
+            "p_two_direction_feedbacks": 0.0125,
+            "p_conservative_radius_le_20": 0.0035,
+            "p_conservative_radius_le_60": 0.0125,
+            "radius_m_quantiles_given_discovered": {
+              "0.1": 302.7394072179052,
+              "0.25": 314.07886281979233,
+              "0.5": 355.9985098467153,
+              "0.75": 421.1924057925178,
+              "0.9": 463.1553780035316,
+              "0.99": 507.1155456446052
+            },
+            "radius_m_quantiles_given_two_detected": {
+              "0.1": 10.42840777341406,
+              "0.25": 17.797635922401586,
+              "0.5": 21.983539725195794,
+              "0.75": 22.268801872242648,
+              "0.9": 24.39275538342325,
+              "0.99": 26.270413264186654
+            },
+            "truth_preservation_failures": []
+          }
+        },
+        {
+          "layout": "line",
+          "radius_mode": "1000",
+          "probability": {
+            "points": [
+              [
+                7.347880794884119e-14,
+                -1200.0
+              ],
+              [
+                1039.2304845413264,
+                -599.9999999999999
+              ]
+            ],
+            "p_discovered": 0.43076,
+            "radius_integrated_analytically": false,
+            "p_two_detected": 0.0,
+            "p_two_directions_angle_30_150": 0.0,
+            "initial_move_s": 480.0,
+            "initial_20_channel_scan_s": 239.0,
+            "initial_full_scan_time_min": 11.983333333333333,
+            "per_n": {
+              "10": {
+                "expected_discovered": 4.3076,
+                "expected_undiscovered": 5.692399999999999,
+                "p_all_discovered_iid": 0.00021996505058375886
+              },
+              "11": {
+                "expected_discovered": 4.73836,
+                "expected_undiscovered": 6.26164,
+                "p_all_discovered_iid": 9.475214518945996e-05
+              },
+              "12": {
+                "expected_discovered": 5.1691199999999995,
+                "expected_undiscovered": 6.83088,
+                "p_all_discovered_iid": 4.081543406181177e-05
+              },
+              "13": {
+                "expected_discovered": 5.59988,
+                "expected_undiscovered": 7.400119999999999,
+                "p_all_discovered_iid": 1.7581656376466037e-05
+              },
+              "14": {
+                "expected_discovered": 6.03064,
+                "expected_undiscovered": 7.96936,
+                "p_all_discovered_iid": 7.57347430072651e-06
+              },
+              "15": {
+                "expected_discovered": 6.461399999999999,
+                "expected_undiscovered": 8.538599999999999,
+                "p_all_discovered_iid": 3.2623497897809514e-06
+              },
+              "16": {
+                "expected_discovered": 6.89216,
+                "expected_undiscovered": 9.10784,
+                "p_all_discovered_iid": 1.4052897954460425e-06
+              }
+            }
+          },
+          "geometry": {
+            "n": 2000,
+            "noise": "hashed",
+            "p_discovered": 0.4195,
+            "p_two_detected": 0.0,
+            "p_two_direction_feedbacks": 0.0,
+            "p_conservative_radius_le_20": 0.0,
+            "p_conservative_radius_le_60": 0.0,
+            "radius_m_quantiles_given_discovered": {
+              "0.1": 556.4758186722574,
+              "0.25": 677.4346903006364,
+              "0.5": 750.1859798183676,
+              "0.75": 750.2194114429451,
+              "0.9": 750.2308009524535,
+              "0.99": 750.2308010020331
+            },
+            "radius_m_quantiles_given_two_detected": {},
+            "truth_preservation_failures": []
+          }
+        }
+      ],
+      "boundary1800_R1000_arc_fraction": 0.34214632275848844
+    },
+    {
+      "name": "arc_r1450",
+      "radius_m": 1450,
+      "angles_deg": [
+        -90,
+        -30
+      ],
+      "points": [
+        [
+          8.878689293818311e-14,
+          -1450.0
+        ],
+        [
+          1255.736835487436,
+          -724.9999999999999
+        ]
+      ],
+      "initial_move_min": 9.666666666666666,
+      "initial_full_scan_min": 13.65,
+      "cases": [
+        {
+          "layout": "uniform",
+          "radius_mode": "uniform",
+          "probability": {
+            "points": [
+              [
+                8.878689293818311e-14,
+                -1450.0
+              ],
+              [
+                1255.736835487436,
+                -724.9999999999999
+              ]
+            ],
+            "p_discovered": 0.45428553697968344,
+            "radius_integrated_analytically": true,
+            "p_two_detected": 0.12741729492247278,
+            "p_two_directions_angle_30_150": 0.0951412433920769,
+            "initial_move_s": 580.0,
+            "initial_20_channel_scan_s": 239.0,
+            "initial_full_scan_time_min": 13.65,
+            "per_n": {
+              "10": {
+                "expected_discovered": 4.542855369796834,
+                "expected_undiscovered": 5.457144630203166,
+                "p_all_discovered_iid": 0.0003743597121469331
+              },
+              "11": {
+                "expected_discovered": 4.997140906776518,
+                "expected_undiscovered": 6.002859093223482,
+                "p_all_discovered_iid": 0.00017006620285622923
+              },
+              "12": {
+                "expected_discovered": 5.451426443756201,
+                "expected_undiscovered": 6.548573556243799,
+                "p_all_discovered_iid": 7.725861628663786e-05
+              },
+              "13": {
+                "expected_discovered": 5.905711980735885,
+                "expected_undiscovered": 7.094288019264115,
+                "p_all_discovered_iid": 3.50974719860826e-05
+              },
+              "14": {
+                "expected_discovered": 6.359997517715568,
+                "expected_undiscovered": 7.640002482284432,
+                "p_all_discovered_iid": 1.594427390782693e-05
+              },
+              "15": {
+                "expected_discovered": 6.8142830546952515,
+                "expected_undiscovered": 8.185716945304748,
+                "p_all_discovered_iid": 7.243253033968313e-06
+              },
+              "16": {
+                "expected_discovered": 7.268568591674935,
+                "expected_undiscovered": 8.731431408325065,
+                "p_all_discovered_iid": 3.2905050940160163e-06
+              }
+            }
+          },
+          "geometry": {
+            "n": 2000,
+            "noise": "hashed",
+            "p_discovered": 0.4525,
+            "p_two_detected": 0.127,
+            "p_two_direction_feedbacks": 0.127,
+            "p_conservative_radius_le_20": 0.0,
+            "p_conservative_radius_le_60": 0.0995,
+            "radius_m_quantiles_given_discovered": {
+              "0.1": 29.620598370670017,
+              "0.25": 116.84204742281533,
+              "0.5": 710.5045255588661,
+              "0.75": 750.197525477731,
+              "0.9": 750.2308009524534,
+              "0.99": 750.2308010020329
+            },
+            "radius_m_quantiles_given_two_detected": {
+              "0.1": 25.932016718853383,
+              "0.25": 27.44356750403582,
+              "0.5": 32.948308335019206,
+              "0.75": 53.91304676394699,
+              "0.9": 117.50423969561885,
+              "0.99": 400.6512106972317
+            },
+            "truth_preservation_failures": []
+          },
+          "independent_area_integral": {
+            "p_discovered": 0.45300883526521557,
+            "p_two_detected": 0.12683995189839092
+          }
+        },
+        {
+          "layout": "uniform",
+          "radius_mode": "1000",
+          "probability": {
+            "points": [
+              [
+                8.878689293818311e-14,
+                -1450.0
+              ],
+              [
+                1255.736835487436,
+                -724.9999999999999
+              ]
+            ],
+            "p_discovered": 0.35921,
+            "radius_integrated_analytically": false,
+            "p_two_detected": 0.04912,
+            "p_two_directions_angle_30_150": 0.02907,
+            "initial_move_s": 580.0,
+            "initial_20_channel_scan_s": 239.0,
+            "initial_full_scan_time_min": 13.65,
+            "per_n": {
+              "10": {
+                "expected_discovered": 3.5921,
+                "expected_undiscovered": 6.4079,
+                "p_all_discovered_iid": 3.5767137502744195e-05
+              },
+              "11": {
+                "expected_discovered": 3.95131,
+                "expected_undiscovered": 7.04869,
+                "p_all_discovered_iid": 1.284791346236074e-05
+              },
+              "12": {
+                "expected_discovered": 4.3105199999999995,
+                "expected_undiscovered": 7.68948,
+                "p_all_discovered_iid": 4.615098994814601e-06
+              },
+              "13": {
+                "expected_discovered": 4.6697299999999995,
+                "expected_undiscovered": 8.330269999999999,
+                "p_all_discovered_iid": 1.6577897099273527e-06
+              },
+              "14": {
+                "expected_discovered": 5.0289399999999995,
+                "expected_undiscovered": 8.97106,
+                "p_all_discovered_iid": 5.954946417030043e-07
+              },
+              "15": {
+                "expected_discovered": 5.3881499999999996,
+                "expected_undiscovered": 9.61185,
+                "p_all_discovered_iid": 2.1390763024613617e-07
+              },
+              "16": {
+                "expected_discovered": 5.74736,
+                "expected_undiscovered": 10.25264,
+                "p_all_discovered_iid": 7.683775986071457e-08
+              }
+            }
+          },
+          "geometry": {
+            "n": 2000,
+            "noise": "hashed",
+            "p_discovered": 0.3625,
+            "p_two_detected": 0.052,
+            "p_two_direction_feedbacks": 0.052,
+            "p_conservative_radius_le_20": 0.0,
+            "p_conservative_radius_le_60": 0.034,
+            "radius_m_quantiles_given_discovered": {
+              "0.1": 69.9722691241135,
+              "0.25": 267.59889090317876,
+              "0.5": 652.6616375922745,
+              "0.75": 750.1960799182482,
+              "0.9": 750.2308009524534,
+              "0.99": 750.230801002033
+            },
+            "radius_m_quantiles_given_two_detected": {
+              "0.1": 28.194622253677156,
+              "0.25": 31.165353438345733,
+              "0.5": 45.36229791360549,
+              "0.75": 79.36368733895198,
+              "0.9": 131.22487929821992,
+              "0.99": 426.0678444480976
+            },
+            "truth_preservation_failures": []
+          },
+          "independent_area_integral": {
+            "p_discovered": 0.3584635397293003,
+            "p_two_detected": 0.04942208970461213
+          }
+        },
+        {
+          "layout": "edge",
+          "radius_mode": "1000",
+          "probability": {
+            "points": [
+              [
+                8.878689293818311e-14,
+                -1450.0
+              ],
+              [
+                1255.736835487436,
+                -724.9999999999999
+              ]
+            ],
+            "p_discovered": 0.35496,
+            "radius_integrated_analytically": false,
+            "p_two_detected": 0.0207,
+            "p_two_directions_angle_30_150": 0.0207,
+            "initial_move_s": 580.0,
+            "initial_20_channel_scan_s": 239.0,
+            "initial_full_scan_time_min": 13.65,
+            "per_n": {
+              "10": {
+                "expected_discovered": 3.5496,
+                "expected_undiscovered": 6.4504,
+                "p_all_discovered_iid": 3.175368681800665e-05
+              },
+              "11": {
+                "expected_discovered": 3.90456,
+                "expected_undiscovered": 7.095440000000001,
+                "p_all_discovered_iid": 1.127128867291964e-05
+              },
+              "12": {
+                "expected_discovered": 4.25952,
+                "expected_undiscovered": 7.740480000000001,
+                "p_all_discovered_iid": 4.000856627339556e-06
+              },
+              "13": {
+                "expected_discovered": 4.61448,
+                "expected_undiscovered": 8.385520000000001,
+                "p_all_discovered_iid": 1.4201440684404486e-06
+              },
+              "14": {
+                "expected_discovered": 4.96944,
+                "expected_undiscovered": 9.030560000000001,
+                "p_all_discovered_iid": 5.040943385336216e-07
+              },
+              "15": {
+                "expected_discovered": 5.3244,
+                "expected_undiscovered": 9.675600000000001,
+                "p_all_discovered_iid": 1.7893332640589435e-07
+              },
+              "16": {
+                "expected_discovered": 5.67936,
+                "expected_undiscovered": 10.320640000000001,
+                "p_all_discovered_iid": 6.351417354103626e-08
+              }
+            }
+          },
+          "geometry": {
+            "n": 2000,
+            "noise": "hashed",
+            "p_discovered": 0.3545,
+            "p_two_detected": 0.021,
+            "p_two_direction_feedbacks": 0.021,
+            "p_conservative_radius_le_20": 0.0035,
+            "p_conservative_radius_le_60": 0.021,
+            "radius_m_quantiles_given_discovered": {
+              "0.1": 177.74536338423397,
+              "0.25": 198.84409597803682,
+              "0.5": 271.7592780464014,
+              "0.75": 369.72129196168004,
+              "0.9": 439.3992703190369,
+              "0.99": 506.53664933013744
+            },
+            "radius_m_quantiles_given_two_detected": {
+              "0.1": 15.571685288456841,
+              "0.25": 24.253892255406402,
+              "0.5": 26.492141049159716,
+              "0.75": 26.562287678990067,
+              "0.9": 26.61301014249094,
+              "0.99": 26.723679878352968
+            },
+            "truth_preservation_failures": []
+          }
+        },
+        {
+          "layout": "line",
+          "radius_mode": "1000",
+          "probability": {
+            "points": [
+              [
+                8.878689293818311e-14,
+                -1450.0
+              ],
+              [
+                1255.736835487436,
+                -724.9999999999999
+              ]
+            ],
+            "p_discovered": 0.33947,
+            "radius_integrated_analytically": false,
+            "p_two_detected": 0.0,
+            "p_two_directions_angle_30_150": 0.0,
+            "initial_move_s": 580.0,
+            "initial_20_channel_scan_s": 239.0,
+            "initial_full_scan_time_min": 13.65,
+            "per_n": {
+              "10": {
+                "expected_discovered": 3.3947,
+                "expected_undiscovered": 6.605300000000001,
+                "p_all_discovered_iid": 2.0324225453848025e-05
+              },
+              "11": {
+                "expected_discovered": 3.7341699999999998,
+                "expected_undiscovered": 7.265830000000001,
+                "p_all_discovered_iid": 6.899464814817789e-06
+              },
+              "12": {
+                "expected_discovered": 4.07364,
+                "expected_undiscovered": 7.926360000000001,
+                "p_all_discovered_iid": 2.342161320686195e-06
+              },
+              "13": {
+                "expected_discovered": 4.41311,
+                "expected_undiscovered": 8.58689,
+                "p_all_discovered_iid": 7.950935035333426e-07
+              },
+              "14": {
+                "expected_discovered": 4.75258,
+                "expected_undiscovered": 9.247420000000002,
+                "p_all_discovered_iid": 2.699103916444638e-07
+              },
+              "15": {
+                "expected_discovered": 5.0920499999999995,
+                "expected_undiscovered": 9.907950000000001,
+                "p_all_discovered_iid": 9.162648065154613e-08
+              },
+              "16": {
+                "expected_discovered": 5.43152,
+                "expected_undiscovered": 10.568480000000001,
+                "p_all_discovered_iid": 3.110444138678036e-08
+              }
+            }
+          },
+          "geometry": {
+            "n": 2000,
+            "noise": "hashed",
+            "p_discovered": 0.3225,
+            "p_two_detected": 0.0,
+            "p_two_direction_feedbacks": 0.0,
+            "p_conservative_radius_le_20": 0.0,
+            "p_conservative_radius_le_60": 0.0,
+            "radius_m_quantiles_given_discovered": {
+              "0.1": 573.8820124536747,
+              "0.25": 750.1153917002896,
+              "0.5": 750.1896910533262,
+              "0.75": 750.2242126044979,
+              "0.9": 750.2308009524535,
+              "0.99": 750.2308010020331
+            },
+            "radius_m_quantiles_given_two_detected": {},
+            "truth_preservation_failures": []
+          }
+        }
+      ],
+      "boundary1800_R1000_arc_fraction": 0.35392191400964645
+    }
+  ],
+  "wall_s": 16.33344078063965,
+  "reproduce": "Import initial_design; source seed=SEED+101; geometry seed=SEED+102; radii=[1000,1200,1450], angles=[-90,-30]; use sources, probability_stats, geometry_stats, deterministic_integral. Cases uniform/Runiform, uniform/R1000, edge/R1000, line/R1000.",
+  "truth_preservation_checks": 24000,
+  "truth_preservation_failures": 0,
+  "old_search_omission": {
+    "r1200_equivalent_present_as": "r1200_1200_turn120",
+    "reason_not_retained": "Three endpoints represented discovery, localization, short initial movement; none evaluated continuation-route compatibility",
+    "r1450": "outside original coarse first/second point radius maximum 1200m"
+  },
+  "reproduce_code": "import math, sys\nsys.path.insert(0, \"experiments/b_q3/probability_patrol\")\nimport initial_design as d\nfor r in (1000, 1200, 1450):\n    pair=[[r*math.cos(math.radians(a)),r*math.sin(math.radians(a))] for a in (-90,-30)]\n    for layout, rm in ((\"uniform\",\"uniform\"),(\"uniform\",\"1000\"),(\"edge\",\"1000\"),(\"line\",\"1000\")):\n        px, pr=d.sources(100000,layout,d.SEED+101,rm)\n        xy, rr=d.sources(2000,layout,d.SEED+102,rm)\n        print(r,layout,rm,d.probability_stats(px,pr,pair,rm==\"uniform\"),d.geometry_stats(pair,xy,rr,\"hashed\",d.SEED+102))\n"
+}

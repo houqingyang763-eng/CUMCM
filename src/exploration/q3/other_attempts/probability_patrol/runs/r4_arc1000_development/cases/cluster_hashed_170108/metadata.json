@@ -1,0 +1,45 @@
+{
+  "config": {
+    "name": "r4_arc1000",
+    "initial_points": [
+      [
+        0.0,
+        -1000.0
+      ],
+      [
+        866.0254037844386,
+        -500.0
+      ]
+    ],
+    "try_radius_m": 30.0,
+    "local_action_limit": 16,
+    "local_offset_fraction": 0.5,
+    "local_offset_min_m": 30.0,
+    "local_offset_max_m": 300.0,
+    "shared_scan_gap_m": 0.0,
+    "route_mode": "nearest",
+    "planning": "covering"
+  },
+  "phase": "service",
+  "initial_finish_s": 638.0,
+  "initial_statistics": {
+    "found": 9,
+    "two_bearings": 5,
+    "radius_le20": 0,
+    "radius_le60": 4,
+    "radii_m": {
+      "2": 750.1957995595443,
+      "3": 750.1812122078304,
+      "4": 33.94264654062463,
+      "6": 39.78925594694042,
+      "7": 68.7576438505918,
+      "13": 32.59294767970241,
+      "15": 36.60566274608114,
+      "16": 750.1873445923607,
+      "20": 750.2308009524536
+    }
+  },
+  "stations": 21,
+  "target": 13,
+  "reason": "planned_clearance_scan"
+}

@@ -1,0 +1,80 @@
+{
+  "scope": "self_built_cases_only_no_official_tests",
+  "batches": [
+    {
+      "batch": "confirm",
+      "cases": 24,
+      "modes": [
+        "current",
+        "f1",
+        "f2",
+        "f3",
+        "baseline"
+      ],
+      "episodes": 120,
+      "independently_replayed_actions": 21034,
+      "f1_filter_proofs_checked": 110,
+      "f1_same_route_cases": 24
+    },
+    {
+      "batch": "stress",
+      "cases": 8,
+      "modes": [
+        "current",
+        "f1",
+        "f2",
+        "f3",
+        "f4",
+        "baseline"
+      ],
+      "episodes": 48,
+      "independently_replayed_actions": 9108,
+      "f1_filter_proofs_checked": 27,
+      "f1_same_route_cases": 8
+    },
+    {
+      "batch": "random_audit",
+      "cases": 1,
+      "modes": [
+        "current",
+        "f1",
+        "f3",
+        "f4"
+      ],
+      "episodes": 4,
+      "independently_replayed_actions": 626,
+      "f1_filter_proofs_checked": 10,
+      "f1_same_route_cases": 1
+    },
+    {
+      "batch": "micro_confirm",
+      "cases": 24,
+      "modes": [
+        "current",
+        "f1",
+        "f2",
+        "f3",
+        "f4",
+        "baseline"
+      ],
+      "episodes": 144,
+      "independently_replayed_actions": 25700,
+      "f1_filter_proofs_checked": 110,
+      "f1_same_route_cases": 24
+    }
+  ],
+  "episodes": 316,
+  "independently_replayed_actions": 56468,
+  "unit_checks": 12,
+  "unit_check_command": "py -3.13 experiments/b_q3/refinement/test_refined.py",
+  "new_confirmation_seeds_disjoint": true,
+  "f4_frozen_during_confirmation": true,
+  "runtime_sha256": {
+    "experiments\\b_q3\\refinement\\refined.py": "08fa7106993be820cc440e572ca4e5787ffae4ee199dd1ced59226d3b95dd2cd",
+    "experiments\\b_q3\\refinement\\posterior.py": "8981374013fb530d754a8115847f89c37388d5a5f850c667d8008d8bfd79428c",
+    "experiments\\b_q3\\refinement\\verified.py": "5ef6e7e81e31359d595efcbb521cac52a482d5c257327cb54289a13a797953f3"
+  },
+  "f3_hook_equivalence": "151 actions, positions, reasons and responses identical",
+  "exclusions": "development, development_corrected and f3_equivalence are not counted as independent confirmation",
+  "human_review": "AI executed and independently recomputed; team human review pending"
+}

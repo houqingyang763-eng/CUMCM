@@ -1,0 +1,39 @@
+{
+  "case": "line_smooth_180118",
+  "seed": 180118,
+  "layout": "line",
+  "noise": "smooth",
+  "policy": "baseline",
+  "real_n": 11,
+  "source_count": 11,
+  "success": false,
+  "cleared": 11,
+  "total_s": 3566.586262633754,
+  "per_source_s": null,
+  "wall_s": 0.4446598000067752,
+  "actions": 175,
+  "initial_finish_s": null,
+  "phase_costs": {
+    "scan": {
+      "actions": 140,
+      "move_s": 1440.0000000000002,
+      "measure_s": 700.0,
+      "switch_s": 139.0,
+      "success_clear_s": 0.0,
+      "fail_clear_s": 0.0
+    },
+    "service": {
+      "actions": 35,
+      "move_s": 1105.5862626337548,
+      "measure_s": 110.0,
+      "switch_s": 11.0,
+      "success_clear_s": 55.0,
+      "fail_clear_s": 6.0
+    }
+  },
+  "move_s": 2545.586262633754,
+  "measure_s": 810.0,
+  "switch_s": 150.0,
+  "success_clear_s": 55.0,
+  "fail_clear_s": 6.0
+}

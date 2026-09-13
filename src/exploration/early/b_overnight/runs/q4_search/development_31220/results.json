@@ -1,0 +1,828 @@
+[
+  {
+    "case": "q4_uniform_random_smooth_31220",
+    "seed": 31220,
+    "layout": "uniform_random",
+    "noise": "smooth",
+    "policy": "directional",
+    "source_count": 10,
+    "directional_count": 6,
+    "cleared": 10,
+    "success": true,
+    "error": null,
+    "cleared_ratio": 1.0,
+    "average_localization_clear_s": 1129.5299600101077,
+    "virtual_time_s": 11295.299600101078,
+    "wall_time_s": 0.6106174000015017,
+    "planning_s": 0.5254572000412736,
+    "checking_s": 0.0653916001538164,
+    "actions": 519,
+    "measure_count": 496,
+    "scan_position_count": 58,
+    "failed_clears": 13,
+    "no_signal_count": 465,
+    "fallback": false,
+    "absence_proofs": {
+      "3": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "20": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "19": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "18": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "17": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "13": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "10": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "9": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "4": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "1": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      }
+    },
+    "move_s": 8268.29960010108,
+    "switch_s": 458.0,
+    "measure_s": 2480.0,
+    "clear_s": 89.0,
+    "non_anchor_measure_count": 25
+  },
+  {
+    "case": "q4_uniform_random_smooth_31220",
+    "seed": 31220,
+    "layout": "uniform_random",
+    "noise": "smooth",
+    "policy": "search",
+    "source_count": 10,
+    "directional_count": 6,
+    "cleared": 10,
+    "success": true,
+    "error": null,
+    "cleared_ratio": 1.0,
+    "average_localization_clear_s": 1788.8688377728172,
+    "virtual_time_s": 17888.688377728173,
+    "wall_time_s": 16.972802899996168,
+    "planning_s": 1.8313725999978487,
+    "checking_s": 15.10266539996519,
+    "actions": 697,
+    "measure_count": 686,
+    "scan_position_count": 71,
+    "failed_clears": 1,
+    "no_signal_count": 651,
+    "fallback": true,
+    "absence_proofs": {
+      "20": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 553,
+          "leaf_count": 415,
+          "surrounded_leaves": 369,
+          "outside_leaves": 46,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 6,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      },
+      "1": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 545,
+          "leaf_count": 409,
+          "surrounded_leaves": 366,
+          "outside_leaves": 43,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 6,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      },
+      "3": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 561,
+          "leaf_count": 421,
+          "surrounded_leaves": 375,
+          "outside_leaves": 46,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 6,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      },
+      "4": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 545,
+          "leaf_count": 409,
+          "surrounded_leaves": 366,
+          "outside_leaves": 43,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 6,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      },
+      "9": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 545,
+          "leaf_count": 409,
+          "surrounded_leaves": 366,
+          "outside_leaves": 43,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 6,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      },
+      "10": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 545,
+          "leaf_count": 409,
+          "surrounded_leaves": 366,
+          "outside_leaves": 43,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 6,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      },
+      "13": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 545,
+          "leaf_count": 409,
+          "surrounded_leaves": 366,
+          "outside_leaves": 43,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 6,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      },
+      "17": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 553,
+          "leaf_count": 415,
+          "surrounded_leaves": 369,
+          "outside_leaves": 46,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 6,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      },
+      "18": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 553,
+          "leaf_count": 415,
+          "surrounded_leaves": 369,
+          "outside_leaves": 46,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 6,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      },
+      "19": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 553,
+          "leaf_count": 415,
+          "surrounded_leaves": 369,
+          "outside_leaves": 46,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 6,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      }
+    },
+    "move_s": 13771.688377728173,
+    "switch_s": 634.0,
+    "measure_s": 3430.0,
+    "clear_s": 53.0,
+    "non_anchor_measure_count": 312
+  },
+  {
+    "case": "q4_edge_outward_biased_31221",
+    "seed": 31221,
+    "layout": "edge_outward",
+    "noise": "biased",
+    "policy": "directional",
+    "source_count": 11,
+    "directional_count": 7,
+    "cleared": 11,
+    "success": true,
+    "error": null,
+    "cleared_ratio": 1.0,
+    "average_localization_clear_s": 1106.734998003497,
+    "virtual_time_s": 12174.084978038465,
+    "wall_time_s": 1.0460496000014246,
+    "planning_s": 0.8681843999656849,
+    "checking_s": 0.1520605999903637,
+    "actions": 651,
+    "measure_count": 547,
+    "scan_position_count": 55,
+    "failed_clears": 93,
+    "no_signal_count": 525,
+    "fallback": true,
+    "absence_proofs": {
+      "3": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "1": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "6": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "7": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "9": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "10": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "14": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "15": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "17": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      }
+    },
+    "move_s": 8598.084978038465,
+    "switch_s": 507.0,
+    "measure_s": 2735.0,
+    "clear_s": 334.0,
+    "non_anchor_measure_count": 18
+  },
+  {
+    "case": "q4_edge_outward_biased_31221",
+    "seed": 31221,
+    "layout": "edge_outward",
+    "noise": "biased",
+    "policy": "search",
+    "source_count": 11,
+    "directional_count": 7,
+    "cleared": 11,
+    "success": true,
+    "error": null,
+    "cleared_ratio": 1.0,
+    "average_localization_clear_s": 1762.6462845350723,
+    "virtual_time_s": 19389.109129885794,
+    "wall_time_s": 17.718887700000778,
+    "planning_s": 3.4347449001288624,
+    "checking_s": 14.242074599911575,
+    "actions": 786,
+    "measure_count": 644,
+    "scan_position_count": 78,
+    "failed_clears": 131,
+    "no_signal_count": 620,
+    "fallback": true,
+    "absence_proofs": {
+      "1": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 797,
+          "leaf_count": 598,
+          "surrounded_leaves": 508,
+          "outside_leaves": 90,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 9,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      },
+      "3": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 809,
+          "leaf_count": 607,
+          "surrounded_leaves": 516,
+          "outside_leaves": 91,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 9,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      },
+      "6": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 825,
+          "leaf_count": 619,
+          "surrounded_leaves": 530,
+          "outside_leaves": 89,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 9,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      },
+      "7": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 825,
+          "leaf_count": 619,
+          "surrounded_leaves": 530,
+          "outside_leaves": 89,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 9,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      },
+      "9": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 825,
+          "leaf_count": 619,
+          "surrounded_leaves": 530,
+          "outside_leaves": 89,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 9,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      },
+      "10": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 825,
+          "leaf_count": 619,
+          "surrounded_leaves": 530,
+          "outside_leaves": 89,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 9,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      },
+      "17": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 741,
+          "leaf_count": 556,
+          "surrounded_leaves": 512,
+          "outside_leaves": 44,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 7,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      },
+      "14": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 741,
+          "leaf_count": 556,
+          "surrounded_leaves": 512,
+          "outside_leaves": 44,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 7,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      },
+      "15": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 729,
+          "leaf_count": 547,
+          "surrounded_leaves": 503,
+          "outside_leaves": 44,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 7,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      }
+    },
+    "move_s": 15141.109129885803,
+    "switch_s": 580.0,
+    "measure_s": 3220.0,
+    "clear_s": 448.0,
+    "non_anchor_measure_count": 291
+  },
+  {
+    "case": "q4_cluster_tangent_hashed_31222",
+    "seed": 31222,
+    "layout": "cluster_tangent",
+    "noise": "hashed",
+    "policy": "directional",
+    "source_count": 12,
+    "directional_count": 8,
+    "cleared": 12,
+    "success": true,
+    "error": null,
+    "cleared_ratio": 1.0,
+    "average_localization_clear_s": 866.9086090253562,
+    "virtual_time_s": 10402.903308304274,
+    "wall_time_s": 0.7818444000004092,
+    "planning_s": 0.7053726000303868,
+    "checking_s": 0.06089200000860728,
+    "actions": 439,
+    "measure_count": 419,
+    "scan_position_count": 55,
+    "failed_clears": 8,
+    "no_signal_count": 385,
+    "fallback": false,
+    "absence_proofs": {
+      "5": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "20": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "18": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "17": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "14": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "12": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "6": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "4": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      }
+    },
+    "move_s": 7846.903308304273,
+    "switch_s": 377.0,
+    "measure_s": 2095.0,
+    "clear_s": 84.0,
+    "non_anchor_measure_count": 28
+  },
+  {
+    "case": "q4_cluster_tangent_hashed_31222",
+    "seed": 31222,
+    "layout": "cluster_tangent",
+    "noise": "hashed",
+    "policy": "search",
+    "source_count": 12,
+    "directional_count": 8,
+    "cleared": 12,
+    "success": true,
+    "error": null,
+    "cleared_ratio": 1.0,
+    "average_localization_clear_s": 1439.2615332567718,
+    "virtual_time_s": 17271.13839908126,
+    "wall_time_s": 14.674241699998674,
+    "planning_s": 4.13714889993571,
+    "checking_s": 10.503268699954788,
+    "actions": 644,
+    "measure_count": 523,
+    "scan_position_count": 68,
+    "failed_clears": 109,
+    "no_signal_count": 486,
+    "fallback": true,
+    "absence_proofs": {
+      "18": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 669,
+          "leaf_count": 502,
+          "surrounded_leaves": 453,
+          "outside_leaves": 49,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 6,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      },
+      "4": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 657,
+          "leaf_count": 493,
+          "surrounded_leaves": 444,
+          "outside_leaves": 49,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 6,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      },
+      "5": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 657,
+          "leaf_count": 493,
+          "surrounded_leaves": 444,
+          "outside_leaves": 49,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 6,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      },
+      "6": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 657,
+          "leaf_count": 493,
+          "surrounded_leaves": 444,
+          "outside_leaves": 49,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 6,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      },
+      "12": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 657,
+          "leaf_count": 493,
+          "surrounded_leaves": 444,
+          "outside_leaves": 49,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 6,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      },
+      "14": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 657,
+          "leaf_count": 493,
+          "surrounded_leaves": 444,
+          "outside_leaves": 49,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 6,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      },
+      "17": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 669,
+          "leaf_count": 502,
+          "surrounded_leaves": 453,
+          "outside_leaves": 49,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 6,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      },
+      "20": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 669,
+          "leaf_count": 502,
+          "surrounded_leaves": 453,
+          "outside_leaves": 49,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 6,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      }
+    },
+    "move_s": 13804.138399081261,
+    "switch_s": 465.0,
+    "measure_s": 2615.0,
+    "clear_s": 387.0,
+    "non_anchor_measure_count": 208
+  },
+  {
+    "case": "q4_line_aligned_hashed_31223",
+    "seed": 31223,
+    "layout": "line_aligned",
+    "noise": "hashed",
+    "policy": "directional",
+    "source_count": 13,
+    "directional_count": 8,
+    "cleared": 13,
+    "success": true,
+    "error": null,
+    "cleared_ratio": 1.0,
+    "average_localization_clear_s": 909.735126298562,
+    "virtual_time_s": 11826.556641881307,
+    "wall_time_s": 3.6079304999948363,
+    "planning_s": 3.3764177999983076,
+    "checking_s": 0.2131776000605896,
+    "actions": 477,
+    "measure_count": 374,
+    "scan_position_count": 54,
+    "failed_clears": 90,
+    "no_signal_count": 336,
+    "fallback": false,
+    "absence_proofs": {
+      "2": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "17": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "14": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "13": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "12": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "4": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "3": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      }
+    },
+    "move_s": 9286.556641881301,
+    "switch_s": 335.0,
+    "measure_s": 1870.0,
+    "clear_s": 335.0,
+    "non_anchor_measure_count": 37
+  },
+  {
+    "case": "q4_line_aligned_hashed_31223",
+    "seed": 31223,
+    "layout": "line_aligned",
+    "noise": "hashed",
+    "policy": "search",
+    "source_count": 13,
+    "directional_count": 8,
+    "cleared": 13,
+    "success": true,
+    "error": null,
+    "cleared_ratio": 1.0,
+    "average_localization_clear_s": 1154.0332250358742,
+    "virtual_time_s": 15002.431925466366,
+    "wall_time_s": 13.562777999999525,
+    "planning_s": 3.425745600128721,
+    "checking_s": 10.110376899930998,
+    "actions": 508,
+    "measure_count": 487,
+    "scan_position_count": 72,
+    "failed_clears": 8,
+    "no_signal_count": 430,
+    "fallback": true,
+    "absence_proofs": {
+      "14": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 669,
+          "leaf_count": 502,
+          "surrounded_leaves": 415,
+          "outside_leaves": 87,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 9,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      },
+      "2": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 641,
+          "leaf_count": 481,
+          "surrounded_leaves": 397,
+          "outside_leaves": 84,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 9,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      },
+      "3": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 669,
+          "leaf_count": 502,
+          "surrounded_leaves": 415,
+          "outside_leaves": 87,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 9,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      },
+      "4": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 641,
+          "leaf_count": 481,
+          "surrounded_leaves": 397,
+          "outside_leaves": 84,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 9,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      },
+      "12": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 669,
+          "leaf_count": 502,
+          "surrounded_leaves": 415,
+          "outside_leaves": 87,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 9,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      },
+      "13": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 669,
+          "leaf_count": 502,
+          "surrounded_leaves": 415,
+          "outside_leaves": 87,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 9,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      },
+      "17": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 669,
+          "leaf_count": 502,
+          "surrounded_leaves": 415,
+          "outside_leaves": 87,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 9,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      }
+    },
+    "move_s": 12046.431925466364,
+    "switch_s": 432.0,
+    "measure_s": 2435.0,
+    "clear_s": 89.0,
+    "non_anchor_measure_count": 245
+  }
+]

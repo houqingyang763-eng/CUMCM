@@ -1,0 +1,138 @@
+
+(() => {
+  const root=document.getElementById('f3-fresh-replay');
+  const payload=JSON.parse(document.getElementById('f3-fresh-replay-data').textContent);
+  for(const variant of Object.values(payload.variants))for(const frame of variant.frames)frame.channels=frame.channels.map(i=>payload.channelPool[i]);
+  let data=payload.variants.f3;
+  const ui={};root.querySelectorAll('[data-ui]').forEach(e=>ui[e.dataset.ui]=e);
+  const ns='http://www.w3.org/2000/svg';
+  const color={dog:'var(--viz-series-1)',range:'var(--viz-series-2)',clear:'var(--viz-series-3)',truth:'var(--muted-foreground)',line:'var(--border)'};
+  let cursor=0, mode='stops', chosen=0, playing=null, lastDrawStep=null;
+  const none={start:0,end:0,title:'出发前：所有目标都未知',action:'机器狗位于原点，初始频道为1。',feedback:'尚未检测任何频道。',why:'第一测点沿用现有算法；首轮反馈到来后，才会比较第二点。',focus:0};
+  const groups=()=>mode==='stops'?[none,...data.groups]:[none,...data.single];
+  const stopPlay=()=>{if(playing){clearInterval(playing);playing=null;}ui.play.textContent='自动演示';};
+  function svg(tag,attrs={},text='') {const e=document.createElementNS(ns,tag);for(const [k,v]of Object.entries(attrs))e.setAttribute(k,v);if(text)e.textContent=text;return e;}
+  function fmt(n){return Number(n).toFixed(1);}
+  function rowChannel(frame,j){return frame.channels.find(c=>c.j===j);}
+  function draw(){
+    const g=groups()[cursor],frame=data.frames[g.end],prev=data.frames[Math.max(0,g.start-1)];
+    const w=Math.max(300,ui.plot.clientWidth),h=Math.min(540,w*.78+35);
+    const s=svg('svg',{class:'scene',viewBox:`0 0 ${w} ${h}`,role:'img','aria-label':`${g.title}。累计${fmt(frame.time/60)}分钟。机器人位置${frame.q.map(fmt).join(',')}米。`});
+    const defs=svg('defs'),clip=svg('clipPath',{id:'f3-fresh-domain'}),viewport=svg('clipPath',{id:'f3-fresh-viewport'});
+    const active=rowChannel(frame,chosen),old=rowChannel(prev,chosen);
+    const shape=active?.status==='found'?active:(active?.status==='cleared'&&old?.status==='found'?old:null);
+    const margin={left:49,right:22,top:27,bottom:37};
+    let cx=0,cy=0,span=2080;
+    if(ui.zoom.checked && (shape || chosen)){
+      const observations=data.actions.slice(0,g.end).filter(a=>a.channel===chosen);
+      const center=shape?.center||(observations.length?observations[observations.length-1].position:frame.q);
+      cx=(center[0]+frame.q[0])/2;cy=(center[1]+frame.q[1])/2;
+      span=Math.max(65,(shape?.radius||25)*1.35,Math.hypot(center[0]-frame.q[0],center[1]-frame.q[1])*.7);
+    }
+    const scale=Math.min((w-margin.left-margin.right)/(2*span),(h-margin.top-margin.bottom)/(2*span));
+    const midx=margin.left+(w-margin.left-margin.right)/2,midy=margin.top+(h-margin.top-margin.bottom)/2;
+    const X=x=>midx+(x-cx)*scale,Y=y=>midy-(y-cy)*scale;
+    clip.append(svg('circle',{cx:X(0),cy:Y(0),r:1800*scale}));
+    viewport.append(svg('rect',{x:margin.left,y:margin.top,width:w-margin.left-margin.right,height:h-margin.top-margin.bottom}));
+    defs.append(clip,viewport);s.append(defs);
+    const scene=svg('g',{'clip-path':'url(#f3-fresh-viewport)'});s.append(scene);
+    const ticks=ui.zoom.checked?[cx-span*.7,cx,cx+span*.7]:[-1800,0,1800];
+    const yticks=ui.zoom.checked?[cy-span*.7,cy,cy+span*.7]:[-1800,0,1800];
+    ticks.forEach(v=>{scene.append(svg('line',{x1:X(v),x2:X(v),y1:margin.top,y2:h-margin.bottom,stroke:color.line,'stroke-width':.7}));s.append(svg('text',{x:X(v),y:h-18,'text-anchor':'middle'},String(Math.round(v))));});
+    yticks.forEach(v=>{scene.append(svg('line',{x1:margin.left,x2:w-margin.right,y1:Y(v),y2:Y(v),stroke:color.line,'stroke-width':.7}));s.append(svg('text',{x:margin.left-6,y:Y(v)+4,'text-anchor':'end'},String(Math.round(v))));});
+    scene.append(svg('circle',{cx:X(0),cy:Y(0),r:1800*scale,fill:'none',stroke:color.truth,'stroke-width':1.3}));
+    s.append(svg('text',{x:w-23,y:h-4,'text-anchor':'end'},'x / 米'),svg('text',{x:9,y:15},'y / 米'));
+    const clipped=svg('g',{'clip-path':'url(#f3-fresh-domain)'});scene.append(clipped);
+    const placed=[];
+    if(chosen){
+      const histories=data.actions.slice(0,g.end).map((a,i)=>({...a,step:i+1})).filter(a=>a.channel===chosen&&a.kind==='measure');
+      histories.filter(a=>a.result==='no_signal').forEach(a=>clipped.append(svg('circle',{cx:X(a.position[0]),cy:Y(a.position[1]),r:1000*scale,fill:color.truth,'fill-opacity':.035,stroke:color.truth,'stroke-opacity':.24,'stroke-dasharray':'3 4'})));
+      histories.forEach(a=>{
+        const x=X(a.position[0]),y=Y(a.position[1]);
+        scene.append(svg('circle',{cx:x,cy:y,r:4,fill:'none',stroke:color.range,'stroke-width':1.5,
+          'data-tooltip':`C${chosen} 第${a.step}步测点 · ${a.result}`}));
+        if(ui.zoom.checked || histories.length<8)label(x,y,`测${a.step}`);
+      });
+      const bearings=histories.filter(a=>a.result==='direction');
+      bearings.forEach(a=>{const theta=a.bearing*Math.PI/180,q=a.position;const p=[q,[q[0]+1500*Math.cos(theta-1.005*Math.PI/180),q[1]+1500*Math.sin(theta-1.005*Math.PI/180)],[q[0]+1500*Math.cos(theta+1.005*Math.PI/180),q[1]+1500*Math.sin(theta+1.005*Math.PI/180)]];clipped.append(svg('polygon',{points:p.map(v=>`${X(v[0])},${Y(v[1])}`).join(' '),fill:color.range,'fill-opacity':.07,stroke:color.range,'stroke-opacity':.3,'stroke-width':.8}));});
+    }
+    if(active?.status==='found' && old?.status==='found')clipped.append(svg('polygon',{points:old.polygon.map(v=>`${X(v[0])},${Y(v[1])}`).join(' '),fill:'none',stroke:color.truth,'stroke-opacity':.5,'stroke-width':1}));
+    if(shape){clipped.append(svg('polygon',{points:shape.polygon.map(v=>`${X(v[0])},${Y(v[1])}`).join(' '),fill:color.range,'fill-opacity':.25,stroke:color.range,'stroke-width':2}));}
+    const path=[[0,0]];for(const a of data.actions.slice(0,g.end)){const last=path[path.length-1];if(Math.hypot(last[0]-a.position[0],last[1]-a.position[1])>.01)path.push(a.position);}
+    scene.append(svg('polyline',{points:path.map(v=>`${X(v[0])},${Y(v[1])}`).join(' '),fill:'none',stroke:color.dog,'stroke-width':1.7,'stroke-opacity':.5}));
+    if(g.start){const from=prev.q,to=frame.q;scene.append(svg('line',{x1:X(from[0]),y1:Y(from[1]),x2:X(to[0]),y2:Y(to[1]),stroke:color.dog,'stroke-width':3}));}
+
+    function label(x,y,text){
+      const width=Math.max(24,text.length*7);
+      let out=null;
+      for(const [dx,dy] of [[9,-8],[9,17],[-width-9,-8],[-width-9,17],[9,30],[-width-9,30]]){
+        const box={x:x+dx,y:y+dy-12,w:width,h:15};
+        if(box.x<margin.left||box.x+width>w-margin.right||box.y<margin.top||box.y+15>h-margin.bottom)continue;
+        if(placed.some(b=>!(box.x+box.w+3<b.x||b.x+b.w+3<box.x||box.y+box.h+3<b.y||b.y+b.h+3<box.y)))continue;
+        placed.push(box);out=svg('text',{x:box.x,y:box.y+12},text);break;
+      }
+      if(out)scene.append(out);
+    }
+    if(ui.truth.checked){
+      for(const target of data.case.sources){
+        const x=X(target.position[0]),y=Y(target.position[1]),c=rowChannel(frame,target.channel),cleared=c.status==='cleared';
+        if(x<margin.left||x>w-margin.right||y<margin.top||y>h-margin.bottom)continue;
+        if(cleared){scene.append(svg('path',{d:`M${x-4},${y-4}l8,8m-8,0l8,-8`,stroke:color.clear,'stroke-width':2,fill:'none','data-tooltip':`频道${target.channel} 已清除`}));}
+        else scene.append(svg('polygon',{points:`${x},${y-5} ${x+5},${y} ${x},${y+5} ${x-5},${y}`,fill:'none',stroke:color.truth,'stroke-width':1.6,'data-tooltip':`讲解真值：频道${target.channel}；接收半径${fmt(target.radius)}米；算法不可见`}));
+        label(x,y,`C${target.channel}`);
+      }
+    }else{
+      const seen=new Set();data.actions.slice(0,g.end).filter(a=>a.result==='success').forEach(a=>{if(seen.has(a.channel))return;seen.add(a.channel);const x=X(a.position[0]),y=Y(a.position[1]);scene.append(svg('path',{d:`M${x-4},${y-4}l8,8m-8,0l8,-8`,stroke:color.clear,'stroke-width':2}));label(x,y,`C${a.channel}已清除`);});
+    }
+    for(const c of frame.channels.filter(c=>c.status==='found')){
+      const x=X(c.center[0]),y=Y(c.center[1]);
+      scene.append(svg('circle',{cx:x,cy:y,r:c.j===chosen?6:3.5,fill:'var(--background)',stroke:color.range,'stroke-width':c.j===chosen?2:1,'data-tooltip':`频道${c.j}：可能区域包围半径${fmt(c.radius)}米`}));
+      if(!ui.truth.checked||c.j===chosen)label(x,y,`估C${c.j}`);
+    }
+    if(g.start&&data.actions.slice(g.start-1,g.end).some(a=>a.kind==='clear'))scene.append(svg('circle',{cx:X(frame.q[0]),cy:Y(frame.q[1]),r:20*scale,fill:color.clear,'fill-opacity':.1,stroke:color.clear,'stroke-width':1.3}));
+    const dog=svg('rect',{x:X(frame.q[0])-5,y:Y(frame.q[1])-5,width:10,height:10,fill:color.dog,'data-tooltip':`机器狗：(${fmt(frame.q[0])}, ${fmt(frame.q[1])})米`});scene.append(dog);
+    label(X(frame.q[0]),Y(frame.q[1]),'机器狗');
+    s.append(svg('text',{x:w-24,y:17,'text-anchor':'end'},ui.zoom.checked?`局部视角 · C${chosen||'—'}`:'目标区域半径 1800米'));
+    ui.plot.replaceChildren(s);
+    if(lastDrawStep===g.start-1 && g.start>0 && !window.matchMedia('(prefers-reduced-motion: reduce)').matches){
+      const dx=X(prev.q[0])-X(frame.q[0]),dy=Y(prev.q[1])-Y(frame.q[1]);
+      if(Math.hypot(dx,dy)>1)dog.animate([{transform:`translate(${dx}px,${dy}px)`},{transform:'translate(0px,0px)'}],{duration:350,easing:'ease-out'});
+    }
+    lastDrawStep=g.end;
+  }
+  function render(autoFocus=true){
+    const list=groups();cursor=Math.min(cursor,list.length-1);const g=list[cursor],f=data.frames[g.end];
+    if(autoFocus)chosen=g.focus||0;
+    ui.channel.replaceChildren(new Option('自动关注',0));
+    const names={unknown:'未发现',found:'已发现',cleared:'已清除',absent:'已排除'};
+    f.channels.forEach(c=>ui.channel.add(new Option(`C${c.j} · ${names[c.status]}`,c.j)));
+    ui.channel.value=String(chosen);
+    ui.counter.textContent=`${mode==='stops'?'流程':'动作'} ${cursor} / ${list.length-1}`;
+    const cleared=f.channels.filter(c=>c.status==='cleared').length,found=f.channels.filter(c=>c.status==='found').length;
+    ui.stats.textContent=`累计 ${fmt(f.time/60)} 分钟 · 已发现 ${f.seen.length} · 待清除 ${found} · 已清除 ${cleared}`;
+    ui.slider.max=list.length-1;ui.slider.value=cursor;
+    ui.progress.textContent=g.end?`真实动作 ${g.start===g.end?g.end:g.start+'—'+g.end} / ${data.actions.length}`:'拖动进度查看任一步';
+    ['title','action','feedback','why'].forEach(k=>ui[k].textContent=g[k]);
+    const c=f.channels.find(c=>c.j===chosen);
+    const beforeChannel=data.frames[Math.max(0,g.start-1)].channels.find(c=>c.j===chosen);
+    const radiusText=beforeChannel?.status==='found'?`${fmt(beforeChannel.radius)} → ${fmt(c?.radius||0)}`:fmt(c?.radius||0);
+    ui.focus.textContent=c?.status==='found'?`关注 C${chosen}：包围半径 ${radiusText}米；填色为更新后可能范围，灰色细轮廓为更新前范围，均为保守几何约束。`:
+      c?.status==='unknown'?`关注 C${chosen}：虚线1000米圆是该频道实际无信号记录所排除的区域。`:
+      c?.status==='cleared'?`C${chosen} 已通过实际清除成功反馈确认。`:
+      c?.status==='absent'?`C${chosen} 已依据实际覆盖记录或最多16源的约束排除。`:'选一个频道，可查看它的定位范围或无信号排除圆。';
+    ui.prev.disabled=cursor===0;ui.next.disabled=cursor===list.length-1;
+    ui.decision.hidden=g.end<data.first_end;
+    ui.case.textContent=`随机种子 ${data.case.seed} · ${ui.truth.checked?'真实源数 '+data.case.sources.length+'（仅讲解可见） · ':''}均匀位置与接收半径的自建案例；本次未重抽。`;
+    draw();
+  }
+  ui.prev.onclick=()=>{stopPlay();cursor=Math.max(0,cursor-1);render();};
+  ui.variant.onchange=()=>{stopPlay();data=payload.variants[ui.variant.value];cursor=0;chosen=0;lastDrawStep=null;render();};
+  ui.next.onclick=()=>{stopPlay();cursor=Math.min(groups().length-1,cursor+1);render();};
+  ui.slider.oninput=()=>{stopPlay();cursor=Number(ui.slider.value);render();};
+  ui.mode.onchange=()=>{stopPlay();const step=groups()[cursor].end;mode=ui.mode.value;cursor=groups().findIndex(g=>g.end>=step);render();};
+  ui.truth.onchange=()=>render(false);ui.zoom.onchange=draw;
+  ui.channel.onchange=()=>{chosen=Number(ui.channel.value);if(!chosen)chosen=groups()[cursor].focus||0;render(false);};
+  ui.play.onclick=()=>{if(playing){stopPlay();return;}if(cursor===groups().length-1)cursor=0;ui.play.textContent='暂停';playing=setInterval(()=>{if(cursor>=groups().length-1){stopPlay();return;}cursor++;render();},2200);};
+  data.options.forEach(c=>{const tr=document.createElement('tr');const values=[(c.selected?'✓ ':'')+c.name,c.q.map(x=>Math.round(x)).join(', '),c.channels,c.mean.toFixed(2)];values.forEach(v=>{const td=document.createElement('td');td.textContent=v;tr.append(td);});ui.options.append(tr);});
+  new ResizeObserver(draw).observe(ui.plot);render();
+})();

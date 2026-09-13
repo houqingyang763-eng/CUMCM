@@ -1,0 +1,54 @@
+{
+  "case": "edge_biased_320109",
+  "seed": 320109,
+  "layout": "edge",
+  "noise": "biased",
+  "policy": "P1_joint_tasks",
+  "real_n": 16,
+  "source_count": 16,
+  "success": true,
+  "cleared": 16,
+  "total_s": 4558.305862861982,
+  "per_source_s": 284.8941164288739,
+  "wall_s": 369.67693060002057,
+  "actions": 193,
+  "initial_finish_s": 149.00000007488248,
+  "phase_costs": {
+    "initial": {
+      "actions": 20,
+      "move_s": 30.00000007488248,
+      "measure_s": 100.0,
+      "switch_s": 19.0,
+      "success_clear_s": 0.0,
+      "fail_clear_s": 0.0
+    },
+    "completion": {
+      "actions": 20,
+      "move_s": 174.664521703139,
+      "measure_s": 100.0,
+      "switch_s": 19.0,
+      "success_clear_s": 0.0,
+      "fail_clear_s": 0.0
+    },
+    "service": {
+      "actions": 153,
+      "move_s": 3245.6413410839587,
+      "measure_s": 640.0,
+      "switch_s": 123.0,
+      "success_clear_s": 80.0,
+      "fail_clear_s": 27.0
+    }
+  },
+  "move_s": 3450.30586286198,
+  "measure_s": 840.0,
+  "switch_s": 161.0,
+  "success_clear_s": 80.0,
+  "fail_clear_s": 27.0,
+  "error": null,
+  "failreason": null,
+  "fail_clears": 9,
+  "measure_count": 168,
+  "cached_opening_selection_wall_s": 41.14034710000851,
+  "accounted_wall_s": 410.8172777000291,
+  "opening_selection": "reused identical public-history selection; historical compute charged separately"
+}

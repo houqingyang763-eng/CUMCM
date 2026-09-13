@@ -1,0 +1,623 @@
+{
+  "config": {
+    "name": "r3_covering",
+    "initial_points": [
+      [
+        -129.903811,
+        -75.0
+      ],
+      [
+        519.615242,
+        300.0
+      ]
+    ],
+    "try_radius_m": 30.0,
+    "local_action_limit": 16,
+    "local_offset_fraction": 0.5,
+    "local_offset_min_m": 30.0,
+    "local_offset_max_m": 300.0,
+    "shared_scan_gap_m": 0.0,
+    "route_mode": "nearest",
+    "planning": "covering"
+  },
+  "phase": "service",
+  "initial_finish_s": 428.6766576281286,
+  "initial_statistics": {
+    "found": 3,
+    "two_bearings": 3,
+    "radius_le20": 0,
+    "radius_le60": 3,
+    "radii_m": {
+      "6": 31.22615896558768,
+      "8": 31.22615896558768,
+      "16": 31.22615896558768
+    }
+  },
+  "stations": 15,
+  "target": 6,
+  "reason": "certain_here",
+  "selected_second": {
+    "id": "p2_all",
+    "q": [
+      364.85650546801645,
+      557.9588741067988
+    ],
+    "channels": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "set": "all",
+    "costs_s": [
+      3339.557164079319,
+      3603.8701372002524,
+      3677.8405197526918,
+      3180.918457727103,
+      3086.9511224668395,
+      3253.8428880044166,
+      3161.408065612705,
+      3199.8161956025724,
+      3210.6521552963027,
+      3232.367294886705,
+      2895.3637895624192,
+      3392.0514343260797,
+      3282.7813358260046,
+      2918.9410307725057,
+      3286.2488683204824,
+      2879.5189432914303
+    ],
+    "mean_s": 3225.133087670489,
+    "errors": []
+  },
+  "refinement_level": 2,
+  "samples": 4,
+  "skipped": [
+    {
+      "channel": 6,
+      "position": [
+        1296.530004957803,
+        -411.8115332649829
+      ],
+      "at_action": 100,
+      "prior_position": [
+        400.0,
+        1200.0
+      ],
+      "squared_distance_margin": 240762.30990947457
+    },
+    {
+      "channel": 8,
+      "position": [
+        1296.530004957803,
+        -411.8115332649829
+      ],
+      "at_action": 100,
+      "prior_position": [
+        400.0,
+        1200.0
+      ],
+      "squared_distance_margin": 240762.30990947457
+    },
+    {
+      "channel": 16,
+      "position": [
+        1296.530004957803,
+        -411.8115332649829
+      ],
+      "at_action": 100,
+      "prior_position": [
+        400.0,
+        1200.0
+      ],
+      "squared_distance_margin": 240762.30990947457
+    },
+    {
+      "channel": 6,
+      "position": [
+        1203.6992258575847,
+        -3.4258254887006787
+      ],
+      "at_action": 108,
+      "prior_position": [
+        965.9258262890684,
+        258.81904510252076
+      ],
+      "squared_distance_margin": 443937.26900237845
+    },
+    {
+      "channel": 8,
+      "position": [
+        1203.6992258575847,
+        -3.4258254887006787
+      ],
+      "at_action": 108,
+      "prior_position": [
+        965.9258262890684,
+        258.81904510252076
+      ],
+      "squared_distance_margin": 443937.26900237845
+    },
+    {
+      "channel": 16,
+      "position": [
+        1203.6992258575847,
+        -3.4258254887006787
+      ],
+      "at_action": 108,
+      "prior_position": [
+        965.9258262890684,
+        258.81904510252076
+      ],
+      "squared_distance_margin": 443937.26900237845
+    },
+    {
+      "channel": 6,
+      "position": [
+        1203.6992258575847,
+        -3.4258254887006787
+      ],
+      "at_action": 108,
+      "prior_position": [
+        965.9258262890684,
+        258.81904510252076
+      ],
+      "squared_distance_margin": 443937.26900237845
+    },
+    {
+      "channel": 8,
+      "position": [
+        1203.6992258575847,
+        -3.4258254887006787
+      ],
+      "at_action": 108,
+      "prior_position": [
+        965.9258262890684,
+        258.81904510252076
+      ],
+      "squared_distance_margin": 443937.26900237845
+    },
+    {
+      "channel": 16,
+      "position": [
+        1203.6992258575847,
+        -3.4258254887006787
+      ],
+      "at_action": 108,
+      "prior_position": [
+        965.9258262890684,
+        258.81904510252076
+      ],
+      "squared_distance_margin": 443937.26900237845
+    },
+    {
+      "channel": 8,
+      "position": [
+        1194.7675175905902,
+        4.668693043744522
+      ],
+      "at_action": 130,
+      "prior_position": [
+        965.9258262890684,
+        258.81904510252076
+      ],
+      "squared_distance_margin": 422736.594743059
+    },
+    {
+      "channel": 16,
+      "position": [
+        1194.7675175905902,
+        4.668693043744522
+      ],
+      "at_action": 130,
+      "prior_position": [
+        965.9258262890684,
+        258.81904510252076
+      ],
+      "squared_distance_margin": 422736.594743059
+    },
+    {
+      "channel": 6,
+      "position": [
+        625.78125,
+        -822.65625
+      ],
+      "at_action": 131,
+      "prior_position": [
+        965.9258262890684,
+        258.81904510252076
+      ],
+      "squared_distance_margin": 13161.294697114732
+    },
+    {
+      "channel": 8,
+      "position": [
+        625.78125,
+        -822.65625
+      ],
+      "at_action": 131,
+      "prior_position": [
+        965.9258262890684,
+        258.81904510252076
+      ],
+      "squared_distance_margin": 13161.294697114732
+    },
+    {
+      "channel": 16,
+      "position": [
+        625.78125,
+        -822.65625
+      ],
+      "at_action": 131,
+      "prior_position": [
+        965.9258262890684,
+        258.81904510252076
+      ],
+      "squared_distance_margin": 13161.294697114732
+    }
+  ],
+  "kept_to_progress": [
+    {
+      "channel": 6,
+      "position": [
+        1194.7675175905902,
+        4.668693043744522
+      ]
+    }
+  ],
+  "refinement_decisions": [
+    {
+      "at_action": 100,
+      "position": [
+        965.9258262890684,
+        258.81904510252076
+      ],
+      "channel": 1,
+      "original_reason": "planned_transverse_scan",
+      "original_action": {
+        "kind": "measure",
+        "position": [
+          1296.530004957803,
+          -411.8115332649829
+        ],
+        "channel": 1,
+        "reason": "planned_transverse_scan",
+        "phase": "service"
+      },
+      "scan_unknown": false,
+      "posterior": {
+        "samples": 4,
+        "pool_size": 256,
+        "unknown_channels": [
+          3,
+          5,
+          7,
+          9,
+          10,
+          14,
+          17,
+          18,
+          19,
+          20
+        ],
+        "unknown_presence_mass": [
+          0.27889989552628647,
+          0.2437256040069985,
+          0.26399902536215586,
+          0.2667032272424062,
+          0.22833515702308832,
+          0.26436494846129666,
+          0.2632800873743333,
+          0.24933712949452025,
+          0.24340182579313202,
+          0.2453471629374465
+        ],
+        "remaining_unknown_count_values": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "remaining_unknown_count_probabilities": [
+          0.04464390219210804,
+          0.12509817254354713,
+          0.19113773202131665,
+          0.21084357074823168,
+          0.18778780885677415,
+          0.14330927477591135,
+          0.09717953886211093
+        ],
+        "known_ever": 10,
+        "assumption": "uniform_space_radius_bounded_angle"
+      },
+      "options": [
+        {
+          "id": "original",
+          "kind": "original",
+          "costs_s": [
+            2248.168334444237,
+            2288.8532374348797,
+            2620.9656082669826,
+            2312.03966022869
+          ],
+          "mean_s": 2367.5067100936976
+        },
+        {
+          "id": "mirror0_unknown0",
+          "kind": "scan",
+          "q": [
+            1598.3754241156246,
+            -155.9468523775731
+          ],
+          "channel": 1,
+          "scan_unknown": false,
+          "costs_s": [
+            2226.7526781635434,
+            2297.351735271034,
+            2482.840060515505,
+            2366.2925121782628
+          ],
+          "mean_s": 2343.309246532086
+        },
+        {
+          "id": "mirror0_unknown1",
+          "kind": "scan",
+          "q": [
+            1598.3754241156246,
+            -155.9468523775731
+          ],
+          "channel": 1,
+          "scan_unknown": true,
+          "costs_s": [
+            2285.7526781635443,
+            2358.351735271034,
+            2484.7537352263917,
+            2427.2925121782628
+          ],
+          "mean_s": 2389.0376652098084
+        },
+        {
+          "id": "mirror1_unknown1",
+          "kind": "scan",
+          "q": [
+            1296.530004957803,
+            -411.8115332649829
+          ],
+          "channel": 1,
+          "scan_unknown": true,
+          "costs_s": [
+            2233.015777994702,
+            2448.662930662944,
+            2472.134318071211,
+            2249.8622741071986
+          ],
+          "mean_s": 2350.918825209014
+        }
+      ],
+      "chosen": "mirror0_unknown0",
+      "predicted_saving_s": 24.197463561611585,
+      "wall_s": 8.04769980002311
+    },
+    {
+      "at_action": 108,
+      "position": [
+        1203.6992258575847,
+        -3.4258254887006787
+      ],
+      "channel": 15,
+      "original_reason": "planned_clearance_scan",
+      "original_action": {
+        "kind": "measure",
+        "position": [
+          1203.6992258575847,
+          -3.4258254887006787
+        ],
+        "channel": 15,
+        "reason": "planned_clearance_scan",
+        "phase": "service"
+      },
+      "scan_unknown": false,
+      "posterior": {
+        "samples": 4,
+        "pool_size": 256,
+        "unknown_channels": [
+          3,
+          5,
+          7,
+          9,
+          10,
+          14,
+          17,
+          18,
+          19,
+          20
+        ],
+        "unknown_presence_mass": [
+          0.24661424377826985,
+          0.24881122787689217,
+          0.23840458176442772,
+          0.2523585281895232,
+          0.24930996842271896,
+          0.2570698285089222,
+          0.23142038580965985,
+          0.24997376481228484,
+          0.2669386533601121,
+          0.252705228761213
+        ],
+        "remaining_unknown_count_values": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "remaining_unknown_count_probabilities": [
+          0.047715473106092046,
+          0.1308819706202817,
+          0.1957915252983883,
+          0.21150156742688225,
+          0.18450744532809926,
+          0.1379437180262507,
+          0.09165830019400575
+        ],
+        "known_ever": 10,
+        "assumption": "uniform_space_radius_bounded_angle"
+      },
+      "options": [
+        {
+          "id": "original",
+          "kind": "original",
+          "costs_s": [
+            2303.9383077976127,
+            1963.0932262928156,
+            1901.960224491874,
+            1872.713514170239
+          ],
+          "mean_s": 2010.4263181881354
+        },
+        {
+          "id": "scan_unknown_now",
+          "kind": "scan",
+          "q": [
+            1203.6992258575847,
+            -3.4258254887006787
+          ],
+          "channel": 15,
+          "scan_unknown": true,
+          "costs_s": [
+            2322.7268476025065,
+            1943.195501561045,
+            1896.7442622937372,
+            1771.9132759287693
+          ],
+          "mean_s": 1983.6449718465144
+        }
+      ],
+      "chosen": "scan_unknown_now",
+      "predicted_saving_s": 26.781346341620974,
+      "wall_s": 2.677487700013444
+    },
+    {
+      "at_action": 130,
+      "position": [
+        1194.7675175905902,
+        4.668693043744522
+      ],
+      "channel": 6,
+      "original_reason": "planned_clearance_scan",
+      "original_action": {
+        "kind": "measure",
+        "position": [
+          1194.7675175905902,
+          4.668693043744522
+        ],
+        "channel": 6,
+        "reason": "planned_clearance_scan",
+        "phase": "service"
+      },
+      "scan_unknown": false,
+      "posterior": {
+        "samples": 4,
+        "pool_size": 256,
+        "unknown_channels": [
+          3,
+          5,
+          7,
+          9,
+          10,
+          14,
+          17,
+          18,
+          19,
+          20
+        ],
+        "unknown_presence_mass": [
+          0.22443522125368692,
+          0.23019845856762888,
+          0.22964444034236922,
+          0.22228668990013037,
+          0.24096983981220485,
+          0.23509785616902917,
+          0.23085774142146837,
+          0.2405875626516628,
+          0.23499855830680627,
+          0.23096992225550864
+        ],
+        "remaining_unknown_count_values": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "remaining_unknown_count_probabilities": [
+          0.059386790348636795,
+          0.15155811293015253,
+          0.2109584903556516,
+          0.21205845467960083,
+          0.17215912055331078,
+          0.11979194000417767,
+          0.07408709112846976
+        ],
+        "known_ever": 10,
+        "assumption": "uniform_space_radius_bounded_angle"
+      },
+      "options": [
+        {
+          "id": "original",
+          "kind": "original",
+          "costs_s": [
+            1686.0058629579096,
+            1861.5777774898709,
+            1713.2572812606716,
+            1712.4239810396987
+          ],
+          "mean_s": 1743.3162256870378
+        },
+        {
+          "id": "scan_unknown_now",
+          "kind": "scan",
+          "q": [
+            1194.7675175905902,
+            4.668693043744522
+          ],
+          "channel": 6,
+          "scan_unknown": true,
+          "costs_s": [
+            1738.0058629579096,
+            1913.5777774898709,
+            1765.2572812606716,
+            1764.4239810396987
+          ],
+          "mean_s": 1795.3162256870378
+        }
+      ],
+      "chosen": "original",
+      "predicted_saving_s": 0.0,
+      "wall_s": 2.0620146000001114
+    }
+  ]
+}

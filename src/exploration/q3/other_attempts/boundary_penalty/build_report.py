@@ -1,0 +1,93 @@
+"""由配对结果生成报告、典型动作诊断及验证清单。"""
+import json
+from pathlib import Path
+import sys
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from summarize import read
+from boundary_policy import outside_fraction
+
+HERE = Path(__file__).resolve().parent
+
+
+def table(data, modes):
+    labels = {'f3':'原F3', 'penalty60':'轻惩罚λ=60', 'penalty180':'中惩罚λ=180', 'penalty600':'强惩罚λ=600'}
+    lines = ['|场景|源数|'+'|'.join(labels[m]+'/分钟' for m in modes)+'|',
+             '|---|---:|'+'|'.join('---:' for _ in modes)+'|']
+    for row in data['rows']:
+        lines.append('|'+row['case']+'|'+str(row['sources'])+'|'+'|'.join(f"{row[m]['total_s']/60:.4f}" if row[m]['success'] else '失败，详见日志' for m in modes)+'|')
+    lines.append('|平均|—|'+'|'.join(f"{data['summary'][m]['mean_min']:.4f}" if data['summary'][m]['all_clear'] else '包含失败，不计算仅成功均值' for m in modes)+'|')
+    return lines
+
+
+def main():
+    development = read(HERE/'runs/development/comparison.json')
+    confirmation = read(HERE/'runs/confirmation/comparison.json')
+    s = confirmation['summary']['penalty60']
+    if s['all_clear']:
+        conclusion = (f"六个新场景平均节省{s['savings_min']:.4f}分钟（{s['savings_min']*60:.2f}秒），"
+                      f"{s['wins']}胜、{s['losses']}负、{6-s['wins']-s['losses']}平。")
+    else:
+        conclusion = '新场景出现未全清，不能仅对成功场景计算平均后声称改善。'
+    lines = ['# 边界面积惩罚实验报告','',
+             '## 结论','',conclusion,
+             '本轮不推荐默认替换原F3。保留边界惩罚开关作为实验候选，停止继续调强度：开发集平均节省39.60秒，新种子平均仅节省12.70秒，且最慢案例恶化。',
+             '惩罚确实改变决策，但当前证据不能达到原先整局至少节省10分钟的明显改善门槛。本轮只评价这一接入方式，不据此否定所有利用边界信息的方法。','',
+             '## 改动是什么','',
+             '在原F3的已有多候选决策中，测量候选按“条件完整续行平均秒数 + λ × 接收圆越界比例”比较；清除候选无覆盖惩罚。接收圆半径1000米，目标大圆半径1800米。距圆心800米以内惩罚为零，圆完全不相交时越界比例为1。采用解析相交面积，按面积递增，非线性径向距离罚。',
+             '', '人工排序惩罚不计入真实耗时，不是可观测概率，也不代表真实的损失秒数。λ=60时，越界10%相当于多加6秒排序代价；λ=180、600时分别18、60秒。每次比较一个候选测站，不按频道数重复惩罚。',
+             '', '没有叠加上一轮Sigmoid筛选，没有新增测点、修改清除可行性、改变频道集合或停止条件。初始点选择固定，模拟预测继续使用相同F1。仅修改RefinedPolicy.select_candidate扩展入口：初始站、只有一个候选的测站、查漏覆盖路线本身没有重构。因此这不是所有测站的全局惩罚路线优化。',
+             '', '不惩罚清除，所以惩罚除了把测点向内移，也可能把“再测”改为“执行已有认证多圆清除方案”。不能把全部收益解释成接收面积增大。','',
+             '## 五个既有开发场景：比较强度','']
+    lines += table(development, ('f3','penalty60','penalty180','penalty600'))
+    lines += ['', '开发后选择平均最好的λ=60，参数冻结；不根据下面的新场景重新挑强度。五个旧案例包含一局演示和两组16/12源共享部分位置的案例，不按五个独立抽样样本估计显著性。','',
+              '## 六个新种子确认：固定轻惩罚','']
+    lines += table(confirmation, ('f3','penalty60'))
+    lines += ['', conclusion, '包含均匀12/16源、边缘12/16源、聚集14源和近共线10源。所有位置/半径/误差分布只是本地模拟设定，不能外推为正式测试结果。案例数量少且刻意混合布局，不给出总体显著性保证。','',
+              '## 完整时间账本','',
+              '|批次|移动变化/秒|扫描变化/秒|切频变化/秒|成功清除变化/秒|失败清除变化/秒|总时间变化/秒|',
+              '|---|---:|---:|---:|---:|---:|---:|']
+    for label, data in [('开发5例', development),('新种子6例', confirmation)]:
+        components = data['summary']['penalty60']['component_increase_s']
+        lines.append('|'+label+'|'+'|'.join(f'{components[k]:.3f}' for k in ('move_s','measure_s','switch_s','success_clear_s','fail_clear_s'))+f"|{sum(components.values()):.3f}|")
+    lines += ['', '正号为更慢；包含补测、失败清除和查漏。未把人工惩罚计入账本。每局查漏尾部、测量站次、越界面积、动作首次分歧和原始费用保存在comparison.json。','',
+              '## 决策为什么改变，什么会恶化','',
+              '原演示第50步，较轻惩罚将测点距圆心1353.959米改为1241.679米，越界面积比例27.841%→20.865%。原F3只预测外侧点比内侧快1.607秒，λ=60使两者惩罚差为4.186秒，选择因此翻转。原演示完整时间52.6844→51.9951分钟，扫描123→117次；同时失败清除从0增至3次，均计费。',
+              '', '同一原始第101步状态中的候选距圆心1739.802或1771.417米，都在边缘附近；惩罚不会凭空生成有效内侧视角。因为第50步后实际路径已改变，第101步对照只作为固定旧状态候选诊断，不能冒充新轨迹的第101步。',
+              '', '开发集边缘16源的轻惩罚节省2.8057分钟，其中移动少219.343秒、扫描切频多57秒、失败清除少6秒。首次改变是原第195步由测量改为认证多圆清除；其收益不能全归因于测点内移。',
+              '', '开发集均匀12源的轻惩罚反而慢12.831秒：原第164步由补测转为两圆清除，移动增加16.831秒，少测/切频节省7秒，失败清除增加3秒。',
+              '', '强惩罚在开发集均匀16源中反而慢91.364秒。轨迹中一次改选清除的F3原估计时间代价达到182.635秒，仍被边缘测量惩罚压过。面积损失与最终可清除性不同，增大惩罚并不保证更快。',
+              '', '在相同候选和状态下，惩罚倾向越界较少的位置；由于未来反馈、清除取舍和路线会变化，全局平均越界面积、扫描次数和总时间都不保证单调下降。','',
+              '新种子边缘16源反例：77.3091→79.5056分钟，慢131.788秒；移动多144.788秒，扫描少10秒、切频多3秒、失败清除少6秒。测站平均越界比例46.996%→44.684%，面积指标改善却整体变慢。首次分歧在第146步，由测量改为三圆清除；随后路线也改变。',
+              '', '新种子均匀12源的实际内移例：第162步测点距圆心1840.869→1354.550米，越界比例58.427%→27.878%；全局64.1140→63.2288分钟，节省53.114秒。均匀16源、聚集14源、近共线10源三局动作不变。新种子边缘12源节省154.846秒，但扫描多31次；主要来自缩短路程。',
+              '', '剩余问题是如何结合当前各频道的未知区域、交会可清除性和实际路线成本利用边界信息。单凭一个固定接收圆落在大圆外多少，无法判断当前最有用的观测在哪里。本轮不再叠加候选生成或参数修正，避免把多项变动混成边界惩罚的收益。','',
+              '## 核验与复现','',
+              'AI执行两项检查：圆相交面积与独立40000切片数值积分一致（容差2e-6），涵盖零罚区、内切、部分相交、外切、不相交、旋转和单调性；λ=0逐条复现原F3的139动作并公开状态终止。',
+              '', f"本轮新增{development['validation']['new_episodes']+confirmation['validation']['new_episodes']}次执行，独立复核{development['validation']['independent_actions_replayed']+confirmation['validation']['independent_actions_replayed']}条动作的反馈、测角误差、移动/扫描/切频/清除计费。运行器另检查真源没有被错误排除及全清结束。未运行官方测试，未修改src或submission。",
+              '', '复现（项目根目录，Python3.13）：', '', '```powershell',
+              'py -3.13 -X utf8 experiments/b_q3/boundary_penalty/test_boundary.py',
+              'py -3.13 -X utf8 experiments/b_q3/boundary_penalty/run_boundary.py',
+              'py -3.13 -X utf8 experiments/b_q3/boundary_penalty/summarize.py',
+              'py -3.13 -X utf8 experiments/b_q3/boundary_penalty/run_confirmation.py',
+              'py -3.13 -X utf8 experiments/b_q3/boundary_penalty/summarize.py confirmation',
+              'py -3.13 -X utf8 experiments/b_q3/boundary_penalty/build_report.py', '```',
+              '', '运行器保留已存在结果，重跑要使用新输出目录或明确另行配置，不能混入其他参数结果。各批manifest记录种子、强度和代码哈希。所有代码和案例只在experiments内保存。']
+    (HERE/'REPORT.md').write_text('\n'.join(lines)+'\n', encoding='utf-8')
+    (HERE/'VALIDATION.json').write_text(json.dumps({'development':development['validation'], 'confirmation':confirmation['validation'], 'area_checks':'test_boundary.py passed', 'official_tests':False},ensure_ascii=False,indent=2),encoding='utf-8')
+    root = HERE.parent/'refinement/runs/demo_f3_20260912/uniform_hashed_186539142/f3'
+    diagnostic = []
+    for d in read(root/'metadata.json')['refinement_decisions']:
+        if d['at_action'] not in (49,100):
+            continue
+        options = []
+        for record in d['options']:
+            q = record.get('q', d['original_action']['position'])
+            fraction = outside_fraction(q)
+            options.append(dict(record, evaluated_q=q, outside_fraction=fraction,
+                                ranks={str(s):record['mean_s']+s*fraction for s in (60,180,600)}))
+        diagnostic.append({'old_step':d['at_action']+1, 'options':options})
+    (HERE/'runs/fixed_old_state_diagnostic.json').write_text(json.dumps(diagnostic,ensure_ascii=False,indent=2),encoding='utf-8')
+    print(conclusion)
+
+
+if __name__ == '__main__':
+    main()

@@ -1,0 +1,43 @@
+{
+  "config": {
+    "name": "r2_short",
+    "initial_points": [
+      [
+        -129.903811,
+        -75.0
+      ],
+      [
+        519.615242,
+        300.0
+      ]
+    ],
+    "try_radius_m": 30.0,
+    "local_action_limit": 16,
+    "local_offset_fraction": 0.5,
+    "local_offset_min_m": 30.0,
+    "local_offset_max_m": 300.0,
+    "shared_scan_gap_m": 0.0,
+    "route_mode": "nearest"
+  },
+  "phase": "completion",
+  "initial_finish_s": 418.0000001028847,
+  "initial_statistics": {
+    "found": 8,
+    "two_bearings": 5,
+    "radius_le20": 3,
+    "radius_le60": 5,
+    "radii_m": {
+      "2": 14.806674030249653,
+      "8": 526.0938733985483,
+      "9": 13.836668789177958,
+      "12": 24.25381708844859,
+      "13": 523.9737453598004,
+      "15": 19.49821982474187,
+      "16": 615.2491788633117,
+      "19": 29.508325756591564
+    }
+  },
+  "stations": 24,
+  "target": null,
+  "reason": "unresolved_region_scan"
+}

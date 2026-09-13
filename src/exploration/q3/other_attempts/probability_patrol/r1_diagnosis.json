@@ -1,0 +1,742 @@
+{
+  "baseline_run": "runs/baseline_development_02",
+  "r1_run": "runs/r1_development_01",
+  "same_cases": true,
+  "mean_delta_min": 17.000922621795475,
+  "by_layout": {
+    "uniform": {
+      "cases": 3,
+      "total_sources": 33,
+      "total_initial_found": 23,
+      "mean_initial_found": 7.666666666666667,
+      "mean_initial_two_bearings": 1.3333333333333333,
+      "mean_initial_radius_le20": 0,
+      "mean_completion_min": 19.254235509692993,
+      "mean_delta_min": 17.812369811723727
+    },
+    "edge": {
+      "cases": 3,
+      "total_sources": 44,
+      "total_initial_found": 0,
+      "mean_initial_found": 0,
+      "mean_initial_two_bearings": 0,
+      "mean_initial_radius_le20": 0,
+      "mean_completion_min": 12.655823016950391,
+      "mean_delta_min": 17.300799015574412
+    },
+    "cluster": {
+      "cases": 3,
+      "total_sources": 37,
+      "total_initial_found": 37,
+      "mean_initial_found": 12.333333333333334,
+      "mean_initial_two_bearings": 4,
+      "mean_initial_radius_le20": 0,
+      "mean_completion_min": 21.37661219582057,
+      "mean_delta_min": 11.972334121089009
+    },
+    "line": {
+      "cases": 3,
+      "total_sources": 39,
+      "total_initial_found": 39,
+      "mean_initial_found": 13,
+      "mean_initial_two_bearings": 2,
+      "mean_initial_radius_le20": 0,
+      "mean_completion_min": 33.103621710780736,
+      "mean_delta_min": 20.918187538794758
+    }
+  },
+  "reason_mean_per_case": {
+    "initial_1": {
+      "count": 20.0,
+      "move_s": 150.0,
+      "operation_s": 119.0
+    },
+    "initial_2": {
+      "count": 19.916666666666668,
+      "move_s": 300.0,
+      "operation_s": 118.5
+    },
+    "transverse_shared_scan": {
+      "count": 85.41666666666667,
+      "move_s": 955.664327842643,
+      "operation_s": 511.75
+    },
+    "certain_center": {
+      "count": 11.166666666666666,
+      "move_s": 280.47527299037057,
+      "operation_s": 55.833333333333336
+    },
+    "clearance_shared_scan": {
+      "count": 135.91666666666666,
+      "move_s": 0.0,
+      "operation_s": 804.4166666666666
+    },
+    "unresolved_region_scan": {
+      "count": 37.0,
+      "move_s": 1078.1043864986707,
+      "operation_s": 217.75
+    },
+    "single_center_try": {
+      "count": 2.0833333333333335,
+      "move_s": 210.77237427980222,
+      "operation_s": 9.25
+    },
+    "certain_here": {
+      "count": 0.08333333333333333,
+      "move_s": 0.0,
+      "operation_s": 0.4166666666666667
+    },
+    "current_view": {
+      "count": 0.8333333333333334,
+      "move_s": 0.0,
+      "operation_s": 4.833333333333333
+    }
+  },
+  "cases": [
+    {
+      "case": "uniform_smooth_170100",
+      "layout": "uniform",
+      "noise": "smooth",
+      "real_n": 10,
+      "initial": {
+        "found": 8,
+        "two_bearings": 1,
+        "radius_le20": 0,
+        "radius_le60": 1,
+        "radii_m": {
+          "1": 535.506475028013,
+          "4": 30.54560222069615,
+          "6": 629.144493033404,
+          "8": 622.1100124075562,
+          "13": 527.9421268592547,
+          "14": 750.180489407911,
+          "16": 674.5336054213402,
+          "18": 725.6096977126512
+        }
+      },
+      "baseline_min": 63.721570584254536,
+      "r1_min": 86.37126508398714,
+      "delta_min": 22.64969449973261,
+      "initial_min": 11.466666666666667,
+      "completion_min": 29.542373541519783,
+      "completion_move_min": 24.325706874853115,
+      "phase_costs": {
+        "initial": {
+          "actions": 40,
+          "move_s": 450.0,
+          "measure_s": 200.0,
+          "switch_s": 38.0,
+          "success_clear_s": 0.0,
+          "fail_clear_s": 0.0
+        },
+        "service": {
+          "actions": 222,
+          "move_s": 1411.7334925480413,
+          "measure_s": 1060.0,
+          "switch_s": 200.0,
+          "success_clear_s": 50.0,
+          "fail_clear_s": 0.0
+        },
+        "completion": {
+          "actions": 53,
+          "move_s": 1459.542412491187,
+          "measure_s": 265.0,
+          "switch_s": 48.0,
+          "success_clear_s": 0.0,
+          "fail_clear_s": 0.0
+        }
+      }
+    },
+    {
+      "case": "uniform_biased_170101",
+      "layout": "uniform",
+      "noise": "biased",
+      "real_n": 11,
+      "initial": {
+        "found": 8,
+        "two_bearings": 3,
+        "radius_le20": 0,
+        "radius_le60": 3,
+        "radii_m": {
+          "2": 528.706594167461,
+          "7": 26.31398046616017,
+          "8": 750.1934035132173,
+          "11": 715.9321345728878,
+          "17": 663.1557703151434,
+          "18": 27.856522807786657,
+          "19": 34.7112876336775,
+          "20": 597.7675894045422
+        }
+      },
+      "baseline_min": 68.79154855546258,
+      "r1_min": 85.67919333517747,
+      "delta_min": 16.8876447797149,
+      "initial_min": 11.466666666666667,
+      "completion_min": 15.302792782822143,
+      "completion_move_min": 13.536126116155478,
+      "phase_costs": {
+        "initial": {
+          "actions": 40,
+          "move_s": 450.0,
+          "measure_s": 200.0,
+          "switch_s": 38.0,
+          "success_clear_s": 0.0,
+          "fail_clear_s": 0.0
+        },
+        "service": {
+          "actions": 224,
+          "move_s": 2227.5840331413197,
+          "measure_s": 1035.0,
+          "switch_s": 199.0,
+          "success_clear_s": 55.0,
+          "fail_clear_s": 18.0
+        },
+        "completion": {
+          "actions": 18,
+          "move_s": 812.1675669693286,
+          "measure_s": 90.0,
+          "switch_s": 16.0,
+          "success_clear_s": 0.0,
+          "fail_clear_s": 0.0
+        }
+      }
+    },
+    {
+      "case": "uniform_hashed_170102",
+      "layout": "uniform",
+      "noise": "hashed",
+      "real_n": 12,
+      "initial": {
+        "found": 7,
+        "two_bearings": 0,
+        "radius_le20": 0,
+        "radius_le60": 0,
+        "radii_m": {
+          "3": 633.9246408896787,
+          "7": 731.5046985221053,
+          "8": 750.1871654464602,
+          "11": 750.2308010020298,
+          "12": 629.7304169708198,
+          "14": 706.6365593055042,
+          "15": 704.7956923342207
+        }
+      },
+      "baseline_min": 65.32519876494385,
+      "r1_min": 79.22496892066752,
+      "delta_min": 13.899770155723672,
+      "initial_min": 11.466666666666667,
+      "completion_min": 12.917540204737053,
+      "completion_move_min": 11.350873538070385,
+      "phase_costs": {
+        "initial": {
+          "actions": 40,
+          "move_s": 450.0,
+          "measure_s": 200.0,
+          "switch_s": 38.0,
+          "success_clear_s": 0.0,
+          "fail_clear_s": 0.0
+        },
+        "service": {
+          "actions": 227,
+          "move_s": 1951.4457229558288,
+          "measure_s": 1075.0,
+          "switch_s": 204.0,
+          "success_clear_s": 60.0,
+          "fail_clear_s": 0.0
+        },
+        "completion": {
+          "actions": 16,
+          "move_s": 681.0524122842231,
+          "measure_s": 80.0,
+          "switch_s": 14.0,
+          "success_clear_s": 0.0,
+          "fail_clear_s": 0.0
+        }
+      }
+    },
+    {
+      "case": "edge_smooth_170103",
+      "layout": "edge",
+      "noise": "smooth",
+      "real_n": 13,
+      "initial": {
+        "found": 0,
+        "two_bearings": 0,
+        "radius_le20": 0,
+        "radius_le60": 0,
+        "radii_m": {}
+      },
+      "baseline_min": 80.30065709453989,
+      "r1_min": 98.1096368265888,
+      "delta_min": 17.80897973204892,
+      "initial_min": 11.466666666666667,
+      "completion_min": 15.8783283171959,
+      "completion_move_min": 12.5283283171959,
+      "phase_costs": {
+        "initial": {
+          "actions": 40,
+          "move_s": 450.0,
+          "measure_s": 200.0,
+          "switch_s": 38.0,
+          "success_clear_s": 0.0,
+          "fail_clear_s": 0.0
+        },
+        "completion": {
+          "actions": 34,
+          "move_s": 751.699699031754,
+          "measure_s": 170.0,
+          "switch_s": 31.0,
+          "success_clear_s": 0.0,
+          "fail_clear_s": 0.0
+        },
+        "service": {
+          "actions": 346,
+          "move_s": 2196.878510563576,
+          "measure_s": 1665.0,
+          "switch_s": 319.0,
+          "success_clear_s": 65.0,
+          "fail_clear_s": 0.0
+        }
+      }
+    },
+    {
+      "case": "edge_biased_161104",
+      "layout": "edge",
+      "noise": "biased",
+      "real_n": 16,
+      "initial": {
+        "found": 0,
+        "two_bearings": 0,
+        "radius_le20": 0,
+        "radius_le60": 0,
+        "radii_m": {}
+      },
+      "baseline_min": 78.3586384073738,
+      "r1_min": 89.8293710772653,
+      "delta_min": 11.470732669891488,
+      "initial_min": 11.466666666666667,
+      "completion_min": 5.317376633376466,
+      "completion_move_min": 3.3340433000431324,
+      "phase_costs": {
+        "initial": {
+          "actions": 40,
+          "move_s": 450.0,
+          "measure_s": 200.0,
+          "switch_s": 38.0,
+          "success_clear_s": 0.0,
+          "fail_clear_s": 0.0
+        },
+        "completion": {
+          "actions": 20,
+          "move_s": 200.04259800258794,
+          "measure_s": 100.0,
+          "switch_s": 19.0,
+          "success_clear_s": 0.0,
+          "fail_clear_s": 0.0
+        },
+        "service": {
+          "actions": 359,
+          "move_s": 2263.71966663333,
+          "measure_s": 1710.0,
+          "switch_s": 326.0,
+          "success_clear_s": 80.0,
+          "fail_clear_s": 3.0
+        }
+      }
+    },
+    {
+      "case": "edge_hashed_170105",
+      "layout": "edge",
+      "noise": "hashed",
+      "real_n": 15,
+      "initial": {
+        "found": 0,
+        "two_bearings": 0,
+        "radius_le20": 0,
+        "radius_le60": 0,
+        "radii_m": {}
+      },
+      "baseline_min": 78.78107804895915,
+      "r1_min": 101.40376269374197,
+      "delta_min": 22.622684644782826,
+      "initial_min": 11.466666666666667,
+      "completion_min": 16.77176410027881,
+      "completion_move_min": 13.82176410027881,
+      "phase_costs": {
+        "initial": {
+          "actions": 40,
+          "move_s": 450.0,
+          "measure_s": 200.0,
+          "switch_s": 38.0,
+          "success_clear_s": 0.0,
+          "fail_clear_s": 0.0
+        },
+        "completion": {
+          "actions": 30,
+          "move_s": 829.3058460167285,
+          "measure_s": 150.0,
+          "switch_s": 27.0,
+          "success_clear_s": 0.0,
+          "fail_clear_s": 0.0
+        },
+        "service": {
+          "actions": 370,
+          "move_s": 2199.919915607789,
+          "measure_s": 1775.0,
+          "switch_s": 340.0,
+          "success_clear_s": 75.0,
+          "fail_clear_s": 0.0
+        }
+      }
+    },
+    {
+      "case": "cluster_smooth_170106",
+      "layout": "cluster",
+      "noise": "smooth",
+      "real_n": 16,
+      "initial": {
+        "found": 16,
+        "two_bearings": 5,
+        "radius_le20": 0,
+        "radius_le60": 0,
+        "radii_m": {
+          "1": 750.0000001999999,
+          "2": 750.000000200804,
+          "3": 527.5000267912534,
+          "5": 525.9121368628489,
+          "6": 527.7456081866002,
+          "7": 561.1908549195412,
+          "8": 750.0000002487674,
+          "9": 526.9486891687001,
+          "11": 220.8738019705703,
+          "13": 525.3313152842228,
+          "14": 527.7733333299609,
+          "15": 527.6648609676358,
+          "16": 529.6207353876011,
+          "17": 527.1803037348939,
+          "18": 525.163865108942,
+          "20": 525.1823002011591
+        }
+      },
+      "baseline_min": 44.98324745724021,
+      "r1_min": 32.592521580360106,
+      "delta_min": -12.39072587688011,
+      "initial_min": 11.366666666666667,
+      "completion_min": 0.0,
+      "completion_move_min": 0.0,
+      "phase_costs": {
+        "initial": {
+          "actions": 39,
+          "move_s": 450.0,
+          "measure_s": 195.0,
+          "switch_s": 37.0,
+          "success_clear_s": 0.0,
+          "fail_clear_s": 0.0
+        },
+        "service": {
+          "actions": 93,
+          "move_s": 739.5512948216069,
+          "measure_s": 385.0,
+          "switch_s": 69.0,
+          "success_clear_s": 80.0,
+          "fail_clear_s": 0.0
+        }
+      }
+    },
+    {
+      "case": "cluster_biased_170107",
+      "layout": "cluster",
+      "noise": "biased",
+      "real_n": 10,
+      "initial": {
+        "found": 10,
+        "two_bearings": 3,
+        "radius_le20": 0,
+        "radius_le60": 0,
+        "radii_m": {
+          "1": 525.2970271420952,
+          "4": 265.7856285911704,
+          "5": 526.8585128682662,
+          "6": 528.11804403337,
+          "7": 526.8585128663847,
+          "8": 370.80728424608736,
+          "11": 212.52686572078198,
+          "12": 525.7718610309001,
+          "13": 525.1661854076534,
+          "14": 527.2759778002644
+        }
+      },
+      "baseline_min": 48.33779464358388,
+      "r1_min": 65.07948985141154,
+      "delta_min": 16.74169520782766,
+      "initial_min": 11.466666666666667,
+      "completion_min": 24.998339214302387,
+      "completion_move_min": 20.08167254763572,
+      "phase_costs": {
+        "initial": {
+          "actions": 40,
+          "move_s": 450.0,
+          "measure_s": 200.0,
+          "switch_s": 38.0,
+          "success_clear_s": 0.0,
+          "fail_clear_s": 0.0
+        },
+        "service": {
+          "actions": 173,
+          "move_s": 698.8690382265501,
+          "measure_s": 815.0,
+          "switch_s": 153.0,
+          "success_clear_s": 50.0,
+          "fail_clear_s": 0.0
+        },
+        "completion": {
+          "actions": 50,
+          "move_s": 1204.9003528581432,
+          "measure_s": 250.0,
+          "switch_s": 45.0,
+          "success_clear_s": 0.0,
+          "fail_clear_s": 0.0
+        }
+      }
+    },
+    {
+      "case": "cluster_hashed_170108",
+      "layout": "cluster",
+      "noise": "hashed",
+      "real_n": 11,
+      "initial": {
+        "found": 11,
+        "two_bearings": 4,
+        "radius_le20": 0,
+        "radius_le60": 0,
+        "radii_m": {
+          "2": 526.8855084851692,
+          "3": 527.4042929943329,
+          "4": 298.2513425794825,
+          "6": 336.0210649628439,
+          "7": 525.8071005087629,
+          "13": 236.35678019963837,
+          "15": 204.79220899544927,
+          "16": 533.3874620667331,
+          "18": 526.1967606201038,
+          "19": 525.2048332138803,
+          "20": 526.9721684401127
+        }
+      },
+      "baseline_min": 47.842631610406116,
+      "r1_min": 79.4086646427256,
+      "delta_min": 31.566033032319478,
+      "initial_min": 11.466666666666667,
+      "completion_min": 39.13149737315933,
+      "completion_move_min": 32.948164039826,
+      "phase_costs": {
+        "initial": {
+          "actions": 40,
+          "move_s": 450.0,
+          "measure_s": 200.0,
+          "switch_s": 38.0,
+          "success_clear_s": 0.0,
+          "fail_clear_s": 0.0
+        },
+        "service": {
+          "actions": 173,
+          "move_s": 711.6300361739773,
+          "measure_s": 810.0,
+          "switch_s": 152.0,
+          "success_clear_s": 55.0,
+          "fail_clear_s": 0.0
+        },
+        "completion": {
+          "actions": 63,
+          "move_s": 1976.8898423895598,
+          "measure_s": 315.0,
+          "switch_s": 56.0,
+          "success_clear_s": 0.0,
+          "fail_clear_s": 0.0
+        }
+      }
+    },
+    {
+      "case": "line_smooth_170109",
+      "layout": "line",
+      "noise": "smooth",
+      "real_n": 12,
+      "initial": {
+        "found": 12,
+        "two_bearings": 2,
+        "radius_le20": 0,
+        "radius_le60": 0,
+        "radii_m": {
+          "2": 255.07847245699216,
+          "3": 525.2377549021115,
+          "5": 525.1823002507277,
+          "8": 525.1700260133746,
+          "9": 255.07847245699216,
+          "10": 525.1707781864268,
+          "12": 750.0000002006994,
+          "13": 525.1625849229279,
+          "14": 525.1625849229279,
+          "15": 255.0784724569921,
+          "16": 525.294097733775,
+          "19": 750.0000002006822
+        }
+      },
+      "baseline_min": 62.09303833156654,
+      "r1_min": 84.74398441922287,
+      "delta_min": 22.650946087656326,
+      "initial_min": 11.466666666666667,
+      "completion_min": 32.41942068271714,
+      "completion_move_min": 26.936087349383804,
+      "phase_costs": {
+        "initial": {
+          "actions": 40,
+          "move_s": 450.0,
+          "measure_s": 200.0,
+          "switch_s": 38.0,
+          "success_clear_s": 0.0,
+          "fail_clear_s": 0.0
+        },
+        "service": {
+          "actions": 206,
+          "move_s": 1239.4738241903447,
+          "measure_s": 970.0,
+          "switch_s": 182.0,
+          "success_clear_s": 60.0,
+          "fail_clear_s": 0.0
+        },
+        "completion": {
+          "actions": 56,
+          "move_s": 1616.1652409630283,
+          "measure_s": 280.0,
+          "switch_s": 49.0,
+          "success_clear_s": 0.0,
+          "fail_clear_s": 0.0
+        }
+      }
+    },
+    {
+      "case": "line_biased_170110",
+      "layout": "line",
+      "noise": "biased",
+      "real_n": 13,
+      "initial": {
+        "found": 13,
+        "two_bearings": 3,
+        "radius_le20": 0,
+        "radius_le60": 0,
+        "radii_m": {
+          "2": 375.0004539866231,
+          "3": 255.07847245699224,
+          "4": 255.0784725065687,
+          "9": 525.341161122017,
+          "11": 525.4104909187558,
+          "12": 354.731679649457,
+          "13": 525.318430103725,
+          "14": 358.33620592330357,
+          "15": 525.3854952070752,
+          "16": 525.2515837221539,
+          "17": 528.299742434157,
+          "18": 525.3152764155352,
+          "20": 525.2491988477278
+        }
+      },
+      "baseline_min": 59.967665526705865,
+      "r1_min": 76.30200142486007,
+      "delta_min": 16.334335898154208,
+      "initial_min": 11.466666666666667,
+      "completion_min": 32.233786586672764,
+      "completion_move_min": 26.7671199200061,
+      "phase_costs": {
+        "initial": {
+          "actions": 40,
+          "move_s": 450.0,
+          "measure_s": 200.0,
+          "switch_s": 38.0,
+          "success_clear_s": 0.0,
+          "fail_clear_s": 0.0
+        },
+        "service": {
+          "actions": 205,
+          "move_s": 752.0928902912387,
+          "measure_s": 960.0,
+          "switch_s": 179.0,
+          "success_clear_s": 65.0,
+          "fail_clear_s": 0.0
+        },
+        "completion": {
+          "actions": 56,
+          "move_s": 1606.027195200366,
+          "measure_s": 280.0,
+          "switch_s": 48.0,
+          "success_clear_s": 0.0,
+          "fail_clear_s": 0.0
+        }
+      }
+    },
+    {
+      "case": "line_hashed_170111",
+      "layout": "line",
+      "noise": "hashed",
+      "real_n": 14,
+      "initial": {
+        "found": 14,
+        "two_bearings": 1,
+        "radius_le20": 0,
+        "radius_le60": 0,
+        "radii_m": {
+          "1": 750.0000001999999,
+          "2": 255.07847245699213,
+          "3": 255.0784725065686,
+          "4": 525.2082260792798,
+          "5": 255.07847250656863,
+          "7": 525.2334014200193,
+          "8": 255.07847250656872,
+          "9": 525.2999885895288,
+          "11": 525.213555500001,
+          "13": 525.1661854076536,
+          "17": 525.1618167635718,
+          "18": 525.2589305561658,
+          "19": 255.07847245699207,
+          "20": 525.1623448388899
+        }
+      },
+      "baseline_min": 60.839131835715044,
+      "r1_min": 84.60841246628878,
+      "delta_min": 23.769280630573736,
+      "initial_min": 11.466666666666667,
+      "completion_min": 34.6576578629523,
+      "completion_move_min": 29.99099119628563,
+      "phase_costs": {
+        "initial": {
+          "actions": 40,
+          "move_s": 450.0,
+          "measure_s": 200.0,
+          "switch_s": 38.0,
+          "success_clear_s": 0.0,
+          "fail_clear_s": 0.0
+        },
+        "service": {
+          "actions": 228,
+          "move_s": 970.0452762001902,
+          "measure_s": 1070.0,
+          "switch_s": 199.0,
+          "success_clear_s": 70.0,
+          "fail_clear_s": 0.0
+        },
+        "completion": {
+          "actions": 48,
+          "move_s": 1799.4594717771379,
+          "measure_s": 240.0,
+          "switch_s": 40.0,
+          "success_clear_s": 0.0,
+          "fail_clear_s": 0.0
+        }
+      }
+    }
+  ],
+  "notes": [
+    "开发结果仅用于失败诊断，尚未验证泛化。",
+    "r1原始manifest记录initial_design.py变动；它不是运行依赖。实际运行策略源未变。",
+    "源数16的场景可按题面上限排除剩余频道；源数10不能据此结束。"
+  ]
+}

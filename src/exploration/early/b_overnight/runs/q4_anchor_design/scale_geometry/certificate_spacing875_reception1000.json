@@ -1,0 +1,10395 @@
+{
+  "complete": true,
+  "domain_radius_m": 1800.0,
+  "reception_radius_m": 1000.0,
+  "measurements": [
+    [
+      -2187.5,
+      -757.7722283113837
+    ],
+    [
+      -2187.5,
+      757.7722283113837
+    ],
+    [
+      -1750.0,
+      -1515.5444566227675
+    ],
+    [
+      -1750.0,
+      0.0
+    ],
+    [
+      -1750.0,
+      1515.5444566227675
+    ],
+    [
+      -1312.5,
+      -757.7722283113837
+    ],
+    [
+      -1312.5,
+      757.7722283113837
+    ],
+    [
+      -875.0,
+      -1515.5444566227675
+    ],
+    [
+      -875.0,
+      0.0
+    ],
+    [
+      -875.0,
+      1515.5444566227675
+    ],
+    [
+      -437.5,
+      -2273.3166849341515
+    ],
+    [
+      -437.5,
+      -757.7722283113837
+    ],
+    [
+      -437.5,
+      757.7722283113837
+    ],
+    [
+      -437.5,
+      2273.3166849341515
+    ],
+    [
+      0.0,
+      -1515.5444566227675
+    ],
+    [
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      1515.5444566227675
+    ],
+    [
+      437.5,
+      -2273.3166849341515
+    ],
+    [
+      437.5,
+      -757.7722283113837
+    ],
+    [
+      437.5,
+      757.7722283113837
+    ],
+    [
+      437.5,
+      2273.3166849341515
+    ],
+    [
+      875.0,
+      -1515.5444566227675
+    ],
+    [
+      875.0,
+      0.0
+    ],
+    [
+      875.0,
+      1515.5444566227675
+    ],
+    [
+      1312.5,
+      -757.7722283113837
+    ],
+    [
+      1312.5,
+      757.7722283113837
+    ],
+    [
+      1750.0,
+      -1515.5444566227675
+    ],
+    [
+      1750.0,
+      0.0
+    ],
+    [
+      1750.0,
+      1515.5444566227675
+    ],
+    [
+      2187.5,
+      -757.7722283113837
+    ],
+    [
+      2187.5,
+      757.7722283113837
+    ]
+  ],
+  "requested_depth": 7,
+  "safety_margin_m": 1e-05,
+  "boxes_visited": 837,
+  "leaf_count": 628,
+  "surrounded_leaves": 548,
+  "outside_leaves": 80,
+  "unresolved_leaves": 0,
+  "max_leaf_depth": 7,
+  "area_upper_m2": 0,
+  "rational_verified": true,
+  "leaves": [
+    {
+      "code": 64,
+      "depth": 3,
+      "bounds": [
+        -1800.0,
+        -1800.0,
+        -1350.0,
+        -1350.0
+      ],
+      "kind": "outside",
+      "hull_indices": []
+    },
+    {
+      "code": 260,
+      "depth": 4,
+      "bounds": [
+        -1350.0,
+        -1800.0,
+        -1125.0,
+        -1575.0
+      ],
+      "kind": "outside",
+      "hull_indices": []
+    },
+    {
+      "code": 261,
+      "depth": 4,
+      "bounds": [
+        -1125.0,
+        -1800.0,
+        -900.0,
+        -1575.0
+      ],
+      "kind": "outside",
+      "hull_indices": []
+    },
+    {
+      "code": 1048,
+      "depth": 5,
+      "bounds": [
+        -1350.0,
+        -1575.0,
+        -1237.5,
+        -1462.5
+      ],
+      "kind": "outside",
+      "hull_indices": []
+    },
+    {
+      "code": 1049,
+      "depth": 5,
+      "bounds": [
+        -1237.5,
+        -1575.0,
+        -1125.0,
+        -1462.5
+      ],
+      "kind": "outside",
+      "hull_indices": []
+    },
+    {
+      "code": 1050,
+      "depth": 5,
+      "bounds": [
+        -1350.0,
+        -1462.5,
+        -1237.5,
+        -1350.0
+      ],
+      "kind": "outside",
+      "hull_indices": []
+    },
+    {
+      "code": 1051,
+      "depth": 5,
+      "bounds": [
+        -1237.5,
+        -1462.5,
+        -1125.0,
+        -1350.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        2,
+        7,
+        5
+      ]
+    },
+    {
+      "code": 4208,
+      "depth": 6,
+      "bounds": [
+        -1125.0,
+        -1575.0,
+        -1068.75,
+        -1518.75
+      ],
+      "kind": "outside",
+      "hull_indices": []
+    },
+    {
+      "code": 4209,
+      "depth": 6,
+      "bounds": [
+        -1068.75,
+        -1575.0,
+        -1012.5,
+        -1518.75
+      ],
+      "kind": "outside",
+      "hull_indices": []
+    },
+    {
+      "code": 4210,
+      "depth": 6,
+      "bounds": [
+        -1125.0,
+        -1518.75,
+        -1068.75,
+        -1462.5
+      ],
+      "kind": "outside",
+      "hull_indices": []
+    },
+    {
+      "code": 16844,
+      "depth": 7,
+      "bounds": [
+        -1068.75,
+        -1518.75,
+        -1040.625,
+        -1490.625
+      ],
+      "kind": "outside",
+      "hull_indices": []
+    },
+    {
+      "code": 16845,
+      "depth": 7,
+      "bounds": [
+        -1040.625,
+        -1518.75,
+        -1012.5,
+        -1490.625
+      ],
+      "kind": "outside",
+      "hull_indices": []
+    },
+    {
+      "code": 16846,
+      "depth": 7,
+      "bounds": [
+        -1068.75,
+        -1490.625,
+        -1040.625,
+        -1462.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        2,
+        7,
+        11,
+        5
+      ]
+    },
+    {
+      "code": 16847,
+      "depth": 7,
+      "bounds": [
+        -1040.625,
+        -1490.625,
+        -1012.5,
+        -1462.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        2,
+        7,
+        11,
+        5
+      ]
+    },
+    {
+      "code": 1053,
+      "depth": 5,
+      "bounds": [
+        -1012.5,
+        -1575.0,
+        -900.0,
+        -1462.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        2,
+        10,
+        11,
+        5
+      ]
+    },
+    {
+      "code": 1054,
+      "depth": 5,
+      "bounds": [
+        -1125.0,
+        -1462.5,
+        -1012.5,
+        -1350.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        2,
+        7,
+        11,
+        5
+      ]
+    },
+    {
+      "code": 1055,
+      "depth": 5,
+      "bounds": [
+        -1012.5,
+        -1462.5,
+        -900.0,
+        -1350.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        2,
+        7,
+        11,
+        5
+      ]
+    },
+    {
+      "code": 264,
+      "depth": 4,
+      "bounds": [
+        -1800.0,
+        -1350.0,
+        -1575.0,
+        -1125.0
+      ],
+      "kind": "outside",
+      "hull_indices": []
+    },
+    {
+      "code": 1060,
+      "depth": 5,
+      "bounds": [
+        -1575.0,
+        -1350.0,
+        -1462.5,
+        -1237.5
+      ],
+      "kind": "outside",
+      "hull_indices": []
+    },
+    {
+      "code": 1061,
+      "depth": 5,
+      "bounds": [
+        -1462.5,
+        -1350.0,
+        -1350.0,
+        -1237.5
+      ],
+      "kind": "outside",
+      "hull_indices": []
+    },
+    {
+      "code": 1062,
+      "depth": 5,
+      "bounds": [
+        -1575.0,
+        -1237.5,
+        -1462.5,
+        -1125.0
+      ],
+      "kind": "outside",
+      "hull_indices": []
+    },
+    {
+      "code": 1063,
+      "depth": 5,
+      "bounds": [
+        -1462.5,
+        -1237.5,
+        -1350.0,
+        -1125.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        0,
+        2,
+        7,
+        5
+      ]
+    },
+    {
+      "code": 266,
+      "depth": 4,
+      "bounds": [
+        -1800.0,
+        -1125.0,
+        -1575.0,
+        -900.0
+      ],
+      "kind": "outside",
+      "hull_indices": []
+    },
+    {
+      "code": 267,
+      "depth": 4,
+      "bounds": [
+        -1575.0,
+        -1125.0,
+        -1350.0,
+        -900.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        0,
+        2,
+        7,
+        5
+      ]
+    },
+    {
+      "code": 268,
+      "depth": 4,
+      "bounds": [
+        -1350.0,
+        -1350.0,
+        -1125.0,
+        -1125.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        2,
+        7,
+        5
+      ]
+    },
+    {
+      "code": 269,
+      "depth": 4,
+      "bounds": [
+        -1125.0,
+        -1350.0,
+        -900.0,
+        -1125.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        2,
+        7,
+        11,
+        5
+      ]
+    },
+    {
+      "code": 270,
+      "depth": 4,
+      "bounds": [
+        -1350.0,
+        -1125.0,
+        -1125.0,
+        -900.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        2,
+        7,
+        11,
+        5
+      ]
+    },
+    {
+      "code": 1084,
+      "depth": 5,
+      "bounds": [
+        -1125.0,
+        -1125.0,
+        -1012.5,
+        -1012.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        2,
+        7,
+        11,
+        5
+      ]
+    },
+    {
+      "code": 1085,
+      "depth": 5,
+      "bounds": [
+        -1012.5,
+        -1125.0,
+        -900.0,
+        -1012.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        2,
+        7,
+        11,
+        5
+      ]
+    },
+    {
+      "code": 1086,
+      "depth": 5,
+      "bounds": [
+        -1125.0,
+        -1012.5,
+        -1012.5,
+        -900.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        2,
+        7,
+        11,
+        5
+      ]
+    },
+    {
+      "code": 1087,
+      "depth": 5,
+      "bounds": [
+        -1012.5,
+        -1012.5,
+        -900.0,
+        -900.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        5,
+        7,
+        11
+      ]
+    },
+    {
+      "code": 1088,
+      "depth": 5,
+      "bounds": [
+        -900.0,
+        -1800.0,
+        -787.5,
+        -1687.5
+      ],
+      "kind": "outside",
+      "hull_indices": []
+    },
+    {
+      "code": 1089,
+      "depth": 5,
+      "bounds": [
+        -787.5,
+        -1800.0,
+        -675.0,
+        -1687.5
+      ],
+      "kind": "outside",
+      "hull_indices": []
+    },
+    {
+      "code": 1090,
+      "depth": 5,
+      "bounds": [
+        -900.0,
+        -1687.5,
+        -787.5,
+        -1575.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        2,
+        10,
+        14
+      ]
+    },
+    {
+      "code": 17456,
+      "depth": 7,
+      "bounds": [
+        -787.5,
+        -1687.5,
+        -759.375,
+        -1659.375
+      ],
+      "kind": "outside",
+      "hull_indices": []
+    },
+    {
+      "code": 17457,
+      "depth": 7,
+      "bounds": [
+        -759.375,
+        -1687.5,
+        -731.25,
+        -1659.375
+      ],
+      "kind": "outside",
+      "hull_indices": []
+    },
+    {
+      "code": 17458,
+      "depth": 7,
+      "bounds": [
+        -787.5,
+        -1659.375,
+        -759.375,
+        -1631.25
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        7,
+        10,
+        14,
+        11
+      ]
+    },
+    {
+      "code": 17459,
+      "depth": 7,
+      "bounds": [
+        -759.375,
+        -1659.375,
+        -731.25,
+        -1631.25
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        7,
+        10,
+        14,
+        11
+      ]
+    },
+    {
+      "code": 4365,
+      "depth": 6,
+      "bounds": [
+        -731.25,
+        -1687.5,
+        -675.0,
+        -1631.25
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        7,
+        10,
+        14,
+        11
+      ]
+    },
+    {
+      "code": 4366,
+      "depth": 6,
+      "bounds": [
+        -787.5,
+        -1631.25,
+        -731.25,
+        -1575.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        7,
+        10,
+        14,
+        11
+      ]
+    },
+    {
+      "code": 4367,
+      "depth": 6,
+      "bounds": [
+        -731.25,
+        -1631.25,
+        -675.0,
+        -1575.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        7,
+        10,
+        14,
+        11
+      ]
+    },
+    {
+      "code": 273,
+      "depth": 4,
+      "bounds": [
+        -675.0,
+        -1800.0,
+        -450.0,
+        -1575.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        7,
+        10,
+        14
+      ]
+    },
+    {
+      "code": 1096,
+      "depth": 5,
+      "bounds": [
+        -900.0,
+        -1575.0,
+        -787.5,
+        -1462.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        2,
+        10,
+        14,
+        11,
+        5
+      ]
+    },
+    {
+      "code": 1097,
+      "depth": 5,
+      "bounds": [
+        -787.5,
+        -1575.0,
+        -675.0,
+        -1462.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        7,
+        10,
+        14,
+        11
+      ]
+    },
+    {
+      "code": 1098,
+      "depth": 5,
+      "bounds": [
+        -900.0,
+        -1462.5,
+        -787.5,
+        -1350.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        2,
+        14,
+        11,
+        5
+      ]
+    },
+    {
+      "code": 1099,
+      "depth": 5,
+      "bounds": [
+        -787.5,
+        -1462.5,
+        -675.0,
+        -1350.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        5,
+        10,
+        14,
+        11
+      ]
+    },
+    {
+      "code": 275,
+      "depth": 4,
+      "bounds": [
+        -675.0,
+        -1575.0,
+        -450.0,
+        -1350.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        7,
+        10,
+        14,
+        11
+      ]
+    },
+    {
+      "code": 276,
+      "depth": 4,
+      "bounds": [
+        -450.0,
+        -1800.0,
+        -225.0,
+        -1575.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        7,
+        10,
+        14
+      ]
+    },
+    {
+      "code": 277,
+      "depth": 4,
+      "bounds": [
+        -225.0,
+        -1800.0,
+        0.0,
+        -1575.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        7,
+        10,
+        17,
+        14
+      ]
+    },
+    {
+      "code": 278,
+      "depth": 4,
+      "bounds": [
+        -450.0,
+        -1575.0,
+        -225.0,
+        -1350.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        7,
+        10,
+        14,
+        11
+      ]
+    },
+    {
+      "code": 1116,
+      "depth": 5,
+      "bounds": [
+        -225.0,
+        -1575.0,
+        -112.5,
+        -1462.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        7,
+        10,
+        14,
+        11
+      ]
+    },
+    {
+      "code": 1117,
+      "depth": 5,
+      "bounds": [
+        -112.5,
+        -1575.0,
+        0.0,
+        -1462.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        7,
+        10,
+        17,
+        21,
+        18,
+        11
+      ]
+    },
+    {
+      "code": 1118,
+      "depth": 5,
+      "bounds": [
+        -225.0,
+        -1462.5,
+        -112.5,
+        -1350.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        7,
+        10,
+        18,
+        11
+      ]
+    },
+    {
+      "code": 1119,
+      "depth": 5,
+      "bounds": [
+        -112.5,
+        -1462.5,
+        0.0,
+        -1350.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        7,
+        14,
+        18,
+        11
+      ]
+    },
+    {
+      "code": 280,
+      "depth": 4,
+      "bounds": [
+        -900.0,
+        -1350.0,
+        -675.0,
+        -1125.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        5,
+        7,
+        14,
+        11
+      ]
+    },
+    {
+      "code": 1124,
+      "depth": 5,
+      "bounds": [
+        -675.0,
+        -1350.0,
+        -562.5,
+        -1237.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        5,
+        7,
+        14,
+        11
+      ]
+    },
+    {
+      "code": 1125,
+      "depth": 5,
+      "bounds": [
+        -562.5,
+        -1350.0,
+        -450.0,
+        -1237.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        7,
+        14,
+        11
+      ]
+    },
+    {
+      "code": 1126,
+      "depth": 5,
+      "bounds": [
+        -675.0,
+        -1237.5,
+        -562.5,
+        -1125.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        5,
+        7,
+        14,
+        11
+      ]
+    },
+    {
+      "code": 1127,
+      "depth": 5,
+      "bounds": [
+        -562.5,
+        -1237.5,
+        -450.0,
+        -1125.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        5,
+        7,
+        14,
+        11
+      ]
+    },
+    {
+      "code": 282,
+      "depth": 4,
+      "bounds": [
+        -900.0,
+        -1125.0,
+        -675.0,
+        -900.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        5,
+        7,
+        11
+      ]
+    },
+    {
+      "code": 283,
+      "depth": 4,
+      "bounds": [
+        -675.0,
+        -1125.0,
+        -450.0,
+        -900.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        5,
+        7,
+        14,
+        11
+      ]
+    },
+    {
+      "code": 1136,
+      "depth": 5,
+      "bounds": [
+        -450.0,
+        -1350.0,
+        -337.5,
+        -1237.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        7,
+        14,
+        11
+      ]
+    },
+    {
+      "code": 1137,
+      "depth": 5,
+      "bounds": [
+        -337.5,
+        -1350.0,
+        -225.0,
+        -1237.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        7,
+        14,
+        18,
+        11
+      ]
+    },
+    {
+      "code": 1138,
+      "depth": 5,
+      "bounds": [
+        -450.0,
+        -1237.5,
+        -337.5,
+        -1125.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        7,
+        14,
+        11
+      ]
+    },
+    {
+      "code": 1139,
+      "depth": 5,
+      "bounds": [
+        -337.5,
+        -1237.5,
+        -225.0,
+        -1125.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        7,
+        14,
+        18,
+        11
+      ]
+    },
+    {
+      "code": 285,
+      "depth": 4,
+      "bounds": [
+        -225.0,
+        -1350.0,
+        0.0,
+        -1125.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        7,
+        14,
+        18,
+        11
+      ]
+    },
+    {
+      "code": 286,
+      "depth": 4,
+      "bounds": [
+        -450.0,
+        -1125.0,
+        -225.0,
+        -900.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        7,
+        14,
+        18,
+        11
+      ]
+    },
+    {
+      "code": 287,
+      "depth": 4,
+      "bounds": [
+        -225.0,
+        -1125.0,
+        0.0,
+        -900.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        11,
+        14,
+        18
+      ]
+    },
+    {
+      "code": 288,
+      "depth": 4,
+      "bounds": [
+        -1800.0,
+        -900.0,
+        -1575.0,
+        -675.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        0,
+        2,
+        5,
+        3
+      ]
+    },
+    {
+      "code": 1156,
+      "depth": 5,
+      "bounds": [
+        -1575.0,
+        -900.0,
+        -1462.5,
+        -787.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        0,
+        2,
+        5,
+        3
+      ]
+    },
+    {
+      "code": 1157,
+      "depth": 5,
+      "bounds": [
+        -1462.5,
+        -900.0,
+        -1350.0,
+        -787.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        0,
+        2,
+        7,
+        3
+      ]
+    },
+    {
+      "code": 1158,
+      "depth": 5,
+      "bounds": [
+        -1575.0,
+        -787.5,
+        -1462.5,
+        -675.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        0,
+        2,
+        5,
+        3
+      ]
+    },
+    {
+      "code": 1159,
+      "depth": 5,
+      "bounds": [
+        -1462.5,
+        -787.5,
+        -1350.0,
+        -675.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        0,
+        2,
+        8,
+        3
+      ]
+    },
+    {
+      "code": 290,
+      "depth": 4,
+      "bounds": [
+        -1800.0,
+        -675.0,
+        -1575.0,
+        -450.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        0,
+        5,
+        3
+      ]
+    },
+    {
+      "code": 291,
+      "depth": 4,
+      "bounds": [
+        -1575.0,
+        -675.0,
+        -1350.0,
+        -450.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        0,
+        5,
+        8,
+        3
+      ]
+    },
+    {
+      "code": 1168,
+      "depth": 5,
+      "bounds": [
+        -1350.0,
+        -900.0,
+        -1237.5,
+        -787.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        0,
+        2,
+        7,
+        11
+      ]
+    },
+    {
+      "code": 1169,
+      "depth": 5,
+      "bounds": [
+        -1237.5,
+        -900.0,
+        -1125.0,
+        -787.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        2,
+        7,
+        11,
+        8
+      ]
+    },
+    {
+      "code": 1170,
+      "depth": 5,
+      "bounds": [
+        -1350.0,
+        -787.5,
+        -1237.5,
+        -675.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        0,
+        2,
+        7,
+        11,
+        8,
+        3
+      ]
+    },
+    {
+      "code": 1171,
+      "depth": 5,
+      "bounds": [
+        -1237.5,
+        -787.5,
+        -1125.0,
+        -675.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        5,
+        7,
+        11,
+        8
+      ]
+    },
+    {
+      "code": 293,
+      "depth": 4,
+      "bounds": [
+        -1125.0,
+        -900.0,
+        -900.0,
+        -675.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        5,
+        7,
+        11,
+        8
+      ]
+    },
+    {
+      "code": 294,
+      "depth": 4,
+      "bounds": [
+        -1350.0,
+        -675.0,
+        -1125.0,
+        -450.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        3,
+        5,
+        11,
+        8
+      ]
+    },
+    {
+      "code": 295,
+      "depth": 4,
+      "bounds": [
+        -1125.0,
+        -675.0,
+        -900.0,
+        -450.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        5,
+        11,
+        8
+      ]
+    },
+    {
+      "code": 1184,
+      "depth": 5,
+      "bounds": [
+        -1800.0,
+        -450.0,
+        -1687.5,
+        -337.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        0,
+        5,
+        3
+      ]
+    },
+    {
+      "code": 1185,
+      "depth": 5,
+      "bounds": [
+        -1687.5,
+        -450.0,
+        -1575.0,
+        -337.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        0,
+        5,
+        8,
+        3
+      ]
+    },
+    {
+      "code": 1186,
+      "depth": 5,
+      "bounds": [
+        -1800.0,
+        -337.5,
+        -1687.5,
+        -225.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        0,
+        5,
+        8,
+        3
+      ]
+    },
+    {
+      "code": 1187,
+      "depth": 5,
+      "bounds": [
+        -1687.5,
+        -337.5,
+        -1575.0,
+        -225.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        0,
+        5,
+        8,
+        3
+      ]
+    },
+    {
+      "code": 297,
+      "depth": 4,
+      "bounds": [
+        -1575.0,
+        -450.0,
+        -1350.0,
+        -225.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        0,
+        5,
+        8,
+        3
+      ]
+    },
+    {
+      "code": 1192,
+      "depth": 5,
+      "bounds": [
+        -1800.0,
+        -225.0,
+        -1687.5,
+        -112.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        0,
+        5,
+        8,
+        3
+      ]
+    },
+    {
+      "code": 1193,
+      "depth": 5,
+      "bounds": [
+        -1687.5,
+        -225.0,
+        -1575.0,
+        -112.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        0,
+        5,
+        8,
+        3
+      ]
+    },
+    {
+      "code": 4776,
+      "depth": 6,
+      "bounds": [
+        -1800.0,
+        -112.5,
+        -1743.75,
+        -56.25
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        0,
+        5,
+        8,
+        6,
+        1
+      ]
+    },
+    {
+      "code": 4777,
+      "depth": 6,
+      "bounds": [
+        -1743.75,
+        -112.5,
+        -1687.5,
+        -56.25
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        0,
+        5,
+        8,
+        6
+      ]
+    },
+    {
+      "code": 4778,
+      "depth": 6,
+      "bounds": [
+        -1800.0,
+        -56.25,
+        -1743.75,
+        0.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        0,
+        5,
+        8,
+        6,
+        1
+      ]
+    },
+    {
+      "code": 4779,
+      "depth": 6,
+      "bounds": [
+        -1743.75,
+        -56.25,
+        -1687.5,
+        0.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        0,
+        5,
+        8,
+        6,
+        1
+      ]
+    },
+    {
+      "code": 1195,
+      "depth": 5,
+      "bounds": [
+        -1687.5,
+        -112.5,
+        -1575.0,
+        0.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        0,
+        5,
+        8,
+        6
+      ]
+    },
+    {
+      "code": 1196,
+      "depth": 5,
+      "bounds": [
+        -1575.0,
+        -225.0,
+        -1462.5,
+        -112.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        0,
+        5,
+        8,
+        3
+      ]
+    },
+    {
+      "code": 1197,
+      "depth": 5,
+      "bounds": [
+        -1462.5,
+        -225.0,
+        -1350.0,
+        -112.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        3,
+        5,
+        8,
+        6
+      ]
+    },
+    {
+      "code": 1198,
+      "depth": 5,
+      "bounds": [
+        -1575.0,
+        -112.5,
+        -1462.5,
+        0.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        3,
+        5,
+        8,
+        6
+      ]
+    },
+    {
+      "code": 1199,
+      "depth": 5,
+      "bounds": [
+        -1462.5,
+        -112.5,
+        -1350.0,
+        0.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        3,
+        5,
+        8,
+        6
+      ]
+    },
+    {
+      "code": 1200,
+      "depth": 5,
+      "bounds": [
+        -1350.0,
+        -450.0,
+        -1237.5,
+        -337.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        3,
+        5,
+        8
+      ]
+    },
+    {
+      "code": 1201,
+      "depth": 5,
+      "bounds": [
+        -1237.5,
+        -450.0,
+        -1125.0,
+        -337.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        3,
+        5,
+        11,
+        8
+      ]
+    },
+    {
+      "code": 1202,
+      "depth": 5,
+      "bounds": [
+        -1350.0,
+        -337.5,
+        -1237.5,
+        -225.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        3,
+        5,
+        8
+      ]
+    },
+    {
+      "code": 1203,
+      "depth": 5,
+      "bounds": [
+        -1237.5,
+        -337.5,
+        -1125.0,
+        -225.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        3,
+        5,
+        11,
+        8
+      ]
+    },
+    {
+      "code": 301,
+      "depth": 4,
+      "bounds": [
+        -1125.0,
+        -450.0,
+        -900.0,
+        -225.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        3,
+        5,
+        11,
+        8
+      ]
+    },
+    {
+      "code": 1208,
+      "depth": 5,
+      "bounds": [
+        -1350.0,
+        -225.0,
+        -1237.5,
+        -112.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        3,
+        5,
+        8,
+        6
+      ]
+    },
+    {
+      "code": 1209,
+      "depth": 5,
+      "bounds": [
+        -1237.5,
+        -225.0,
+        -1125.0,
+        -112.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        3,
+        5,
+        8
+      ]
+    },
+    {
+      "code": 1210,
+      "depth": 5,
+      "bounds": [
+        -1350.0,
+        -112.5,
+        -1237.5,
+        0.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        3,
+        5,
+        8,
+        6
+      ]
+    },
+    {
+      "code": 1211,
+      "depth": 5,
+      "bounds": [
+        -1237.5,
+        -112.5,
+        -1125.0,
+        0.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        3,
+        5,
+        8,
+        6
+      ]
+    },
+    {
+      "code": 1212,
+      "depth": 5,
+      "bounds": [
+        -1125.0,
+        -225.0,
+        -1012.5,
+        -112.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        3,
+        5,
+        11,
+        8
+      ]
+    },
+    {
+      "code": 1213,
+      "depth": 5,
+      "bounds": [
+        -1012.5,
+        -225.0,
+        -900.0,
+        -112.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        3,
+        5,
+        11,
+        8
+      ]
+    },
+    {
+      "code": 1214,
+      "depth": 5,
+      "bounds": [
+        -1125.0,
+        -112.5,
+        -1012.5,
+        0.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        3,
+        5,
+        8,
+        6
+      ]
+    },
+    {
+      "code": 1215,
+      "depth": 5,
+      "bounds": [
+        -1012.5,
+        -112.5,
+        -900.0,
+        0.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        3,
+        5,
+        11,
+        6
+      ]
+    },
+    {
+      "code": 304,
+      "depth": 4,
+      "bounds": [
+        -900.0,
+        -900.0,
+        -675.0,
+        -675.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        5,
+        7,
+        11,
+        8
+      ]
+    },
+    {
+      "code": 1220,
+      "depth": 5,
+      "bounds": [
+        -675.0,
+        -900.0,
+        -562.5,
+        -787.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        5,
+        7,
+        14,
+        8
+      ]
+    },
+    {
+      "code": 1221,
+      "depth": 5,
+      "bounds": [
+        -562.5,
+        -900.0,
+        -450.0,
+        -787.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        5,
+        7,
+        14,
+        8
+      ]
+    },
+    {
+      "code": 1222,
+      "depth": 5,
+      "bounds": [
+        -675.0,
+        -787.5,
+        -562.5,
+        -675.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        5,
+        7,
+        11,
+        8
+      ]
+    },
+    {
+      "code": 4892,
+      "depth": 6,
+      "bounds": [
+        -562.5,
+        -787.5,
+        -506.25,
+        -731.25
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        5,
+        7,
+        14,
+        15,
+        8
+      ]
+    },
+    {
+      "code": 4893,
+      "depth": 6,
+      "bounds": [
+        -506.25,
+        -787.5,
+        -450.0,
+        -731.25
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        5,
+        7,
+        14,
+        18,
+        15,
+        8
+      ]
+    },
+    {
+      "code": 4894,
+      "depth": 6,
+      "bounds": [
+        -562.5,
+        -731.25,
+        -506.25,
+        -675.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        5,
+        7,
+        15,
+        8
+      ]
+    },
+    {
+      "code": 4895,
+      "depth": 6,
+      "bounds": [
+        -506.25,
+        -731.25,
+        -450.0,
+        -675.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        5,
+        7,
+        14,
+        18,
+        15,
+        8
+      ]
+    },
+    {
+      "code": 306,
+      "depth": 4,
+      "bounds": [
+        -900.0,
+        -675.0,
+        -675.0,
+        -450.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        5,
+        11,
+        8
+      ]
+    },
+    {
+      "code": 307,
+      "depth": 4,
+      "bounds": [
+        -675.0,
+        -675.0,
+        -450.0,
+        -450.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        5,
+        11,
+        15,
+        8
+      ]
+    },
+    {
+      "code": 1232,
+      "depth": 5,
+      "bounds": [
+        -450.0,
+        -900.0,
+        -337.5,
+        -787.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        5,
+        7,
+        14,
+        18
+      ]
+    },
+    {
+      "code": 1233,
+      "depth": 5,
+      "bounds": [
+        -337.5,
+        -900.0,
+        -225.0,
+        -787.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        7,
+        14,
+        18,
+        15
+      ]
+    },
+    {
+      "code": 1234,
+      "depth": 5,
+      "bounds": [
+        -450.0,
+        -787.5,
+        -337.5,
+        -675.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        5,
+        7,
+        14,
+        18,
+        15,
+        8
+      ]
+    },
+    {
+      "code": 1235,
+      "depth": 5,
+      "bounds": [
+        -337.5,
+        -787.5,
+        -225.0,
+        -675.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        11,
+        14,
+        18,
+        15
+      ]
+    },
+    {
+      "code": 309,
+      "depth": 4,
+      "bounds": [
+        -225.0,
+        -900.0,
+        0.0,
+        -675.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        11,
+        14,
+        18,
+        15
+      ]
+    },
+    {
+      "code": 310,
+      "depth": 4,
+      "bounds": [
+        -450.0,
+        -675.0,
+        -225.0,
+        -450.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        8,
+        11,
+        18,
+        15
+      ]
+    },
+    {
+      "code": 311,
+      "depth": 4,
+      "bounds": [
+        -225.0,
+        -675.0,
+        0.0,
+        -450.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        11,
+        18,
+        15
+      ]
+    },
+    {
+      "code": 1248,
+      "depth": 5,
+      "bounds": [
+        -900.0,
+        -450.0,
+        -787.5,
+        -337.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        5,
+        11,
+        8
+      ]
+    },
+    {
+      "code": 1249,
+      "depth": 5,
+      "bounds": [
+        -787.5,
+        -450.0,
+        -675.0,
+        -337.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        5,
+        11,
+        15,
+        8
+      ]
+    },
+    {
+      "code": 1250,
+      "depth": 5,
+      "bounds": [
+        -900.0,
+        -337.5,
+        -787.5,
+        -225.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        5,
+        11,
+        15,
+        8
+      ]
+    },
+    {
+      "code": 1251,
+      "depth": 5,
+      "bounds": [
+        -787.5,
+        -337.5,
+        -675.0,
+        -225.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        5,
+        11,
+        15,
+        8
+      ]
+    },
+    {
+      "code": 1252,
+      "depth": 5,
+      "bounds": [
+        -675.0,
+        -450.0,
+        -562.5,
+        -337.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        5,
+        11,
+        15,
+        8
+      ]
+    },
+    {
+      "code": 1253,
+      "depth": 5,
+      "bounds": [
+        -562.5,
+        -450.0,
+        -450.0,
+        -337.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        5,
+        11,
+        15,
+        8
+      ]
+    },
+    {
+      "code": 1254,
+      "depth": 5,
+      "bounds": [
+        -675.0,
+        -337.5,
+        -562.5,
+        -225.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        5,
+        11,
+        15,
+        8
+      ]
+    },
+    {
+      "code": 1255,
+      "depth": 5,
+      "bounds": [
+        -562.5,
+        -337.5,
+        -450.0,
+        -225.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        8,
+        11,
+        15
+      ]
+    },
+    {
+      "code": 1256,
+      "depth": 5,
+      "bounds": [
+        -900.0,
+        -225.0,
+        -787.5,
+        -112.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        3,
+        5,
+        11,
+        15
+      ]
+    },
+    {
+      "code": 1257,
+      "depth": 5,
+      "bounds": [
+        -787.5,
+        -225.0,
+        -675.0,
+        -112.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        5,
+        11,
+        15,
+        8
+      ]
+    },
+    {
+      "code": 1258,
+      "depth": 5,
+      "bounds": [
+        -900.0,
+        -112.5,
+        -787.5,
+        0.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        3,
+        5,
+        11,
+        15,
+        12
+      ]
+    },
+    {
+      "code": 1259,
+      "depth": 5,
+      "bounds": [
+        -787.5,
+        -112.5,
+        -675.0,
+        0.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        5,
+        11,
+        15,
+        12
+      ]
+    },
+    {
+      "code": 1260,
+      "depth": 5,
+      "bounds": [
+        -675.0,
+        -225.0,
+        -562.5,
+        -112.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        5,
+        11,
+        15,
+        8
+      ]
+    },
+    {
+      "code": 1261,
+      "depth": 5,
+      "bounds": [
+        -562.5,
+        -225.0,
+        -450.0,
+        -112.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        8,
+        11,
+        15,
+        12
+      ]
+    },
+    {
+      "code": 1262,
+      "depth": 5,
+      "bounds": [
+        -675.0,
+        -112.5,
+        -562.5,
+        0.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        8,
+        11,
+        15,
+        12
+      ]
+    },
+    {
+      "code": 1263,
+      "depth": 5,
+      "bounds": [
+        -562.5,
+        -112.5,
+        -450.0,
+        0.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        8,
+        11,
+        15,
+        12
+      ]
+    },
+    {
+      "code": 1264,
+      "depth": 5,
+      "bounds": [
+        -450.0,
+        -450.0,
+        -337.5,
+        -337.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        8,
+        11,
+        18,
+        15
+      ]
+    },
+    {
+      "code": 1265,
+      "depth": 5,
+      "bounds": [
+        -337.5,
+        -450.0,
+        -225.0,
+        -337.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        8,
+        11,
+        18,
+        15
+      ]
+    },
+    {
+      "code": 1266,
+      "depth": 5,
+      "bounds": [
+        -450.0,
+        -337.5,
+        -337.5,
+        -225.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        8,
+        11,
+        15
+      ]
+    },
+    {
+      "code": 1267,
+      "depth": 5,
+      "bounds": [
+        -337.5,
+        -337.5,
+        -225.0,
+        -225.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        8,
+        11,
+        18,
+        15
+      ]
+    },
+    {
+      "code": 317,
+      "depth": 4,
+      "bounds": [
+        -225.0,
+        -450.0,
+        0.0,
+        -225.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        8,
+        11,
+        18,
+        15
+      ]
+    },
+    {
+      "code": 1272,
+      "depth": 5,
+      "bounds": [
+        -450.0,
+        -225.0,
+        -337.5,
+        -112.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        8,
+        11,
+        15,
+        12
+      ]
+    },
+    {
+      "code": 1273,
+      "depth": 5,
+      "bounds": [
+        -337.5,
+        -225.0,
+        -225.0,
+        -112.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        8,
+        11,
+        15
+      ]
+    },
+    {
+      "code": 1274,
+      "depth": 5,
+      "bounds": [
+        -450.0,
+        -112.5,
+        -337.5,
+        0.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        8,
+        11,
+        15,
+        12
+      ]
+    },
+    {
+      "code": 1275,
+      "depth": 5,
+      "bounds": [
+        -337.5,
+        -112.5,
+        -225.0,
+        0.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        8,
+        11,
+        15,
+        12
+      ]
+    },
+    {
+      "code": 1276,
+      "depth": 5,
+      "bounds": [
+        -225.0,
+        -225.0,
+        -112.5,
+        -112.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        8,
+        11,
+        18,
+        15
+      ]
+    },
+    {
+      "code": 1277,
+      "depth": 5,
+      "bounds": [
+        -112.5,
+        -225.0,
+        0.0,
+        -112.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        8,
+        11,
+        18,
+        15
+      ]
+    },
+    {
+      "code": 1278,
+      "depth": 5,
+      "bounds": [
+        -225.0,
+        -112.5,
+        -112.5,
+        0.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        8,
+        11,
+        15,
+        12
+      ]
+    },
+    {
+      "code": 1279,
+      "depth": 5,
+      "bounds": [
+        -112.5,
+        -112.5,
+        0.0,
+        0.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        8,
+        11,
+        18,
+        22,
+        12
+      ]
+    },
+    {
+      "code": 320,
+      "depth": 4,
+      "bounds": [
+        0.0,
+        -1800.0,
+        225.0,
+        -1575.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        10,
+        17,
+        21,
+        14
+      ]
+    },
+    {
+      "code": 321,
+      "depth": 4,
+      "bounds": [
+        225.0,
+        -1800.0,
+        450.0,
+        -1575.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        14,
+        17,
+        21
+      ]
+    },
+    {
+      "code": 1288,
+      "depth": 5,
+      "bounds": [
+        0.0,
+        -1575.0,
+        112.5,
+        -1462.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        7,
+        10,
+        17,
+        21,
+        18,
+        11
+      ]
+    },
+    {
+      "code": 1289,
+      "depth": 5,
+      "bounds": [
+        112.5,
+        -1575.0,
+        225.0,
+        -1462.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        14,
+        17,
+        21,
+        18
+      ]
+    },
+    {
+      "code": 1290,
+      "depth": 5,
+      "bounds": [
+        0.0,
+        -1462.5,
+        112.5,
+        -1350.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        11,
+        14,
+        21,
+        18
+      ]
+    },
+    {
+      "code": 1291,
+      "depth": 5,
+      "bounds": [
+        112.5,
+        -1462.5,
+        225.0,
+        -1350.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        11,
+        17,
+        21,
+        18
+      ]
+    },
+    {
+      "code": 323,
+      "depth": 4,
+      "bounds": [
+        225.0,
+        -1575.0,
+        450.0,
+        -1350.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        14,
+        17,
+        21,
+        18
+      ]
+    },
+    {
+      "code": 324,
+      "depth": 4,
+      "bounds": [
+        450.0,
+        -1800.0,
+        675.0,
+        -1575.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        14,
+        17,
+        21
+      ]
+    },
+    {
+      "code": 1300,
+      "depth": 5,
+      "bounds": [
+        675.0,
+        -1800.0,
+        787.5,
+        -1687.5
+      ],
+      "kind": "outside",
+      "hull_indices": []
+    },
+    {
+      "code": 1301,
+      "depth": 5,
+      "bounds": [
+        787.5,
+        -1800.0,
+        900.0,
+        -1687.5
+      ],
+      "kind": "outside",
+      "hull_indices": []
+    },
+    {
+      "code": 5208,
+      "depth": 6,
+      "bounds": [
+        675.0,
+        -1687.5,
+        731.25,
+        -1631.25
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        14,
+        17,
+        21,
+        18
+      ]
+    },
+    {
+      "code": 20836,
+      "depth": 7,
+      "bounds": [
+        731.25,
+        -1687.5,
+        759.375,
+        -1659.375
+      ],
+      "kind": "outside",
+      "hull_indices": []
+    },
+    {
+      "code": 20837,
+      "depth": 7,
+      "bounds": [
+        759.375,
+        -1687.5,
+        787.5,
+        -1659.375
+      ],
+      "kind": "outside",
+      "hull_indices": []
+    },
+    {
+      "code": 20838,
+      "depth": 7,
+      "bounds": [
+        731.25,
+        -1659.375,
+        759.375,
+        -1631.25
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        14,
+        17,
+        21,
+        18
+      ]
+    },
+    {
+      "code": 20839,
+      "depth": 7,
+      "bounds": [
+        759.375,
+        -1659.375,
+        787.5,
+        -1631.25
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        14,
+        17,
+        21,
+        18
+      ]
+    },
+    {
+      "code": 5210,
+      "depth": 6,
+      "bounds": [
+        675.0,
+        -1631.25,
+        731.25,
+        -1575.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        14,
+        17,
+        21,
+        18
+      ]
+    },
+    {
+      "code": 5211,
+      "depth": 6,
+      "bounds": [
+        731.25,
+        -1631.25,
+        787.5,
+        -1575.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        14,
+        17,
+        21,
+        18
+      ]
+    },
+    {
+      "code": 1303,
+      "depth": 5,
+      "bounds": [
+        787.5,
+        -1687.5,
+        900.0,
+        -1575.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        14,
+        17,
+        26
+      ]
+    },
+    {
+      "code": 326,
+      "depth": 4,
+      "bounds": [
+        450.0,
+        -1575.0,
+        675.0,
+        -1350.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        14,
+        17,
+        21,
+        18
+      ]
+    },
+    {
+      "code": 1308,
+      "depth": 5,
+      "bounds": [
+        675.0,
+        -1575.0,
+        787.5,
+        -1462.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        14,
+        17,
+        21,
+        18
+      ]
+    },
+    {
+      "code": 1309,
+      "depth": 5,
+      "bounds": [
+        787.5,
+        -1575.0,
+        900.0,
+        -1462.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        14,
+        17,
+        26,
+        24,
+        18
+      ]
+    },
+    {
+      "code": 1310,
+      "depth": 5,
+      "bounds": [
+        675.0,
+        -1462.5,
+        787.5,
+        -1350.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        14,
+        17,
+        24,
+        18
+      ]
+    },
+    {
+      "code": 1311,
+      "depth": 5,
+      "bounds": [
+        787.5,
+        -1462.5,
+        900.0,
+        -1350.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        14,
+        26,
+        24,
+        18
+      ]
+    },
+    {
+      "code": 328,
+      "depth": 4,
+      "bounds": [
+        0.0,
+        -1350.0,
+        225.0,
+        -1125.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        11,
+        14,
+        21,
+        18
+      ]
+    },
+    {
+      "code": 1316,
+      "depth": 5,
+      "bounds": [
+        225.0,
+        -1350.0,
+        337.5,
+        -1237.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        11,
+        14,
+        21,
+        18
+      ]
+    },
+    {
+      "code": 1317,
+      "depth": 5,
+      "bounds": [
+        337.5,
+        -1350.0,
+        450.0,
+        -1237.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        14,
+        21,
+        18
+      ]
+    },
+    {
+      "code": 1318,
+      "depth": 5,
+      "bounds": [
+        225.0,
+        -1237.5,
+        337.5,
+        -1125.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        11,
+        14,
+        21,
+        18
+      ]
+    },
+    {
+      "code": 1319,
+      "depth": 5,
+      "bounds": [
+        337.5,
+        -1237.5,
+        450.0,
+        -1125.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        14,
+        21,
+        18
+      ]
+    },
+    {
+      "code": 330,
+      "depth": 4,
+      "bounds": [
+        0.0,
+        -1125.0,
+        225.0,
+        -900.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        11,
+        14,
+        18
+      ]
+    },
+    {
+      "code": 331,
+      "depth": 4,
+      "bounds": [
+        225.0,
+        -1125.0,
+        450.0,
+        -900.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        11,
+        14,
+        21,
+        18
+      ]
+    },
+    {
+      "code": 1328,
+      "depth": 5,
+      "bounds": [
+        450.0,
+        -1350.0,
+        562.5,
+        -1237.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        14,
+        21,
+        18
+      ]
+    },
+    {
+      "code": 1329,
+      "depth": 5,
+      "bounds": [
+        562.5,
+        -1350.0,
+        675.0,
+        -1237.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        14,
+        21,
+        24,
+        18
+      ]
+    },
+    {
+      "code": 1330,
+      "depth": 5,
+      "bounds": [
+        450.0,
+        -1237.5,
+        562.5,
+        -1125.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        14,
+        21,
+        24,
+        18
+      ]
+    },
+    {
+      "code": 1331,
+      "depth": 5,
+      "bounds": [
+        562.5,
+        -1237.5,
+        675.0,
+        -1125.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        14,
+        21,
+        24,
+        18
+      ]
+    },
+    {
+      "code": 333,
+      "depth": 4,
+      "bounds": [
+        675.0,
+        -1350.0,
+        900.0,
+        -1125.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        14,
+        21,
+        24,
+        18
+      ]
+    },
+    {
+      "code": 334,
+      "depth": 4,
+      "bounds": [
+        450.0,
+        -1125.0,
+        675.0,
+        -900.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        14,
+        21,
+        24,
+        18
+      ]
+    },
+    {
+      "code": 335,
+      "depth": 4,
+      "bounds": [
+        675.0,
+        -1125.0,
+        900.0,
+        -900.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        18,
+        21,
+        24
+      ]
+    },
+    {
+      "code": 336,
+      "depth": 4,
+      "bounds": [
+        900.0,
+        -1800.0,
+        1125.0,
+        -1575.0
+      ],
+      "kind": "outside",
+      "hull_indices": []
+    },
+    {
+      "code": 337,
+      "depth": 4,
+      "bounds": [
+        1125.0,
+        -1800.0,
+        1350.0,
+        -1575.0
+      ],
+      "kind": "outside",
+      "hull_indices": []
+    },
+    {
+      "code": 1352,
+      "depth": 5,
+      "bounds": [
+        900.0,
+        -1575.0,
+        1012.5,
+        -1462.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        17,
+        26,
+        24,
+        18
+      ]
+    },
+    {
+      "code": 5412,
+      "depth": 6,
+      "bounds": [
+        1012.5,
+        -1575.0,
+        1068.75,
+        -1518.75
+      ],
+      "kind": "outside",
+      "hull_indices": []
+    },
+    {
+      "code": 5413,
+      "depth": 6,
+      "bounds": [
+        1068.75,
+        -1575.0,
+        1125.0,
+        -1518.75
+      ],
+      "kind": "outside",
+      "hull_indices": []
+    },
+    {
+      "code": 21656,
+      "depth": 7,
+      "bounds": [
+        1012.5,
+        -1518.75,
+        1040.625,
+        -1490.625
+      ],
+      "kind": "outside",
+      "hull_indices": []
+    },
+    {
+      "code": 21657,
+      "depth": 7,
+      "bounds": [
+        1040.625,
+        -1518.75,
+        1068.75,
+        -1490.625
+      ],
+      "kind": "outside",
+      "hull_indices": []
+    },
+    {
+      "code": 21658,
+      "depth": 7,
+      "bounds": [
+        1012.5,
+        -1490.625,
+        1040.625,
+        -1462.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        18,
+        21,
+        26,
+        24
+      ]
+    },
+    {
+      "code": 21659,
+      "depth": 7,
+      "bounds": [
+        1040.625,
+        -1490.625,
+        1068.75,
+        -1462.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        18,
+        21,
+        26,
+        24
+      ]
+    },
+    {
+      "code": 5415,
+      "depth": 6,
+      "bounds": [
+        1068.75,
+        -1518.75,
+        1125.0,
+        -1462.5
+      ],
+      "kind": "outside",
+      "hull_indices": []
+    },
+    {
+      "code": 1354,
+      "depth": 5,
+      "bounds": [
+        900.0,
+        -1462.5,
+        1012.5,
+        -1350.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        18,
+        21,
+        26,
+        24
+      ]
+    },
+    {
+      "code": 1355,
+      "depth": 5,
+      "bounds": [
+        1012.5,
+        -1462.5,
+        1125.0,
+        -1350.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        18,
+        21,
+        26,
+        24
+      ]
+    },
+    {
+      "code": 1356,
+      "depth": 5,
+      "bounds": [
+        1125.0,
+        -1575.0,
+        1237.5,
+        -1462.5
+      ],
+      "kind": "outside",
+      "hull_indices": []
+    },
+    {
+      "code": 1357,
+      "depth": 5,
+      "bounds": [
+        1237.5,
+        -1575.0,
+        1350.0,
+        -1462.5
+      ],
+      "kind": "outside",
+      "hull_indices": []
+    },
+    {
+      "code": 1358,
+      "depth": 5,
+      "bounds": [
+        1125.0,
+        -1462.5,
+        1237.5,
+        -1350.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        21,
+        26,
+        24
+      ]
+    },
+    {
+      "code": 1359,
+      "depth": 5,
+      "bounds": [
+        1237.5,
+        -1462.5,
+        1350.0,
+        -1350.0
+      ],
+      "kind": "outside",
+      "hull_indices": []
+    },
+    {
+      "code": 85,
+      "depth": 3,
+      "bounds": [
+        1350.0,
+        -1800.0,
+        1800.0,
+        -1350.0
+      ],
+      "kind": "outside",
+      "hull_indices": []
+    },
+    {
+      "code": 344,
+      "depth": 4,
+      "bounds": [
+        900.0,
+        -1350.0,
+        1125.0,
+        -1125.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        18,
+        21,
+        26,
+        24
+      ]
+    },
+    {
+      "code": 345,
+      "depth": 4,
+      "bounds": [
+        1125.0,
+        -1350.0,
+        1350.0,
+        -1125.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        21,
+        26,
+        24
+      ]
+    },
+    {
+      "code": 1384,
+      "depth": 5,
+      "bounds": [
+        900.0,
+        -1125.0,
+        1012.5,
+        -1012.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        18,
+        21,
+        26,
+        24
+      ]
+    },
+    {
+      "code": 1385,
+      "depth": 5,
+      "bounds": [
+        1012.5,
+        -1125.0,
+        1125.0,
+        -1012.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        18,
+        21,
+        26,
+        24
+      ]
+    },
+    {
+      "code": 1386,
+      "depth": 5,
+      "bounds": [
+        900.0,
+        -1012.5,
+        1012.5,
+        -900.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        18,
+        21,
+        24
+      ]
+    },
+    {
+      "code": 1387,
+      "depth": 5,
+      "bounds": [
+        1012.5,
+        -1012.5,
+        1125.0,
+        -900.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        18,
+        21,
+        26,
+        24
+      ]
+    },
+    {
+      "code": 347,
+      "depth": 4,
+      "bounds": [
+        1125.0,
+        -1125.0,
+        1350.0,
+        -900.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        18,
+        21,
+        26,
+        24
+      ]
+    },
+    {
+      "code": 1392,
+      "depth": 5,
+      "bounds": [
+        1350.0,
+        -1350.0,
+        1462.5,
+        -1237.5
+      ],
+      "kind": "outside",
+      "hull_indices": []
+    },
+    {
+      "code": 1393,
+      "depth": 5,
+      "bounds": [
+        1462.5,
+        -1350.0,
+        1575.0,
+        -1237.5
+      ],
+      "kind": "outside",
+      "hull_indices": []
+    },
+    {
+      "code": 1394,
+      "depth": 5,
+      "bounds": [
+        1350.0,
+        -1237.5,
+        1462.5,
+        -1125.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        21,
+        26,
+        29,
+        24
+      ]
+    },
+    {
+      "code": 1395,
+      "depth": 5,
+      "bounds": [
+        1462.5,
+        -1237.5,
+        1575.0,
+        -1125.0
+      ],
+      "kind": "outside",
+      "hull_indices": []
+    },
+    {
+      "code": 349,
+      "depth": 4,
+      "bounds": [
+        1575.0,
+        -1350.0,
+        1800.0,
+        -1125.0
+      ],
+      "kind": "outside",
+      "hull_indices": []
+    },
+    {
+      "code": 350,
+      "depth": 4,
+      "bounds": [
+        1350.0,
+        -1125.0,
+        1575.0,
+        -900.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        21,
+        26,
+        29,
+        24
+      ]
+    },
+    {
+      "code": 351,
+      "depth": 4,
+      "bounds": [
+        1575.0,
+        -1125.0,
+        1800.0,
+        -900.0
+      ],
+      "kind": "outside",
+      "hull_indices": []
+    },
+    {
+      "code": 352,
+      "depth": 4,
+      "bounds": [
+        0.0,
+        -900.0,
+        225.0,
+        -675.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        11,
+        14,
+        18,
+        15
+      ]
+    },
+    {
+      "code": 1412,
+      "depth": 5,
+      "bounds": [
+        225.0,
+        -900.0,
+        337.5,
+        -787.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        11,
+        14,
+        21,
+        15
+      ]
+    },
+    {
+      "code": 1413,
+      "depth": 5,
+      "bounds": [
+        337.5,
+        -900.0,
+        450.0,
+        -787.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        11,
+        14,
+        21,
+        24
+      ]
+    },
+    {
+      "code": 1414,
+      "depth": 5,
+      "bounds": [
+        225.0,
+        -787.5,
+        337.5,
+        -675.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        11,
+        14,
+        18,
+        15
+      ]
+    },
+    {
+      "code": 1415,
+      "depth": 5,
+      "bounds": [
+        337.5,
+        -787.5,
+        450.0,
+        -675.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        11,
+        14,
+        21,
+        24,
+        22,
+        15
+      ]
+    },
+    {
+      "code": 354,
+      "depth": 4,
+      "bounds": [
+        0.0,
+        -675.0,
+        225.0,
+        -450.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        11,
+        18,
+        15
+      ]
+    },
+    {
+      "code": 355,
+      "depth": 4,
+      "bounds": [
+        225.0,
+        -675.0,
+        450.0,
+        -450.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        11,
+        18,
+        22,
+        15
+      ]
+    },
+    {
+      "code": 1424,
+      "depth": 5,
+      "bounds": [
+        450.0,
+        -900.0,
+        562.5,
+        -787.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        14,
+        21,
+        24,
+        22
+      ]
+    },
+    {
+      "code": 1425,
+      "depth": 5,
+      "bounds": [
+        562.5,
+        -900.0,
+        675.0,
+        -787.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        14,
+        21,
+        24,
+        22
+      ]
+    },
+    {
+      "code": 5704,
+      "depth": 6,
+      "bounds": [
+        450.0,
+        -787.5,
+        506.25,
+        -731.25
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        11,
+        14,
+        21,
+        24,
+        22,
+        15
+      ]
+    },
+    {
+      "code": 5705,
+      "depth": 6,
+      "bounds": [
+        506.25,
+        -787.5,
+        562.5,
+        -731.25
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        14,
+        21,
+        24,
+        22,
+        15
+      ]
+    },
+    {
+      "code": 5706,
+      "depth": 6,
+      "bounds": [
+        450.0,
+        -731.25,
+        506.25,
+        -675.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        11,
+        14,
+        21,
+        24,
+        22,
+        15
+      ]
+    },
+    {
+      "code": 5707,
+      "depth": 6,
+      "bounds": [
+        506.25,
+        -731.25,
+        562.5,
+        -675.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        15,
+        21,
+        24,
+        22
+      ]
+    },
+    {
+      "code": 1427,
+      "depth": 5,
+      "bounds": [
+        562.5,
+        -787.5,
+        675.0,
+        -675.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        18,
+        21,
+        24,
+        22
+      ]
+    },
+    {
+      "code": 357,
+      "depth": 4,
+      "bounds": [
+        675.0,
+        -900.0,
+        900.0,
+        -675.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        18,
+        21,
+        24,
+        22
+      ]
+    },
+    {
+      "code": 358,
+      "depth": 4,
+      "bounds": [
+        450.0,
+        -675.0,
+        675.0,
+        -450.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        15,
+        18,
+        24,
+        22
+      ]
+    },
+    {
+      "code": 359,
+      "depth": 4,
+      "bounds": [
+        675.0,
+        -675.0,
+        900.0,
+        -450.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        18,
+        24,
+        22
+      ]
+    },
+    {
+      "code": 360,
+      "depth": 4,
+      "bounds": [
+        0.0,
+        -450.0,
+        225.0,
+        -225.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        11,
+        18,
+        22,
+        15
+      ]
+    },
+    {
+      "code": 1444,
+      "depth": 5,
+      "bounds": [
+        225.0,
+        -450.0,
+        337.5,
+        -337.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        11,
+        18,
+        22,
+        15
+      ]
+    },
+    {
+      "code": 1445,
+      "depth": 5,
+      "bounds": [
+        337.5,
+        -450.0,
+        450.0,
+        -337.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        11,
+        18,
+        22,
+        15
+      ]
+    },
+    {
+      "code": 1446,
+      "depth": 5,
+      "bounds": [
+        225.0,
+        -337.5,
+        337.5,
+        -225.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        11,
+        18,
+        22,
+        15
+      ]
+    },
+    {
+      "code": 1447,
+      "depth": 5,
+      "bounds": [
+        337.5,
+        -337.5,
+        450.0,
+        -225.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        15,
+        18,
+        22
+      ]
+    },
+    {
+      "code": 1448,
+      "depth": 5,
+      "bounds": [
+        0.0,
+        -225.0,
+        112.5,
+        -112.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        11,
+        18,
+        22,
+        15
+      ]
+    },
+    {
+      "code": 1449,
+      "depth": 5,
+      "bounds": [
+        112.5,
+        -225.0,
+        225.0,
+        -112.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        11,
+        18,
+        22,
+        15
+      ]
+    },
+    {
+      "code": 1450,
+      "depth": 5,
+      "bounds": [
+        0.0,
+        -112.5,
+        112.5,
+        0.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        8,
+        11,
+        18,
+        22,
+        19
+      ]
+    },
+    {
+      "code": 1451,
+      "depth": 5,
+      "bounds": [
+        112.5,
+        -112.5,
+        225.0,
+        0.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        15,
+        18,
+        22,
+        19
+      ]
+    },
+    {
+      "code": 1452,
+      "depth": 5,
+      "bounds": [
+        225.0,
+        -225.0,
+        337.5,
+        -112.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        15,
+        18,
+        22
+      ]
+    },
+    {
+      "code": 1453,
+      "depth": 5,
+      "bounds": [
+        337.5,
+        -225.0,
+        450.0,
+        -112.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        15,
+        18,
+        22,
+        19
+      ]
+    },
+    {
+      "code": 1454,
+      "depth": 5,
+      "bounds": [
+        225.0,
+        -112.5,
+        337.5,
+        0.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        15,
+        18,
+        22,
+        19
+      ]
+    },
+    {
+      "code": 1455,
+      "depth": 5,
+      "bounds": [
+        337.5,
+        -112.5,
+        450.0,
+        0.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        15,
+        18,
+        22,
+        19
+      ]
+    },
+    {
+      "code": 1456,
+      "depth": 5,
+      "bounds": [
+        450.0,
+        -450.0,
+        562.5,
+        -337.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        15,
+        18,
+        24,
+        22
+      ]
+    },
+    {
+      "code": 1457,
+      "depth": 5,
+      "bounds": [
+        562.5,
+        -450.0,
+        675.0,
+        -337.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        15,
+        18,
+        24,
+        22
+      ]
+    },
+    {
+      "code": 1458,
+      "depth": 5,
+      "bounds": [
+        450.0,
+        -337.5,
+        562.5,
+        -225.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        15,
+        18,
+        22
+      ]
+    },
+    {
+      "code": 1459,
+      "depth": 5,
+      "bounds": [
+        562.5,
+        -337.5,
+        675.0,
+        -225.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        15,
+        18,
+        24,
+        22
+      ]
+    },
+    {
+      "code": 1460,
+      "depth": 5,
+      "bounds": [
+        675.0,
+        -450.0,
+        787.5,
+        -337.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        15,
+        18,
+        24,
+        22
+      ]
+    },
+    {
+      "code": 1461,
+      "depth": 5,
+      "bounds": [
+        787.5,
+        -450.0,
+        900.0,
+        -337.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        18,
+        24,
+        22
+      ]
+    },
+    {
+      "code": 1462,
+      "depth": 5,
+      "bounds": [
+        675.0,
+        -337.5,
+        787.5,
+        -225.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        15,
+        18,
+        24,
+        22
+      ]
+    },
+    {
+      "code": 1463,
+      "depth": 5,
+      "bounds": [
+        787.5,
+        -337.5,
+        900.0,
+        -225.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        15,
+        18,
+        24,
+        22
+      ]
+    },
+    {
+      "code": 1464,
+      "depth": 5,
+      "bounds": [
+        450.0,
+        -225.0,
+        562.5,
+        -112.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        15,
+        18,
+        22,
+        19
+      ]
+    },
+    {
+      "code": 1465,
+      "depth": 5,
+      "bounds": [
+        562.5,
+        -225.0,
+        675.0,
+        -112.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        15,
+        18,
+        24,
+        22
+      ]
+    },
+    {
+      "code": 1466,
+      "depth": 5,
+      "bounds": [
+        450.0,
+        -112.5,
+        562.5,
+        0.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        15,
+        18,
+        22,
+        19
+      ]
+    },
+    {
+      "code": 1467,
+      "depth": 5,
+      "bounds": [
+        562.5,
+        -112.5,
+        675.0,
+        0.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        15,
+        18,
+        22,
+        19
+      ]
+    },
+    {
+      "code": 1468,
+      "depth": 5,
+      "bounds": [
+        675.0,
+        -225.0,
+        787.5,
+        -112.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        15,
+        18,
+        24,
+        22
+      ]
+    },
+    {
+      "code": 1469,
+      "depth": 5,
+      "bounds": [
+        787.5,
+        -225.0,
+        900.0,
+        -112.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        15,
+        18,
+        24,
+        27
+      ]
+    },
+    {
+      "code": 1470,
+      "depth": 5,
+      "bounds": [
+        675.0,
+        -112.5,
+        787.5,
+        0.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        15,
+        18,
+        24,
+        19
+      ]
+    },
+    {
+      "code": 1471,
+      "depth": 5,
+      "bounds": [
+        787.5,
+        -112.5,
+        900.0,
+        0.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        15,
+        18,
+        24,
+        27,
+        19
+      ]
+    },
+    {
+      "code": 368,
+      "depth": 4,
+      "bounds": [
+        900.0,
+        -900.0,
+        1125.0,
+        -675.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        18,
+        21,
+        24,
+        22
+      ]
+    },
+    {
+      "code": 1476,
+      "depth": 5,
+      "bounds": [
+        1125.0,
+        -900.0,
+        1237.5,
+        -787.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        18,
+        21,
+        26,
+        22
+      ]
+    },
+    {
+      "code": 1477,
+      "depth": 5,
+      "bounds": [
+        1237.5,
+        -900.0,
+        1350.0,
+        -787.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        18,
+        21,
+        26,
+        29
+      ]
+    },
+    {
+      "code": 1478,
+      "depth": 5,
+      "bounds": [
+        1125.0,
+        -787.5,
+        1237.5,
+        -675.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        18,
+        21,
+        24,
+        22
+      ]
+    },
+    {
+      "code": 1479,
+      "depth": 5,
+      "bounds": [
+        1237.5,
+        -787.5,
+        1350.0,
+        -675.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        18,
+        21,
+        26,
+        29,
+        27,
+        22
+      ]
+    },
+    {
+      "code": 370,
+      "depth": 4,
+      "bounds": [
+        900.0,
+        -675.0,
+        1125.0,
+        -450.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        18,
+        24,
+        22
+      ]
+    },
+    {
+      "code": 371,
+      "depth": 4,
+      "bounds": [
+        1125.0,
+        -675.0,
+        1350.0,
+        -450.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        18,
+        24,
+        27,
+        22
+      ]
+    },
+    {
+      "code": 1488,
+      "depth": 5,
+      "bounds": [
+        1350.0,
+        -900.0,
+        1462.5,
+        -787.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        21,
+        26,
+        29,
+        27
+      ]
+    },
+    {
+      "code": 1489,
+      "depth": 5,
+      "bounds": [
+        1462.5,
+        -900.0,
+        1575.0,
+        -787.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        24,
+        26,
+        29,
+        27
+      ]
+    },
+    {
+      "code": 1490,
+      "depth": 5,
+      "bounds": [
+        1350.0,
+        -787.5,
+        1462.5,
+        -675.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        22,
+        26,
+        29,
+        27
+      ]
+    },
+    {
+      "code": 1491,
+      "depth": 5,
+      "bounds": [
+        1462.5,
+        -787.5,
+        1575.0,
+        -675.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        24,
+        26,
+        29,
+        27
+      ]
+    },
+    {
+      "code": 373,
+      "depth": 4,
+      "bounds": [
+        1575.0,
+        -900.0,
+        1800.0,
+        -675.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        24,
+        26,
+        29,
+        27
+      ]
+    },
+    {
+      "code": 374,
+      "depth": 4,
+      "bounds": [
+        1350.0,
+        -675.0,
+        1575.0,
+        -450.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        22,
+        24,
+        29,
+        27
+      ]
+    },
+    {
+      "code": 375,
+      "depth": 4,
+      "bounds": [
+        1575.0,
+        -675.0,
+        1800.0,
+        -450.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        24,
+        29,
+        27
+      ]
+    },
+    {
+      "code": 376,
+      "depth": 4,
+      "bounds": [
+        900.0,
+        -450.0,
+        1125.0,
+        -225.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        18,
+        24,
+        27,
+        22
+      ]
+    },
+    {
+      "code": 1508,
+      "depth": 5,
+      "bounds": [
+        1125.0,
+        -450.0,
+        1237.5,
+        -337.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        18,
+        24,
+        27,
+        22
+      ]
+    },
+    {
+      "code": 1509,
+      "depth": 5,
+      "bounds": [
+        1237.5,
+        -450.0,
+        1350.0,
+        -337.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        22,
+        24,
+        27
+      ]
+    },
+    {
+      "code": 1510,
+      "depth": 5,
+      "bounds": [
+        1125.0,
+        -337.5,
+        1237.5,
+        -225.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        18,
+        24,
+        27,
+        22
+      ]
+    },
+    {
+      "code": 1511,
+      "depth": 5,
+      "bounds": [
+        1237.5,
+        -337.5,
+        1350.0,
+        -225.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        22,
+        24,
+        27
+      ]
+    },
+    {
+      "code": 1512,
+      "depth": 5,
+      "bounds": [
+        900.0,
+        -225.0,
+        1012.5,
+        -112.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        18,
+        24,
+        27,
+        22
+      ]
+    },
+    {
+      "code": 1513,
+      "depth": 5,
+      "bounds": [
+        1012.5,
+        -225.0,
+        1125.0,
+        -112.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        18,
+        24,
+        27,
+        22
+      ]
+    },
+    {
+      "code": 1514,
+      "depth": 5,
+      "bounds": [
+        900.0,
+        -112.5,
+        1012.5,
+        0.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        18,
+        24,
+        27,
+        25
+      ]
+    },
+    {
+      "code": 1515,
+      "depth": 5,
+      "bounds": [
+        1012.5,
+        -112.5,
+        1125.0,
+        0.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        22,
+        24,
+        27,
+        25
+      ]
+    },
+    {
+      "code": 1516,
+      "depth": 5,
+      "bounds": [
+        1125.0,
+        -225.0,
+        1237.5,
+        -112.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        22,
+        24,
+        27
+      ]
+    },
+    {
+      "code": 1517,
+      "depth": 5,
+      "bounds": [
+        1237.5,
+        -225.0,
+        1350.0,
+        -112.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        22,
+        24,
+        27,
+        25
+      ]
+    },
+    {
+      "code": 1518,
+      "depth": 5,
+      "bounds": [
+        1125.0,
+        -112.5,
+        1237.5,
+        0.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        22,
+        24,
+        27,
+        25
+      ]
+    },
+    {
+      "code": 1519,
+      "depth": 5,
+      "bounds": [
+        1237.5,
+        -112.5,
+        1350.0,
+        0.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        22,
+        24,
+        27,
+        25
+      ]
+    },
+    {
+      "code": 380,
+      "depth": 4,
+      "bounds": [
+        1350.0,
+        -450.0,
+        1575.0,
+        -225.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        22,
+        24,
+        29,
+        27
+      ]
+    },
+    {
+      "code": 1524,
+      "depth": 5,
+      "bounds": [
+        1575.0,
+        -450.0,
+        1687.5,
+        -337.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        22,
+        24,
+        29,
+        27
+      ]
+    },
+    {
+      "code": 1525,
+      "depth": 5,
+      "bounds": [
+        1687.5,
+        -450.0,
+        1800.0,
+        -337.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        24,
+        29,
+        27
+      ]
+    },
+    {
+      "code": 1526,
+      "depth": 5,
+      "bounds": [
+        1575.0,
+        -337.5,
+        1687.5,
+        -225.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        22,
+        24,
+        29,
+        27
+      ]
+    },
+    {
+      "code": 1527,
+      "depth": 5,
+      "bounds": [
+        1687.5,
+        -337.5,
+        1800.0,
+        -225.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        22,
+        24,
+        29,
+        27
+      ]
+    },
+    {
+      "code": 1528,
+      "depth": 5,
+      "bounds": [
+        1350.0,
+        -225.0,
+        1462.5,
+        -112.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        22,
+        24,
+        27,
+        25
+      ]
+    },
+    {
+      "code": 1529,
+      "depth": 5,
+      "bounds": [
+        1462.5,
+        -225.0,
+        1575.0,
+        -112.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        22,
+        24,
+        29,
+        27
+      ]
+    },
+    {
+      "code": 1530,
+      "depth": 5,
+      "bounds": [
+        1350.0,
+        -112.5,
+        1462.5,
+        0.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        22,
+        24,
+        27,
+        25
+      ]
+    },
+    {
+      "code": 1531,
+      "depth": 5,
+      "bounds": [
+        1462.5,
+        -112.5,
+        1575.0,
+        0.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        22,
+        24,
+        27,
+        25
+      ]
+    },
+    {
+      "code": 1532,
+      "depth": 5,
+      "bounds": [
+        1575.0,
+        -225.0,
+        1687.5,
+        -112.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        22,
+        24,
+        29,
+        27
+      ]
+    },
+    {
+      "code": 1533,
+      "depth": 5,
+      "bounds": [
+        1687.5,
+        -225.0,
+        1800.0,
+        -112.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        22,
+        24,
+        29,
+        27
+      ]
+    },
+    {
+      "code": 1534,
+      "depth": 5,
+      "bounds": [
+        1575.0,
+        -112.5,
+        1687.5,
+        0.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        22,
+        24,
+        29,
+        25
+      ]
+    },
+    {
+      "code": 6140,
+      "depth": 6,
+      "bounds": [
+        1687.5,
+        -112.5,
+        1743.75,
+        -56.25
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        22,
+        24,
+        29,
+        25
+      ]
+    },
+    {
+      "code": 6141,
+      "depth": 6,
+      "bounds": [
+        1743.75,
+        -112.5,
+        1800.0,
+        -56.25
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        22,
+        24,
+        29,
+        30,
+        25
+      ]
+    },
+    {
+      "code": 6142,
+      "depth": 6,
+      "bounds": [
+        1687.5,
+        -56.25,
+        1743.75,
+        0.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        22,
+        24,
+        29,
+        30,
+        25
+      ]
+    },
+    {
+      "code": 6143,
+      "depth": 6,
+      "bounds": [
+        1743.75,
+        -56.25,
+        1800.0,
+        0.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        22,
+        24,
+        29,
+        30,
+        25
+      ]
+    },
+    {
+      "code": 6144,
+      "depth": 6,
+      "bounds": [
+        -1800.0,
+        0.0,
+        -1743.75,
+        56.25
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        0,
+        5,
+        8,
+        6,
+        1
+      ]
+    },
+    {
+      "code": 6145,
+      "depth": 6,
+      "bounds": [
+        -1743.75,
+        0.0,
+        -1687.5,
+        56.25
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        0,
+        5,
+        8,
+        6,
+        1
+      ]
+    },
+    {
+      "code": 6146,
+      "depth": 6,
+      "bounds": [
+        -1800.0,
+        56.25,
+        -1743.75,
+        112.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        0,
+        5,
+        8,
+        6,
+        1
+      ]
+    },
+    {
+      "code": 6147,
+      "depth": 6,
+      "bounds": [
+        -1743.75,
+        56.25,
+        -1687.5,
+        112.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        1,
+        5,
+        8,
+        6
+      ]
+    },
+    {
+      "code": 1537,
+      "depth": 5,
+      "bounds": [
+        -1687.5,
+        0.0,
+        -1575.0,
+        112.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        1,
+        5,
+        8,
+        6
+      ]
+    },
+    {
+      "code": 1538,
+      "depth": 5,
+      "bounds": [
+        -1800.0,
+        112.5,
+        -1687.5,
+        225.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        1,
+        3,
+        8,
+        6
+      ]
+    },
+    {
+      "code": 1539,
+      "depth": 5,
+      "bounds": [
+        -1687.5,
+        112.5,
+        -1575.0,
+        225.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        1,
+        3,
+        8,
+        6
+      ]
+    },
+    {
+      "code": 1540,
+      "depth": 5,
+      "bounds": [
+        -1575.0,
+        0.0,
+        -1462.5,
+        112.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        3,
+        5,
+        8,
+        6
+      ]
+    },
+    {
+      "code": 1541,
+      "depth": 5,
+      "bounds": [
+        -1462.5,
+        0.0,
+        -1350.0,
+        112.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        3,
+        5,
+        8,
+        6
+      ]
+    },
+    {
+      "code": 1542,
+      "depth": 5,
+      "bounds": [
+        -1575.0,
+        112.5,
+        -1462.5,
+        225.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        1,
+        3,
+        8,
+        6
+      ]
+    },
+    {
+      "code": 1543,
+      "depth": 5,
+      "bounds": [
+        -1462.5,
+        112.5,
+        -1350.0,
+        225.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        3,
+        5,
+        8,
+        6
+      ]
+    },
+    {
+      "code": 1544,
+      "depth": 5,
+      "bounds": [
+        -1800.0,
+        225.0,
+        -1687.5,
+        337.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        1,
+        3,
+        8,
+        6
+      ]
+    },
+    {
+      "code": 1545,
+      "depth": 5,
+      "bounds": [
+        -1687.5,
+        225.0,
+        -1575.0,
+        337.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        1,
+        3,
+        8,
+        6
+      ]
+    },
+    {
+      "code": 1546,
+      "depth": 5,
+      "bounds": [
+        -1800.0,
+        337.5,
+        -1687.5,
+        450.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        1,
+        3,
+        6
+      ]
+    },
+    {
+      "code": 1547,
+      "depth": 5,
+      "bounds": [
+        -1687.5,
+        337.5,
+        -1575.0,
+        450.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        1,
+        3,
+        8,
+        6
+      ]
+    },
+    {
+      "code": 387,
+      "depth": 4,
+      "bounds": [
+        -1575.0,
+        225.0,
+        -1350.0,
+        450.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        1,
+        3,
+        8,
+        6
+      ]
+    },
+    {
+      "code": 1552,
+      "depth": 5,
+      "bounds": [
+        -1350.0,
+        0.0,
+        -1237.5,
+        112.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        3,
+        5,
+        8,
+        6
+      ]
+    },
+    {
+      "code": 1553,
+      "depth": 5,
+      "bounds": [
+        -1237.5,
+        0.0,
+        -1125.0,
+        112.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        3,
+        5,
+        8,
+        6
+      ]
+    },
+    {
+      "code": 1554,
+      "depth": 5,
+      "bounds": [
+        -1350.0,
+        112.5,
+        -1237.5,
+        225.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        3,
+        5,
+        8,
+        6
+      ]
+    },
+    {
+      "code": 1555,
+      "depth": 5,
+      "bounds": [
+        -1237.5,
+        112.5,
+        -1125.0,
+        225.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        3,
+        8,
+        6
+      ]
+    },
+    {
+      "code": 1556,
+      "depth": 5,
+      "bounds": [
+        -1125.0,
+        0.0,
+        -1012.5,
+        112.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        3,
+        5,
+        8,
+        6
+      ]
+    },
+    {
+      "code": 1557,
+      "depth": 5,
+      "bounds": [
+        -1012.5,
+        0.0,
+        -900.0,
+        112.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        3,
+        5,
+        12,
+        6
+      ]
+    },
+    {
+      "code": 1558,
+      "depth": 5,
+      "bounds": [
+        -1125.0,
+        112.5,
+        -1012.5,
+        225.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        3,
+        8,
+        12,
+        6
+      ]
+    },
+    {
+      "code": 1559,
+      "depth": 5,
+      "bounds": [
+        -1012.5,
+        112.5,
+        -900.0,
+        225.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        3,
+        8,
+        12,
+        6
+      ]
+    },
+    {
+      "code": 1560,
+      "depth": 5,
+      "bounds": [
+        -1350.0,
+        225.0,
+        -1237.5,
+        337.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        3,
+        8,
+        6
+      ]
+    },
+    {
+      "code": 1561,
+      "depth": 5,
+      "bounds": [
+        -1237.5,
+        225.0,
+        -1125.0,
+        337.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        3,
+        8,
+        12,
+        6
+      ]
+    },
+    {
+      "code": 1562,
+      "depth": 5,
+      "bounds": [
+        -1350.0,
+        337.5,
+        -1237.5,
+        450.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        3,
+        8,
+        6
+      ]
+    },
+    {
+      "code": 1563,
+      "depth": 5,
+      "bounds": [
+        -1237.5,
+        337.5,
+        -1125.0,
+        450.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        3,
+        8,
+        12,
+        6
+      ]
+    },
+    {
+      "code": 391,
+      "depth": 4,
+      "bounds": [
+        -1125.0,
+        225.0,
+        -900.0,
+        450.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        3,
+        8,
+        12,
+        6
+      ]
+    },
+    {
+      "code": 392,
+      "depth": 4,
+      "bounds": [
+        -1800.0,
+        450.0,
+        -1575.0,
+        675.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        1,
+        3,
+        6
+      ]
+    },
+    {
+      "code": 393,
+      "depth": 4,
+      "bounds": [
+        -1575.0,
+        450.0,
+        -1350.0,
+        675.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        1,
+        3,
+        8,
+        6
+      ]
+    },
+    {
+      "code": 394,
+      "depth": 4,
+      "bounds": [
+        -1800.0,
+        675.0,
+        -1575.0,
+        900.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        1,
+        3,
+        6,
+        4
+      ]
+    },
+    {
+      "code": 1580,
+      "depth": 5,
+      "bounds": [
+        -1575.0,
+        675.0,
+        -1462.5,
+        787.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        1,
+        3,
+        6,
+        4
+      ]
+    },
+    {
+      "code": 1581,
+      "depth": 5,
+      "bounds": [
+        -1462.5,
+        675.0,
+        -1350.0,
+        787.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        1,
+        3,
+        8,
+        4
+      ]
+    },
+    {
+      "code": 1582,
+      "depth": 5,
+      "bounds": [
+        -1575.0,
+        787.5,
+        -1462.5,
+        900.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        1,
+        3,
+        6,
+        4
+      ]
+    },
+    {
+      "code": 1583,
+      "depth": 5,
+      "bounds": [
+        -1462.5,
+        787.5,
+        -1350.0,
+        900.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        1,
+        3,
+        9,
+        4
+      ]
+    },
+    {
+      "code": 396,
+      "depth": 4,
+      "bounds": [
+        -1350.0,
+        450.0,
+        -1125.0,
+        675.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        3,
+        8,
+        12,
+        6
+      ]
+    },
+    {
+      "code": 397,
+      "depth": 4,
+      "bounds": [
+        -1125.0,
+        450.0,
+        -900.0,
+        675.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        6,
+        8,
+        12
+      ]
+    },
+    {
+      "code": 1592,
+      "depth": 5,
+      "bounds": [
+        -1350.0,
+        675.0,
+        -1237.5,
+        787.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        1,
+        3,
+        8,
+        12,
+        9,
+        4
+      ]
+    },
+    {
+      "code": 1593,
+      "depth": 5,
+      "bounds": [
+        -1237.5,
+        675.0,
+        -1125.0,
+        787.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        6,
+        8,
+        12,
+        9
+      ]
+    },
+    {
+      "code": 1594,
+      "depth": 5,
+      "bounds": [
+        -1350.0,
+        787.5,
+        -1237.5,
+        900.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        1,
+        12,
+        9,
+        4
+      ]
+    },
+    {
+      "code": 1595,
+      "depth": 5,
+      "bounds": [
+        -1237.5,
+        787.5,
+        -1125.0,
+        900.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        4,
+        8,
+        12,
+        9
+      ]
+    },
+    {
+      "code": 399,
+      "depth": 4,
+      "bounds": [
+        -1125.0,
+        675.0,
+        -900.0,
+        900.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        6,
+        8,
+        12,
+        9
+      ]
+    },
+    {
+      "code": 1600,
+      "depth": 5,
+      "bounds": [
+        -900.0,
+        0.0,
+        -787.5,
+        112.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        3,
+        11,
+        15,
+        12,
+        6
+      ]
+    },
+    {
+      "code": 1601,
+      "depth": 5,
+      "bounds": [
+        -787.5,
+        0.0,
+        -675.0,
+        112.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        6,
+        11,
+        15,
+        12
+      ]
+    },
+    {
+      "code": 1602,
+      "depth": 5,
+      "bounds": [
+        -900.0,
+        112.5,
+        -787.5,
+        225.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        3,
+        15,
+        12,
+        6
+      ]
+    },
+    {
+      "code": 1603,
+      "depth": 5,
+      "bounds": [
+        -787.5,
+        112.5,
+        -675.0,
+        225.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        6,
+        8,
+        15,
+        12
+      ]
+    },
+    {
+      "code": 1604,
+      "depth": 5,
+      "bounds": [
+        -675.0,
+        0.0,
+        -562.5,
+        112.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        8,
+        11,
+        15,
+        12
+      ]
+    },
+    {
+      "code": 1605,
+      "depth": 5,
+      "bounds": [
+        -562.5,
+        0.0,
+        -450.0,
+        112.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        8,
+        11,
+        15,
+        12
+      ]
+    },
+    {
+      "code": 1606,
+      "depth": 5,
+      "bounds": [
+        -675.0,
+        112.5,
+        -562.5,
+        225.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        6,
+        8,
+        15,
+        12
+      ]
+    },
+    {
+      "code": 1607,
+      "depth": 5,
+      "bounds": [
+        -562.5,
+        112.5,
+        -450.0,
+        225.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        8,
+        11,
+        15,
+        12
+      ]
+    },
+    {
+      "code": 1608,
+      "depth": 5,
+      "bounds": [
+        -900.0,
+        225.0,
+        -787.5,
+        337.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        6,
+        8,
+        15,
+        12
+      ]
+    },
+    {
+      "code": 1609,
+      "depth": 5,
+      "bounds": [
+        -787.5,
+        225.0,
+        -675.0,
+        337.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        6,
+        8,
+        15,
+        12
+      ]
+    },
+    {
+      "code": 1610,
+      "depth": 5,
+      "bounds": [
+        -900.0,
+        337.5,
+        -787.5,
+        450.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        6,
+        8,
+        12
+      ]
+    },
+    {
+      "code": 1611,
+      "depth": 5,
+      "bounds": [
+        -787.5,
+        337.5,
+        -675.0,
+        450.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        6,
+        8,
+        15,
+        12
+      ]
+    },
+    {
+      "code": 1612,
+      "depth": 5,
+      "bounds": [
+        -675.0,
+        225.0,
+        -562.5,
+        337.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        6,
+        8,
+        15,
+        12
+      ]
+    },
+    {
+      "code": 1613,
+      "depth": 5,
+      "bounds": [
+        -562.5,
+        225.0,
+        -450.0,
+        337.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        8,
+        15,
+        12
+      ]
+    },
+    {
+      "code": 1614,
+      "depth": 5,
+      "bounds": [
+        -675.0,
+        337.5,
+        -562.5,
+        450.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        6,
+        8,
+        15,
+        12
+      ]
+    },
+    {
+      "code": 1615,
+      "depth": 5,
+      "bounds": [
+        -562.5,
+        337.5,
+        -450.0,
+        450.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        6,
+        8,
+        15,
+        12
+      ]
+    },
+    {
+      "code": 1616,
+      "depth": 5,
+      "bounds": [
+        -450.0,
+        0.0,
+        -337.5,
+        112.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        8,
+        11,
+        15,
+        12
+      ]
+    },
+    {
+      "code": 1617,
+      "depth": 5,
+      "bounds": [
+        -337.5,
+        0.0,
+        -225.0,
+        112.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        8,
+        11,
+        15,
+        12
+      ]
+    },
+    {
+      "code": 1618,
+      "depth": 5,
+      "bounds": [
+        -450.0,
+        112.5,
+        -337.5,
+        225.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        8,
+        11,
+        15,
+        12
+      ]
+    },
+    {
+      "code": 1619,
+      "depth": 5,
+      "bounds": [
+        -337.5,
+        112.5,
+        -225.0,
+        225.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        8,
+        15,
+        12
+      ]
+    },
+    {
+      "code": 1620,
+      "depth": 5,
+      "bounds": [
+        -225.0,
+        0.0,
+        -112.5,
+        112.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        8,
+        11,
+        15,
+        12
+      ]
+    },
+    {
+      "code": 1621,
+      "depth": 5,
+      "bounds": [
+        -112.5,
+        0.0,
+        0.0,
+        112.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        8,
+        11,
+        22,
+        19,
+        12
+      ]
+    },
+    {
+      "code": 1622,
+      "depth": 5,
+      "bounds": [
+        -225.0,
+        112.5,
+        -112.5,
+        225.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        8,
+        15,
+        19,
+        12
+      ]
+    },
+    {
+      "code": 1623,
+      "depth": 5,
+      "bounds": [
+        -112.5,
+        112.5,
+        0.0,
+        225.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        8,
+        15,
+        19,
+        12
+      ]
+    },
+    {
+      "code": 1624,
+      "depth": 5,
+      "bounds": [
+        -450.0,
+        225.0,
+        -337.5,
+        337.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        8,
+        15,
+        12
+      ]
+    },
+    {
+      "code": 1625,
+      "depth": 5,
+      "bounds": [
+        -337.5,
+        225.0,
+        -225.0,
+        337.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        8,
+        15,
+        19,
+        12
+      ]
+    },
+    {
+      "code": 1626,
+      "depth": 5,
+      "bounds": [
+        -450.0,
+        337.5,
+        -337.5,
+        450.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        8,
+        15,
+        19,
+        12
+      ]
+    },
+    {
+      "code": 1627,
+      "depth": 5,
+      "bounds": [
+        -337.5,
+        337.5,
+        -225.0,
+        450.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        8,
+        15,
+        19,
+        12
+      ]
+    },
+    {
+      "code": 407,
+      "depth": 4,
+      "bounds": [
+        -225.0,
+        225.0,
+        0.0,
+        450.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        8,
+        15,
+        19,
+        12
+      ]
+    },
+    {
+      "code": 408,
+      "depth": 4,
+      "bounds": [
+        -900.0,
+        450.0,
+        -675.0,
+        675.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        6,
+        8,
+        12
+      ]
+    },
+    {
+      "code": 409,
+      "depth": 4,
+      "bounds": [
+        -675.0,
+        450.0,
+        -450.0,
+        675.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        6,
+        8,
+        15,
+        12
+      ]
+    },
+    {
+      "code": 410,
+      "depth": 4,
+      "bounds": [
+        -900.0,
+        675.0,
+        -675.0,
+        900.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        6,
+        8,
+        12,
+        9
+      ]
+    },
+    {
+      "code": 1644,
+      "depth": 5,
+      "bounds": [
+        -675.0,
+        675.0,
+        -562.5,
+        787.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        6,
+        8,
+        12,
+        9
+      ]
+    },
+    {
+      "code": 6580,
+      "depth": 6,
+      "bounds": [
+        -562.5,
+        675.0,
+        -506.25,
+        731.25
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        6,
+        8,
+        15,
+        9
+      ]
+    },
+    {
+      "code": 6581,
+      "depth": 6,
+      "bounds": [
+        -506.25,
+        675.0,
+        -450.0,
+        731.25
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        6,
+        8,
+        15,
+        19,
+        16,
+        9
+      ]
+    },
+    {
+      "code": 6582,
+      "depth": 6,
+      "bounds": [
+        -562.5,
+        731.25,
+        -506.25,
+        787.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        6,
+        8,
+        15,
+        16,
+        9
+      ]
+    },
+    {
+      "code": 6583,
+      "depth": 6,
+      "bounds": [
+        -506.25,
+        731.25,
+        -450.0,
+        787.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        6,
+        8,
+        15,
+        19,
+        16,
+        9
+      ]
+    },
+    {
+      "code": 1646,
+      "depth": 5,
+      "bounds": [
+        -675.0,
+        787.5,
+        -562.5,
+        900.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        6,
+        8,
+        16,
+        9
+      ]
+    },
+    {
+      "code": 1647,
+      "depth": 5,
+      "bounds": [
+        -562.5,
+        787.5,
+        -450.0,
+        900.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        6,
+        8,
+        16,
+        9
+      ]
+    },
+    {
+      "code": 412,
+      "depth": 4,
+      "bounds": [
+        -450.0,
+        450.0,
+        -225.0,
+        675.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        8,
+        15,
+        19,
+        12
+      ]
+    },
+    {
+      "code": 413,
+      "depth": 4,
+      "bounds": [
+        -225.0,
+        450.0,
+        0.0,
+        675.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        12,
+        15,
+        19
+      ]
+    },
+    {
+      "code": 1656,
+      "depth": 5,
+      "bounds": [
+        -450.0,
+        675.0,
+        -337.5,
+        787.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        6,
+        8,
+        15,
+        19,
+        16,
+        9
+      ]
+    },
+    {
+      "code": 1657,
+      "depth": 5,
+      "bounds": [
+        -337.5,
+        675.0,
+        -225.0,
+        787.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        12,
+        15,
+        19,
+        16
+      ]
+    },
+    {
+      "code": 1658,
+      "depth": 5,
+      "bounds": [
+        -450.0,
+        787.5,
+        -337.5,
+        900.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        6,
+        19,
+        16,
+        9
+      ]
+    },
+    {
+      "code": 1659,
+      "depth": 5,
+      "bounds": [
+        -337.5,
+        787.5,
+        -225.0,
+        900.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        9,
+        15,
+        19,
+        16
+      ]
+    },
+    {
+      "code": 415,
+      "depth": 4,
+      "bounds": [
+        -225.0,
+        675.0,
+        0.0,
+        900.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        12,
+        15,
+        19,
+        16
+      ]
+    },
+    {
+      "code": 416,
+      "depth": 4,
+      "bounds": [
+        -1800.0,
+        900.0,
+        -1575.0,
+        1125.0
+      ],
+      "kind": "outside",
+      "hull_indices": []
+    },
+    {
+      "code": 417,
+      "depth": 4,
+      "bounds": [
+        -1575.0,
+        900.0,
+        -1350.0,
+        1125.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        1,
+        6,
+        9,
+        4
+      ]
+    },
+    {
+      "code": 418,
+      "depth": 4,
+      "bounds": [
+        -1800.0,
+        1125.0,
+        -1575.0,
+        1350.0
+      ],
+      "kind": "outside",
+      "hull_indices": []
+    },
+    {
+      "code": 1676,
+      "depth": 5,
+      "bounds": [
+        -1575.0,
+        1125.0,
+        -1462.5,
+        1237.5
+      ],
+      "kind": "outside",
+      "hull_indices": []
+    },
+    {
+      "code": 1677,
+      "depth": 5,
+      "bounds": [
+        -1462.5,
+        1125.0,
+        -1350.0,
+        1237.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        1,
+        6,
+        9,
+        4
+      ]
+    },
+    {
+      "code": 1678,
+      "depth": 5,
+      "bounds": [
+        -1575.0,
+        1237.5,
+        -1462.5,
+        1350.0
+      ],
+      "kind": "outside",
+      "hull_indices": []
+    },
+    {
+      "code": 1679,
+      "depth": 5,
+      "bounds": [
+        -1462.5,
+        1237.5,
+        -1350.0,
+        1350.0
+      ],
+      "kind": "outside",
+      "hull_indices": []
+    },
+    {
+      "code": 420,
+      "depth": 4,
+      "bounds": [
+        -1350.0,
+        900.0,
+        -1125.0,
+        1125.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        4,
+        6,
+        12,
+        9
+      ]
+    },
+    {
+      "code": 1684,
+      "depth": 5,
+      "bounds": [
+        -1125.0,
+        900.0,
+        -1012.5,
+        1012.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        4,
+        6,
+        12,
+        9
+      ]
+    },
+    {
+      "code": 1685,
+      "depth": 5,
+      "bounds": [
+        -1012.5,
+        900.0,
+        -900.0,
+        1012.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        6,
+        12,
+        9
+      ]
+    },
+    {
+      "code": 1686,
+      "depth": 5,
+      "bounds": [
+        -1125.0,
+        1012.5,
+        -1012.5,
+        1125.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        4,
+        6,
+        12,
+        9
+      ]
+    },
+    {
+      "code": 1687,
+      "depth": 5,
+      "bounds": [
+        -1012.5,
+        1012.5,
+        -900.0,
+        1125.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        4,
+        6,
+        12,
+        9
+      ]
+    },
+    {
+      "code": 422,
+      "depth": 4,
+      "bounds": [
+        -1350.0,
+        1125.0,
+        -1125.0,
+        1350.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        4,
+        6,
+        9
+      ]
+    },
+    {
+      "code": 423,
+      "depth": 4,
+      "bounds": [
+        -1125.0,
+        1125.0,
+        -900.0,
+        1350.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        4,
+        6,
+        12,
+        9
+      ]
+    },
+    {
+      "code": 106,
+      "depth": 3,
+      "bounds": [
+        -1800.0,
+        1350.0,
+        -1350.0,
+        1800.0
+      ],
+      "kind": "outside",
+      "hull_indices": []
+    },
+    {
+      "code": 1712,
+      "depth": 5,
+      "bounds": [
+        -1350.0,
+        1350.0,
+        -1237.5,
+        1462.5
+      ],
+      "kind": "outside",
+      "hull_indices": []
+    },
+    {
+      "code": 1713,
+      "depth": 5,
+      "bounds": [
+        -1237.5,
+        1350.0,
+        -1125.0,
+        1462.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        4,
+        6,
+        9
+      ]
+    },
+    {
+      "code": 1714,
+      "depth": 5,
+      "bounds": [
+        -1350.0,
+        1462.5,
+        -1237.5,
+        1575.0
+      ],
+      "kind": "outside",
+      "hull_indices": []
+    },
+    {
+      "code": 1715,
+      "depth": 5,
+      "bounds": [
+        -1237.5,
+        1462.5,
+        -1125.0,
+        1575.0
+      ],
+      "kind": "outside",
+      "hull_indices": []
+    },
+    {
+      "code": 1716,
+      "depth": 5,
+      "bounds": [
+        -1125.0,
+        1350.0,
+        -1012.5,
+        1462.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        4,
+        6,
+        12,
+        9
+      ]
+    },
+    {
+      "code": 1717,
+      "depth": 5,
+      "bounds": [
+        -1012.5,
+        1350.0,
+        -900.0,
+        1462.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        4,
+        6,
+        12,
+        9
+      ]
+    },
+    {
+      "code": 6872,
+      "depth": 6,
+      "bounds": [
+        -1125.0,
+        1462.5,
+        -1068.75,
+        1518.75
+      ],
+      "kind": "outside",
+      "hull_indices": []
+    },
+    {
+      "code": 27492,
+      "depth": 7,
+      "bounds": [
+        -1068.75,
+        1462.5,
+        -1040.625,
+        1490.625
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        4,
+        6,
+        12,
+        9
+      ]
+    },
+    {
+      "code": 27493,
+      "depth": 7,
+      "bounds": [
+        -1040.625,
+        1462.5,
+        -1012.5,
+        1490.625
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        4,
+        6,
+        12,
+        9
+      ]
+    },
+    {
+      "code": 27494,
+      "depth": 7,
+      "bounds": [
+        -1068.75,
+        1490.625,
+        -1040.625,
+        1518.75
+      ],
+      "kind": "outside",
+      "hull_indices": []
+    },
+    {
+      "code": 27495,
+      "depth": 7,
+      "bounds": [
+        -1040.625,
+        1490.625,
+        -1012.5,
+        1518.75
+      ],
+      "kind": "outside",
+      "hull_indices": []
+    },
+    {
+      "code": 6874,
+      "depth": 6,
+      "bounds": [
+        -1125.0,
+        1518.75,
+        -1068.75,
+        1575.0
+      ],
+      "kind": "outside",
+      "hull_indices": []
+    },
+    {
+      "code": 6875,
+      "depth": 6,
+      "bounds": [
+        -1068.75,
+        1518.75,
+        -1012.5,
+        1575.0
+      ],
+      "kind": "outside",
+      "hull_indices": []
+    },
+    {
+      "code": 1719,
+      "depth": 5,
+      "bounds": [
+        -1012.5,
+        1462.5,
+        -900.0,
+        1575.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        4,
+        6,
+        12,
+        13
+      ]
+    },
+    {
+      "code": 430,
+      "depth": 4,
+      "bounds": [
+        -1350.0,
+        1575.0,
+        -1125.0,
+        1800.0
+      ],
+      "kind": "outside",
+      "hull_indices": []
+    },
+    {
+      "code": 431,
+      "depth": 4,
+      "bounds": [
+        -1125.0,
+        1575.0,
+        -900.0,
+        1800.0
+      ],
+      "kind": "outside",
+      "hull_indices": []
+    },
+    {
+      "code": 432,
+      "depth": 4,
+      "bounds": [
+        -900.0,
+        900.0,
+        -675.0,
+        1125.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        6,
+        12,
+        9
+      ]
+    },
+    {
+      "code": 433,
+      "depth": 4,
+      "bounds": [
+        -675.0,
+        900.0,
+        -450.0,
+        1125.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        6,
+        12,
+        16,
+        9
+      ]
+    },
+    {
+      "code": 434,
+      "depth": 4,
+      "bounds": [
+        -900.0,
+        1125.0,
+        -675.0,
+        1350.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        6,
+        12,
+        16,
+        9
+      ]
+    },
+    {
+      "code": 1740,
+      "depth": 5,
+      "bounds": [
+        -675.0,
+        1125.0,
+        -562.5,
+        1237.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        6,
+        12,
+        16,
+        9
+      ]
+    },
+    {
+      "code": 1741,
+      "depth": 5,
+      "bounds": [
+        -562.5,
+        1125.0,
+        -450.0,
+        1237.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        6,
+        12,
+        16,
+        9
+      ]
+    },
+    {
+      "code": 1742,
+      "depth": 5,
+      "bounds": [
+        -675.0,
+        1237.5,
+        -562.5,
+        1350.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        6,
+        12,
+        16,
+        9
+      ]
+    },
+    {
+      "code": 1743,
+      "depth": 5,
+      "bounds": [
+        -562.5,
+        1237.5,
+        -450.0,
+        1350.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        9,
+        12,
+        16
+      ]
+    },
+    {
+      "code": 436,
+      "depth": 4,
+      "bounds": [
+        -450.0,
+        900.0,
+        -225.0,
+        1125.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        9,
+        12,
+        19,
+        16
+      ]
+    },
+    {
+      "code": 437,
+      "depth": 4,
+      "bounds": [
+        -225.0,
+        900.0,
+        0.0,
+        1125.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        12,
+        19,
+        16
+      ]
+    },
+    {
+      "code": 1752,
+      "depth": 5,
+      "bounds": [
+        -450.0,
+        1125.0,
+        -337.5,
+        1237.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        9,
+        12,
+        16
+      ]
+    },
+    {
+      "code": 1753,
+      "depth": 5,
+      "bounds": [
+        -337.5,
+        1125.0,
+        -225.0,
+        1237.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        9,
+        12,
+        19,
+        16
+      ]
+    },
+    {
+      "code": 1754,
+      "depth": 5,
+      "bounds": [
+        -450.0,
+        1237.5,
+        -337.5,
+        1350.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        9,
+        12,
+        16
+      ]
+    },
+    {
+      "code": 1755,
+      "depth": 5,
+      "bounds": [
+        -337.5,
+        1237.5,
+        -225.0,
+        1350.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        9,
+        12,
+        19,
+        16
+      ]
+    },
+    {
+      "code": 439,
+      "depth": 4,
+      "bounds": [
+        -225.0,
+        1125.0,
+        0.0,
+        1350.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        9,
+        12,
+        19,
+        16
+      ]
+    },
+    {
+      "code": 1760,
+      "depth": 5,
+      "bounds": [
+        -900.0,
+        1350.0,
+        -787.5,
+        1462.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        4,
+        6,
+        12,
+        16
+      ]
+    },
+    {
+      "code": 1761,
+      "depth": 5,
+      "bounds": [
+        -787.5,
+        1350.0,
+        -675.0,
+        1462.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        6,
+        12,
+        16,
+        13
+      ]
+    },
+    {
+      "code": 1762,
+      "depth": 5,
+      "bounds": [
+        -900.0,
+        1462.5,
+        -787.5,
+        1575.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        4,
+        6,
+        12,
+        16,
+        13
+      ]
+    },
+    {
+      "code": 1763,
+      "depth": 5,
+      "bounds": [
+        -787.5,
+        1462.5,
+        -675.0,
+        1575.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        9,
+        12,
+        16,
+        13
+      ]
+    },
+    {
+      "code": 441,
+      "depth": 4,
+      "bounds": [
+        -675.0,
+        1350.0,
+        -450.0,
+        1575.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        9,
+        12,
+        16,
+        13
+      ]
+    },
+    {
+      "code": 1768,
+      "depth": 5,
+      "bounds": [
+        -900.0,
+        1575.0,
+        -787.5,
+        1687.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        4,
+        16,
+        13
+      ]
+    },
+    {
+      "code": 7076,
+      "depth": 6,
+      "bounds": [
+        -787.5,
+        1575.0,
+        -731.25,
+        1631.25
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        9,
+        12,
+        16,
+        13
+      ]
+    },
+    {
+      "code": 7077,
+      "depth": 6,
+      "bounds": [
+        -731.25,
+        1575.0,
+        -675.0,
+        1631.25
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        9,
+        12,
+        16,
+        13
+      ]
+    },
+    {
+      "code": 28312,
+      "depth": 7,
+      "bounds": [
+        -787.5,
+        1631.25,
+        -759.375,
+        1659.375
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        9,
+        12,
+        16,
+        13
+      ]
+    },
+    {
+      "code": 28313,
+      "depth": 7,
+      "bounds": [
+        -759.375,
+        1631.25,
+        -731.25,
+        1659.375
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        9,
+        12,
+        16,
+        13
+      ]
+    },
+    {
+      "code": 28314,
+      "depth": 7,
+      "bounds": [
+        -787.5,
+        1659.375,
+        -759.375,
+        1687.5
+      ],
+      "kind": "outside",
+      "hull_indices": []
+    },
+    {
+      "code": 28315,
+      "depth": 7,
+      "bounds": [
+        -759.375,
+        1659.375,
+        -731.25,
+        1687.5
+      ],
+      "kind": "outside",
+      "hull_indices": []
+    },
+    {
+      "code": 7079,
+      "depth": 6,
+      "bounds": [
+        -731.25,
+        1631.25,
+        -675.0,
+        1687.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        9,
+        12,
+        16,
+        13
+      ]
+    },
+    {
+      "code": 1770,
+      "depth": 5,
+      "bounds": [
+        -900.0,
+        1687.5,
+        -787.5,
+        1800.0
+      ],
+      "kind": "outside",
+      "hull_indices": []
+    },
+    {
+      "code": 1771,
+      "depth": 5,
+      "bounds": [
+        -787.5,
+        1687.5,
+        -675.0,
+        1800.0
+      ],
+      "kind": "outside",
+      "hull_indices": []
+    },
+    {
+      "code": 443,
+      "depth": 4,
+      "bounds": [
+        -675.0,
+        1575.0,
+        -450.0,
+        1800.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        9,
+        16,
+        13
+      ]
+    },
+    {
+      "code": 444,
+      "depth": 4,
+      "bounds": [
+        -450.0,
+        1350.0,
+        -225.0,
+        1575.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        9,
+        12,
+        16,
+        13
+      ]
+    },
+    {
+      "code": 1780,
+      "depth": 5,
+      "bounds": [
+        -225.0,
+        1350.0,
+        -112.5,
+        1462.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        9,
+        12,
+        19,
+        13
+      ]
+    },
+    {
+      "code": 1781,
+      "depth": 5,
+      "bounds": [
+        -112.5,
+        1350.0,
+        0.0,
+        1462.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        9,
+        12,
+        19,
+        16
+      ]
+    },
+    {
+      "code": 1782,
+      "depth": 5,
+      "bounds": [
+        -225.0,
+        1462.5,
+        -112.5,
+        1575.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        9,
+        12,
+        16,
+        13
+      ]
+    },
+    {
+      "code": 1783,
+      "depth": 5,
+      "bounds": [
+        -112.5,
+        1462.5,
+        0.0,
+        1575.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        9,
+        12,
+        19,
+        23,
+        20,
+        13
+      ]
+    },
+    {
+      "code": 446,
+      "depth": 4,
+      "bounds": [
+        -450.0,
+        1575.0,
+        -225.0,
+        1800.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        9,
+        16,
+        13
+      ]
+    },
+    {
+      "code": 447,
+      "depth": 4,
+      "bounds": [
+        -225.0,
+        1575.0,
+        0.0,
+        1800.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        9,
+        16,
+        20,
+        13
+      ]
+    },
+    {
+      "code": 1792,
+      "depth": 5,
+      "bounds": [
+        0.0,
+        0.0,
+        112.5,
+        112.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        8,
+        18,
+        22,
+        19,
+        12
+      ]
+    },
+    {
+      "code": 1793,
+      "depth": 5,
+      "bounds": [
+        112.5,
+        0.0,
+        225.0,
+        112.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        15,
+        18,
+        22,
+        19
+      ]
+    },
+    {
+      "code": 1794,
+      "depth": 5,
+      "bounds": [
+        0.0,
+        112.5,
+        112.5,
+        225.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        12,
+        15,
+        22,
+        19
+      ]
+    },
+    {
+      "code": 1795,
+      "depth": 5,
+      "bounds": [
+        112.5,
+        112.5,
+        225.0,
+        225.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        12,
+        15,
+        22,
+        19
+      ]
+    },
+    {
+      "code": 1796,
+      "depth": 5,
+      "bounds": [
+        225.0,
+        0.0,
+        337.5,
+        112.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        15,
+        18,
+        22,
+        19
+      ]
+    },
+    {
+      "code": 1797,
+      "depth": 5,
+      "bounds": [
+        337.5,
+        0.0,
+        450.0,
+        112.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        15,
+        18,
+        22,
+        19
+      ]
+    },
+    {
+      "code": 1798,
+      "depth": 5,
+      "bounds": [
+        225.0,
+        112.5,
+        337.5,
+        225.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        15,
+        22,
+        19
+      ]
+    },
+    {
+      "code": 1799,
+      "depth": 5,
+      "bounds": [
+        337.5,
+        112.5,
+        450.0,
+        225.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        15,
+        18,
+        22,
+        19
+      ]
+    },
+    {
+      "code": 450,
+      "depth": 4,
+      "bounds": [
+        0.0,
+        225.0,
+        225.0,
+        450.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        12,
+        15,
+        22,
+        19
+      ]
+    },
+    {
+      "code": 1804,
+      "depth": 5,
+      "bounds": [
+        225.0,
+        225.0,
+        337.5,
+        337.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        12,
+        15,
+        22,
+        19
+      ]
+    },
+    {
+      "code": 1805,
+      "depth": 5,
+      "bounds": [
+        337.5,
+        225.0,
+        450.0,
+        337.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        15,
+        22,
+        19
+      ]
+    },
+    {
+      "code": 1806,
+      "depth": 5,
+      "bounds": [
+        225.0,
+        337.5,
+        337.5,
+        450.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        12,
+        15,
+        22,
+        19
+      ]
+    },
+    {
+      "code": 1807,
+      "depth": 5,
+      "bounds": [
+        337.5,
+        337.5,
+        450.0,
+        450.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        12,
+        15,
+        22,
+        19
+      ]
+    },
+    {
+      "code": 1808,
+      "depth": 5,
+      "bounds": [
+        450.0,
+        0.0,
+        562.5,
+        112.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        15,
+        18,
+        22,
+        19
+      ]
+    },
+    {
+      "code": 1809,
+      "depth": 5,
+      "bounds": [
+        562.5,
+        0.0,
+        675.0,
+        112.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        15,
+        18,
+        22,
+        19
+      ]
+    },
+    {
+      "code": 1810,
+      "depth": 5,
+      "bounds": [
+        450.0,
+        112.5,
+        562.5,
+        225.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        15,
+        18,
+        22,
+        19
+      ]
+    },
+    {
+      "code": 1811,
+      "depth": 5,
+      "bounds": [
+        562.5,
+        112.5,
+        675.0,
+        225.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        15,
+        22,
+        25,
+        19
+      ]
+    },
+    {
+      "code": 1812,
+      "depth": 5,
+      "bounds": [
+        675.0,
+        0.0,
+        787.5,
+        112.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        15,
+        18,
+        25,
+        19
+      ]
+    },
+    {
+      "code": 1813,
+      "depth": 5,
+      "bounds": [
+        787.5,
+        0.0,
+        900.0,
+        112.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        15,
+        18,
+        27,
+        25,
+        19
+      ]
+    },
+    {
+      "code": 1814,
+      "depth": 5,
+      "bounds": [
+        675.0,
+        112.5,
+        787.5,
+        225.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        15,
+        22,
+        25,
+        19
+      ]
+    },
+    {
+      "code": 1815,
+      "depth": 5,
+      "bounds": [
+        787.5,
+        112.5,
+        900.0,
+        225.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        15,
+        27,
+        25,
+        19
+      ]
+    },
+    {
+      "code": 1816,
+      "depth": 5,
+      "bounds": [
+        450.0,
+        225.0,
+        562.5,
+        337.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        15,
+        22,
+        19
+      ]
+    },
+    {
+      "code": 1817,
+      "depth": 5,
+      "bounds": [
+        562.5,
+        225.0,
+        675.0,
+        337.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        15,
+        22,
+        25,
+        19
+      ]
+    },
+    {
+      "code": 1818,
+      "depth": 5,
+      "bounds": [
+        450.0,
+        337.5,
+        562.5,
+        450.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        15,
+        22,
+        25,
+        19
+      ]
+    },
+    {
+      "code": 1819,
+      "depth": 5,
+      "bounds": [
+        562.5,
+        337.5,
+        675.0,
+        450.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        15,
+        22,
+        25,
+        19
+      ]
+    },
+    {
+      "code": 1820,
+      "depth": 5,
+      "bounds": [
+        675.0,
+        225.0,
+        787.5,
+        337.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        15,
+        22,
+        25,
+        19
+      ]
+    },
+    {
+      "code": 1821,
+      "depth": 5,
+      "bounds": [
+        787.5,
+        225.0,
+        900.0,
+        337.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        15,
+        22,
+        25,
+        19
+      ]
+    },
+    {
+      "code": 1822,
+      "depth": 5,
+      "bounds": [
+        675.0,
+        337.5,
+        787.5,
+        450.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        15,
+        22,
+        25,
+        19
+      ]
+    },
+    {
+      "code": 1823,
+      "depth": 5,
+      "bounds": [
+        787.5,
+        337.5,
+        900.0,
+        450.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        19,
+        22,
+        25
+      ]
+    },
+    {
+      "code": 456,
+      "depth": 4,
+      "bounds": [
+        0.0,
+        450.0,
+        225.0,
+        675.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        12,
+        15,
+        19
+      ]
+    },
+    {
+      "code": 457,
+      "depth": 4,
+      "bounds": [
+        225.0,
+        450.0,
+        450.0,
+        675.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        12,
+        15,
+        22,
+        19
+      ]
+    },
+    {
+      "code": 458,
+      "depth": 4,
+      "bounds": [
+        0.0,
+        675.0,
+        225.0,
+        900.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        12,
+        15,
+        19,
+        16
+      ]
+    },
+    {
+      "code": 1836,
+      "depth": 5,
+      "bounds": [
+        225.0,
+        675.0,
+        337.5,
+        787.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        12,
+        15,
+        19,
+        16
+      ]
+    },
+    {
+      "code": 1837,
+      "depth": 5,
+      "bounds": [
+        337.5,
+        675.0,
+        450.0,
+        787.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        12,
+        15,
+        22,
+        25,
+        23,
+        16
+      ]
+    },
+    {
+      "code": 1838,
+      "depth": 5,
+      "bounds": [
+        225.0,
+        787.5,
+        337.5,
+        900.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        12,
+        15,
+        23,
+        16
+      ]
+    },
+    {
+      "code": 1839,
+      "depth": 5,
+      "bounds": [
+        337.5,
+        787.5,
+        450.0,
+        900.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        12,
+        25,
+        23,
+        16
+      ]
+    },
+    {
+      "code": 460,
+      "depth": 4,
+      "bounds": [
+        450.0,
+        450.0,
+        675.0,
+        675.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        15,
+        22,
+        25,
+        19
+      ]
+    },
+    {
+      "code": 461,
+      "depth": 4,
+      "bounds": [
+        675.0,
+        450.0,
+        900.0,
+        675.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        19,
+        22,
+        25
+      ]
+    },
+    {
+      "code": 7392,
+      "depth": 6,
+      "bounds": [
+        450.0,
+        675.0,
+        506.25,
+        731.25
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        12,
+        15,
+        22,
+        25,
+        23,
+        16
+      ]
+    },
+    {
+      "code": 7393,
+      "depth": 6,
+      "bounds": [
+        506.25,
+        675.0,
+        562.5,
+        731.25
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        15,
+        22,
+        25,
+        23
+      ]
+    },
+    {
+      "code": 7394,
+      "depth": 6,
+      "bounds": [
+        450.0,
+        731.25,
+        506.25,
+        787.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        12,
+        15,
+        22,
+        25,
+        23,
+        16
+      ]
+    },
+    {
+      "code": 7395,
+      "depth": 6,
+      "bounds": [
+        506.25,
+        731.25,
+        562.5,
+        787.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        15,
+        22,
+        25,
+        23,
+        16
+      ]
+    },
+    {
+      "code": 1849,
+      "depth": 5,
+      "bounds": [
+        562.5,
+        675.0,
+        675.0,
+        787.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        19,
+        22,
+        25,
+        23
+      ]
+    },
+    {
+      "code": 1850,
+      "depth": 5,
+      "bounds": [
+        450.0,
+        787.5,
+        562.5,
+        900.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        16,
+        22,
+        25,
+        23
+      ]
+    },
+    {
+      "code": 1851,
+      "depth": 5,
+      "bounds": [
+        562.5,
+        787.5,
+        675.0,
+        900.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        16,
+        22,
+        25,
+        23
+      ]
+    },
+    {
+      "code": 463,
+      "depth": 4,
+      "bounds": [
+        675.0,
+        675.0,
+        900.0,
+        900.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        19,
+        22,
+        25,
+        23
+      ]
+    },
+    {
+      "code": 1856,
+      "depth": 5,
+      "bounds": [
+        900.0,
+        0.0,
+        1012.5,
+        112.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        19,
+        24,
+        27,
+        25
+      ]
+    },
+    {
+      "code": 1857,
+      "depth": 5,
+      "bounds": [
+        1012.5,
+        0.0,
+        1125.0,
+        112.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        22,
+        24,
+        27,
+        25
+      ]
+    },
+    {
+      "code": 1858,
+      "depth": 5,
+      "bounds": [
+        900.0,
+        112.5,
+        1012.5,
+        225.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        19,
+        22,
+        27,
+        25
+      ]
+    },
+    {
+      "code": 1859,
+      "depth": 5,
+      "bounds": [
+        1012.5,
+        112.5,
+        1125.0,
+        225.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        19,
+        22,
+        27,
+        25
+      ]
+    },
+    {
+      "code": 1860,
+      "depth": 5,
+      "bounds": [
+        1125.0,
+        0.0,
+        1237.5,
+        112.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        22,
+        24,
+        27,
+        25
+      ]
+    },
+    {
+      "code": 1861,
+      "depth": 5,
+      "bounds": [
+        1237.5,
+        0.0,
+        1350.0,
+        112.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        22,
+        24,
+        27,
+        25
+      ]
+    },
+    {
+      "code": 1862,
+      "depth": 5,
+      "bounds": [
+        1125.0,
+        112.5,
+        1237.5,
+        225.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        22,
+        27,
+        25
+      ]
+    },
+    {
+      "code": 1863,
+      "depth": 5,
+      "bounds": [
+        1237.5,
+        112.5,
+        1350.0,
+        225.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        22,
+        24,
+        27,
+        25
+      ]
+    },
+    {
+      "code": 466,
+      "depth": 4,
+      "bounds": [
+        900.0,
+        225.0,
+        1125.0,
+        450.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        19,
+        22,
+        27,
+        25
+      ]
+    },
+    {
+      "code": 1868,
+      "depth": 5,
+      "bounds": [
+        1125.0,
+        225.0,
+        1237.5,
+        337.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        19,
+        22,
+        27,
+        25
+      ]
+    },
+    {
+      "code": 1869,
+      "depth": 5,
+      "bounds": [
+        1237.5,
+        225.0,
+        1350.0,
+        337.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        22,
+        27,
+        25
+      ]
+    },
+    {
+      "code": 1870,
+      "depth": 5,
+      "bounds": [
+        1125.0,
+        337.5,
+        1237.5,
+        450.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        19,
+        22,
+        27,
+        25
+      ]
+    },
+    {
+      "code": 1871,
+      "depth": 5,
+      "bounds": [
+        1237.5,
+        337.5,
+        1350.0,
+        450.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        22,
+        27,
+        25
+      ]
+    },
+    {
+      "code": 1872,
+      "depth": 5,
+      "bounds": [
+        1350.0,
+        0.0,
+        1462.5,
+        112.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        22,
+        24,
+        27,
+        25
+      ]
+    },
+    {
+      "code": 1873,
+      "depth": 5,
+      "bounds": [
+        1462.5,
+        0.0,
+        1575.0,
+        112.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        22,
+        24,
+        27,
+        25
+      ]
+    },
+    {
+      "code": 1874,
+      "depth": 5,
+      "bounds": [
+        1350.0,
+        112.5,
+        1462.5,
+        225.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        22,
+        24,
+        27,
+        25
+      ]
+    },
+    {
+      "code": 1875,
+      "depth": 5,
+      "bounds": [
+        1462.5,
+        112.5,
+        1575.0,
+        225.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        22,
+        27,
+        30,
+        25
+      ]
+    },
+    {
+      "code": 1876,
+      "depth": 5,
+      "bounds": [
+        1575.0,
+        0.0,
+        1687.5,
+        112.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        22,
+        24,
+        30,
+        25
+      ]
+    },
+    {
+      "code": 7508,
+      "depth": 6,
+      "bounds": [
+        1687.5,
+        0.0,
+        1743.75,
+        56.25
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        22,
+        24,
+        29,
+        30,
+        25
+      ]
+    },
+    {
+      "code": 7509,
+      "depth": 6,
+      "bounds": [
+        1743.75,
+        0.0,
+        1800.0,
+        56.25
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        22,
+        24,
+        29,
+        30,
+        25
+      ]
+    },
+    {
+      "code": 7510,
+      "depth": 6,
+      "bounds": [
+        1687.5,
+        56.25,
+        1743.75,
+        112.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        22,
+        24,
+        30,
+        25
+      ]
+    },
+    {
+      "code": 7511,
+      "depth": 6,
+      "bounds": [
+        1743.75,
+        56.25,
+        1800.0,
+        112.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        22,
+        24,
+        29,
+        30,
+        25
+      ]
+    },
+    {
+      "code": 1878,
+      "depth": 5,
+      "bounds": [
+        1575.0,
+        112.5,
+        1687.5,
+        225.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        22,
+        27,
+        30,
+        25
+      ]
+    },
+    {
+      "code": 1879,
+      "depth": 5,
+      "bounds": [
+        1687.5,
+        112.5,
+        1800.0,
+        225.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        22,
+        27,
+        30,
+        25
+      ]
+    },
+    {
+      "code": 470,
+      "depth": 4,
+      "bounds": [
+        1350.0,
+        225.0,
+        1575.0,
+        450.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        22,
+        27,
+        30,
+        25
+      ]
+    },
+    {
+      "code": 1884,
+      "depth": 5,
+      "bounds": [
+        1575.0,
+        225.0,
+        1687.5,
+        337.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        22,
+        27,
+        30,
+        25
+      ]
+    },
+    {
+      "code": 1885,
+      "depth": 5,
+      "bounds": [
+        1687.5,
+        225.0,
+        1800.0,
+        337.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        22,
+        27,
+        30,
+        25
+      ]
+    },
+    {
+      "code": 1886,
+      "depth": 5,
+      "bounds": [
+        1575.0,
+        337.5,
+        1687.5,
+        450.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        22,
+        27,
+        30,
+        25
+      ]
+    },
+    {
+      "code": 1887,
+      "depth": 5,
+      "bounds": [
+        1687.5,
+        337.5,
+        1800.0,
+        450.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        25,
+        27,
+        30
+      ]
+    },
+    {
+      "code": 472,
+      "depth": 4,
+      "bounds": [
+        900.0,
+        450.0,
+        1125.0,
+        675.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        19,
+        22,
+        25
+      ]
+    },
+    {
+      "code": 473,
+      "depth": 4,
+      "bounds": [
+        1125.0,
+        450.0,
+        1350.0,
+        675.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        19,
+        22,
+        27,
+        25
+      ]
+    },
+    {
+      "code": 474,
+      "depth": 4,
+      "bounds": [
+        900.0,
+        675.0,
+        1125.0,
+        900.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        19,
+        22,
+        25,
+        23
+      ]
+    },
+    {
+      "code": 1900,
+      "depth": 5,
+      "bounds": [
+        1125.0,
+        675.0,
+        1237.5,
+        787.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        19,
+        22,
+        25,
+        23
+      ]
+    },
+    {
+      "code": 1901,
+      "depth": 5,
+      "bounds": [
+        1237.5,
+        675.0,
+        1350.0,
+        787.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        19,
+        22,
+        27,
+        30,
+        28,
+        23
+      ]
+    },
+    {
+      "code": 1902,
+      "depth": 5,
+      "bounds": [
+        1125.0,
+        787.5,
+        1237.5,
+        900.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        19,
+        22,
+        28,
+        23
+      ]
+    },
+    {
+      "code": 1903,
+      "depth": 5,
+      "bounds": [
+        1237.5,
+        787.5,
+        1350.0,
+        900.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        19,
+        30,
+        28,
+        23
+      ]
+    },
+    {
+      "code": 476,
+      "depth": 4,
+      "bounds": [
+        1350.0,
+        450.0,
+        1575.0,
+        675.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        22,
+        27,
+        30,
+        25
+      ]
+    },
+    {
+      "code": 477,
+      "depth": 4,
+      "bounds": [
+        1575.0,
+        450.0,
+        1800.0,
+        675.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        25,
+        27,
+        30
+      ]
+    },
+    {
+      "code": 1912,
+      "depth": 5,
+      "bounds": [
+        1350.0,
+        675.0,
+        1462.5,
+        787.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        22,
+        27,
+        30,
+        28
+      ]
+    },
+    {
+      "code": 1913,
+      "depth": 5,
+      "bounds": [
+        1462.5,
+        675.0,
+        1575.0,
+        787.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        25,
+        27,
+        30,
+        28
+      ]
+    },
+    {
+      "code": 1914,
+      "depth": 5,
+      "bounds": [
+        1350.0,
+        787.5,
+        1462.5,
+        900.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        23,
+        27,
+        30,
+        28
+      ]
+    },
+    {
+      "code": 1915,
+      "depth": 5,
+      "bounds": [
+        1462.5,
+        787.5,
+        1575.0,
+        900.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        25,
+        27,
+        30,
+        28
+      ]
+    },
+    {
+      "code": 479,
+      "depth": 4,
+      "bounds": [
+        1575.0,
+        675.0,
+        1800.0,
+        900.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        25,
+        27,
+        30,
+        28
+      ]
+    },
+    {
+      "code": 480,
+      "depth": 4,
+      "bounds": [
+        0.0,
+        900.0,
+        225.0,
+        1125.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        12,
+        19,
+        16
+      ]
+    },
+    {
+      "code": 481,
+      "depth": 4,
+      "bounds": [
+        225.0,
+        900.0,
+        450.0,
+        1125.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        12,
+        19,
+        23,
+        16
+      ]
+    },
+    {
+      "code": 482,
+      "depth": 4,
+      "bounds": [
+        0.0,
+        1125.0,
+        225.0,
+        1350.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        12,
+        19,
+        23,
+        16
+      ]
+    },
+    {
+      "code": 1932,
+      "depth": 5,
+      "bounds": [
+        225.0,
+        1125.0,
+        337.5,
+        1237.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        12,
+        19,
+        23,
+        16
+      ]
+    },
+    {
+      "code": 1933,
+      "depth": 5,
+      "bounds": [
+        337.5,
+        1125.0,
+        450.0,
+        1237.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        16,
+        19,
+        23
+      ]
+    },
+    {
+      "code": 1934,
+      "depth": 5,
+      "bounds": [
+        225.0,
+        1237.5,
+        337.5,
+        1350.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        12,
+        19,
+        23,
+        16
+      ]
+    },
+    {
+      "code": 1935,
+      "depth": 5,
+      "bounds": [
+        337.5,
+        1237.5,
+        450.0,
+        1350.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        16,
+        19,
+        23
+      ]
+    },
+    {
+      "code": 484,
+      "depth": 4,
+      "bounds": [
+        450.0,
+        900.0,
+        675.0,
+        1125.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        16,
+        19,
+        25,
+        23
+      ]
+    },
+    {
+      "code": 485,
+      "depth": 4,
+      "bounds": [
+        675.0,
+        900.0,
+        900.0,
+        1125.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        19,
+        25,
+        23
+      ]
+    },
+    {
+      "code": 1944,
+      "depth": 5,
+      "bounds": [
+        450.0,
+        1125.0,
+        562.5,
+        1237.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        16,
+        19,
+        25,
+        23
+      ]
+    },
+    {
+      "code": 1945,
+      "depth": 5,
+      "bounds": [
+        562.5,
+        1125.0,
+        675.0,
+        1237.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        16,
+        19,
+        25,
+        23
+      ]
+    },
+    {
+      "code": 1946,
+      "depth": 5,
+      "bounds": [
+        450.0,
+        1237.5,
+        562.5,
+        1350.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        16,
+        19,
+        23
+      ]
+    },
+    {
+      "code": 1947,
+      "depth": 5,
+      "bounds": [
+        562.5,
+        1237.5,
+        675.0,
+        1350.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        16,
+        19,
+        25,
+        23
+      ]
+    },
+    {
+      "code": 487,
+      "depth": 4,
+      "bounds": [
+        675.0,
+        1125.0,
+        900.0,
+        1350.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        16,
+        19,
+        25,
+        23
+      ]
+    },
+    {
+      "code": 1952,
+      "depth": 5,
+      "bounds": [
+        0.0,
+        1350.0,
+        112.5,
+        1462.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        12,
+        19,
+        23,
+        16
+      ]
+    },
+    {
+      "code": 1953,
+      "depth": 5,
+      "bounds": [
+        112.5,
+        1350.0,
+        225.0,
+        1462.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        12,
+        19,
+        23,
+        20
+      ]
+    },
+    {
+      "code": 1954,
+      "depth": 5,
+      "bounds": [
+        0.0,
+        1462.5,
+        112.5,
+        1575.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        9,
+        12,
+        19,
+        23,
+        20,
+        13
+      ]
+    },
+    {
+      "code": 1955,
+      "depth": 5,
+      "bounds": [
+        112.5,
+        1462.5,
+        225.0,
+        1575.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        16,
+        19,
+        23,
+        20
+      ]
+    },
+    {
+      "code": 489,
+      "depth": 4,
+      "bounds": [
+        225.0,
+        1350.0,
+        450.0,
+        1575.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        16,
+        19,
+        23,
+        20
+      ]
+    },
+    {
+      "code": 490,
+      "depth": 4,
+      "bounds": [
+        0.0,
+        1575.0,
+        225.0,
+        1800.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        13,
+        16,
+        23,
+        20
+      ]
+    },
+    {
+      "code": 491,
+      "depth": 4,
+      "bounds": [
+        225.0,
+        1575.0,
+        450.0,
+        1800.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        16,
+        23,
+        20
+      ]
+    },
+    {
+      "code": 492,
+      "depth": 4,
+      "bounds": [
+        450.0,
+        1350.0,
+        675.0,
+        1575.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        16,
+        19,
+        23,
+        20
+      ]
+    },
+    {
+      "code": 1972,
+      "depth": 5,
+      "bounds": [
+        675.0,
+        1350.0,
+        787.5,
+        1462.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        16,
+        19,
+        25,
+        20
+      ]
+    },
+    {
+      "code": 1973,
+      "depth": 5,
+      "bounds": [
+        787.5,
+        1350.0,
+        900.0,
+        1462.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        16,
+        19,
+        25,
+        28
+      ]
+    },
+    {
+      "code": 1974,
+      "depth": 5,
+      "bounds": [
+        675.0,
+        1462.5,
+        787.5,
+        1575.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        16,
+        19,
+        23,
+        20
+      ]
+    },
+    {
+      "code": 1975,
+      "depth": 5,
+      "bounds": [
+        787.5,
+        1462.5,
+        900.0,
+        1575.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        16,
+        19,
+        25,
+        28,
+        20
+      ]
+    },
+    {
+      "code": 494,
+      "depth": 4,
+      "bounds": [
+        450.0,
+        1575.0,
+        675.0,
+        1800.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        16,
+        23,
+        20
+      ]
+    },
+    {
+      "code": 7920,
+      "depth": 6,
+      "bounds": [
+        675.0,
+        1575.0,
+        731.25,
+        1631.25
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        16,
+        19,
+        23,
+        20
+      ]
+    },
+    {
+      "code": 7921,
+      "depth": 6,
+      "bounds": [
+        731.25,
+        1575.0,
+        787.5,
+        1631.25
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        16,
+        19,
+        23,
+        20
+      ]
+    },
+    {
+      "code": 7922,
+      "depth": 6,
+      "bounds": [
+        675.0,
+        1631.25,
+        731.25,
+        1687.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        16,
+        19,
+        23,
+        20
+      ]
+    },
+    {
+      "code": 31692,
+      "depth": 7,
+      "bounds": [
+        731.25,
+        1631.25,
+        759.375,
+        1659.375
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        16,
+        19,
+        23,
+        20
+      ]
+    },
+    {
+      "code": 31693,
+      "depth": 7,
+      "bounds": [
+        759.375,
+        1631.25,
+        787.5,
+        1659.375
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        16,
+        19,
+        23,
+        20
+      ]
+    },
+    {
+      "code": 31694,
+      "depth": 7,
+      "bounds": [
+        731.25,
+        1659.375,
+        759.375,
+        1687.5
+      ],
+      "kind": "outside",
+      "hull_indices": []
+    },
+    {
+      "code": 31695,
+      "depth": 7,
+      "bounds": [
+        759.375,
+        1659.375,
+        787.5,
+        1687.5
+      ],
+      "kind": "outside",
+      "hull_indices": []
+    },
+    {
+      "code": 1981,
+      "depth": 5,
+      "bounds": [
+        787.5,
+        1575.0,
+        900.0,
+        1687.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        16,
+        28,
+        20
+      ]
+    },
+    {
+      "code": 1982,
+      "depth": 5,
+      "bounds": [
+        675.0,
+        1687.5,
+        787.5,
+        1800.0
+      ],
+      "kind": "outside",
+      "hull_indices": []
+    },
+    {
+      "code": 1983,
+      "depth": 5,
+      "bounds": [
+        787.5,
+        1687.5,
+        900.0,
+        1800.0
+      ],
+      "kind": "outside",
+      "hull_indices": []
+    },
+    {
+      "code": 1984,
+      "depth": 5,
+      "bounds": [
+        900.0,
+        900.0,
+        1012.5,
+        1012.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        19,
+        25,
+        23
+      ]
+    },
+    {
+      "code": 1985,
+      "depth": 5,
+      "bounds": [
+        1012.5,
+        900.0,
+        1125.0,
+        1012.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        19,
+        25,
+        28,
+        23
+      ]
+    },
+    {
+      "code": 1986,
+      "depth": 5,
+      "bounds": [
+        900.0,
+        1012.5,
+        1012.5,
+        1125.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        19,
+        25,
+        28,
+        23
+      ]
+    },
+    {
+      "code": 1987,
+      "depth": 5,
+      "bounds": [
+        1012.5,
+        1012.5,
+        1125.0,
+        1125.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        19,
+        25,
+        28,
+        23
+      ]
+    },
+    {
+      "code": 497,
+      "depth": 4,
+      "bounds": [
+        1125.0,
+        900.0,
+        1350.0,
+        1125.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        19,
+        25,
+        28,
+        23
+      ]
+    },
+    {
+      "code": 498,
+      "depth": 4,
+      "bounds": [
+        900.0,
+        1125.0,
+        1125.0,
+        1350.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        19,
+        25,
+        28,
+        23
+      ]
+    },
+    {
+      "code": 499,
+      "depth": 4,
+      "bounds": [
+        1125.0,
+        1125.0,
+        1350.0,
+        1350.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        23,
+        25,
+        28
+      ]
+    },
+    {
+      "code": 500,
+      "depth": 4,
+      "bounds": [
+        1350.0,
+        900.0,
+        1575.0,
+        1125.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        23,
+        25,
+        30,
+        28
+      ]
+    },
+    {
+      "code": 501,
+      "depth": 4,
+      "bounds": [
+        1575.0,
+        900.0,
+        1800.0,
+        1125.0
+      ],
+      "kind": "outside",
+      "hull_indices": []
+    },
+    {
+      "code": 2008,
+      "depth": 5,
+      "bounds": [
+        1350.0,
+        1125.0,
+        1462.5,
+        1237.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        23,
+        25,
+        30,
+        28
+      ]
+    },
+    {
+      "code": 2009,
+      "depth": 5,
+      "bounds": [
+        1462.5,
+        1125.0,
+        1575.0,
+        1237.5
+      ],
+      "kind": "outside",
+      "hull_indices": []
+    },
+    {
+      "code": 2010,
+      "depth": 5,
+      "bounds": [
+        1350.0,
+        1237.5,
+        1462.5,
+        1350.0
+      ],
+      "kind": "outside",
+      "hull_indices": []
+    },
+    {
+      "code": 2011,
+      "depth": 5,
+      "bounds": [
+        1462.5,
+        1237.5,
+        1575.0,
+        1350.0
+      ],
+      "kind": "outside",
+      "hull_indices": []
+    },
+    {
+      "code": 503,
+      "depth": 4,
+      "bounds": [
+        1575.0,
+        1125.0,
+        1800.0,
+        1350.0
+      ],
+      "kind": "outside",
+      "hull_indices": []
+    },
+    {
+      "code": 2016,
+      "depth": 5,
+      "bounds": [
+        900.0,
+        1350.0,
+        1012.5,
+        1462.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        19,
+        25,
+        28,
+        23
+      ]
+    },
+    {
+      "code": 2017,
+      "depth": 5,
+      "bounds": [
+        1012.5,
+        1350.0,
+        1125.0,
+        1462.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        19,
+        25,
+        28,
+        23
+      ]
+    },
+    {
+      "code": 2018,
+      "depth": 5,
+      "bounds": [
+        900.0,
+        1462.5,
+        1012.5,
+        1575.0
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        19,
+        25,
+        28,
+        20
+      ]
+    },
+    {
+      "code": 32304,
+      "depth": 7,
+      "bounds": [
+        1012.5,
+        1462.5,
+        1040.625,
+        1490.625
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        19,
+        25,
+        28,
+        23
+      ]
+    },
+    {
+      "code": 32305,
+      "depth": 7,
+      "bounds": [
+        1040.625,
+        1462.5,
+        1068.75,
+        1490.625
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        19,
+        25,
+        28,
+        23
+      ]
+    },
+    {
+      "code": 32306,
+      "depth": 7,
+      "bounds": [
+        1012.5,
+        1490.625,
+        1040.625,
+        1518.75
+      ],
+      "kind": "outside",
+      "hull_indices": []
+    },
+    {
+      "code": 32307,
+      "depth": 7,
+      "bounds": [
+        1040.625,
+        1490.625,
+        1068.75,
+        1518.75
+      ],
+      "kind": "outside",
+      "hull_indices": []
+    },
+    {
+      "code": 8077,
+      "depth": 6,
+      "bounds": [
+        1068.75,
+        1462.5,
+        1125.0,
+        1518.75
+      ],
+      "kind": "outside",
+      "hull_indices": []
+    },
+    {
+      "code": 8078,
+      "depth": 6,
+      "bounds": [
+        1012.5,
+        1518.75,
+        1068.75,
+        1575.0
+      ],
+      "kind": "outside",
+      "hull_indices": []
+    },
+    {
+      "code": 8079,
+      "depth": 6,
+      "bounds": [
+        1068.75,
+        1518.75,
+        1125.0,
+        1575.0
+      ],
+      "kind": "outside",
+      "hull_indices": []
+    },
+    {
+      "code": 2020,
+      "depth": 5,
+      "bounds": [
+        1125.0,
+        1350.0,
+        1237.5,
+        1462.5
+      ],
+      "kind": "surrounded",
+      "hull_indices": [
+        23,
+        25,
+        28
+      ]
+    },
+    {
+      "code": 2021,
+      "depth": 5,
+      "bounds": [
+        1237.5,
+        1350.0,
+        1350.0,
+        1462.5
+      ],
+      "kind": "outside",
+      "hull_indices": []
+    },
+    {
+      "code": 2022,
+      "depth": 5,
+      "bounds": [
+        1125.0,
+        1462.5,
+        1237.5,
+        1575.0
+      ],
+      "kind": "outside",
+      "hull_indices": []
+    },
+    {
+      "code": 2023,
+      "depth": 5,
+      "bounds": [
+        1237.5,
+        1462.5,
+        1350.0,
+        1575.0
+      ],
+      "kind": "outside",
+      "hull_indices": []
+    },
+    {
+      "code": 506,
+      "depth": 4,
+      "bounds": [
+        900.0,
+        1575.0,
+        1125.0,
+        1800.0
+      ],
+      "kind": "outside",
+      "hull_indices": []
+    },
+    {
+      "code": 507,
+      "depth": 4,
+      "bounds": [
+        1125.0,
+        1575.0,
+        1350.0,
+        1800.0
+      ],
+      "kind": "outside",
+      "hull_indices": []
+    },
+    {
+      "code": 127,
+      "depth": 3,
+      "bounds": [
+        1350.0,
+        1350.0,
+        1800.0,
+        1800.0
+      ],
+      "kind": "outside",
+      "hull_indices": []
+    }
+  ]
+}

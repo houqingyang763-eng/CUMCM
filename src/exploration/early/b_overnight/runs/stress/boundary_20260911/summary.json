@@ -1,0 +1,92 @@
+{
+  "groups": {
+    "completion": {
+      "runs": 8,
+      "successes": 8,
+      "total_sources": 104,
+      "total_cleared": 104,
+      "mean_virtual_s": 2716.444923097867,
+      "worst_case": "stress_q3_domain1800_16",
+      "worst_virtual_s": 4585.016547121348,
+      "max_wall_s": 5.67281670000375,
+      "fallback_runs": 0,
+      "failed_clears": 10
+    },
+    "configured": {
+      "runs": 8,
+      "successes": 8,
+      "total_sources": 104,
+      "total_cleared": 104,
+      "mean_virtual_s": 2774.433452204516,
+      "worst_case": "stress_q3_domain1800_16",
+      "worst_virtual_s": 4585.016547121348,
+      "max_wall_s": 5.707401200001186,
+      "fallback_runs": 0,
+      "failed_clears": 10
+    },
+    "directional": {
+      "runs": 8,
+      "successes": 8,
+      "total_sources": 104,
+      "total_cleared": 104,
+      "mean_virtual_s": 8546.45990579484,
+      "worst_case": "stress_q4_outward_boundary_10",
+      "worst_virtual_s": 14424.08782366382,
+      "max_wall_s": 10.054025299999921,
+      "fallback_runs": 1,
+      "failed_clears": 339
+    }
+  },
+  "paired_q3": [
+    {
+      "case": "stress_q3_collinear_10",
+      "completion_s": 4442.191984237565,
+      "configured_s": 4443.43296836553,
+      "configured_relative_change": 0.00027936301095676797
+    },
+    {
+      "case": "stress_q3_colocated_16",
+      "completion_s": 867.0644576291329,
+      "configured_s": 867.0644576291329,
+      "configured_relative_change": 0.0
+    },
+    {
+      "case": "stress_q3_domain1800_16",
+      "completion_s": 4585.016547121348,
+      "configured_s": 4585.016547121348,
+      "configured_relative_change": 0.0
+    },
+    {
+      "case": "stress_q3_long_ray_16",
+      "completion_s": 1405.0543539894375,
+      "configured_s": 1422.7074734286964,
+      "configured_relative_change": 0.012564011768751548
+    },
+    {
+      "case": "stress_q3_near_clear_edges_10",
+      "completion_s": 2772.4880259886168,
+      "configured_s": 2776.442291168484,
+      "configured_relative_change": 0.0014262514906471235
+    },
+    {
+      "case": "stress_q3_reception1000_10",
+      "completion_s": 3733.1852645721037,
+      "configured_s": 4110.290763847876,
+      "configured_relative_change": 0.10101440795197081
+    },
+    {
+      "case": "stress_q3_tight_cluster_10",
+      "completion_s": 2513.832083343462,
+      "configured_s": 2513.832083343462,
+      "configured_relative_change": 0.0
+    },
+    {
+      "case": "stress_q3_wrap_zero_16",
+      "completion_s": 1412.7266679012707,
+      "configured_s": 1476.6810327315995,
+      "configured_relative_change": 0.04527016179664711
+    }
+  ],
+  "failures": [],
+  "evidence_scope": "预先构造的机制压力检查，不是独立随机样本或失败概率估计"
+}

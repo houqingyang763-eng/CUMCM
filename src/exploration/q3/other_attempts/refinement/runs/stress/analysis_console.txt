@@ -1,0 +1,268 @@
+{
+  "independently_replayed_actions": 9108,
+  "failures": [],
+  "comparisons": {
+    "f1": {
+      "all_clear": true,
+      "mean_min": 59.21631641617861,
+      "saving_min": 0.28541666666666765,
+      "ci95_min": [
+        0.05,
+        0.5770833333333343
+      ],
+      "wins": 4,
+      "losses": 0,
+      "ties": 4,
+      "cost_savings_min": {
+        "move_s": 0.0,
+        "measure_s": 0.23958333333333334,
+        "switch_s": 0.04583333333333333,
+        "success_clear_s": 0.0,
+        "fail_clear_s": 0.0
+      },
+      "worse_cases": [],
+      "mean_measure_count": 186,
+      "mean_fail_clears": 0.875,
+      "worst_min": 79.0805601605114
+    },
+    "f2": {
+      "all_clear": true,
+      "mean_min": 59.21316956406915,
+      "saving_min": 0.2885635187761266,
+      "ci95_min": [
+        -0.7564610087749157,
+        1.4946842923600125
+      ],
+      "wins": 3,
+      "losses": 4,
+      "ties": 1,
+      "cost_savings_min": {
+        "move_s": -0.2822698145572085,
+        "measure_s": 0.4791666666666667,
+        "switch_s": 0.09791666666666668,
+        "success_clear_s": 0.0,
+        "fail_clear_s": -0.00625
+      },
+      "worse_cases": [
+        {
+          "case": "stress_4_190104",
+          "extra_min": 1.9825156312561376
+        },
+        {
+          "case": "stress_3_190103",
+          "extra_min": 1.1332614332146629
+        },
+        {
+          "case": "stress_1_190101",
+          "extra_min": 0.4226359507956507
+        },
+        {
+          "case": "stress_2_190102",
+          "extra_min": 0.12544623041667363
+        }
+      ],
+      "mean_measure_count": 183.125,
+      "mean_fail_clears": 1,
+      "worst_min": 77.08283669719421
+    },
+    "f3": {
+      "all_clear": true,
+      "mean_min": 59.59862861556425,
+      "saving_min": -0.09689553271897794,
+      "ci95_min": [
+        -1.5993721390501472,
+        1.395179314140154
+      ],
+      "wins": 4,
+      "losses": 4,
+      "ties": 0,
+      "cost_savings_min": {
+        "move_s": -1.0448121993856447,
+        "measure_s": 0.9375,
+        "switch_s": 0.16041666666666665,
+        "success_clear_s": 0.0,
+        "fail_clear_s": -0.15
+      },
+      "worse_cases": [
+        {
+          "case": "stress_4_190104",
+          "extra_min": 3.830043784761506
+        },
+        {
+          "case": "stress_6_190106",
+          "extra_min": 2.7220250490297304
+        },
+        {
+          "case": "stress_1_190101",
+          "extra_min": 0.25981983029038624
+        },
+        {
+          "case": "stress_7_190107",
+          "extra_min": 0.23292357375774675
+        }
+      ],
+      "mean_measure_count": 177.625,
+      "mean_fail_clears": 3.875,
+      "worst_min": 76.25955268543952
+    },
+    "f4": {
+      "all_clear": true,
+      "mean_min": 58.97912172177469,
+      "saving_min": 0.5226113610705875,
+      "ci95_min": [
+        -1.5985323513175111,
+        2.4651028018934267
+      ],
+      "wins": 6,
+      "losses": 2,
+      "ties": 0,
+      "cost_savings_min": {
+        "move_s": -0.2128053055960744,
+        "measure_s": 0.6875,
+        "switch_s": 0.12916666666666665,
+        "success_clear_s": 0.0,
+        "fail_clear_s": -0.08125
+      },
+      "worse_cases": [
+        {
+          "case": "stress_6_190106",
+          "extra_min": 5.237963156934295
+        },
+        {
+          "case": "stress_4_190104",
+          "extra_min": 2.194821588285269
+        }
+      ],
+      "mean_measure_count": 180.625,
+      "mean_fail_clears": 2.5,
+      "worst_min": 75.56142377556071
+    },
+    "baseline": {
+      "all_clear": true,
+      "mean_min": 62.905028245189094,
+      "saving_min": -3.403295162343815,
+      "ci95_min": [
+        -8.979229124588672,
+        2.027987087755713
+      ],
+      "wins": 2,
+      "losses": 6,
+      "ties": 0,
+      "cost_savings_min": {
+        "move_s": -8.867878495677155,
+        "measure_s": 4.677083333333333,
+        "switch_s": 0.8625,
+        "success_clear_s": 0.0,
+        "fail_clear_s": -0.075
+      },
+      "worse_cases": [
+        {
+          "case": "stress_7_190107",
+          "extra_min": 17.431738076116904
+        },
+        {
+          "case": "stress_1_190101",
+          "extra_min": 9.26887136656983
+        },
+        {
+          "case": "stress_3_190103",
+          "extra_min": 7.5788340389188456
+        },
+        {
+          "case": "stress_6_190106",
+          "extra_min": 5.622173084890566
+        },
+        {
+          "case": "stress_2_190102",
+          "extra_min": 1.5048576807869722
+        },
+        {
+          "case": "stress_0_190100",
+          "extra_min": 1.2974810773787036
+        }
+      ],
+      "mean_measure_count": 132.75,
+      "mean_fail_clears": 2.375,
+      "worst_min": 80.3780412378901
+    }
+  },
+  "mechanisms": {
+    "f1": {
+      "decisions": 0,
+      "chosen": {},
+      "fallbacks": {},
+      "skipped": 27,
+      "kept_to_progress": 7
+    },
+    "f2": {
+      "decisions": 101,
+      "chosen": {
+        "original": 75,
+        "mirror0_unknown0": 9,
+        "mirror1_unknown1": 2,
+        "mirror0_unknown1": 10,
+        "scan_unknown_now": 4,
+        "mirror1_unknown0": 1
+      },
+      "fallbacks": {},
+      "skipped": 40,
+      "kept_to_progress": 8
+    },
+    "f3": {
+      "decisions": 122,
+      "chosen": {
+        "original": 65,
+        "mirror0_unknown0": 6,
+        "clear3": 20,
+        "clear2": 15,
+        "mirror1_unknown1": 2,
+        "mirror0_unknown1": 7,
+        "mirror1_unknown0": 2,
+        "scan_unknown_now": 5
+      },
+      "fallbacks": {},
+      "skipped": 54,
+      "kept_to_progress": 5
+    },
+    "f4": {
+      "decisions": 122,
+      "chosen": {
+        "original": 90,
+        "mirror0_unknown0": 4,
+        "clear3": 13,
+        "clear2": 9,
+        "mirror0_unknown1": 2,
+        "mirror1_unknown0": 1,
+        "mirror1_unknown1": 2,
+        "scan_unknown_now": 1
+      },
+      "fallbacks": {},
+      "skipped": 37,
+      "kept_to_progress": 6
+    },
+    "baseline": {
+      "decisions": 0,
+      "chosen": {},
+      "fallbacks": {},
+      "skipped": 0,
+      "kept_to_progress": 0
+    }
+  },
+  "by_layout": {
+    "f1": {
+      "stress": 0.28541666666666765
+    },
+    "f2": {
+      "stress": 0.2885635187761266
+    },
+    "f3": {
+      "stress": -0.09689553271897802
+    },
+    "f4": {
+      "stress": 0.5226113610705875
+    },
+    "baseline": {
+      "stress": -3.403295162343815
+    }
+  }
+}

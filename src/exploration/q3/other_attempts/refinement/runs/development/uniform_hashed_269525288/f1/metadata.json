@@ -1,0 +1,191 @@
+{
+  "config": {
+    "name": "r3_covering",
+    "initial_points": [
+      [
+        -129.903811,
+        -75.0
+      ],
+      [
+        519.615242,
+        300.0
+      ]
+    ],
+    "try_radius_m": 30.0,
+    "local_action_limit": 16,
+    "local_offset_fraction": 0.5,
+    "local_offset_min_m": 30.0,
+    "local_offset_max_m": 300.0,
+    "shared_scan_gap_m": 0.0,
+    "route_mode": "nearest",
+    "planning": "covering"
+  },
+  "phase": "service",
+  "initial_finish_s": 428.84144321536786,
+  "initial_statistics": {
+    "found": 8,
+    "two_bearings": 5,
+    "radius_le20": 3,
+    "radius_le60": 4,
+    "radii_m": {
+      "3": 35.377913695712564,
+      "4": 660.2333590375127,
+      "11": 485.11261278297445,
+      "12": 14.415227776578632,
+      "14": 14.879714295760888,
+      "17": 500.5938997004374,
+      "18": 17.97457245913394,
+      "19": 60.25082218100658
+    }
+  },
+  "stations": 24,
+  "target": 3,
+  "reason": "certain_center",
+  "planned_unknown_stops": 0,
+  "planned_route_m": 539.6964704170043,
+  "planned_coverage_complete": true,
+  "plan_has_unknown_channels": false,
+  "plans_made": 23,
+  "selected_second": {
+    "id": "p2_all",
+    "q": [
+      582.0651753655903,
+      298.9644478308113
+    ],
+    "channels": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "set": "all",
+    "costs_s": [
+      3291.0953664996287,
+      3328.8936315139026,
+      3002.2043543639898,
+      2981.5245044638727,
+      3400.3654146470453,
+      3437.9940476576016,
+      3159.657591886465,
+      2917.314524140507,
+      3407.8184513059873,
+      3589.3673549917557,
+      3672.0998580692644,
+      3089.9021271030574,
+      3465.433430833027,
+      2844.015695888419,
+      3514.5724689160047,
+      3396.4309251576683
+    ],
+    "mean_s": 3281.1681092148874,
+    "errors": []
+  },
+  "refinement_level": 1,
+  "samples": 4,
+  "skipped": [
+    {
+      "channel": 17,
+      "position": [
+        -255.93963000215015,
+        182.26488450059568
+      ],
+      "at_action": 47,
+      "prior_position": [
+        -129.903811,
+        -75.0
+      ],
+      "squared_distance_margin": 187115.48916542507
+    },
+    {
+      "channel": 11,
+      "position": [
+        -255.93963000215015,
+        182.26488450059568
+      ],
+      "at_action": 47,
+      "prior_position": [
+        -129.903811,
+        -75.0
+      ],
+      "squared_distance_margin": 89887.76680457796
+    },
+    {
+      "channel": 4,
+      "position": [
+        653.90625,
+        -710.15625
+      ],
+      "at_action": 56,
+      "prior_position": [
+        284.68547218288234,
+        416.2053434380317
+      ],
+      "squared_distance_margin": 133928.7564993886
+    },
+    {
+      "channel": 4,
+      "position": [
+        353.74284126416023,
+        -1589.2564346131278
+      ],
+      "at_action": 83,
+      "prior_position": [
+        582.0651753655903,
+        298.9644478308113
+      ],
+      "squared_distance_margin": 135891.62880213093
+    },
+    {
+      "channel": 4,
+      "position": [
+        314.36805265794226,
+        -1584.110384402144
+      ],
+      "at_action": 87,
+      "prior_position": [
+        582.0651753655903,
+        298.9644478308113
+      ],
+      "squared_distance_margin": 42990.60823159688
+    },
+    {
+      "channel": 11,
+      "position": [
+        -258.8190451025209,
+        965.9258262890684
+      ],
+      "at_action": 136,
+      "prior_position": [
+        -129.903811,
+        -75.0
+      ],
+      "squared_distance_margin": 263771.23127099784
+    }
+  ],
+  "kept_to_progress": [
+    {
+      "channel": 4,
+      "position": [
+        -350.8815604928155,
+        -1723.7521034760855
+      ]
+    }
+  ],
+  "refinement_decisions": []
+}

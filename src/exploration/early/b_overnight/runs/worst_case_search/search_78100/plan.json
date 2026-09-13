@@ -1,0 +1,61 @@
+{
+  "max_complete_runs": 16,
+  "joint25_runs": 14,
+  "baseline_runs": 2,
+  "initial": 8,
+  "selected_initial_parents": 2,
+  "perturbations_per_parent": 3,
+  "perturbations": [
+    "rigid rotation +7.5deg",
+    "alternating orientation +/-12deg",
+    "fixed channel permutation"
+  ],
+  "selection_metric": "T / successful cleared sources, conditional on full clearance",
+  "noise": "zero field with normal two-decimal return rounding",
+  "interpretation": "定向困难搜索，不估计分布、失效率或总体均值；不改策略",
+  "code_sha256": {
+    "b_overnight\\q4.py": "e9227c873c2da3ecf0f948762d5ef2da7f48f346d624cd57482f86c967cd3a9f",
+    "b_overnight\\q4_anchor_design.py": "abde6593231d9cd6a43edd07a8d1c5d4431a072c16ab941d73bb83dbac8e00ad",
+    "b_overnight\\q4_joint_state.py": "b18a39ffbbde1713a98a30f8d47c9efd178b6832187b3fb25d0d3502da581196",
+    "b_overnight\\q4_coverage.py": "d4fba2dee928c9dd70343c0056ce8f886868b0cf9d5ec9fafae172fad16f209d",
+    "b_overnight\\q4run.py": "e5c54ee8dbbbf7c87d350464d84310e6845ea58b7fa38dfb7f5adfd3e6ffe3ff",
+    "b_overnight\\q2_geometry.py": "a8c38b2bd5cd718ae01c6408ea4918a4f5e5ce794e56ed8276bb02f20470d573",
+    "b_overnight\\task_cost.py": "47b20e3bff43ce86fb9d4d0ba1e795a042dea3b984887811033e09dd5c21d283",
+    "b_overnight\\coverage.py": "fab46e91db92b4b7f622bbb3bcd746e5153f217158f80b4e57de38c66ddf61e8",
+    "b_adaptive_q3\\geometry.py": "68a081fcaec7fc084a0293c8674c7a2fc363606058e79b44fa359ce36b4bdbaf",
+    "b_adaptive_q3\\state.py": "1ea0699e5051b66c51649da0a7812eae1852381e79d41b1d0e88eb4b5e18f15b",
+    "b_adaptive_q3\\policy.py": "0885c02e697e655bca498ee0d2b88368be778fdf3a529b67432af962e5b9a05f",
+    "b_adaptive_q3\\simulation.py": "76bc0037c08d3b2a3cc347daa8a36a6d789103d943b42afdf9d8823f974494cc"
+  },
+  "script_sha256": "b1c40b6af7bc5dcabfc49f1f23611cd67a7ff87cab004e86fb1dd627da0c71cd",
+  "config": {
+    "discovery_weight": 1.0,
+    "localization_weight": 1.0,
+    "clear_weight": 2.0,
+    "offset_scale": 0.5,
+    "min_offset_m": 60.0,
+    "max_offset_m": 600.0,
+    "adaptive_virtual_budget_s": 12000.0,
+    "adaptive_action_limit": 1000,
+    "domain_radius_m": 5000.0,
+    "discovery_value_s": 120.0,
+    "terminal_value_s": 75.0,
+    "detour_weight": 0.5,
+    "error_samples": [
+      -1.0,
+      0.0,
+      1.0
+    ],
+    "representative_limit": 5,
+    "work_gain_cap_s": 240.0,
+    "min_work_gain_s": 0.25,
+    "approach_offsets_m": [
+      60.0,
+      120.0
+    ],
+    "current_probe_ratio": 1.2,
+    "q4_anchor_value_s": 30.0
+  },
+  "created_at": 1789066035.5113637,
+  "python": "3.13.5 (tags/v3.13.5:6cb20a2, Jun 11 2025, 16:15:46) [MSC v.1943 64 bit (AMD64)]"
+}

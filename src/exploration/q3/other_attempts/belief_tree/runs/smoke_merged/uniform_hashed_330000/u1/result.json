@@ -1,0 +1,35 @@
+{
+  "case": "uniform_hashed_330000",
+  "seed": 330000,
+  "layout": "uniform",
+  "noise": "hashed",
+  "policy": "patrol",
+  "real_n": 16,
+  "source_count": 16,
+  "success": false,
+  "cleared": 5,
+  "total_s": 2344.994322961482,
+  "per_source_s": null,
+  "wall_s": 7206.9630244,
+  "actions": 114,
+  "initial_finish_s": null,
+  "phase_costs": {
+    "belief": {
+      "actions": 114,
+      "move_s": 1675.9943229614819,
+      "measure_s": 545.0,
+      "switch_s": 99.0,
+      "success_clear_s": 25.0,
+      "fail_clear_s": 0.0
+    }
+  },
+  "move_s": 1675.9943229614819,
+  "measure_s": 545.0,
+  "switch_s": 99.0,
+  "success_clear_s": 25.0,
+  "fail_clear_s": 0.0,
+  "error": "Traceback (most recent call last):\n  File \"C:\\Users\\HOU\\Desktop\\CUMCM\\experiments\\b_q3\\probability_patrol\\runner.py\", line 242, in execute_case\n    raise TimeoutError('wall_limit')\nTimeoutError: wall_limit\n",
+  "failreason": "TimeoutError: wall_limit",
+  "fail_clears": 0,
+  "measure_count": 109
+}

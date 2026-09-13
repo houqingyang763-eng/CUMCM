@@ -1,0 +1,30 @@
+{
+  "policy": "baseline",
+  "config": {
+    "baseline_name": "scan7_r60"
+  },
+  "stage": null,
+  "case_sha256": "f9165d4a772d5d075d4bfa622b42611c9d903dea458b816b84f65a7d04fc93ef",
+  "source_sha256": {
+    "experiments/b_adaptive_q3/geometry.py": "68a081fcaec7fc084a0293c8674c7a2fc363606058e79b44fa359ce36b4bdbaf",
+    "experiments/b_adaptive_q3/policy.py": "0885c02e697e655bca498ee0d2b88368be778fdf3a529b67432af962e5b9a05f",
+    "experiments/b_adaptive_q3/simulation.py": "76bc0037c08d3b2a3cc347daa8a36a6d789103d943b42afdf9d8823f974494cc",
+    "experiments/b_adaptive_q3/state.py": "1ea0699e5051b66c51649da0a7812eae1852381e79d41b1d0e88eb4b5e18f15b",
+    "experiments/b_benchmark_scale/two_stage.py": "37d991166fff33f772fe8a6a400a545cd89420f5654e566a93348b6d0b3d1598",
+    "experiments/b_oracle_q3/oracle.py": "1b1118bff78f46e112ff6b2a536092a8e0a33686cec6cde57d6df5c5cc3aba19",
+    "experiments/b_overnight/task_cost.py": "47b20e3bff43ce86fb9d4d0ba1e795a042dea3b984887811033e09dd5c21d283",
+    "experiments/b_q3/probability_patrol/runner.py": "15702913e79aad8861bd936759210814f76af6bc8eb995a1643882531c81b0ad"
+  },
+  "python": "3.13.5",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "workers": 2,
+  "created_utc": "2026-09-11T16:34:14Z",
+  "limits": {
+    "action_limit": 3000,
+    "virtual_limit_s": 10800,
+    "wall_limit_s": 120.0
+  },
+  "environment": "自建第三问；固定空间误差，不读取官方隐藏案例",
+  "executor": "AI",
+  "verification": "AI独立账本与逐动作几何核验，未标人工复核"
+}

@@ -1,0 +1,47 @@
+{
+  "case": "uniform_biased_310103",
+  "seed": 310103,
+  "layout": "uniform",
+  "noise": "biased",
+  "policy": "patrol",
+  "real_n": 13,
+  "source_count": 13,
+  "success": false,
+  "cleared": 13,
+  "total_s": 3081.114044528204,
+  "per_source_s": null,
+  "wall_s": 50.81075219999184,
+  "actions": 155,
+  "initial_finish_s": null,
+  "phase_costs": {
+    "initial": {
+      "actions": 40,
+      "move_s": 190.85287759293576,
+      "measure_s": 200.0,
+      "switch_s": 38.0,
+      "success_clear_s": 0.0,
+      "fail_clear_s": 0.0
+    },
+    "service": {
+      "actions": 108,
+      "move_s": 1883.5718731778456,
+      "measure_s": 450.0,
+      "switch_s": 85.0,
+      "success_clear_s": 65.0,
+      "fail_clear_s": 15.0
+    },
+    "completion": {
+      "actions": 7,
+      "move_s": 112.68929375742292,
+      "measure_s": 35.0,
+      "switch_s": 6.0,
+      "success_clear_s": 0.0,
+      "fail_clear_s": 0.0
+    }
+  },
+  "move_s": 2187.1140445282044,
+  "measure_s": 685.0,
+  "switch_s": 129.0,
+  "success_clear_s": 65.0,
+  "fail_clear_s": 15.0
+}

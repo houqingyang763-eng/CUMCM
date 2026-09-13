@@ -1,0 +1,88 @@
+{
+  "original_file_count": 4561,
+  "moved_file_count": 394,
+  "modified_existing_q3_files": [
+    "legacy_baseline/audit_recorded_practice.py",
+    "README.md",
+    "adaptive_second/README.md",
+    "cross_method/AI1_optimization_summary_20260912/01_AI1_优化历程.md",
+    "cross_method/AI1_optimization_summary_20260912/02_AI1_分组性能.md",
+    "cross_method/AI1_optimization_summary_20260912/04_AI1_现象结论与未决问题.md",
+    "cross_method/AI1_optimization_summary_20260912/README_AI1.md",
+    "cross_method/AI1_optimization_summary_20260912/rebuild_metrics_AI1.py",
+    "cross_method/AI2_optimization_summary_20260912/01_AI2_优化历程.md",
+    "cross_method/AI2_optimization_summary_20260912/02_AI2_分组性能.md",
+    "cross_method/AI2_optimization_summary_20260912/03_AI2_时间尺度与查漏.md",
+    "cross_method/AI2_optimization_summary_20260912/04_AI2_现象结论与未决问题.md",
+    "cross_method/AI2_optimization_summary_20260912/README_AI2.md",
+    "cross_method/AI2_optimization_summary_20260912/rebuild_metrics_AI2.py",
+    "cross_method/AI3_optimization_summary_20260912/01_AI3_优化历程.md",
+    "cross_method/AI3_optimization_summary_20260912/04_AI3_现象结论与未决问题.md",
+    "cross_method/AI3_optimization_summary_20260912/README_AI3.md",
+    "cross_method/AI3_optimization_summary_20260912/rebuild_metrics_AI3.py",
+    "decision_pilot/build_handoff.py",
+    "decision_pilot/README.md",
+    "probability_patrol/README.md",
+    "refinement/README.md"
+  ],
+  "edited_paths": [
+    "experiments/b_q3/README.md",
+    "experiments/b_q3/legacy_baseline/audit_recorded_practice.py",
+    "experiments/b_q3/decision_pilot/build_handoff.py",
+    "experiments/b_method_families/Q3_RESEARCH_REASSESSMENT.md",
+    "experiments/b_q3/adaptive_second/README.md",
+    "experiments/b_q3/decision_pilot/README.md",
+    "experiments/b_q3/probability_patrol/README.md",
+    "experiments/b_q3/refinement/README.md",
+    "experiments/b_q3/cross_method/AI1_optimization_summary_20260912/01_AI1_优化历程.md",
+    "experiments/b_q3/cross_method/AI1_optimization_summary_20260912/02_AI1_分组性能.md",
+    "experiments/b_q3/cross_method/AI1_optimization_summary_20260912/03_AI1_时间尺度与查漏.md",
+    "experiments/b_q3/cross_method/AI1_optimization_summary_20260912/04_AI1_现象结论与未决问题.md",
+    "experiments/b_q3/cross_method/AI1_optimization_summary_20260912/README_AI1.md",
+    "experiments/b_q3/cross_method/AI1_optimization_summary_20260912/rebuild_metrics_AI1.py",
+    "experiments/b_q3/cross_method/AI2_optimization_summary_20260912/01_AI2_优化历程.md",
+    "experiments/b_q3/cross_method/AI2_optimization_summary_20260912/02_AI2_分组性能.md",
+    "experiments/b_q3/cross_method/AI2_optimization_summary_20260912/03_AI2_时间尺度与查漏.md",
+    "experiments/b_q3/cross_method/AI2_optimization_summary_20260912/04_AI2_现象结论与未决问题.md",
+    "experiments/b_q3/cross_method/AI2_optimization_summary_20260912/README_AI2.md",
+    "experiments/b_q3/cross_method/AI2_optimization_summary_20260912/rebuild_metrics_AI2.py",
+    "experiments/b_q3/cross_method/AI3_optimization_summary_20260912/01_AI3_优化历程.md",
+    "experiments/b_q3/cross_method/AI3_optimization_summary_20260912/02_AI3_分组性能.md",
+    "experiments/b_q3/cross_method/AI3_optimization_summary_20260912/03_AI3_时间尺度与查漏.md",
+    "experiments/b_q3/cross_method/AI3_optimization_summary_20260912/04_AI3_现象结论与未决问题.md",
+    "experiments/b_q3/cross_method/AI3_optimization_summary_20260912/README_AI3.md",
+    "experiments/b_q3/cross_method/AI3_optimization_summary_20260912/rebuild_metrics_AI3.py"
+  ],
+  "moves": {
+    "AI1_optimization_summary_20260912": "cross_method/AI1_optimization_summary_20260912",
+    "AI2_optimization_summary_20260912": "cross_method/AI2_optimization_summary_20260912",
+    "AI3_optimization_summary_20260912": "cross_method/AI3_optimization_summary_20260912",
+    "Q3_失败方案交接包": "decision_pilot/Q3_失败方案交接包",
+    "Q3_失败方案交接包.zip": "decision_pilot/Q3_失败方案交接包.zip",
+    "2026-09-11_Q3公式与选点讨论_原始对话及批注.md": "legacy_baseline/2026-09-11_Q3公式与选点讨论_原始对话及批注.md",
+    "2026-09-11_Q3完整公式讲解_对话原文与六条批注.md": "legacy_baseline/2026-09-11_Q3完整公式讲解_对话原文与六条批注.md",
+    "audit_recorded_practice.py": "legacy_baseline/audit_recorded_practice.py",
+    "recorded_practice_audit.json": "legacy_baseline/recorded_practice_audit.json"
+  },
+  "missing_files": 0,
+  "unexpected_content_changes": 0,
+  "new_broken_links": [],
+  "preexisting_broken_links": [
+    [
+      "decision_pilot/handoff_review.md",
+      "仿真逐步记录/README.md"
+    ],
+    [
+      "decision_pilot/handoff_review.md",
+      "批注依据.md"
+    ]
+  ],
+  "validation": "全部原文件逐一核对SHA256；允许修改仅为导航与路径修复；修改的Python通过AST语法检查。未重新执行算法。 五个路径相关脚本的ROOT/Q3/输入输出路径已独立检查。",
+  "script_path_checks_passed": [
+    "experiments/b_q3/cross_method/AI1_optimization_summary_20260912/rebuild_metrics_AI1.py",
+    "experiments/b_q3/cross_method/AI2_optimization_summary_20260912/rebuild_metrics_AI2.py",
+    "experiments/b_q3/cross_method/AI3_optimization_summary_20260912/rebuild_metrics_AI3.py",
+    "experiments/b_q3/legacy_baseline/audit_recorded_practice.py",
+    "experiments/b_q3/decision_pilot/build_handoff.py"
+  ]
+}

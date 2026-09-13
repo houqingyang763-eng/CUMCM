@@ -1,0 +1,76 @@
+{
+  "problem": 3,
+  "mode": "practice",
+  "case_code": "77UA-6YR4-HZ3S-APKM",
+  "config": {
+    "point_count": 7,
+    "scan_radius_m": 60,
+    "try_radius_m": 30.0,
+    "local_action_limit": 24,
+    "domain_radius_m": 5000.0
+  },
+  "initial_position": [
+    0.0,
+    0.0
+  ],
+  "initial_channel": 1,
+  "source_count": 11,
+  "fixed_scan_points": [
+    [
+      0.0,
+      0.0
+    ],
+    [
+      1200.0,
+      0.0
+    ],
+    [
+      600.0000000000001,
+      1039.2304845413264
+    ],
+    [
+      -599.9999999999998,
+      1039.2304845413264
+    ],
+    [
+      -1200.0,
+      1.4695761589768238e-13
+    ],
+    [
+      -600.0000000000006,
+      -1039.2304845413262
+    ],
+    [
+      600.0000000000001,
+      -1039.2304845413264
+    ]
+  ],
+  "scan_action_count": 99,
+  "later_measurements": 5,
+  "cleared_count": 11,
+  "failed_clears": 2,
+  "scan_s": 2033,
+  "service_s": 1534.387248,
+  "total_s": 3567.387248,
+  "per_source_s": 324.30793163636366,
+  "requests": 119,
+  "actions": 117,
+  "retries": 0,
+  "client_wall_s": 0.5806806000036886,
+  "remaining_time_at_enter": {
+    "accepted": true,
+    "real_timestamp_ms": 1789140856432,
+    "virtual_time_s": 0,
+    "remaining_real_duration_s": 1200,
+    "max_real_duration_s": 1200,
+    "max_virtual_duration_s": 360000
+  },
+  "field_status": {
+    "robot_positions": "所有117动作的精确请求坐标已记录",
+    "source_positions": "未知；成功清除坐标不是源坐标，只证明源在20米内",
+    "source_reception_radius": "未知",
+    "measurement_error_field": "未知",
+    "official_measurements_and_clear_results": "逐动作完整记录公开字段"
+  },
+  "validity": "本地运行是官方反馈驱动的算法重放，独立重新计算费用；不是LocalEnvironment独立生成反馈的同场景测试"
+}

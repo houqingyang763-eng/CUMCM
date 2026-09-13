@@ -1,0 +1,92 @@
+{
+  "frozen_hashes_match": true,
+  "replayed_actions": 17421,
+  "sampling": {
+    "position": {
+      "same_winner_between_halves": 13,
+      "histories": 24,
+      "cross_half_expected_gain_min": 0.42496128905931807
+    },
+    "joint": {
+      "same_winner_between_halves": 7,
+      "histories": 24,
+      "cross_half_expected_gain_min": 0.28739566972739383
+    }
+  },
+  "pilot_independent_sensitivity": [
+    {
+      "case": "cluster_hashed_270102",
+      "prior": "minimum",
+      "samples": 64,
+      "independent_predicted_saving_min": {
+        "position": 1.196521264255805,
+        "joint": 1.7863196675506254
+      }
+    },
+    {
+      "case": "cluster_hashed_270102",
+      "prior": "uniform",
+      "samples": 64,
+      "independent_predicted_saving_min": {
+        "position": 0.800392104688066,
+        "joint": 0.9601990651489819
+      }
+    },
+    {
+      "case": "edge_hashed_270101",
+      "prior": "minimum",
+      "samples": 64,
+      "independent_predicted_saving_min": {
+        "position": 1.2869915395222054,
+        "joint": 1.2869915395222054
+      }
+    },
+    {
+      "case": "edge_hashed_270101",
+      "prior": "uniform",
+      "samples": 64,
+      "independent_predicted_saving_min": {
+        "position": 1.0120866409141622,
+        "joint": 1.0120866409141622
+      }
+    },
+    {
+      "case": "line_hashed_270103",
+      "prior": "minimum",
+      "samples": 64,
+      "independent_predicted_saving_min": {
+        "position": 0.9913525360613054,
+        "joint": 0.9913525360613054
+      }
+    },
+    {
+      "case": "line_hashed_270103",
+      "prior": "uniform",
+      "samples": 64,
+      "independent_predicted_saving_min": {
+        "position": -0.6431362897622148,
+        "joint": -0.6431362897622148
+      }
+    },
+    {
+      "case": "uniform_hashed_270100",
+      "prior": "minimum",
+      "samples": 64,
+      "independent_predicted_saving_min": {
+        "position": 0.1704525437694423,
+        "joint": -0.5513646358748439
+      }
+    },
+    {
+      "case": "uniform_hashed_270100",
+      "prior": "uniform",
+      "samples": 64,
+      "independent_predicted_saving_min": {
+        "position": 0.5631403607582379,
+        "joint": 0.710948045394708
+      }
+    }
+  ],
+  "selection_wall_mean_s": 171.499209320836,
+  "selection_wall_max_s": 234.49051849998068
+}

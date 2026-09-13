@@ -1,0 +1,884 @@
+{
+  "config": {
+    "name": "r3_covering",
+    "initial_points": [
+      [
+        -129.903811,
+        -75.0
+      ],
+      [
+        519.615242,
+        300.0
+      ]
+    ],
+    "try_radius_m": 30.0,
+    "local_action_limit": 16,
+    "local_offset_fraction": 0.5,
+    "local_offset_min_m": 30.0,
+    "local_offset_max_m": 300.0,
+    "shared_scan_gap_m": 0.0,
+    "route_mode": "nearest",
+    "planning": "covering"
+  },
+  "phase": "service",
+  "initial_finish_s": 388.00000007488245,
+  "initial_statistics": {
+    "found": 15,
+    "two_bearings": 11,
+    "radius_le20": 5,
+    "radius_le60": 5,
+    "radii_m": {
+      "1": 16.051355944546764,
+      "2": 93.04905047063708,
+      "3": 405.4408879600762,
+      "4": 70.82123210974275,
+      "5": 10.52765165139223,
+      "6": 86.89354453826212,
+      "7": 10.884446174554018,
+      "8": 11.535955615892096,
+      "11": 390.5298397546061,
+      "12": 360.58626896451113,
+      "13": 360.5940906323791,
+      "15": 93.09359120926574,
+      "16": 71.5221705549989,
+      "18": 83.47753707933883,
+      "20": 11.000023320018714
+    }
+  },
+  "stations": 20,
+  "target": 16,
+  "reason": "certain_here",
+  "selected_second": {
+    "id": "p4_all",
+    "q": [
+      -58.436806609876754,
+      520.7285181049352
+    ],
+    "channels": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "set": "all",
+    "costs_s": [
+      2146.015141593348,
+      2569.6557085539985,
+      1984.1401263986352,
+      2513.606420129389,
+      1923.2839284792133,
+      1769.839211190007,
+      1954.2015645745407,
+      1943.9029495236502,
+      2062.494224641224,
+      1767.0859410941016,
+      1807.361615789611,
+      2470.304157509994,
+      2064.218030279468,
+      2174.628273138182,
+      1914.40112344896,
+      2158.319391311666
+    ],
+    "mean_s": 2076.4661129784995,
+    "errors": []
+  },
+  "refinement_level": 3,
+  "samples": 4,
+  "skipped": [
+    {
+      "channel": 3,
+      "position": [
+        258.81904510252076,
+        965.9258262890684
+      ],
+      "at_action": 62,
+      "prior_position": [
+        -58.436806609876754,
+        520.7285181049352
+      ],
+      "squared_distance_margin": 1320874.2526333216
+    }
+  ],
+  "kept_to_progress": [],
+  "refinement_decisions": [
+    {
+      "at_action": 77,
+      "position": [
+        866.0254037844387,
+        499.99999999999994
+      ],
+      "channel": 6,
+      "original_reason": "single_center_try",
+      "original_action": {
+        "kind": "clear",
+        "position": [
+          1026.779935677288,
+          -11.768907002509769
+        ],
+        "channel": 6,
+        "reason": "single_center_try",
+        "phase": "service"
+      },
+      "scan_unknown": true,
+      "posterior": {
+        "samples": 4,
+        "pool_size": 256,
+        "unknown_channels": [],
+        "unknown_presence_mass": [],
+        "remaining_unknown_count_values": [
+          0
+        ],
+        "remaining_unknown_count_probabilities": [
+          1.0
+        ],
+        "known_ever": 16,
+        "assumption": "uniform_space_radius_bounded_angle"
+      },
+      "options": [
+        {
+          "id": "original",
+          "kind": "original",
+          "costs_s": [
+            1151.79531280768,
+            1043.4248945226448,
+            1233.7235170799265,
+            1040.1668417646213
+          ],
+          "mean_s": 1117.2776415437181
+        },
+        {
+          "id": "clear2",
+          "kind": "multiclear",
+          "channel": 6,
+          "points": [
+            [
+              1021.6919032211468,
+              -4.203387901179669
+            ],
+            [
+              1033.4315234731148,
+              -18.320937538505568
+            ]
+          ],
+          "radii": [
+            13.546046662437833,
+            13.197986911190075
+          ],
+          "worst_local_s": 117.20950062738373,
+          "costs_s": [
+            1150.859493181429,
+            1050.5667850213674,
+            1236.1034706341304,
+            1026.9006435982158
+          ],
+          "mean_s": 1116.1075981087856
+        },
+        {
+          "id": "clear3",
+          "kind": "multiclear",
+          "channel": 6,
+          "points": [
+            [
+              1021.459028582448,
+              -0.8772966013530743
+            ],
+            [
+              1027.6745889624935,
+              -9.008690645698769
+            ],
+            [
+              1036.245600947591,
+              -21.70251456490039
+            ]
+          ],
+          "radii": [
+            11.367040635603665,
+            12.263398511272404,
+            8.798657960339153
+          ],
+          "worst_local_s": 120.99834695910738,
+          "costs_s": [
+            1171.7016249177243,
+            1037.804547213939,
+            1235.225438238561,
+            1031.4822342514447
+          ],
+          "mean_s": 1119.0534611554172
+        }
+      ],
+      "chosen": "clear2",
+      "predicted_saving_s": 1.170043434932495,
+      "wall_s": 0.6389049999997951
+    },
+    {
+      "at_action": 78,
+      "position": [
+        1021.6919032211468,
+        -4.203387901179669
+      ],
+      "channel": 15,
+      "original_reason": "planned_clearance_scan",
+      "original_action": {
+        "kind": "measure",
+        "position": [
+          1021.6919032211468,
+          -4.203387901179669
+        ],
+        "channel": 15,
+        "reason": "planned_clearance_scan",
+        "phase": "service"
+      },
+      "scan_unknown": true,
+      "posterior": {
+        "samples": 4,
+        "pool_size": 256,
+        "unknown_channels": [],
+        "unknown_presence_mass": [],
+        "remaining_unknown_count_values": [
+          0
+        ],
+        "remaining_unknown_count_probabilities": [
+          1.0
+        ],
+        "known_ever": 16,
+        "assumption": "uniform_space_radius_bounded_angle"
+      },
+      "options": [
+        {
+          "id": "original",
+          "kind": "original",
+          "costs_s": [
+            1049.41595652716,
+            1056.2842894644398,
+            876.8423948619968,
+            1025.8662432630051
+          ],
+          "mean_s": 1002.1022210291504
+        },
+        {
+          "id": "clear2",
+          "kind": "multiclear",
+          "channel": 15,
+          "points": [
+            [
+              1044.8016346740953,
+              -77.47952694059175
+            ],
+            [
+              1060.2440157438475,
+              -94.76903645053218
+            ]
+          ],
+          "radii": [
+            14.781254543358532,
+            14.781254558514322
+          ],
+          "worst_local_s": 28.003138461029355,
+          "costs_s": [
+            1060.0271304761084,
+            1058.9940953234793,
+            882.3712135685284,
+            1006.379962056081
+          ],
+          "mean_s": 1001.9431003560493
+        },
+        {
+          "id": "clear3",
+          "kind": "multiclear",
+          "channel": 15,
+          "points": [
+            [
+              1044.4231393349878,
+              -73.56298068404429
+            ],
+            [
+              1054.142523454378,
+              -84.5185917768256
+            ],
+            [
+              1062.255903650858,
+              -99.11453173765766
+            ]
+          ],
+          "radii": [
+            12.291931404593182,
+            13.713153855492251,
+            10.072195096048047
+          ],
+          "worst_local_s": 31.8668719479882,
+          "costs_s": [
+            1090.9878661494388,
+            1055.4547400173335,
+            881.4488163903823,
+            1025.6570818190542
+          ],
+          "mean_s": 1013.3871260940522
+        }
+      ],
+      "chosen": "clear2",
+      "predicted_saving_s": 0.15912067310114253,
+      "wall_s": 0.6206382999953348
+    },
+    {
+      "at_action": 79,
+      "position": [
+        1044.8016346740953,
+        -77.47952694059175
+      ],
+      "channel": 2,
+      "original_reason": "planned_clearance_scan",
+      "original_action": {
+        "kind": "measure",
+        "position": [
+          1044.8016346740953,
+          -77.47952694059175
+        ],
+        "channel": 2,
+        "reason": "planned_clearance_scan",
+        "phase": "service"
+      },
+      "scan_unknown": true,
+      "posterior": {
+        "samples": 4,
+        "pool_size": 256,
+        "unknown_channels": [],
+        "unknown_presence_mass": [],
+        "remaining_unknown_count_values": [
+          0
+        ],
+        "remaining_unknown_count_probabilities": [
+          1.0
+        ],
+        "known_ever": 16,
+        "assumption": "uniform_space_radius_bounded_angle"
+      },
+      "options": [
+        {
+          "id": "original",
+          "kind": "original",
+          "costs_s": [
+            737.9421547870827,
+            957.8537167018765,
+            951.7078109278102,
+            1044.4245778879938
+          ],
+          "mean_s": 922.9820650761908
+        },
+        {
+          "id": "clear2",
+          "kind": "multiclear",
+          "channel": 2,
+          "points": [
+            [
+              1082.2640369735159,
+              -31.816093531690182
+            ],
+            [
+              1101.620699298444,
+              -52.0208378934846
+            ]
+          ],
+          "radii": [
+            15.649146174169841,
+            15.649146159913139
+          ],
+          "worst_local_s": 25.408954909356773,
+          "costs_s": [
+            749.7928826457526,
+            964.4586451239172,
+            979.8350677798942,
+            1061.04141260051
+          ],
+          "mean_s": 938.7820020375185
+        },
+        {
+          "id": "clear3",
+          "kind": "multiclear",
+          "channel": 2,
+          "points": [
+            [
+              1103.1727531897016,
+              -56.90241943991817
+            ],
+            [
+              1090.7867329393885,
+              -43.02559381015072
+            ],
+            [
+              1080.644796230147,
+              -26.864381445541888
+            ]
+          ],
+          "radii": [
+            10.5294988303928,
+            13.3825803870434,
+            12.410184115242513
+          ],
+          "worst_local_s": 30.91446808067213,
+          "costs_s": [
+            741.2660779087544,
+            976.8320787119139,
+            971.544079268853,
+            1087.2967007008567
+          ],
+          "mean_s": 944.2347341475945
+        }
+      ],
+      "chosen": "original",
+      "predicted_saving_s": 0.0,
+      "wall_s": 0.5393867999955546
+    },
+    {
+      "at_action": 83,
+      "position": [
+        1102.2590367988541,
+        -57.61479107942081
+      ],
+      "channel": 10,
+      "original_reason": "planned_clearance_scan",
+      "original_action": {
+        "kind": "measure",
+        "position": [
+          1102.2590367988541,
+          -57.61479107942081
+        ],
+        "channel": 10,
+        "reason": "planned_clearance_scan",
+        "phase": "service"
+      },
+      "scan_unknown": false,
+      "posterior": {
+        "samples": 4,
+        "pool_size": 256,
+        "unknown_channels": [],
+        "unknown_presence_mass": [],
+        "remaining_unknown_count_values": [
+          0
+        ],
+        "remaining_unknown_count_probabilities": [
+          1.0
+        ],
+        "known_ever": 16,
+        "assumption": "uniform_space_radius_bounded_angle"
+      },
+      "options": [
+        {
+          "id": "original",
+          "kind": "original",
+          "costs_s": [
+            836.8431352247492,
+            752.9311974301272,
+            818.611641314491,
+            782.7538074364682
+          ],
+          "mean_s": 797.7849453514589
+        },
+        {
+          "id": "clear2",
+          "kind": "multiclear",
+          "channel": 10,
+          "points": [
+            [
+              1038.9040660916796,
+              38.039899390466786
+            ],
+            [
+              1034.4436569763575,
+              72.86602464459557
+            ]
+          ],
+          "radii": [
+            17.710757869684542,
+            17.710757870150417
+          ],
+          "worst_local_s": 37.9687294914563,
+          "costs_s": [
+            835.2744212130713,
+            765.5493349589469,
+            818.1946980607104,
+            792.4559026645254
+          ],
+          "mean_s": 802.8685892243135
+        },
+        {
+          "id": "clear3",
+          "kind": "multiclear",
+          "channel": 10,
+          "points": [
+            [
+              1038.8733086370132,
+              32.136393573534725
+            ],
+            [
+              1036.8792457869758,
+              55.479266918940624
+            ],
+            [
+              1034.474414431024,
+              78.76953046152765
+            ]
+          ],
+          "radii": [
+            11.930716980626341,
+            12.159333168968358,
+            11.849164902253749
+          ],
+          "worst_local_s": 42.34386009061333,
+          "costs_s": [
+            845.499680076405,
+            758.7321807433264,
+            816.0499545180514,
+            798.0043829492927
+          ],
+          "mean_s": 804.5715495717689
+        }
+      ],
+      "chosen": "original",
+      "predicted_saving_s": 0.0,
+      "wall_s": 0.5292483000084758
+    },
+    {
+      "at_action": 94,
+      "position": [
+        12.724885498153137,
+        -67.71121384105442
+      ],
+      "channel": 16,
+      "original_reason": "planned_clearance_scan",
+      "original_action": {
+        "kind": "measure",
+        "position": [
+          12.724885498153137,
+          -67.71121384105442
+        ],
+        "channel": 16,
+        "reason": "planned_clearance_scan",
+        "phase": "service"
+      },
+      "scan_unknown": false,
+      "posterior": {
+        "samples": 4,
+        "pool_size": 256,
+        "unknown_channels": [],
+        "unknown_presence_mass": [],
+        "remaining_unknown_count_values": [
+          0
+        ],
+        "remaining_unknown_count_probabilities": [
+          1.0
+        ],
+        "known_ever": 16,
+        "assumption": "uniform_space_radius_bounded_angle"
+      },
+      "options": [
+        {
+          "id": "original",
+          "kind": "original",
+          "costs_s": [
+            423.5325431777337,
+            432.92853107547467,
+            458.64701126815976,
+            453.531292547028
+          ],
+          "mean_s": 442.15984451709903
+        },
+        {
+          "id": "clear2",
+          "kind": "multiclear",
+          "channel": 16,
+          "points": [
+            [
+              -1130.5750553972935,
+              -28.3985113109721
+            ],
+            [
+              -1151.3340361825617,
+              -40.76582621859743
+            ]
+          ],
+          "radii": [
+            13.684827709821155,
+            13.684827728614488
+          ],
+          "worst_local_s": 241.62787176527172,
+          "costs_s": [
+            579.8521484745138,
+            602.1748899112995,
+            601.7331094193105,
+            628.7625506258523
+          ],
+          "mean_s": 603.130674607744
+        },
+        {
+          "id": "clear3",
+          "kind": "multiclear",
+          "channel": 16,
+          "points": [
+            [
+              -1127.700341523341,
+              -24.856718140752278
+            ],
+            [
+              -1141.5846575750816,
+              -34.312724174137635
+            ],
+            [
+              -1154.8899379232969,
+              -42.23944254226194
+            ]
+          ],
+          "radii": [
+            9.949642649200818,
+            10.199451113372996,
+            9.123218504041356
+          ],
+          "worst_local_s": 245.70323422575942,
+          "costs_s": [
+            583.8296977580203,
+            596.2316162860448,
+            596.6576800509129,
+            629.8209808139554
+          ],
+          "mean_s": 601.6349937272333
+        }
+      ],
+      "chosen": "original",
+      "predicted_saving_s": 0.0,
+      "wall_s": 0.4217217000259552
+    },
+    {
+      "at_action": 105,
+      "position": [
+        -77.57862120482281,
+        -53.321961965710855
+      ],
+      "channel": 16,
+      "original_reason": "planned_clearance_scan",
+      "original_action": {
+        "kind": "measure",
+        "position": [
+          -77.57862120482281,
+          -53.321961965710855
+        ],
+        "channel": 16,
+        "reason": "planned_clearance_scan",
+        "phase": "service"
+      },
+      "scan_unknown": false,
+      "posterior": {
+        "samples": 4,
+        "pool_size": 256,
+        "unknown_channels": [],
+        "unknown_presence_mass": [],
+        "remaining_unknown_count_values": [
+          0
+        ],
+        "remaining_unknown_count_probabilities": [
+          1.0
+        ],
+        "known_ever": 16,
+        "assumption": "uniform_space_radius_bounded_angle"
+      },
+      "options": [
+        {
+          "id": "original",
+          "kind": "original",
+          "costs_s": [
+            356.8422710095365,
+            360.54838339282287,
+            343.62213675254475,
+            346.59380441870417
+          ],
+          "mean_s": 351.90164889340207
+        },
+        {
+          "id": "clear2",
+          "kind": "multiclear",
+          "channel": 16,
+          "points": [
+            [
+              -1132.6671721388047,
+              -30.520261337437187
+            ],
+            [
+              -1151.9400426177258,
+              -41.180948242718294
+            ]
+          ],
+          "radii": [
+            13.015994061887865,
+            13.015994083699825
+          ],
+          "worst_local_s": 223.4719505126534,
+          "costs_s": [
+            528.0020676059053,
+            528.5897355708889,
+            523.3190022084054,
+            530.344581455483
+          ],
+          "mean_s": 527.5638467101707
+        },
+        {
+          "id": "clear3",
+          "kind": "multiclear",
+          "channel": 16,
+          "points": [
+            [
+              -1130.0563690449405,
+              -27.084260995445128
+            ],
+            [
+              -1143.0632194617292,
+              -34.91162174678459
+            ],
+            [
+              -1155.7148928427862,
+              -41.90982841916413
+            ]
+          ],
+          "radii": [
+            9.173541450011985,
+            9.662186989039446,
+            8.717974998693766
+          ],
+          "worst_local_s": 227.48867772189453,
+          "costs_s": [
+            526.7866615045041,
+            520.7368609454657,
+            518.6900431325594,
+            523.3433694027226
+          ],
+          "mean_s": 522.3892337463129
+        }
+      ],
+      "chosen": "original",
+      "predicted_saving_s": 0.0,
+      "wall_s": 0.4028962999873329
+    },
+    {
+      "at_action": 113,
+      "position": [
+        -1043.9475436148932,
+        13.368665795019634
+      ],
+      "channel": 11,
+      "original_reason": "planned_clearance_scan",
+      "original_action": {
+        "kind": "measure",
+        "position": [
+          -1043.9475436148932,
+          13.368665795019634
+        ],
+        "channel": 11,
+        "reason": "planned_clearance_scan",
+        "phase": "service"
+      },
+      "scan_unknown": false,
+      "posterior": {
+        "samples": 4,
+        "pool_size": 256,
+        "unknown_channels": [],
+        "unknown_presence_mass": [],
+        "remaining_unknown_count_values": [
+          0
+        ],
+        "remaining_unknown_count_probabilities": [
+          1.0
+        ],
+        "known_ever": 16,
+        "assumption": "uniform_space_radius_bounded_angle"
+      },
+      "options": [
+        {
+          "id": "original",
+          "kind": "original",
+          "costs_s": [
+            91.68171835604448,
+            99.15028086322127,
+            97.42343522283295,
+            90.52825535124725
+          ],
+          "mean_s": 94.69592244833649
+        },
+        {
+          "id": "clear2",
+          "kind": "multiclear",
+          "channel": 11,
+          "points": [
+            [
+              -1154.175353366703,
+              -30.659324598426743
+            ],
+            [
+              -1178.6952822044723,
+              -30.8335149812222
+            ]
+          ],
+          "radii": [
+            12.287203163833786,
+            12.287203163913516
+          ],
+          "worst_local_s": 36.643219840798736,
+          "costs_s": [
+            118.55847688466974,
+            127.9673343456775,
+            127.45282488488124,
+            101.06865484609762
+          ],
+          "mean_s": 118.76182274033152
+        },
+        {
+          "id": "clear3",
+          "kind": "multiclear",
+          "channel": 11,
+          "points": [
+            [
+              -1150.0867732873169,
+              -30.901301817968182
+            ],
+            [
+              -1166.4356681675613,
+              -30.69709823001371
+            ],
+            [
+              -1182.7838622838585,
+              -30.591537761678946
+            ]
+          ],
+          "radii": [
+            8.210251970214985,
+            8.253697037892996,
+            8.200477444294254
+          ],
+          "worst_local_s": 40.54005935930162,
+          "costs_s": [
+            122.65019663137764,
+            132.65578022774548,
+            122.86819409572377,
+            99.83300781835578
+          ],
+          "mean_s": 119.50179469330067
+        }
+      ],
+      "chosen": "original",
+      "predicted_saving_s": 0.0,
+      "wall_s": 0.38509859997429885
+    }
+  ]
+}

@@ -1,0 +1,205 @@
+{
+  "schema": "fallback_bound_review_v1",
+  "checks": [
+    {
+      "policy": "BasePolicy",
+      "trigger": "virtual_budget",
+      "action_reason": "fallback_discovery",
+      "budget_s": 6000.0,
+      "action_limit": 600
+    },
+    {
+      "policy": "BasePolicy",
+      "trigger": "action_limit",
+      "action_reason": "fallback_discovery",
+      "budget_s": 6000.0,
+      "action_limit": 600
+    },
+    {
+      "policy": "TaskCostPolicy",
+      "trigger": "virtual_budget",
+      "action_reason": "fallback_discovery",
+      "budget_s": 6000.0,
+      "action_limit": 600
+    },
+    {
+      "policy": "TaskCostPolicy",
+      "trigger": "action_limit",
+      "action_reason": "fallback_discovery",
+      "budget_s": 6000.0,
+      "action_limit": 600
+    },
+    {
+      "policy": "CompletionCostPolicy",
+      "trigger": "virtual_budget",
+      "action_reason": "fallback_discovery",
+      "budget_s": 6000.0,
+      "action_limit": 600
+    },
+    {
+      "policy": "CompletionCostPolicy",
+      "trigger": "action_limit",
+      "action_reason": "fallback_discovery",
+      "budget_s": 6000.0,
+      "action_limit": 600
+    },
+    {
+      "policy": "RouteCostPolicy",
+      "trigger": "virtual_budget",
+      "action_reason": "fallback_discovery",
+      "budget_s": 6000.0,
+      "action_limit": 600
+    },
+    {
+      "policy": "RouteCostPolicy",
+      "trigger": "action_limit",
+      "action_reason": "fallback_discovery",
+      "budget_s": 6000.0,
+      "action_limit": 600
+    },
+    {
+      "policy": "ReceptionPolicy",
+      "trigger": "virtual_budget",
+      "action_reason": "fallback_discovery",
+      "budget_s": 6000.0,
+      "action_limit": 600
+    },
+    {
+      "policy": "ReceptionPolicy",
+      "trigger": "action_limit",
+      "action_reason": "fallback_discovery",
+      "budget_s": 6000.0,
+      "action_limit": 600
+    },
+    {
+      "policy": "RolloutPolicy",
+      "trigger": "virtual_budget",
+      "action_reason": "fallback_discovery",
+      "budget_s": 6000.0,
+      "action_limit": 600
+    },
+    {
+      "policy": "RolloutPolicy",
+      "trigger": "action_limit",
+      "action_reason": "fallback_discovery",
+      "budget_s": 6000.0,
+      "action_limit": 600
+    },
+    {
+      "policy": "ShortRolloutPolicy",
+      "trigger": "virtual_budget",
+      "action_reason": "fallback_discovery",
+      "budget_s": 6000.0,
+      "action_limit": 600
+    },
+    {
+      "policy": "ShortRolloutPolicy",
+      "trigger": "action_limit",
+      "action_reason": "fallback_discovery",
+      "budget_s": 6000.0,
+      "action_limit": 600
+    },
+    {
+      "policy": "Q4Policy",
+      "trigger": "virtual_budget",
+      "action_reason": "q4_fallback_discovery",
+      "budget_s": 12000.0,
+      "action_limit": 1000
+    },
+    {
+      "policy": "Q4Policy",
+      "trigger": "action_limit",
+      "action_reason": "q4_fallback_discovery",
+      "budget_s": 12000.0,
+      "action_limit": 1000
+    },
+    {
+      "policy": "Q4DirectionalPolicy",
+      "trigger": "virtual_budget",
+      "action_reason": "q4_fallback_discovery",
+      "budget_s": 12000.0,
+      "action_limit": 1000
+    },
+    {
+      "policy": "Q4DirectionalPolicy",
+      "trigger": "action_limit",
+      "action_reason": "q4_fallback_discovery",
+      "budget_s": 12000.0,
+      "action_limit": 1000
+    },
+    {
+      "policy": "Q4SearchPolicy",
+      "trigger": "virtual_budget",
+      "action_reason": "q4_fallback_discovery",
+      "budget_s": 12000.0,
+      "action_limit": 1000
+    },
+    {
+      "policy": "Q4SearchPolicy",
+      "trigger": "action_limit",
+      "action_reason": "q4_fallback_discovery",
+      "budget_s": 12000.0,
+      "action_limit": 1000
+    }
+  ],
+  "bounds": {
+    "Q3": {
+      "adaptive_with_overshoot_s": 8006.0,
+      "discovery_s": 4960.0,
+      "clear_s": 51444.479999999996,
+      "total_s": 64410.479999999996,
+      "total_hours": 17.8918,
+      "actions_upper": 2340,
+      "local_action_limit": 3000,
+      "anchor_count": 7,
+      "max_anchor_radius_m": 1200.0
+    },
+    "Q4": {
+      "adaptive_with_overshoot_s": 14006.0,
+      "discovery_s": 44860.0,
+      "clear_s": 51444.479999999996,
+      "total_s": 110310.48,
+      "total_hours": 30.6418,
+      "actions_upper": 3340,
+      "local_action_limit": 5000,
+      "anchor_count": 37,
+      "max_anchor_radius_m": 2700.0
+    }
+  },
+  "assumptions": [
+    "状态保守包含真源且响应符合题面",
+    "默认或不大于5000米的行动域",
+    "不更改有限后备与预算触发",
+    "现实网络与单次计算时间不在虚拟界内"
+  ],
+  "geometry": {
+    "cell_radius_m": 19.980990966416055,
+    "snake_length_m": 2966.4,
+    "rectangle_diagonal_m": 1500.9289923244203,
+    "certified_final_jump_allowance_m": 1600.0,
+    "q4_row_counts": [
+      4,
+      5,
+      6,
+      7,
+      6,
+      5,
+      4
+    ],
+    "q4_continuous_certificate_verified": true,
+    "max_coordinate_absolute_m": 5000.0
+  },
+  "source_sha256": {
+    "experiments\\b_adaptive_q3\\policy.py": "0885c02e697e655bca498ee0d2b88368be778fdf3a529b67432af962e5b9a05f",
+    "experiments\\b_adaptive_q3\\state.py": "1ea0699e5051b66c51649da0a7812eae1852381e79d41b1d0e88eb4b5e18f15b",
+    "experiments\\b_adaptive_q3\\geometry.py": "68a081fcaec7fc084a0293c8674c7a2fc363606058e79b44fa359ce36b4bdbaf",
+    "experiments\\b_adaptive_q3\\simulation.py": "76bc0037c08d3b2a3cc347daa8a36a6d789103d943b42afdf9d8823f974494cc",
+    "experiments\\b_overnight\\q4.py": "e9227c873c2da3ecf0f948762d5ef2da7f48f346d624cd57482f86c967cd3a9f",
+    "experiments\\b_overnight\\q4run.py": "e5c54ee8dbbbf7c87d350464d84310e6845ea58b7fa38dfb7f5adfd3e6ffe3ff",
+    "experiments\\b_overnight\\task_cost.py": "47b20e3bff43ce86fb9d4d0ba1e795a042dea3b984887811033e09dd5c21d283",
+    "experiments\\b_overnight\\runner.py": "d14af3e8e22baf11fc9be773a555d195f2e885c93d88fdeaf24398a08139b5f6",
+    "experiments\\b_overnight\\q4_search.py": "45f54801f6ce063a21bcad709579b769788004aa78afcfd2dc32a84c5106309c",
+    "experiments\\b_overnight\\rollout.py": "354e3fdbf4eb0c41f0b077a43a62a1e5c58bcbb69925e91b1d68e1e5a64b7a55",
+    "experiments\\b_overnight\\short_rollout.py": "0ebb37313f53341cbf3eebc5cb3811af5684dad328f15b8f3838be952141cef6"
+  }
+}

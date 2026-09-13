@@ -1,0 +1,882 @@
+[
+  {
+    "case": "stress_q3_domain1800_16",
+    "seed": 71000,
+    "layout": "16源全部在1800米圆周，最小接收半径，角误差取端点",
+    "noise": "biased",
+    "policy": "completion",
+    "source_count": 16,
+    "cleared": 16,
+    "success": true,
+    "error": null,
+    "virtual_time_s": 4585.016547121348,
+    "wall_time_s": 0.5291934999986552,
+    "planning_s": 0.4654029000448645,
+    "checking_s": 0.054317000023729634,
+    "actions": 172,
+    "measure_count": 155,
+    "scan_position_count": 33,
+    "failed_clears": 1,
+    "cleared_ratio": 1.0,
+    "average_localization_clear_s": 286.56353419508423,
+    "fallback": false,
+    "policy_stats": {},
+    "move_s": 3587.0165471213477,
+    "switch_s": 140.0,
+    "measure_s": 775.0,
+    "clear_s": 83.0
+  },
+  {
+    "case": "stress_q3_domain1800_16",
+    "seed": 71000,
+    "layout": "16源全部在1800米圆周，最小接收半径，角误差取端点",
+    "noise": "biased",
+    "policy": "configured",
+    "source_count": 16,
+    "cleared": 16,
+    "success": true,
+    "error": null,
+    "virtual_time_s": 4585.016547121348,
+    "wall_time_s": 0.5196723000044585,
+    "planning_s": 0.4550658000734984,
+    "checking_s": 0.05573100005858578,
+    "actions": 172,
+    "measure_count": 155,
+    "scan_position_count": 33,
+    "failed_clears": 1,
+    "cleared_ratio": 1.0,
+    "average_localization_clear_s": 286.56353419508423,
+    "fallback": false,
+    "policy_stats": {},
+    "move_s": 3587.0165471213477,
+    "switch_s": 140.0,
+    "measure_s": 775.0,
+    "clear_s": 83.0
+  },
+  {
+    "case": "stress_q3_reception1000_10",
+    "seed": 71001,
+    "layout": "10源恰在原点1000米接收边界，覆盖频道20与缺失频道",
+    "noise": "hashed",
+    "policy": "completion",
+    "source_count": 10,
+    "cleared": 10,
+    "success": true,
+    "error": null,
+    "virtual_time_s": 3733.1852645721037,
+    "wall_time_s": 2.081457899999805,
+    "planning_s": 2.0274038999486947,
+    "checking_s": 0.044735800016496796,
+    "actions": 197,
+    "measure_count": 187,
+    "scan_position_count": 17,
+    "failed_clears": 0,
+    "cleared_ratio": 1.0,
+    "average_localization_clear_s": 373.3185264572104,
+    "fallback": false,
+    "policy_stats": {},
+    "move_s": 2569.185264572104,
+    "switch_s": 179.0,
+    "measure_s": 935.0,
+    "clear_s": 50.0
+  },
+  {
+    "case": "stress_q3_reception1000_10",
+    "seed": 71001,
+    "layout": "10源恰在原点1000米接收边界，覆盖频道20与缺失频道",
+    "noise": "hashed",
+    "policy": "configured",
+    "source_count": 10,
+    "cleared": 10,
+    "success": true,
+    "error": null,
+    "virtual_time_s": 4110.290763847876,
+    "wall_time_s": 2.4210104000012507,
+    "planning_s": 2.364983600084088,
+    "checking_s": 0.048035600055300165,
+    "actions": 170,
+    "measure_count": 160,
+    "scan_position_count": 18,
+    "failed_clears": 0,
+    "cleared_ratio": 1.0,
+    "average_localization_clear_s": 411.02907638478763,
+    "fallback": false,
+    "policy_stats": {},
+    "move_s": 3110.2907638478764,
+    "switch_s": 150.0,
+    "measure_s": 800.0,
+    "clear_s": 50.0
+  },
+  {
+    "case": "stress_q3_long_ray_16",
+    "seed": 71002,
+    "layout": "16源几乎同方向长串，接收上下界交错，重复角几何",
+    "noise": "biased",
+    "policy": "completion",
+    "source_count": 16,
+    "cleared": 16,
+    "success": true,
+    "error": null,
+    "virtual_time_s": 1405.0543539894375,
+    "wall_time_s": 5.67281670000375,
+    "planning_s": 5.598292100024992,
+    "checking_s": 0.06782350000139559,
+    "actions": 119,
+    "measure_count": 100,
+    "scan_position_count": 19,
+    "failed_clears": 3,
+    "cleared_ratio": 1.0,
+    "average_localization_clear_s": 87.81589712433984,
+    "fallback": false,
+    "policy_stats": {},
+    "move_s": 721.0543539894365,
+    "switch_s": 95.0,
+    "measure_s": 500.0,
+    "clear_s": 89.0
+  },
+  {
+    "case": "stress_q3_long_ray_16",
+    "seed": 71002,
+    "layout": "16源几乎同方向长串，接收上下界交错，重复角几何",
+    "noise": "biased",
+    "policy": "configured",
+    "source_count": 16,
+    "cleared": 16,
+    "success": true,
+    "error": null,
+    "virtual_time_s": 1422.7074734286964,
+    "wall_time_s": 5.707401200001186,
+    "planning_s": 5.630645999975968,
+    "checking_s": 0.06965840001066681,
+    "actions": 122,
+    "measure_count": 103,
+    "scan_position_count": 19,
+    "failed_clears": 3,
+    "cleared_ratio": 1.0,
+    "average_localization_clear_s": 88.91921708929353,
+    "fallback": false,
+    "policy_stats": {},
+    "move_s": 720.7074734286955,
+    "switch_s": 98.0,
+    "measure_s": 515.0,
+    "clear_s": 89.0
+  },
+  {
+    "case": "stress_q3_collinear_10",
+    "seed": 71003,
+    "layout": "跨原点近共线，10源和逐位置固定散列误差",
+    "noise": "hashed",
+    "policy": "completion",
+    "source_count": 10,
+    "cleared": 10,
+    "success": true,
+    "error": null,
+    "virtual_time_s": 4442.191984237565,
+    "wall_time_s": 1.637875400003395,
+    "planning_s": 1.5757435000123223,
+    "checking_s": 0.04873920003592502,
+    "actions": 185,
+    "measure_count": 174,
+    "scan_position_count": 26,
+    "failed_clears": 1,
+    "cleared_ratio": 1.0,
+    "average_localization_clear_s": 444.21919842375644,
+    "fallback": false,
+    "policy_stats": {},
+    "move_s": 3362.1919842375646,
+    "switch_s": 157.0,
+    "measure_s": 870.0,
+    "clear_s": 53.0
+  },
+  {
+    "case": "stress_q3_collinear_10",
+    "seed": 71003,
+    "layout": "跨原点近共线，10源和逐位置固定散列误差",
+    "noise": "hashed",
+    "policy": "configured",
+    "source_count": 10,
+    "cleared": 10,
+    "success": true,
+    "error": null,
+    "virtual_time_s": 4443.43296836553,
+    "wall_time_s": 1.5920046000028378,
+    "planning_s": 1.5363498000078835,
+    "checking_s": 0.04655449993151706,
+    "actions": 184,
+    "measure_count": 173,
+    "scan_position_count": 27,
+    "failed_clears": 1,
+    "cleared_ratio": 1.0,
+    "average_localization_clear_s": 444.34329683655295,
+    "fallback": false,
+    "policy_stats": {},
+    "move_s": 3368.4329683655296,
+    "switch_s": 157.0,
+    "measure_s": 865.0,
+    "clear_s": 53.0
+  },
+  {
+    "case": "stress_q3_colocated_16",
+    "seed": 71004,
+    "layout": "16频道共用完全相同远端位置，各频道误差正负交错",
+    "noise": "biased",
+    "policy": "completion",
+    "source_count": 16,
+    "cleared": 16,
+    "success": true,
+    "error": null,
+    "virtual_time_s": 867.0644576291329,
+    "wall_time_s": 0.33279240000410937,
+    "planning_s": 0.28580240000155754,
+    "checking_s": 0.04265910001413431,
+    "actions": 88,
+    "measure_count": 72,
+    "scan_position_count": 4,
+    "failed_clears": 0,
+    "cleared_ratio": 1.0,
+    "average_localization_clear_s": 54.191528601820806,
+    "fallback": false,
+    "policy_stats": {},
+    "move_s": 358.06445762913296,
+    "switch_s": 69.0,
+    "measure_s": 360.0,
+    "clear_s": 80.0
+  },
+  {
+    "case": "stress_q3_colocated_16",
+    "seed": 71004,
+    "layout": "16频道共用完全相同远端位置，各频道误差正负交错",
+    "noise": "biased",
+    "policy": "configured",
+    "source_count": 16,
+    "cleared": 16,
+    "success": true,
+    "error": null,
+    "virtual_time_s": 867.0644576291329,
+    "wall_time_s": 0.32726959999854444,
+    "planning_s": 0.2812195000005886,
+    "checking_s": 0.041959000009228475,
+    "actions": 88,
+    "measure_count": 72,
+    "scan_position_count": 4,
+    "failed_clears": 0,
+    "cleared_ratio": 1.0,
+    "average_localization_clear_s": 54.191528601820806,
+    "fallback": false,
+    "policy_stats": {},
+    "move_s": 358.06445762913296,
+    "switch_s": 69.0,
+    "measure_s": 360.0,
+    "clear_s": 80.0
+  },
+  {
+    "case": "stress_q3_tight_cluster_10",
+    "seed": 71005,
+    "layout": "10源在圆边附近0.02米簇中，各频道独立清除",
+    "noise": "hashed",
+    "policy": "completion",
+    "source_count": 10,
+    "cleared": 10,
+    "success": true,
+    "error": null,
+    "virtual_time_s": 2513.832083343462,
+    "wall_time_s": 0.9129738999981782,
+    "planning_s": 0.869674399982614,
+    "checking_s": 0.03662490006536245,
+    "actions": 150,
+    "measure_count": 140,
+    "scan_position_count": 9,
+    "failed_clears": 0,
+    "cleared_ratio": 1.0,
+    "average_localization_clear_s": 251.3832083343462,
+    "fallback": false,
+    "policy_stats": {},
+    "move_s": 1630.832083343462,
+    "switch_s": 133.0,
+    "measure_s": 700.0,
+    "clear_s": 50.0
+  },
+  {
+    "case": "stress_q3_tight_cluster_10",
+    "seed": 71005,
+    "layout": "10源在圆边附近0.02米簇中，各频道独立清除",
+    "noise": "hashed",
+    "policy": "configured",
+    "source_count": 10,
+    "cleared": 10,
+    "success": true,
+    "error": null,
+    "virtual_time_s": 2513.832083343462,
+    "wall_time_s": 0.9164749999981723,
+    "planning_s": 0.8749951999852783,
+    "checking_s": 0.035709200048586354,
+    "actions": 150,
+    "measure_count": 140,
+    "scan_position_count": 9,
+    "failed_clears": 0,
+    "cleared_ratio": 1.0,
+    "average_localization_clear_s": 251.3832083343462,
+    "fallback": false,
+    "policy_stats": {},
+    "move_s": 1630.832083343462,
+    "switch_s": 133.0,
+    "measure_s": 700.0,
+    "clear_s": 50.0
+  },
+  {
+    "case": "stress_q3_wrap_zero_16",
+    "seed": 71006,
+    "layout": "首次方位跨0度且接近舍入边界，上限1500米接收",
+    "noise": "biased",
+    "policy": "completion",
+    "source_count": 16,
+    "cleared": 16,
+    "success": true,
+    "error": null,
+    "virtual_time_s": 1412.7266679012707,
+    "wall_time_s": 5.16432789999817,
+    "planning_s": 5.0888849000039045,
+    "checking_s": 0.06865419997484423,
+    "actions": 115,
+    "measure_count": 94,
+    "scan_position_count": 14,
+    "failed_clears": 5,
+    "cleared_ratio": 1.0,
+    "average_localization_clear_s": 88.29541674382942,
+    "fallback": false,
+    "policy_stats": {},
+    "move_s": 757.7266679012708,
+    "switch_s": 90.0,
+    "measure_s": 470.0,
+    "clear_s": 95.0
+  },
+  {
+    "case": "stress_q3_wrap_zero_16",
+    "seed": 71006,
+    "layout": "首次方位跨0度且接近舍入边界，上限1500米接收",
+    "noise": "biased",
+    "policy": "configured",
+    "source_count": 16,
+    "cleared": 16,
+    "success": true,
+    "error": null,
+    "virtual_time_s": 1476.6810327315995,
+    "wall_time_s": 5.244540300001972,
+    "planning_s": 5.164713299971481,
+    "checking_s": 0.07133899996551918,
+    "actions": 123,
+    "measure_count": 102,
+    "scan_position_count": 18,
+    "failed_clears": 5,
+    "cleared_ratio": 1.0,
+    "average_localization_clear_s": 92.29256454572497,
+    "fallback": false,
+    "policy_stats": {},
+    "move_s": 775.6810327315993,
+    "switch_s": 96.0,
+    "measure_s": 510.0,
+    "clear_s": 95.0
+  },
+  {
+    "case": "stress_q3_near_clear_edges_10",
+    "seed": 71007,
+    "layout": "5米near与20米清除边界两侧，源数10仍须排除缺失频道",
+    "noise": "hashed",
+    "policy": "completion",
+    "source_count": 10,
+    "cleared": 10,
+    "success": true,
+    "error": null,
+    "virtual_time_s": 2772.4880259886168,
+    "wall_time_s": 0.5526766999973916,
+    "planning_s": 0.5251050999577274,
+    "checking_s": 0.020493599920882843,
+    "actions": 116,
+    "measure_count": 106,
+    "scan_position_count": 13,
+    "failed_clears": 0,
+    "cleared_ratio": 1.0,
+    "average_localization_clear_s": 277.2488025988617,
+    "fallback": false,
+    "policy_stats": {},
+    "move_s": 2093.4880259886168,
+    "switch_s": 99.0,
+    "measure_s": 530.0,
+    "clear_s": 50.0
+  },
+  {
+    "case": "stress_q3_near_clear_edges_10",
+    "seed": 71007,
+    "layout": "5米near与20米清除边界两侧，源数10仍须排除缺失频道",
+    "noise": "hashed",
+    "policy": "configured",
+    "source_count": 10,
+    "cleared": 10,
+    "success": true,
+    "error": null,
+    "virtual_time_s": 2776.442291168484,
+    "wall_time_s": 0.6451432000030763,
+    "planning_s": 0.6176175000873627,
+    "checking_s": 0.020643500000005588,
+    "actions": 116,
+    "measure_count": 106,
+    "scan_position_count": 13,
+    "failed_clears": 0,
+    "cleared_ratio": 1.0,
+    "average_localization_clear_s": 277.6442291168484,
+    "fallback": false,
+    "policy_stats": {},
+    "move_s": 2098.442291168484,
+    "switch_s": 98.0,
+    "measure_s": 530.0,
+    "clear_s": 50.0
+  },
+  {
+    "case": "stress_q4_outward_boundary_16",
+    "seed": 72000,
+    "layout": "16源中15定向朝外，仅1全向，全部1800边界与最小半径",
+    "noise": "biased",
+    "policy": "directional",
+    "source_count": 16,
+    "directional_count": 15,
+    "cleared": 16,
+    "success": true,
+    "error": null,
+    "cleared_ratio": 1.0,
+    "average_localization_clear_s": 714.7294687181661,
+    "virtual_time_s": 11435.671499490658,
+    "wall_time_s": 0.851527899998473,
+    "planning_s": 0.6917491000276641,
+    "checking_s": 0.13922210004966473,
+    "actions": 521,
+    "measure_count": 463,
+    "scan_position_count": 45,
+    "failed_clears": 42,
+    "no_signal_count": 439,
+    "fallback": false,
+    "absence_proofs": {
+      "17": {
+        "kind": "sixteen_source_cap"
+      },
+      "18": {
+        "kind": "sixteen_source_cap"
+      },
+      "19": {
+        "kind": "sixteen_source_cap"
+      },
+      "20": {
+        "kind": "sixteen_source_cap"
+      }
+    },
+    "move_s": 8480.671499490656,
+    "switch_s": 434.0,
+    "measure_s": 2315.0,
+    "clear_s": 206.0
+  },
+  {
+    "case": "stress_q4_outward_boundary_10",
+    "seed": 72001,
+    "layout": "10源中9定向朝外，仅1全向，更多不存在频道需验证",
+    "noise": "hashed",
+    "policy": "directional",
+    "source_count": 10,
+    "directional_count": 9,
+    "cleared": 10,
+    "success": true,
+    "error": null,
+    "cleared_ratio": 1.0,
+    "average_localization_clear_s": 1442.408782366382,
+    "virtual_time_s": 14424.08782366382,
+    "wall_time_s": 1.876374700004817,
+    "planning_s": 1.5689525998095633,
+    "checking_s": 0.2764590999358916,
+    "actions": 836,
+    "measure_count": 590,
+    "scan_position_count": 52,
+    "failed_clears": 236,
+    "no_signal_count": 577,
+    "fallback": true,
+    "absence_proofs": {
+      "18": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "2": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "4": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "6": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "8": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "10": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "12": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "14": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "16": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "19": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      }
+    },
+    "move_s": 10164.087823663791,
+    "switch_s": 552.0,
+    "measure_s": 2950.0,
+    "clear_s": 758.0
+  },
+  {
+    "case": "stress_q4_beam_edge_in_16",
+    "seed": 72002,
+    "layout": "原点恰在15个定向源发射半圆边界且恰为1000米，边界应接收",
+    "noise": "biased",
+    "policy": "directional",
+    "source_count": 16,
+    "directional_count": 15,
+    "cleared": 16,
+    "success": true,
+    "error": null,
+    "cleared_ratio": 1.0,
+    "average_localization_clear_s": 125.57840077560279,
+    "virtual_time_s": 2009.2544124096446,
+    "wall_time_s": 10.054025299999921,
+    "planning_s": 9.941944800004421,
+    "checking_s": 0.1044776999624446,
+    "actions": 105,
+    "measure_count": 87,
+    "scan_position_count": 23,
+    "failed_clears": 2,
+    "no_signal_count": 33,
+    "fallback": false,
+    "absence_proofs": {
+      "17": {
+        "kind": "sixteen_source_cap"
+      },
+      "18": {
+        "kind": "sixteen_source_cap"
+      },
+      "19": {
+        "kind": "sixteen_source_cap"
+      },
+      "20": {
+        "kind": "sixteen_source_cap"
+      }
+    },
+    "move_s": 1408.2544124096446,
+    "switch_s": 80.0,
+    "measure_s": 435.0,
+    "clear_s": 86.0
+  },
+  {
+    "case": "stress_q4_beam_edge_out_10",
+    "seed": 72003,
+    "layout": "原点越出发射半圆边界0.000001度，近距离阴性不能删源",
+    "noise": "hashed",
+    "policy": "directional",
+    "source_count": 10,
+    "directional_count": 9,
+    "cleared": 10,
+    "success": true,
+    "error": null,
+    "cleared_ratio": 1.0,
+    "average_localization_clear_s": 1010.2100342425207,
+    "virtual_time_s": 10102.100342425207,
+    "wall_time_s": 0.800845699995989,
+    "planning_s": 0.7258666998095578,
+    "checking_s": 0.05767799985187594,
+    "actions": 476,
+    "measure_count": 433,
+    "scan_position_count": 57,
+    "failed_clears": 33,
+    "no_signal_count": 404,
+    "fallback": false,
+    "absence_proofs": {
+      "2": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "19": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "18": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "16": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "14": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "12": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "10": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "8": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "6": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "4": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      }
+    },
+    "move_s": 7397.100342425207,
+    "switch_s": 391.0,
+    "measure_s": 2165.0,
+    "clear_s": 149.0
+  },
+  {
+    "case": "stress_q4_colocated_directions_16",
+    "seed": 72004,
+    "layout": "同一远端位置16频道，15个方向在四个朝向，1全向",
+    "noise": "biased",
+    "policy": "directional",
+    "source_count": 16,
+    "directional_count": 15,
+    "cleared": 16,
+    "success": true,
+    "error": null,
+    "cleared_ratio": 1.0,
+    "average_localization_clear_s": 243.62559569425937,
+    "virtual_time_s": 3898.00953110815,
+    "wall_time_s": 1.353215300005104,
+    "planning_s": 1.23245780004072,
+    "checking_s": 0.10776270002679667,
+    "actions": 291,
+    "measure_count": 270,
+    "scan_position_count": 18,
+    "failed_clears": 5,
+    "no_signal_count": 218,
+    "fallback": false,
+    "absence_proofs": {
+      "17": {
+        "kind": "sixteen_source_cap"
+      },
+      "18": {
+        "kind": "sixteen_source_cap"
+      },
+      "19": {
+        "kind": "sixteen_source_cap"
+      },
+      "20": {
+        "kind": "sixteen_source_cap"
+      }
+    },
+    "move_s": 2197.00953110815,
+    "switch_s": 256.0,
+    "measure_s": 1350.0,
+    "clear_s": 95.0
+  },
+  {
+    "case": "stress_q4_collinear_opposite_16",
+    "seed": 72005,
+    "layout": "近共线长串，15源交错向东/向西，仅1全向",
+    "noise": "hashed",
+    "policy": "directional",
+    "source_count": 16,
+    "directional_count": 15,
+    "cleared": 16,
+    "success": true,
+    "error": null,
+    "cleared_ratio": 1.0,
+    "average_localization_clear_s": 336.1476583568902,
+    "virtual_time_s": 5378.362533710243,
+    "wall_time_s": 1.6422316000025603,
+    "planning_s": 1.5514226999875973,
+    "checking_s": 0.07909440000366885,
+    "actions": 245,
+    "measure_count": 216,
+    "scan_position_count": 38,
+    "failed_clears": 13,
+    "no_signal_count": 162,
+    "fallback": false,
+    "absence_proofs": {
+      "17": {
+        "kind": "sixteen_source_cap"
+      },
+      "18": {
+        "kind": "sixteen_source_cap"
+      },
+      "19": {
+        "kind": "sixteen_source_cap"
+      },
+      "20": {
+        "kind": "sixteen_source_cap"
+      }
+    },
+    "move_s": 3986.3625337102403,
+    "switch_s": 193.0,
+    "measure_s": 1080.0,
+    "clear_s": 119.0
+  },
+  {
+    "case": "stress_q4_wrap_outward_10",
+    "seed": 72006,
+    "layout": "0度两侧长串、9定向近东向，最小接收半径",
+    "noise": "biased",
+    "policy": "directional",
+    "source_count": 10,
+    "directional_count": 9,
+    "cleared": 10,
+    "success": true,
+    "error": null,
+    "cleared_ratio": 1.0,
+    "average_localization_clear_s": 1105.598890065842,
+    "virtual_time_s": 11055.98890065842,
+    "wall_time_s": 1.3873839000007138,
+    "planning_s": 1.260751500056358,
+    "checking_s": 0.10521930012328085,
+    "actions": 626,
+    "measure_count": 610,
+    "scan_position_count": 55,
+    "failed_clears": 6,
+    "no_signal_count": 568,
+    "fallback": false,
+    "absence_proofs": {
+      "2": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "19": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "18": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "16": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "14": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "12": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "10": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "8": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "6": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "4": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      }
+    },
+    "move_s": 7370.988900658422,
+    "switch_s": 567.0,
+    "measure_s": 3050.0,
+    "clear_s": 68.0
+  },
+  {
+    "case": "stress_q4_near_invisible_10",
+    "seed": 72007,
+    "layout": "距离5米仍可因背面无信号；仅1全向，清除不依赖朝向",
+    "noise": "hashed",
+    "policy": "directional",
+    "source_count": 10,
+    "directional_count": 9,
+    "cleared": 10,
+    "success": true,
+    "error": null,
+    "cleared_ratio": 1.0,
+    "average_localization_clear_s": 1006.8204202892582,
+    "virtual_time_s": 10068.204202892583,
+    "wall_time_s": 1.1058297000054154,
+    "planning_s": 1.0362573000456905,
+    "checking_s": 0.05210639995493693,
+    "actions": 490,
+    "measure_count": 478,
+    "scan_position_count": 45,
+    "failed_clears": 2,
+    "no_signal_count": 446,
+    "fallback": false,
+    "absence_proofs": {
+      "2": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "19": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "18": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "16": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "14": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "12": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "10": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "8": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "6": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "4": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      }
+    },
+    "move_s": 7179.2042028925825,
+    "switch_s": 443.0,
+    "measure_s": 2390.0,
+    "clear_s": 56.0
+  }
+]

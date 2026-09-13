@@ -1,0 +1,40 @@
+{
+  "status": "completed",
+  "created_at": 1789065236.583463,
+  "source_fields": "runs\\adversarial\\strict_fixed_field_75100",
+  "purpose": "4局固定表跨策略检查；未列地点按原场定义取0；不是为Sweep定制的困难场",
+  "code_sha256": {
+    "adversarial_field.py": "b6ae9de8f65ef67b100ab1d77fe112f78a3807427d233bb252db5f1aa29a41ee",
+    "sweep_policy.py": "c932f6183035b370543894feffaa174e1b8edcba2f30182a6c3e6b769a67803b",
+    "runs\\adversarial\\sweep_fixed_fields.py": "9384d9a84b2f59a9b7d57c2b4411b48cdd37562791c83c6902819e13aafc5a11"
+  },
+  "config": {
+    "discovery_weight": 1.0,
+    "localization_weight": 1.0,
+    "clear_weight": 2.0,
+    "offset_scale": 0.5,
+    "min_offset_m": 60.0,
+    "max_offset_m": 600.0,
+    "adaptive_virtual_budget_s": 6000.0,
+    "adaptive_action_limit": 600,
+    "domain_radius_m": 5000.0,
+    "discovery_value_s": 120.0,
+    "terminal_value_s": 75.0,
+    "detour_weight": 0.5,
+    "error_samples": [
+      -1.0,
+      0.0,
+      1.0
+    ],
+    "representative_limit": 5,
+    "work_gain_cap_s": 240.0,
+    "min_work_gain_s": 0.25,
+    "approach_offsets_m": [
+      60.0,
+      120.0
+    ],
+    "current_probe_ratio": 1.2
+  },
+  "completed_runs": 4,
+  "finished_at": 1789065250.8238275
+}

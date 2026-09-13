@@ -1,0 +1,498 @@
+[
+  {
+    "at_action": 40,
+    "position": [
+      519.615242,
+      300.0
+    ],
+    "original": {
+      "kind": "measure",
+      "position": [
+        965.9258262890684,
+        258.81904510252076
+      ],
+      "channel": 19,
+      "reason": "joint_cover_scan",
+      "phase": "service"
+    },
+    "chosen": {
+      "kind": "measure",
+      "position": [
+        1075.2997537634928,
+        -267.43696518455556
+      ],
+      "channel": 20,
+      "reason": "either_transverse",
+      "phase": "belief"
+    },
+    "candidates": 59,
+    "evaluated": 14,
+    "estimates": [
+      {
+        "action": {
+          "kind": "measure",
+          "position": [
+            965.9258262890684,
+            258.81904510252076
+          ],
+          "channel": 19,
+          "reason": "incumbent_joint_cover_scan",
+          "phase": "belief"
+        },
+        "mean_s": 2847.8644708015786,
+        "visits": 3,
+        "observations": 2
+      },
+      {
+        "action": {
+          "kind": "clear",
+          "position": [
+            869.4230426760408,
+            -276.4489884001282
+          ],
+          "channel": 5,
+          "reason": "cover_attempt",
+          "phase": "belief"
+        },
+        "mean_s": 2853.540375505081,
+        "visits": 4,
+        "observations": 2
+      },
+      {
+        "action": {
+          "kind": "measure",
+          "position": [
+            904.9589591859843,
+            -270.5554935729071
+          ],
+          "channel": 5,
+          "reason": "either_transverse",
+          "phase": "belief"
+        },
+        "mean_s": 2844.3753783072093,
+        "visits": 4,
+        "observations": 2
+      },
+      {
+        "action": {
+          "kind": "clear",
+          "position": [
+            886.0283259384745,
+            -293.0722195026186
+          ],
+          "channel": 5,
+          "reason": "cover_attempt",
+          "phase": "belief"
+        },
+        "mean_s": 2828.0596110279103,
+        "visits": 4,
+        "observations": 1
+      },
+      {
+        "action": {
+          "kind": "measure",
+          "position": [
+            866.3476064409396,
+            -316.48112301004954
+          ],
+          "channel": 5,
+          "reason": "either_transverse",
+          "phase": "belief"
+        },
+        "mean_s": 3081.038334866399,
+        "visits": 1,
+        "observations": 1
+      },
+      {
+        "action": {
+          "kind": "clear",
+          "position": [
+            885.6532828134619,
+            -293.5183082914783
+          ],
+          "channel": 5,
+          "reason": "center_attempt",
+          "phase": "belief"
+        },
+        "mean_s": 2848.6799775232835,
+        "visits": 3,
+        "observations": 1
+      },
+      {
+        "action": {
+          "kind": "measure",
+          "position": [
+            1075.2997537634928,
+            -267.43696518455556
+          ],
+          "channel": 20,
+          "reason": "either_transverse",
+          "phase": "belief"
+        },
+        "mean_s": 2732.3013359970987,
+        "visits": 11,
+        "observations": 4
+      },
+      {
+        "action": {
+          "kind": "clear",
+          "position": [
+            902.2866658147267,
+            -310.8245765907671
+          ],
+          "channel": 5,
+          "reason": "cover_attempt",
+          "phase": "belief"
+        },
+        "mean_s": 3026.560810753368,
+        "visits": 1,
+        "observations": 1
+      },
+      {
+        "action": {
+          "kind": "measure",
+          "position": [
+            -234.5781797718333,
+            565.6913983472922
+          ],
+          "channel": 6,
+          "reason": "either_transverse",
+          "phase": "belief"
+        },
+        "mean_s": 2969.3695475742206,
+        "visits": 2,
+        "observations": 1
+      },
+      {
+        "action": {
+          "kind": "clear",
+          "position": [
+            1058.9726864041177,
+            -292.60493831395996
+          ],
+          "channel": 20,
+          "reason": "center_attempt",
+          "phase": "belief"
+        },
+        "mean_s": 2808.761011990739,
+        "visits": 5,
+        "observations": 2
+      },
+      {
+        "action": {
+          "kind": "measure",
+          "position": [
+            1042.6456190447425,
+            -317.77291144336436
+          ],
+          "channel": 20,
+          "reason": "either_transverse",
+          "phase": "belief"
+        },
+        "mean_s": 3050.912852626031,
+        "visits": 1,
+        "observations": 1
+      },
+      {
+        "action": {
+          "kind": "clear",
+          "position": [
+            -251.18697477163786,
+            535.4091514836599
+          ],
+          "channel": 6,
+          "reason": "cover_attempt",
+          "phase": "belief"
+        },
+        "mean_s": 2922.3084385980214,
+        "visits": 4,
+        "observations": 1
+      },
+      {
+        "action": {
+          "kind": "measure",
+          "position": [
+            -311.3511049524629,
+            260.75501680625104
+          ],
+          "channel": 4,
+          "reason": "either_transverse",
+          "phase": "belief"
+        },
+        "mean_s": 2819.034732176042,
+        "visits": 4,
+        "observations": 2
+      },
+      {
+        "action": {
+          "kind": "clear",
+          "position": [
+            -251.97296713395065,
+            540.0743952292808
+          ],
+          "channel": 6,
+          "reason": "cover_attempt",
+          "phase": "belief"
+        },
+        "mean_s": 3072.011984628913,
+        "visits": 1,
+        "observations": 1
+      }
+    ],
+    "nodes": 22,
+    "tail_calls": 46,
+    "posterior_refreshes": 22,
+    "min_ess": 1.0,
+    "max_depth": 1,
+    "identical_feedback_reused": 13,
+    "wall_s": 30.011773599981098
+  },
+  {
+    "at_action": 40,
+    "position": [
+      519.615242,
+      300.0
+    ],
+    "original": {
+      "kind": "measure",
+      "position": [
+        965.9258262890684,
+        258.81904510252076
+      ],
+      "channel": 19,
+      "reason": "joint_cover_scan",
+      "phase": "service"
+    },
+    "chosen": {
+      "kind": "clear",
+      "position": [
+        886.0283259384745,
+        -293.0722195026186
+      ],
+      "channel": 5,
+      "reason": "cover_attempt",
+      "phase": "belief"
+    },
+    "candidates": 59,
+    "evaluated": 14,
+    "estimates": [
+      {
+        "action": {
+          "kind": "measure",
+          "position": [
+            965.9258262890684,
+            258.81904510252076
+          ],
+          "channel": 19,
+          "reason": "incumbent_joint_cover_scan",
+          "phase": "belief"
+        },
+        "mean_s": 2711.0926576299844,
+        "visits": 3,
+        "observations": 2
+      },
+      {
+        "action": {
+          "kind": "clear",
+          "position": [
+            869.4230426760408,
+            -276.4489884001282
+          ],
+          "channel": 5,
+          "reason": "cover_attempt",
+          "phase": "belief"
+        },
+        "mean_s": 2770.484509942407,
+        "visits": 3,
+        "observations": 2
+      },
+      {
+        "action": {
+          "kind": "measure",
+          "position": [
+            904.9589591859843,
+            -270.5554935729071
+          ],
+          "channel": 5,
+          "reason": "either_transverse",
+          "phase": "belief"
+        },
+        "mean_s": 2736.9966010927637,
+        "visits": 4,
+        "observations": 2
+      },
+      {
+        "action": {
+          "kind": "clear",
+          "position": [
+            886.0283259384745,
+            -293.0722195026186
+          ],
+          "channel": 5,
+          "reason": "cover_attempt",
+          "phase": "belief"
+        },
+        "mean_s": 2625.9194255488233,
+        "visits": 10,
+        "observations": 2
+      },
+      {
+        "action": {
+          "kind": "measure",
+          "position": [
+            866.3476064409396,
+            -316.48112301004954
+          ],
+          "channel": 5,
+          "reason": "either_transverse",
+          "phase": "belief"
+        },
+        "mean_s": 2750.2967548956217,
+        "visits": 3,
+        "observations": 2
+      },
+      {
+        "action": {
+          "kind": "clear",
+          "position": [
+            885.6532828134619,
+            -293.5183082914783
+          ],
+          "channel": 5,
+          "reason": "center_attempt",
+          "phase": "belief"
+        },
+        "mean_s": 2993.2870756867583,
+        "visits": 1,
+        "observations": 1
+      },
+      {
+        "action": {
+          "kind": "measure",
+          "position": [
+            1075.2997537634928,
+            -267.43696518455556
+          ],
+          "channel": 20,
+          "reason": "either_transverse",
+          "phase": "belief"
+        },
+        "mean_s": 2665.9985365884036,
+        "visits": 6,
+        "observations": 3
+      },
+      {
+        "action": {
+          "kind": "clear",
+          "position": [
+            902.2866658147267,
+            -310.8245765907671
+          ],
+          "channel": 5,
+          "reason": "cover_attempt",
+          "phase": "belief"
+        },
+        "mean_s": 2745.852466023063,
+        "visits": 3,
+        "observations": 1
+      },
+      {
+        "action": {
+          "kind": "measure",
+          "position": [
+            -234.5781797718333,
+            565.6913983472922
+          ],
+          "channel": 6,
+          "reason": "either_transverse",
+          "phase": "belief"
+        },
+        "mean_s": 2914.8550606993476,
+        "visits": 2,
+        "observations": 2
+      },
+      {
+        "action": {
+          "kind": "clear",
+          "position": [
+            1058.9726864041177,
+            -292.60493831395996
+          ],
+          "channel": 20,
+          "reason": "center_attempt",
+          "phase": "belief"
+        },
+        "mean_s": 2685.3828242110485,
+        "visits": 4,
+        "observations": 1
+      },
+      {
+        "action": {
+          "kind": "measure",
+          "position": [
+            1042.6456190447425,
+            -317.77291144336436
+          ],
+          "channel": 20,
+          "reason": "either_transverse",
+          "phase": "belief"
+        },
+        "mean_s": 2787.1978437461717,
+        "visits": 3,
+        "observations": 2
+      },
+      {
+        "action": {
+          "kind": "clear",
+          "position": [
+            -251.18697477163786,
+            535.4091514836599
+          ],
+          "channel": 6,
+          "reason": "cover_attempt",
+          "phase": "belief"
+        },
+        "mean_s": 3042.1093401011804,
+        "visits": 1,
+        "observations": 1
+      },
+      {
+        "action": {
+          "kind": "measure",
+          "position": [
+            -311.3511049524629,
+            260.75501680625104
+          ],
+          "channel": 4,
+          "reason": "either_transverse",
+          "phase": "belief"
+        },
+        "mean_s": 2794.4009287079352,
+        "visits": 3,
+        "observations": 2
+      },
+      {
+        "action": {
+          "kind": "clear",
+          "position": [
+            -251.97296713395065,
+            540.0743952292808
+          ],
+          "channel": 6,
+          "reason": "cover_attempt",
+          "phase": "belief"
+        },
+        "mean_s": 2895.620943662828,
+        "visits": 2,
+        "observations": 2
+      }
+    ],
+    "nodes": 119,
+    "tail_calls": 48,
+    "posterior_refreshes": 119,
+    "min_ess": 1.0,
+    "max_depth": 3,
+    "identical_feedback_reused": 16,
+    "wall_s": 34.108617799996864
+  }
+]

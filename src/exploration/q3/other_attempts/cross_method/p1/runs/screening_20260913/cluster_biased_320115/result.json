@@ -1,0 +1,46 @@
+{
+  "case": "cluster_biased_320115",
+  "seed": 320115,
+  "layout": "cluster",
+  "noise": "biased",
+  "policy": "P1_joint_tasks",
+  "real_n": 15,
+  "source_count": 15,
+  "success": true,
+  "cleared": 15,
+  "total_s": 2872.199641281841,
+  "per_source_s": 191.4799760854561,
+  "wall_s": 334.04787410001154,
+  "actions": 167,
+  "initial_finish_s": 388.00000007488245,
+  "phase_costs": {
+    "initial": {
+      "actions": 40,
+      "move_s": 150.00000007488248,
+      "measure_s": 200.0,
+      "switch_s": 38.0,
+      "success_clear_s": 0.0,
+      "fail_clear_s": 0.0
+    },
+    "service": {
+      "actions": 127,
+      "move_s": 1749.1996412069589,
+      "measure_s": 555.0,
+      "switch_s": 102.0,
+      "success_clear_s": 75.0,
+      "fail_clear_s": 3.0
+    }
+  },
+  "move_s": 1899.1996412818412,
+  "measure_s": 755.0,
+  "switch_s": 140.0,
+  "success_clear_s": 75.0,
+  "fail_clear_s": 3.0,
+  "error": null,
+  "failreason": null,
+  "fail_clears": 1,
+  "measure_count": 151,
+  "cached_opening_selection_wall_s": 67.45967139999266,
+  "accounted_wall_s": 401.5075455000042,
+  "opening_selection": "reused identical public-history selection; historical compute charged separately"
+}

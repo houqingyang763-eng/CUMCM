@@ -1,0 +1,65 @@
+{
+  "complete": true,
+  "known_counterexample": [
+    {
+      "case": "line_biased_48110",
+      "seed": 48110,
+      "layout": "line",
+      "noise": "biased",
+      "policy": "detour_sweep",
+      "source_count": 16,
+      "cleared": 16,
+      "success": true,
+      "error": null,
+      "virtual_time_s": 2886.141141595819,
+      "wall_time_s": 5.361490199997206,
+      "planning_s": 5.262657799939916,
+      "checking_s": 0.07990260007500183,
+      "actions": 160,
+      "measure_count": 138,
+      "scan_position_count": 21,
+      "failed_clears": 6,
+      "cleared_ratio": 1.0,
+      "average_localization_clear_s": 180.3838213497387,
+      "fallback": false,
+      "policy_stats": {
+        "sweep_measures": 54,
+        "shared_known_measures": 27,
+        "stationary_clears": 0,
+        "detour_measures": 23,
+        "detour_certified_clears": 3,
+        "reserved_anchor_moves": 3
+      },
+      "move_s": 1968.1411415958185,
+      "switch_s": 130.0,
+      "measure_s": 690.0,
+      "clear_s": 98.0
+    }
+  ],
+  "fresh_groups": {
+    "sweep": {
+      "cases": 4,
+      "all_success": true,
+      "mean_s": 3521.906935182585,
+      "worst_s": 4490.848341222497,
+      "wall_total_s": 11.095830400001432,
+      "failed_clears": 2
+    },
+    "detour_sweep": {
+      "cases": 4,
+      "all_success": true,
+      "mean_s": 3780.671274175466,
+      "worst_s": 4958.790190051688,
+      "wall_total_s": 14.773659200000111,
+      "failed_clears": 1
+    },
+    "completion": {
+      "cases": 4,
+      "all_success": true,
+      "mean_s": 3925.8232132238845,
+      "worst_s": 5352.497990205489,
+      "wall_total_s": 11.328384799999185,
+      "failed_clears": 6
+    }
+  }
+}

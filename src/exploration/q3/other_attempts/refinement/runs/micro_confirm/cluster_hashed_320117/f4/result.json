@@ -1,0 +1,51 @@
+{
+  "case": "cluster_hashed_320117",
+  "seed": 320117,
+  "layout": "cluster",
+  "noise": "hashed",
+  "policy": "patrol",
+  "real_n": 10,
+  "source_count": 10,
+  "success": true,
+  "cleared": 10,
+  "total_s": 2728.6522132913965,
+  "per_source_s": 272.8652213291397,
+  "wall_s": 29.11600239999825,
+  "actions": 176,
+  "initial_finish_s": 388.00000007488245,
+  "phase_costs": {
+    "initial": {
+      "actions": 40,
+      "move_s": 150.00000007488248,
+      "measure_s": 200.0,
+      "switch_s": 38.0,
+      "success_clear_s": 0.0,
+      "fail_clear_s": 0.0
+    },
+    "service": {
+      "actions": 126,
+      "move_s": 1494.553575896366,
+      "measure_s": 580.0,
+      "switch_s": 106.0,
+      "success_clear_s": 50.0,
+      "fail_clear_s": 0.0
+    },
+    "completion": {
+      "actions": 10,
+      "move_s": 51.09863732014939,
+      "measure_s": 50.0,
+      "switch_s": 9.0,
+      "success_clear_s": 0.0,
+      "fail_clear_s": 0.0
+    }
+  },
+  "move_s": 1695.6522132913983,
+  "measure_s": 830.0,
+  "switch_s": 153.0,
+  "success_clear_s": 50.0,
+  "fail_clear_s": 0.0,
+  "error": null,
+  "failreason": null,
+  "fail_clears": 0,
+  "measure_count": 166
+}

@@ -1,0 +1,123 @@
+{
+  "windows51_final": {
+    "formal_strategy_absent": true,
+    "checks": [
+      {
+        "environment_restored": true,
+        "observed_exit": 0,
+        "name": "q3_default_restore",
+        "credential_not_echoed": true,
+        "passed": true
+      },
+      {
+        "environment_restored": true,
+        "observed_exit": 0,
+        "name": "q4_default_clear",
+        "credential_not_echoed": true,
+        "passed": true
+      },
+      {
+        "environment_restored": true,
+        "observed_exit": 0,
+        "name": "q3_sweep_explicit",
+        "credential_not_echoed": true,
+        "passed": true
+      },
+      {
+        "environment_restored": true,
+        "observed_exit": 37,
+        "name": "config_exit37",
+        "credential_not_echoed": true,
+        "passed": true
+      },
+      {
+        "environment_restored": true,
+        "observed_exit": 2,
+        "name": "throw_redacted",
+        "credential_not_echoed": true,
+        "passed": true
+      },
+      {
+        "environment_restored": true,
+        "observed_exit": 2,
+        "name": "wrong_problem",
+        "credential_not_echoed": true,
+        "passed": true
+      },
+      {
+        "environment_restored": true,
+        "observed_exit": 2,
+        "name": "existing_output",
+        "credential_not_echoed": true,
+        "passed": true
+      }
+    ],
+    "official_connections": 0,
+    "launcher_sha256": "20da253a8fa16c698e13f2facc9d5705c69e280121fdd0a5ea38e6d885d7c462",
+    "count": 7,
+    "shell": "5.1.26100.9444"
+  },
+  "powershell7_final": {
+    "count": 7,
+    "formal_strategy_absent": true,
+    "shell": "7.6.5",
+    "checks": [
+      {
+        "name": "q3_default_restore",
+        "passed": true,
+        "environment_restored": true,
+        "credential_not_echoed": true,
+        "observed_exit": 0
+      },
+      {
+        "name": "q4_default_clear",
+        "passed": true,
+        "environment_restored": true,
+        "credential_not_echoed": true,
+        "observed_exit": 0
+      },
+      {
+        "name": "q3_sweep_explicit",
+        "passed": true,
+        "environment_restored": true,
+        "credential_not_echoed": true,
+        "observed_exit": 0
+      },
+      {
+        "name": "config_exit37",
+        "passed": true,
+        "environment_restored": true,
+        "credential_not_echoed": true,
+        "observed_exit": 37
+      },
+      {
+        "name": "throw_redacted",
+        "passed": true,
+        "environment_restored": true,
+        "credential_not_echoed": true,
+        "observed_exit": 2
+      },
+      {
+        "name": "wrong_problem",
+        "passed": true,
+        "environment_restored": true,
+        "credential_not_echoed": true,
+        "observed_exit": 2
+      },
+      {
+        "name": "existing_output",
+        "passed": true,
+        "environment_restored": true,
+        "credential_not_echoed": true,
+        "observed_exit": 2
+      }
+    ],
+    "launcher_sha256": "20da253a8fa16c698e13f2facc9d5705c69e280121fdd0a5ea38e6d885d7c462",
+    "official_connections": 0
+  },
+  "python_checks": {
+    "passed": 14,
+    "command": "py -3.13 -m unittest discover -s experiments/b_overnight/practice -p test_practice.py -v"
+  },
+  "scope": "Local DPAPI fixtures and a substitute Python script only; no official connection."
+}

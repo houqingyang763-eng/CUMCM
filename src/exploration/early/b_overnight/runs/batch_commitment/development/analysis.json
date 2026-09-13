@@ -1,0 +1,92 @@
+{
+  "base": {
+    "cases": 4,
+    "mean_virtual_time_s": 5101.448741107091,
+    "all_success": true,
+    "natural_fulfilment": {
+      "plans": 191,
+      "plans_fulfilled_before_leaving": 130,
+      "plans_left_unfinished": 61,
+      "abandoned_channel_count": 293
+    }
+  },
+  "committed_base": {
+    "cases": 4,
+    "mean_virtual_time_s": 4350.2181665603875,
+    "all_success": true,
+    "natural_fulfilment": {
+      "plans": 75,
+      "plans_fulfilled_before_leaving": 75,
+      "plans_left_unfinished": 0,
+      "abandoned_channel_count": 0
+    }
+  },
+  "completion": {
+    "cases": 4,
+    "mean_virtual_time_s": 4331.652033421699,
+    "all_success": true,
+    "natural_fulfilment": {
+      "plans": 37,
+      "plans_fulfilled_before_leaving": 37,
+      "plans_left_unfinished": 0,
+      "abandoned_channel_count": 0
+    }
+  },
+  "committed_completion": {
+    "cases": 4,
+    "mean_virtual_time_s": 4331.652033421699,
+    "all_success": true,
+    "natural_fulfilment": {
+      "plans": 24,
+      "plans_fulfilled_before_leaving": 24,
+      "plans_left_unfinished": 0,
+      "abandoned_channel_count": 0
+    }
+  },
+  "q4_31": {
+    "cases": 1,
+    "mean_virtual_time_s": 11595.40517168951,
+    "all_success": true,
+    "natural_fulfilment": {
+      "plans": 29,
+      "plans_fulfilled_before_leaving": 29,
+      "plans_left_unfinished": 0,
+      "abandoned_channel_count": 0
+    }
+  },
+  "committed_q4_31": {
+    "cases": 1,
+    "mean_virtual_time_s": 11595.40517168951,
+    "all_success": true,
+    "natural_fulfilment": {
+      "plans": 29,
+      "plans_fulfilled_before_leaving": 29,
+      "plans_left_unfinished": 0,
+      "abandoned_channel_count": 0
+    }
+  },
+  "base_mean_reduction_percent": 14.725828145509812,
+  "trace_equality": {
+    "uniform_smooth_43100": {
+      "physical_actions_and_feedback_identical": true,
+      "action_count": 186
+    },
+    "edge_biased_43101": {
+      "physical_actions_and_feedback_identical": true,
+      "action_count": 148
+    },
+    "cluster_hashed_43102": {
+      "physical_actions_and_feedback_identical": true,
+      "action_count": 146
+    },
+    "line_hashed_43103": {
+      "physical_actions_and_feedback_identical": true,
+      "action_count": 152
+    },
+    "q4_uniform_random_smooth_43110": {
+      "physical_actions_and_feedback_identical": true,
+      "action_count": 509
+    }
+  },
+  "batch_commitment_sha256": "8aecb3028fcaad2412a493dd5a02a0f6b09f1859c4ced62dc87219dc01ba1dfa"
+}

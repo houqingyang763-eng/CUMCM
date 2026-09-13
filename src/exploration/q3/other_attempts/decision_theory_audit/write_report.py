@@ -1,0 +1,69 @@
+"""由已完成诊断账本生成中文可读表；不追加模拟。"""
+import json
+from pathlib import Path
+
+HERE = Path(__file__).resolve().parent
+
+
+def read(path):
+    return json.loads(path.read_text(encoding='utf-8'))
+
+
+def main():
+    summary = read(HERE / 'SUMMARY.json')
+    validation = read(HERE / 'VALIDATION.json')
+    assert summary['cases_processed'] == 8 and validation['validation'] == 'passed'
+    results = [read(HERE / 'cases' / r['case'] / 'result.json') for r in summary['rows']]
+    changed = sum(r['choices']['old4'] != r['choices']['A8'] for r in results)
+    total_wall = sum(r['wall_s'] for r in results)
+    n = validation['counts']
+    lines = [
+        '# F3 冻结状态条件估价诊断（本地探路）', '',
+        '本轮不生成新优化策略。它检查固定候选内是否存在较大的事后机会，以及重新抽取条件场景是否会改变排序。实验由 AI 执行和核验，未进行人工复核。', '',
+        '## 预设设计与复现', '',
+        '- 输入为团队既有固定八例 `team_screening_manifest.json`：`micro_confirm` 索引 0、3、6、9、12、15、18、21。它们是开发案例，不是新留出测试。',
+        '- 每例只取旧 metadata 第一处成功完成试算且至少两个候选的决策，按旧轨迹预先确定，不按本轮收益选状态。',
+        '- 通过正常 `policy.choose` 及本地环境逐步回放，在原 `simulate` 入口保存完整信息状态与控制器副本；不手工拼装控制器。',
+        f'- {n["prefix_actions"]} 个前缀动作及反馈、8 个待执行动作均与旧日志核对。{n["old_costs"]} 个原4场景候选成本复现，最大绝对差为 {n["maximum_old_reproduction_abs_error_s"]:.12g} 秒，8 个选择均相同。',
+        '- 原候选集合、候选顺序、F1 续行代码及上限不变。两组各抽8世界，pool=256；A盐=2026091301，B盐=2026091302，旧盐=310912。',
+        '- A8按组内平均剩余时间选择；B8独立评价旧4选择、A前4选择和A8选择。A、B各分前4/后4仅检查描述性稳定性。所有候选在各组内共享同一批世界。',
+        '- 另以实际案例尚未清除的源做一个事后世界，每候选后接同一F1。真值仅交给评估环境，不交给待评策略。',
+        f'- 总计 {n["old_costs"] + n["new_costs"] + n["actual_costs"]} 次候选续行（旧复现{n["old_costs"]}、新条件{n["new_costs"]}、实际事后{n["actual_costs"]}），没有失败或剔除；单进程约 {total_wall:.1f} 秒。', '',
+        '## 直接结果', '',
+        f'A8 相对旧4改变了 {changed}/8 个选择。A两半选择一致 {summary["A_halves_agree"]["agree"]}/8；B两半一致 {summary["B_halves_agree"]["agree"]}/8；A8与B8一致 {summary["A8_B8_agree"]["agree"]}/8。A前4与A8在全部8例的选择相同，因此本次同池嵌套4/8对照没有产生选择变化。', '',
+        '下表时间均为秒。“旧−A”正数表示A更快；B8列在工作模型的独立8世界上评价，实际列是单个实际世界的事后比较。', '',
+        '|案例|动作数|旧4选择|A8选择|B8选择|B8：旧−A|实际：旧−A|实际：旧与候选内最优差|',
+        '|---|---:|---|---|---|---:|---:|---:|']
+    for r in summary['rows']:
+        c = r['choices']
+        lines.append(f'|{r["case"]}|{r["at_action"]}|{c["old4"]}|{c["A8"]}|{c["B8"]}|{r["B8_old4_minus_A8_s"]:.3f}|{r["actual_old4_minus_A8_s"]:.3f}|{r["actual_old4_hindsight_gap_s"]:.3f}|')
+    lines += ['', '每例每候选完整均值如下；原始逐世界秒数、世界坐标、误差种子、条件池信息见对应 `cases/<案例>/result.json`。', '']
+    for result in results:
+        lines += ['### ' + result['case'], '', '|候选|旧4均值|A8均值|B8均值|实际事后|',
+                  '|---|---:|---:|---:|---:|']
+        maps = [{r['id']: r['mean_s'] for r in records} for records in (
+            result['old4']['options'], result['groups']['A8']['records'],
+            result['groups']['B8']['records'], result['hindsight_actual']['records'])]
+        for option in result['old4']['options']:
+            ident = option['id']
+            lines.append('|' + ident + '|' + '|'.join(f'{m[ident]:.3f}' for m in maps) + '|')
+    lines += ['', '## 证据范围', '',
+        '这些结果能区分两种现象：某些状态在重抽后会更换排序；另一些状态排序稳定，却在具体实际世界有较大的候选内事后差距。后者说明排序稳定性不等于在任意世界都选得最好，不能据一个世界直接断言工作先验错误。', '',
+        '不同盐同时更换了256点提议池和后续世界。因此旧4、A8、B8之间的变化是整个条件估价器的重抽变化，不是纯粹“把样本数4增加至8”的因果实验。A前4与A8共享同一个池且嵌套，能提供较窄的同池对照，但仍只有一次小样本诊断。', '',
+        'B8的最小者是B组内选择，不是B组独立验证过的可部署新策略。B8对旧4及A选择才承担独立工作模型评价。对同一批B样本既选最优又报最优收益会有选择偏差。', '',
+        '实际列中的“候选内最优”是已知事后结果后选出的机会诊断，只针对这一状态、这些候选和相同F1续行；不能部署，不能把不同决策的差距相加成整局节省，也不能当作F3实际整局后续收益。', '',
+        '本轮没有隔离有限提议池误差、工作先验/误差场不匹配、F1替代实际F3续行、候选集合缺失、实际世界本身的随机差异。不能把8世界称为收敛，也不能从8个开发状态推断48例整局或官方隐藏案例表现。', '',
+        '## 复现入口', '',
+        '只读复核已保存结果，从仓库根目录执行：', '', '```powershell',
+        'py -3.13 experiments/b_q3/decision_theory_audit/verify.py --read-only', '```', '',
+        '本次实际执行的生成命令如下，仅作运行记录。`probe.py`没有独立输出参数，直接复跑会覆盖固定目录内的既有诊断；不要在当前目录直接复跑。需要重新试算时先为输出建立隔离副本并核实脚本的仓库根目录定位。', '', '```powershell',
+        'py -3.13 experiments/b_q3/decision_theory_audit/probe.py',
+        'py -3.13 experiments/b_q3/decision_theory_audit/verify.py',
+        'py -3.13 experiments/b_q3/decision_theory_audit/write_report.py', '```', '',
+        '`PLAN.json` 为运行前的状态选择和参数；`SUMMARY.json` 为机器可读汇总；`VALIDATION.json` 为独立算术与冻结输入核验。`checkpoint.pkl` 保存本工具自产完整检查点；常规复现由前述命令重新回放，不依赖手工加载检查点。所有原算法、原结果、官方输入均只读。', '']
+    (HERE / 'DIAGNOSTIC_REPORT.md').write_text('\n'.join(lines), encoding='utf-8')
+    print('written DIAGNOSTIC_REPORT.md')
+
+
+if __name__ == '__main__':
+    main()

@@ -1,0 +1,29 @@
+{
+  "python": "3.13.5",
+  "policy": "BasePolicy(reference_only=True)",
+  "config": {
+    "discovery_weight": 1.0,
+    "localization_weight": 1.0,
+    "clear_weight": 2.0,
+    "offset_scale": 0.5,
+    "min_offset_m": 60.0,
+    "max_offset_m": 600.0,
+    "adaptive_virtual_budget_s": 6000.0,
+    "adaptive_action_limit": 600,
+    "domain_radius_m": 5000.0
+  },
+  "case_source": "experiments\\b_overnight\\runs\\q3_sweep_validation\\cases.json",
+  "case_sha256": "1e83699dc4944ef83508a0ec2467d3ad9a8242c6fad6b9ea9caa50e321c8027d",
+  "source_sha256": {
+    "estimate_seven.py": "d4ef61dc861805508f358f7d600f584ea00e4ef6fd470ec34f8c78d6ec6c4eb2",
+    "geometry.py": "68a081fcaec7fc084a0293c8674c7a2fc363606058e79b44fa359ce36b4bdbaf",
+    "policy.py": "0885c02e697e655bca498ee0d2b88368be778fdf3a529b67432af962e5b9a05f",
+    "run_local.py": "cc528fc6d77d286e8b1b7e80f3e0a621bcfa506c97bc015245a5fdd892f04ba9",
+    "simulation.py": "76bc0037c08d3b2a3cc347daa8a36a6d789103d943b42afdf9d8823f974494cc",
+    "state.py": "1ea0699e5051b66c51649da0a7812eae1852381e79d41b1d0e88eb4b5e18f15b",
+    "summarize.py": "6aef2316a3db75700f8914e873ebcd5d6143c1bf9b7651f8473d49a52f31042a",
+    "test_core.py": "e70ebfeaf358efbf3c34a3b4a45d7acd9b16903b64ccce9cbe3ca19283037c93"
+  },
+  "prior_oracle_summary_sha256": "268f64a79f0cc5c079ffbe6018e8075cf9e0c3aaf808f08027a80504e1033257",
+  "scope": "已有自建12案例诊断；未新抽案例，未调用官方模拟器"
+}

@@ -1,0 +1,40 @@
+{
+  "source_files_verified": 25,
+  "cases": [
+    {
+      "case": "uniform_smooth_42100",
+      "actions": 179,
+      "wire_requests": 182,
+      "wire_hashes_match_public_client_encoding": true,
+      "client_and_policy_feedback_identical": true,
+      "each_action_ledger_verified": true,
+      "virtual_time_s": 4960.568562448864,
+      "exited": true
+    },
+    {
+      "case": "q4_edge_outward_biased_96100",
+      "actions": 377,
+      "wire_requests": 380,
+      "wire_hashes_match_public_client_encoding": true,
+      "client_and_policy_feedback_identical": true,
+      "each_action_ledger_verified": true,
+      "virtual_time_s": 7677.533443821378,
+      "exited": true
+    },
+    {
+      "case": "q4_uniform_tangent_hashed_96101",
+      "actions": 291,
+      "wire_requests": 294,
+      "wire_hashes_match_public_client_encoding": true,
+      "client_and_policy_feedback_identical": true,
+      "each_action_ledger_verified": true,
+      "virtual_time_s": 8067.071519275897,
+      "exited": true
+    }
+  ],
+  "unit_checks": {
+    "count": 13,
+    "result": "passed",
+    "command": "py -3.13 -m unittest discover -s experiments/b_overnight/practice -p test_practice.py -v"
+  }
+}

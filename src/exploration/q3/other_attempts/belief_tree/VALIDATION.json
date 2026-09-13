@@ -1,0 +1,17 @@
+{
+  "unique_episodes": 34,
+  "all_clear_episodes": 27,
+  "capped_episodes": 7,
+  "verified_actions": 5569,
+  "runtime_hash_mismatches": [],
+  "checks_passed": 11,
+  "checks_command": "py -3.13 -m unittest discover -s experiments/b_q3/belief_tree -p test*.py",
+  "official_tests_run": 0,
+  "assessment": "M3完整虚拟成绩退步；原子版本无完整性能结论",
+  "auxiliary_scripts_changed_after_launch": [
+    "audit.py",
+    "diagnose.py",
+    "compare.py",
+    "synthesis.py"
+  ]
+}

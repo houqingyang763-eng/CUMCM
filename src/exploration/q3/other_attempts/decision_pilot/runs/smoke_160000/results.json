@@ -1,0 +1,70 @@
+[
+  {
+    "case": "uniform_hashed_160000",
+    "policy": "scan7_r60",
+    "sources": 11,
+    "success": true,
+    "total_s": 4019.53964750196,
+    "per_source_s": 365.4126952274509,
+    "scan_s": null,
+    "service_s": null,
+    "measures": 129,
+    "failed_clears": 1,
+    "wall_s": 0.08019019999483135,
+    "costs": null
+  },
+  {
+    "case": "uniform_hashed_160000",
+    "policy": "sweep",
+    "sources": 11,
+    "success": true,
+    "total_s": 4114.77253771771,
+    "per_source_s": 374.07023070161,
+    "scan_s": null,
+    "service_s": null,
+    "measures": 115,
+    "failed_clears": 0,
+    "wall_s": 0.8793017999996664,
+    "costs": null
+  },
+  {
+    "case": "uniform_hashed_160000",
+    "policy": "center_default",
+    "sources": 11,
+    "success": true,
+    "total_s": 4130.981881725781,
+    "per_source_s": 375.54380742961644,
+    "scan_s": 2171.0,
+    "service_s": 1959.981881725781,
+    "measures": 10,
+    "failed_clears": 1,
+    "wall_s": 0.022385400006896816,
+    "costs": {
+      "move_s": 1845.98188172578,
+      "measure_s": 50.0,
+      "switch_s": 6.0,
+      "success_clear_s": 55.0,
+      "fail_clear_s": 3.0
+    }
+  },
+  {
+    "case": "uniform_hashed_160000",
+    "policy": "rollout_selected",
+    "sources": 11,
+    "success": true,
+    "total_s": 4130.329669321183,
+    "per_source_s": 375.48451539283485,
+    "scan_s": 2171.0,
+    "service_s": 1959.3296693211832,
+    "measures": 10,
+    "failed_clears": 1,
+    "wall_s": 0.8883433999872068,
+    "costs": {
+      "move_s": 1845.329669321182,
+      "measure_s": 50.0,
+      "switch_s": 6.0,
+      "success_clear_s": 55.0,
+      "fail_clear_s": 3.0
+    }
+  }
+]

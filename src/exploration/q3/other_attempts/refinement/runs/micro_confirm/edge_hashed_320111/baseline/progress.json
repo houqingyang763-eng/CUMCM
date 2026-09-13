@@ -1,0 +1,39 @@
+{
+  "case": "edge_hashed_320111",
+  "seed": 320111,
+  "layout": "edge",
+  "noise": "hashed",
+  "policy": "baseline",
+  "real_n": 11,
+  "source_count": 11,
+  "success": false,
+  "cleared": 11,
+  "total_s": 4841.037254244183,
+  "per_source_s": null,
+  "wall_s": 0.3584633000136819,
+  "actions": 170,
+  "initial_finish_s": null,
+  "phase_costs": {
+    "scan": {
+      "actions": 140,
+      "move_s": 1440.0000000000002,
+      "measure_s": 700.0,
+      "switch_s": 139.0,
+      "success_clear_s": 0.0,
+      "fail_clear_s": 0.0
+    },
+    "service": {
+      "actions": 30,
+      "move_s": 2401.037254244183,
+      "measure_s": 95.0,
+      "switch_s": 11.0,
+      "success_clear_s": 55.0,
+      "fail_clear_s": 0.0
+    }
+  },
+  "move_s": 3841.037254244183,
+  "measure_s": 795.0,
+  "switch_s": 150.0,
+  "success_clear_s": 55.0,
+  "fail_clear_s": 0.0
+}

@@ -1,0 +1,23 @@
+{
+  "stage": "smoke",
+  "python": "3.13.5",
+  "code_sha256": {
+    "geometry.py": "68a081fcaec7fc084a0293c8674c7a2fc363606058e79b44fa359ce36b4bdbaf",
+    "policy.py": "e6e5547bfcf11c40e5a320ccd532090981a0d1be91fc49fea09e381d39780a11",
+    "run_local.py": "7c4462d732b6939bdf90dc52abe0716a675490bea774bf95058dea7232f983e3",
+    "simulation.py": "76bc0037c08d3b2a3cc347daa8a36a6d789103d943b42afdf9d8823f974494cc",
+    "state.py": "1ea0699e5051b66c51649da0a7812eae1852381e79d41b1d0e88eb4b5e18f15b",
+    "test_core.py": "612efdbe4bd4e7d32cbbbb91adf0cd3e2f4c1342b94664e5e224b4181ca908f8"
+  },
+  "case_sha256": "2817b60105d6478a54c4515b29eb6d856d08687fbcc46950d1bf6de8345e8aa0",
+  "config_sha256": "42be9bc0977866764b4593e0abfd2cb58fa21aed88edb0bbfc21fe287b12060b",
+  "created_local": "2026-09-11 00:43:16 +0800",
+  "assumptions": [
+    "自建 Q3 全向源",
+    "空间误差场同点固定",
+    "方向角四舍五入到两位小数",
+    "smooth/biased/hashed 是测试假设而非官方噪声分布"
+  ],
+  "paired_reference": true,
+  "reference_only": false
+}

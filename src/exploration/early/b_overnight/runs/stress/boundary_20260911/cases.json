@@ -1,0 +1,2006 @@
+{
+  "q3": [
+    {
+      "name": "stress_q3_domain1800_16",
+      "seed": 71000,
+      "layout": "16源全部在1800米圆周，最小接收半径，角误差取端点",
+      "noise": "biased",
+      "sources": [
+        {
+          "channel": 1,
+          "position": [
+            1558.8457268119896,
+            899.9999999999999
+          ],
+          "radius": 1000.0,
+          "orientation": null
+        },
+        {
+          "channel": 2,
+          "position": [
+            1095.7705722156973,
+            1428.0360125242232
+          ],
+          "radius": 1000.0,
+          "orientation": null
+        },
+        {
+          "channel": 3,
+          "position": [
+            465.8742811845373,
+            1738.6664873203229
+          ],
+          "radius": 1000.0,
+          "orientation": null
+        },
+        {
+          "channel": 4,
+          "position": [
+            -234.94714599609287,
+            1784.6007504728586
+          ],
+          "radius": 1000.0,
+          "orientation": null
+        },
+        {
+          "channel": 5,
+          "position": [
+            -899.9999999999994,
+            1558.8457268119896
+          ],
+          "radius": 1000.0,
+          "orientation": null
+        },
+        {
+          "channel": 6,
+          "position": [
+            -1428.036012524223,
+            1095.7705722156975
+          ],
+          "radius": 1000.0,
+          "orientation": null
+        },
+        {
+          "channel": 7,
+          "position": [
+            -1738.6664873203229,
+            465.87428118453784
+          ],
+          "radius": 1000.0,
+          "orientation": null
+        },
+        {
+          "channel": 8,
+          "position": [
+            -1784.6007504728589,
+            -234.9471459960924
+          ],
+          "radius": 1000.0,
+          "orientation": null
+        },
+        {
+          "channel": 9,
+          "position": [
+            -1558.8457268119894,
+            -900.0000000000002
+          ],
+          "radius": 1000.0,
+          "orientation": null
+        },
+        {
+          "channel": 10,
+          "position": [
+            -1095.7705722156975,
+            -1428.036012524223
+          ],
+          "radius": 1000.0,
+          "orientation": null
+        },
+        {
+          "channel": 11,
+          "position": [
+            -465.87428118453715,
+            -1738.6664873203229
+          ],
+          "radius": 1000.0,
+          "orientation": null
+        },
+        {
+          "channel": 12,
+          "position": [
+            234.94714599609227,
+            -1784.6007504728589
+          ],
+          "radius": 1000.0,
+          "orientation": null
+        },
+        {
+          "channel": 13,
+          "position": [
+            900.0000000000002,
+            -1558.8457268119894
+          ],
+          "radius": 1000.0,
+          "orientation": null
+        },
+        {
+          "channel": 14,
+          "position": [
+            1428.036012524223,
+            -1095.7705722156977
+          ],
+          "radius": 1000.0,
+          "orientation": null
+        },
+        {
+          "channel": 15,
+          "position": [
+            1738.6664873203229,
+            -465.8742811845372
+          ],
+          "radius": 1000.0,
+          "orientation": null
+        },
+        {
+          "channel": 16,
+          "position": [
+            1784.6007504728589,
+            234.94714599609213
+          ],
+          "radius": 1000.0,
+          "orientation": null
+        }
+      ]
+    },
+    {
+      "name": "stress_q3_reception1000_10",
+      "seed": 71001,
+      "layout": "10源恰在原点1000米接收边界，覆盖频道20与缺失频道",
+      "noise": "hashed",
+      "sources": [
+        {
+          "channel": 1,
+          "position": [
+            1000.0,
+            0.0
+          ],
+          "radius": 1000.0,
+          "orientation": null
+        },
+        {
+          "channel": 3,
+          "position": [
+            600.0,
+            800.0
+          ],
+          "radius": 1000.0,
+          "orientation": null
+        },
+        {
+          "channel": 5,
+          "position": [
+            0.0,
+            1000.0
+          ],
+          "radius": 1000.0,
+          "orientation": null
+        },
+        {
+          "channel": 7,
+          "position": [
+            -600.0,
+            800.0
+          ],
+          "radius": 1000.0,
+          "orientation": null
+        },
+        {
+          "channel": 9,
+          "position": [
+            -1000.0,
+            0.0
+          ],
+          "radius": 1000.0,
+          "orientation": null
+        },
+        {
+          "channel": 11,
+          "position": [
+            -600.0,
+            -800.0
+          ],
+          "radius": 1000.0,
+          "orientation": null
+        },
+        {
+          "channel": 13,
+          "position": [
+            0.0,
+            -1000.0
+          ],
+          "radius": 1000.0,
+          "orientation": null
+        },
+        {
+          "channel": 15,
+          "position": [
+            600.0,
+            -800.0
+          ],
+          "radius": 1000.0,
+          "orientation": null
+        },
+        {
+          "channel": 17,
+          "position": [
+            800.0,
+            600.0
+          ],
+          "radius": 1000.0,
+          "orientation": null
+        },
+        {
+          "channel": 20,
+          "position": [
+            -800.0,
+            600.0
+          ],
+          "radius": 1000.0,
+          "orientation": null
+        }
+      ]
+    },
+    {
+      "name": "stress_q3_long_ray_16",
+      "seed": 71002,
+      "layout": "16源几乎同方向长串，接收上下界交错，重复角几何",
+      "noise": "biased",
+      "sources": [
+        {
+          "channel": 1,
+          "position": [
+            6.0,
+            0.001
+          ],
+          "radius": 1500.0,
+          "orientation": null
+        },
+        {
+          "channel": 2,
+          "position": [
+            125.53333333333333,
+            -0.001
+          ],
+          "radius": 1000.0,
+          "orientation": null
+        },
+        {
+          "channel": 3,
+          "position": [
+            245.06666666666666,
+            0.001
+          ],
+          "radius": 1500.0,
+          "orientation": null
+        },
+        {
+          "channel": 4,
+          "position": [
+            364.6,
+            -0.001
+          ],
+          "radius": 1000.0,
+          "orientation": null
+        },
+        {
+          "channel": 5,
+          "position": [
+            484.1333333333333,
+            0.001
+          ],
+          "radius": 1500.0,
+          "orientation": null
+        },
+        {
+          "channel": 6,
+          "position": [
+            603.6666666666666,
+            -0.001
+          ],
+          "radius": 1000.0,
+          "orientation": null
+        },
+        {
+          "channel": 7,
+          "position": [
+            723.2,
+            0.001
+          ],
+          "radius": 1500.0,
+          "orientation": null
+        },
+        {
+          "channel": 8,
+          "position": [
+            842.7333333333333,
+            -0.001
+          ],
+          "radius": 1000.0,
+          "orientation": null
+        },
+        {
+          "channel": 9,
+          "position": [
+            962.2666666666667,
+            0.001
+          ],
+          "radius": 1500.0,
+          "orientation": null
+        },
+        {
+          "channel": 10,
+          "position": [
+            1081.8,
+            -0.001
+          ],
+          "radius": 1000.0,
+          "orientation": null
+        },
+        {
+          "channel": 11,
+          "position": [
+            1201.3333333333333,
+            0.001
+          ],
+          "radius": 1500.0,
+          "orientation": null
+        },
+        {
+          "channel": 12,
+          "position": [
+            1320.8666666666666,
+            -0.001
+          ],
+          "radius": 1000.0,
+          "orientation": null
+        },
+        {
+          "channel": 13,
+          "position": [
+            1440.4,
+            0.001
+          ],
+          "radius": 1500.0,
+          "orientation": null
+        },
+        {
+          "channel": 14,
+          "position": [
+            1559.9333333333334,
+            -0.001
+          ],
+          "radius": 1000.0,
+          "orientation": null
+        },
+        {
+          "channel": 15,
+          "position": [
+            1679.4666666666667,
+            0.001
+          ],
+          "radius": 1500.0,
+          "orientation": null
+        },
+        {
+          "channel": 16,
+          "position": [
+            1799.0,
+            -0.001
+          ],
+          "radius": 1000.0,
+          "orientation": null
+        }
+      ]
+    },
+    {
+      "name": "stress_q3_collinear_10",
+      "seed": 71003,
+      "layout": "跨原点近共线，10源和逐位置固定散列误差",
+      "noise": "hashed",
+      "sources": [
+        {
+          "channel": 1,
+          "position": [
+            -1799.0,
+            0.002
+          ],
+          "radius": 1000.0,
+          "orientation": null
+        },
+        {
+          "channel": 3,
+          "position": [
+            -1399.2222222222222,
+            -0.002
+          ],
+          "radius": 1000.0,
+          "orientation": null
+        },
+        {
+          "channel": 5,
+          "position": [
+            -999.4444444444445,
+            0.002
+          ],
+          "radius": 1000.0,
+          "orientation": null
+        },
+        {
+          "channel": 7,
+          "position": [
+            -599.6666666666667,
+            -0.002
+          ],
+          "radius": 1000.0,
+          "orientation": null
+        },
+        {
+          "channel": 9,
+          "position": [
+            -199.8888888888889,
+            0.002
+          ],
+          "radius": 1000.0,
+          "orientation": null
+        },
+        {
+          "channel": 11,
+          "position": [
+            199.8888888888889,
+            -0.002
+          ],
+          "radius": 1000.0,
+          "orientation": null
+        },
+        {
+          "channel": 13,
+          "position": [
+            599.6666666666665,
+            0.002
+          ],
+          "radius": 1000.0,
+          "orientation": null
+        },
+        {
+          "channel": 15,
+          "position": [
+            999.4444444444443,
+            -0.002
+          ],
+          "radius": 1000.0,
+          "orientation": null
+        },
+        {
+          "channel": 17,
+          "position": [
+            1399.2222222222222,
+            0.002
+          ],
+          "radius": 1000.0,
+          "orientation": null
+        },
+        {
+          "channel": 20,
+          "position": [
+            1799.0,
+            -0.002
+          ],
+          "radius": 1000.0,
+          "orientation": null
+        }
+      ]
+    },
+    {
+      "name": "stress_q3_colocated_16",
+      "seed": 71004,
+      "layout": "16频道共用完全相同远端位置，各频道误差正负交错",
+      "noise": "biased",
+      "sources": [
+        {
+          "channel": 1,
+          "position": [
+            1750.0,
+            0.0
+          ],
+          "radius": 1000.0,
+          "orientation": null
+        },
+        {
+          "channel": 2,
+          "position": [
+            1750.0,
+            0.0
+          ],
+          "radius": 1000.0,
+          "orientation": null
+        },
+        {
+          "channel": 3,
+          "position": [
+            1750.0,
+            0.0
+          ],
+          "radius": 1000.0,
+          "orientation": null
+        },
+        {
+          "channel": 4,
+          "position": [
+            1750.0,
+            0.0
+          ],
+          "radius": 1000.0,
+          "orientation": null
+        },
+        {
+          "channel": 5,
+          "position": [
+            1750.0,
+            0.0
+          ],
+          "radius": 1000.0,
+          "orientation": null
+        },
+        {
+          "channel": 6,
+          "position": [
+            1750.0,
+            0.0
+          ],
+          "radius": 1000.0,
+          "orientation": null
+        },
+        {
+          "channel": 7,
+          "position": [
+            1750.0,
+            0.0
+          ],
+          "radius": 1000.0,
+          "orientation": null
+        },
+        {
+          "channel": 8,
+          "position": [
+            1750.0,
+            0.0
+          ],
+          "radius": 1000.0,
+          "orientation": null
+        },
+        {
+          "channel": 9,
+          "position": [
+            1750.0,
+            0.0
+          ],
+          "radius": 1000.0,
+          "orientation": null
+        },
+        {
+          "channel": 10,
+          "position": [
+            1750.0,
+            0.0
+          ],
+          "radius": 1000.0,
+          "orientation": null
+        },
+        {
+          "channel": 11,
+          "position": [
+            1750.0,
+            0.0
+          ],
+          "radius": 1000.0,
+          "orientation": null
+        },
+        {
+          "channel": 12,
+          "position": [
+            1750.0,
+            0.0
+          ],
+          "radius": 1000.0,
+          "orientation": null
+        },
+        {
+          "channel": 13,
+          "position": [
+            1750.0,
+            0.0
+          ],
+          "radius": 1000.0,
+          "orientation": null
+        },
+        {
+          "channel": 14,
+          "position": [
+            1750.0,
+            0.0
+          ],
+          "radius": 1000.0,
+          "orientation": null
+        },
+        {
+          "channel": 15,
+          "position": [
+            1750.0,
+            0.0
+          ],
+          "radius": 1000.0,
+          "orientation": null
+        },
+        {
+          "channel": 16,
+          "position": [
+            1750.0,
+            0.0
+          ],
+          "radius": 1000.0,
+          "orientation": null
+        }
+      ]
+    },
+    {
+      "name": "stress_q3_tight_cluster_10",
+      "seed": 71005,
+      "layout": "10源在圆边附近0.02米簇中，各频道独立清除",
+      "noise": "hashed",
+      "sources": [
+        {
+          "channel": 1,
+          "position": [
+            -1749.99,
+            0.0
+          ],
+          "radius": 1000.0,
+          "orientation": null
+        },
+        {
+          "channel": 3,
+          "position": [
+            -1749.9945969769412,
+            0.008414709848078966
+          ],
+          "radius": 1000.0,
+          "orientation": null
+        },
+        {
+          "channel": 5,
+          "position": [
+            -1750.0041614683655,
+            0.009092974268256818
+          ],
+          "radius": 1000.0,
+          "orientation": null
+        },
+        {
+          "channel": 7,
+          "position": [
+            -1750.009899924966,
+            0.001411200080598672
+          ],
+          "radius": 1000.0,
+          "orientation": null
+        },
+        {
+          "channel": 9,
+          "position": [
+            -1750.0065364362085,
+            -0.007568024953079283
+          ],
+          "radius": 1000.0,
+          "orientation": null
+        },
+        {
+          "channel": 11,
+          "position": [
+            -1749.9971633781454,
+            -0.009589242746631385
+          ],
+          "radius": 1000.0,
+          "orientation": null
+        },
+        {
+          "channel": 13,
+          "position": [
+            -1749.9903982971334,
+            -0.0027941549819892587
+          ],
+          "radius": 1000.0,
+          "orientation": null
+        },
+        {
+          "channel": 15,
+          "position": [
+            -1749.9924609774566,
+            0.006569865987187891
+          ],
+          "radius": 1000.0,
+          "orientation": null
+        },
+        {
+          "channel": 17,
+          "position": [
+            -1750.0014550003382,
+            0.009893582466233819
+          ],
+          "radius": 1000.0,
+          "orientation": null
+        },
+        {
+          "channel": 20,
+          "position": [
+            -1750.0091113026187,
+            0.004121184852417566
+          ],
+          "radius": 1000.0,
+          "orientation": null
+        }
+      ]
+    },
+    {
+      "name": "stress_q3_wrap_zero_16",
+      "seed": 71006,
+      "layout": "首次方位跨0度且接近舍入边界，上限1500米接收",
+      "noise": "biased",
+      "sources": [
+        {
+          "channel": 1,
+          "position": [
+            99.9999999998477,
+            0.00017453292519934436
+          ],
+          "radius": 1500.0,
+          "orientation": null
+        },
+        {
+          "channel": 2,
+          "position": [
+            209.99999999968014,
+            -0.00036651914291862316
+          ],
+          "radius": 1500.0,
+          "orientation": null
+        },
+        {
+          "channel": 3,
+          "position": [
+            319.9999999995126,
+            0.000558505360637902
+          ],
+          "radius": 1500.0,
+          "orientation": null
+        },
+        {
+          "channel": 4,
+          "position": [
+            429.99999999934505,
+            -0.0007504915783571808
+          ],
+          "radius": 1500.0,
+          "orientation": null
+        },
+        {
+          "channel": 5,
+          "position": [
+            539.9999999991775,
+            0.0009424777960764595
+          ],
+          "radius": 1500.0,
+          "orientation": null
+        },
+        {
+          "channel": 6,
+          "position": [
+            649.99999999901,
+            -0.0011344640137957384
+          ],
+          "radius": 1500.0,
+          "orientation": null
+        },
+        {
+          "channel": 7,
+          "position": [
+            759.9999999988424,
+            0.001326450231515017
+          ],
+          "radius": 1500.0,
+          "orientation": null
+        },
+        {
+          "channel": 8,
+          "position": [
+            869.9999999986749,
+            -0.001518436449234296
+          ],
+          "radius": 1500.0,
+          "orientation": null
+        },
+        {
+          "channel": 9,
+          "position": [
+            979.9999999985073,
+            0.0017104226669535747
+          ],
+          "radius": 1500.0,
+          "orientation": null
+        },
+        {
+          "channel": 10,
+          "position": [
+            1089.9999999983397,
+            -0.0019024088846728534
+          ],
+          "radius": 1500.0,
+          "orientation": null
+        },
+        {
+          "channel": 11,
+          "position": [
+            1199.9999999981724,
+            0.0020943951023921323
+          ],
+          "radius": 1500.0,
+          "orientation": null
+        },
+        {
+          "channel": 12,
+          "position": [
+            1309.9999999980048,
+            -0.002286381320111411
+          ],
+          "radius": 1500.0,
+          "orientation": null
+        },
+        {
+          "channel": 13,
+          "position": [
+            1419.9999999978372,
+            0.00247836753783069
+          ],
+          "radius": 1500.0,
+          "orientation": null
+        },
+        {
+          "channel": 14,
+          "position": [
+            1529.9999999976696,
+            -0.0026703537555499684
+          ],
+          "radius": 1500.0,
+          "orientation": null
+        },
+        {
+          "channel": 15,
+          "position": [
+            1639.999999997502,
+            0.0028623399732692475
+          ],
+          "radius": 1500.0,
+          "orientation": null
+        },
+        {
+          "channel": 16,
+          "position": [
+            1749.9999999973345,
+            -0.0030543261909885258
+          ],
+          "radius": 1500.0,
+          "orientation": null
+        }
+      ]
+    },
+    {
+      "name": "stress_q3_near_clear_edges_10",
+      "seed": 71007,
+      "layout": "5米near与20米清除边界两侧，源数10仍须排除缺失频道",
+      "noise": "hashed",
+      "sources": [
+        {
+          "channel": 1,
+          "position": [
+            5.0,
+            0.0
+          ],
+          "radius": 1000.0,
+          "orientation": null
+        },
+        {
+          "channel": 3,
+          "position": [
+            -5.0,
+            0.0
+          ],
+          "radius": 1000.0,
+          "orientation": null
+        },
+        {
+          "channel": 5,
+          "position": [
+            0.0,
+            5.0
+          ],
+          "radius": 1000.0,
+          "orientation": null
+        },
+        {
+          "channel": 7,
+          "position": [
+            0.0,
+            -5.0
+          ],
+          "radius": 1000.0,
+          "orientation": null
+        },
+        {
+          "channel": 9,
+          "position": [
+            20.0,
+            0.0
+          ],
+          "radius": 1000.0,
+          "orientation": null
+        },
+        {
+          "channel": 11,
+          "position": [
+            -20.0,
+            0.0
+          ],
+          "radius": 1000.0,
+          "orientation": null
+        },
+        {
+          "channel": 13,
+          "position": [
+            20.00001,
+            0.0
+          ],
+          "radius": 1000.0,
+          "orientation": null
+        },
+        {
+          "channel": 15,
+          "position": [
+            -20.00001,
+            0.0
+          ],
+          "radius": 1000.0,
+          "orientation": null
+        },
+        {
+          "channel": 17,
+          "position": [
+            5.00001,
+            0.0
+          ],
+          "radius": 1000.0,
+          "orientation": null
+        },
+        {
+          "channel": 20,
+          "position": [
+            -5.00001,
+            0.0
+          ],
+          "radius": 1000.0,
+          "orientation": null
+        }
+      ]
+    }
+  ],
+  "q4": [
+    {
+      "name": "stress_q4_outward_boundary_16",
+      "seed": 72000,
+      "layout": "16源中15定向朝外，仅1全向，全部1800边界与最小半径",
+      "noise": "biased",
+      "sources": [
+        {
+          "channel": 1,
+          "position": [
+            1558.8457268119896,
+            899.9999999999999
+          ],
+          "radius": 1000.0,
+          "orientation": null
+        },
+        {
+          "channel": 2,
+          "position": [
+            1095.7705722156973,
+            1428.0360125242232
+          ],
+          "radius": 1000.0,
+          "orientation": 52.5
+        },
+        {
+          "channel": 3,
+          "position": [
+            465.8742811845373,
+            1738.6664873203229
+          ],
+          "radius": 1000.0,
+          "orientation": 75.0
+        },
+        {
+          "channel": 4,
+          "position": [
+            -234.94714599609287,
+            1784.6007504728586
+          ],
+          "radius": 1000.0,
+          "orientation": 97.5
+        },
+        {
+          "channel": 5,
+          "position": [
+            -899.9999999999994,
+            1558.8457268119896
+          ],
+          "radius": 1000.0,
+          "orientation": 119.99999999999999
+        },
+        {
+          "channel": 6,
+          "position": [
+            -1428.036012524223,
+            1095.7705722156975
+          ],
+          "radius": 1000.0,
+          "orientation": 142.5
+        },
+        {
+          "channel": 7,
+          "position": [
+            -1738.6664873203229,
+            465.87428118453784
+          ],
+          "radius": 1000.0,
+          "orientation": 165.0
+        },
+        {
+          "channel": 8,
+          "position": [
+            -1784.6007504728589,
+            -234.9471459960924
+          ],
+          "radius": 1000.0,
+          "orientation": 187.49999999999997
+        },
+        {
+          "channel": 9,
+          "position": [
+            -1558.8457268119894,
+            -900.0000000000002
+          ],
+          "radius": 1000.0,
+          "orientation": 210.0
+        },
+        {
+          "channel": 10,
+          "position": [
+            -1095.7705722156975,
+            -1428.036012524223
+          ],
+          "radius": 1000.0,
+          "orientation": 232.5
+        },
+        {
+          "channel": 11,
+          "position": [
+            -465.87428118453715,
+            -1738.6664873203229
+          ],
+          "radius": 1000.0,
+          "orientation": 255.0
+        },
+        {
+          "channel": 12,
+          "position": [
+            234.94714599609227,
+            -1784.6007504728589
+          ],
+          "radius": 1000.0,
+          "orientation": 277.5
+        },
+        {
+          "channel": 13,
+          "position": [
+            900.0000000000002,
+            -1558.8457268119894
+          ],
+          "radius": 1000.0,
+          "orientation": 300.0
+        },
+        {
+          "channel": 14,
+          "position": [
+            1428.036012524223,
+            -1095.7705722156977
+          ],
+          "radius": 1000.0,
+          "orientation": 322.5
+        },
+        {
+          "channel": 15,
+          "position": [
+            1738.6664873203229,
+            -465.8742811845372
+          ],
+          "radius": 1000.0,
+          "orientation": 345.0
+        },
+        {
+          "channel": 16,
+          "position": [
+            1784.6007504728589,
+            234.94714599609213
+          ],
+          "radius": 1000.0,
+          "orientation": 7.499999999999977
+        }
+      ]
+    },
+    {
+      "name": "stress_q4_outward_boundary_10",
+      "seed": 72001,
+      "layout": "10源中9定向朝外，仅1全向，更多不存在频道需验证",
+      "noise": "hashed",
+      "sources": [
+        {
+          "channel": 1,
+          "position": [
+            1558.8457268119896,
+            899.9999999999999
+          ],
+          "radius": 1000.0,
+          "orientation": null
+        },
+        {
+          "channel": 3,
+          "position": [
+            732.1259575364404,
+            1644.3818237566816
+          ],
+          "radius": 1000.0,
+          "orientation": 66.0
+        },
+        {
+          "channel": 5,
+          "position": [
+            -374.2410434719668,
+            1760.6656813208501
+          ],
+          "radius": 1000.0,
+          "orientation": 102.0
+        },
+        {
+          "channel": 7,
+          "position": [
+            -1337.6606858593095,
+            1204.4350914459449
+          ],
+          "radius": 1000.0,
+          "orientation": 138.0
+        },
+        {
+          "channel": 9,
+          "position": [
+            -1790.139411662892,
+            188.15123388177673
+          ],
+          "radius": 1000.0,
+          "orientation": 174.0
+        },
+        {
+          "channel": 11,
+          "position": [
+            -1558.8457268119894,
+            -900.0000000000002
+          ],
+          "radius": 1000.0,
+          "orientation": 210.0
+        },
+        {
+          "channel": 13,
+          "position": [
+            -732.1259575364402,
+            -1644.3818237566818
+          ],
+          "radius": 1000.0,
+          "orientation": 246.0
+        },
+        {
+          "channel": 15,
+          "position": [
+            374.241043471967,
+            -1760.6656813208501
+          ],
+          "radius": 1000.0,
+          "orientation": 282.0
+        },
+        {
+          "channel": 17,
+          "position": [
+            1337.66068585931,
+            -1204.4350914459446
+          ],
+          "radius": 1000.0,
+          "orientation": 318.0
+        },
+        {
+          "channel": 20,
+          "position": [
+            1790.139411662892,
+            -188.15123388177614
+          ],
+          "radius": 1000.0,
+          "orientation": 354.0
+        }
+      ]
+    },
+    {
+      "name": "stress_q4_beam_edge_in_16",
+      "seed": 72002,
+      "layout": "原点恰在15个定向源发射半圆边界且恰为1000米，边界应接收",
+      "noise": "biased",
+      "sources": [
+        {
+          "channel": 1,
+          "position": [
+            1000.0,
+            0.0
+          ],
+          "radius": 1000.0,
+          "orientation": null
+        },
+        {
+          "channel": 2,
+          "position": [
+            600.0,
+            800.0
+          ],
+          "radius": 1000.0,
+          "orientation": 323.13010235415595
+        },
+        {
+          "channel": 3,
+          "position": [
+            0.0,
+            1000.0
+          ],
+          "radius": 1000.0,
+          "orientation": 0.0
+        },
+        {
+          "channel": 4,
+          "position": [
+            -600.0,
+            800.0
+          ],
+          "radius": 1000.0,
+          "orientation": 36.86989764584405
+        },
+        {
+          "channel": 5,
+          "position": [
+            -1000.0,
+            0.0
+          ],
+          "radius": 1000.0,
+          "orientation": 90.0
+        },
+        {
+          "channel": 6,
+          "position": [
+            -600.0,
+            -800.0
+          ],
+          "radius": 1000.0,
+          "orientation": 143.13010235415595
+        },
+        {
+          "channel": 7,
+          "position": [
+            0.0,
+            -1000.0
+          ],
+          "radius": 1000.0,
+          "orientation": 180.0
+        },
+        {
+          "channel": 8,
+          "position": [
+            600.0,
+            -800.0
+          ],
+          "radius": 1000.0,
+          "orientation": 216.86989764584405
+        },
+        {
+          "channel": 9,
+          "position": [
+            800.0,
+            600.0
+          ],
+          "radius": 1000.0,
+          "orientation": 306.86989764584405
+        },
+        {
+          "channel": 10,
+          "position": [
+            -800.0,
+            600.0
+          ],
+          "radius": 1000.0,
+          "orientation": 53.13010235415595
+        },
+        {
+          "channel": 11,
+          "position": [
+            -800.0,
+            -600.0
+          ],
+          "radius": 1000.0,
+          "orientation": 126.86989764584405
+        },
+        {
+          "channel": 12,
+          "position": [
+            800.0,
+            -600.0
+          ],
+          "radius": 1000.0,
+          "orientation": 233.13010235415595
+        },
+        {
+          "channel": 13,
+          "position": [
+            280.0,
+            960.0
+          ],
+          "radius": 1000.0,
+          "orientation": 343.73979529168804
+        },
+        {
+          "channel": 14,
+          "position": [
+            -280.0,
+            960.0
+          ],
+          "radius": 1000.0,
+          "orientation": 16.26020470831196
+        },
+        {
+          "channel": 15,
+          "position": [
+            280.0,
+            -960.0
+          ],
+          "radius": 1000.0,
+          "orientation": 196.2602047083119
+        },
+        {
+          "channel": 16,
+          "position": [
+            -280.0,
+            -960.0
+          ],
+          "radius": 1000.0,
+          "orientation": 163.7397952916881
+        }
+      ]
+    },
+    {
+      "name": "stress_q4_beam_edge_out_10",
+      "seed": 72003,
+      "layout": "原点越出发射半圆边界0.000001度，近距离阴性不能删源",
+      "noise": "hashed",
+      "sources": [
+        {
+          "channel": 1,
+          "position": [
+            1000.0,
+            0.0
+          ],
+          "radius": 1000.0,
+          "orientation": null
+        },
+        {
+          "channel": 3,
+          "position": [
+            600.0,
+            800.0
+          ],
+          "radius": 1000.0,
+          "orientation": 323.13010335415595
+        },
+        {
+          "channel": 5,
+          "position": [
+            0.0,
+            1000.0
+          ],
+          "radius": 1000.0,
+          "orientation": 9.999999974752427e-07
+        },
+        {
+          "channel": 7,
+          "position": [
+            -600.0,
+            800.0
+          ],
+          "radius": 1000.0,
+          "orientation": 36.869898645844046
+        },
+        {
+          "channel": 9,
+          "position": [
+            -1000.0,
+            0.0
+          ],
+          "radius": 1000.0,
+          "orientation": 90.000001
+        },
+        {
+          "channel": 11,
+          "position": [
+            -600.0,
+            -800.0
+          ],
+          "radius": 1000.0,
+          "orientation": 143.13010335415595
+        },
+        {
+          "channel": 13,
+          "position": [
+            0.0,
+            -1000.0
+          ],
+          "radius": 1000.0,
+          "orientation": 180.000001
+        },
+        {
+          "channel": 15,
+          "position": [
+            600.0,
+            -800.0
+          ],
+          "radius": 1000.0,
+          "orientation": 216.86989864584405
+        },
+        {
+          "channel": 17,
+          "position": [
+            800.0,
+            600.0
+          ],
+          "radius": 1000.0,
+          "orientation": 306.86989864584405
+        },
+        {
+          "channel": 20,
+          "position": [
+            -800.0,
+            600.0
+          ],
+          "radius": 1000.0,
+          "orientation": 53.13010335415595
+        }
+      ]
+    },
+    {
+      "name": "stress_q4_colocated_directions_16",
+      "seed": 72004,
+      "layout": "同一远端位置16频道，15个方向在四个朝向，1全向",
+      "noise": "biased",
+      "sources": [
+        {
+          "channel": 1,
+          "position": [
+            1750.0,
+            0.0
+          ],
+          "radius": 1000.0,
+          "orientation": null
+        },
+        {
+          "channel": 2,
+          "position": [
+            1750.0,
+            0.0
+          ],
+          "radius": 1000.0,
+          "orientation": 90.0
+        },
+        {
+          "channel": 3,
+          "position": [
+            1750.0,
+            0.0
+          ],
+          "radius": 1000.0,
+          "orientation": 180.0
+        },
+        {
+          "channel": 4,
+          "position": [
+            1750.0,
+            0.0
+          ],
+          "radius": 1000.0,
+          "orientation": 270.0
+        },
+        {
+          "channel": 5,
+          "position": [
+            1750.0,
+            0.0
+          ],
+          "radius": 1000.0,
+          "orientation": 0.0
+        },
+        {
+          "channel": 6,
+          "position": [
+            1750.0,
+            0.0
+          ],
+          "radius": 1000.0,
+          "orientation": 90.0
+        },
+        {
+          "channel": 7,
+          "position": [
+            1750.0,
+            0.0
+          ],
+          "radius": 1000.0,
+          "orientation": 180.0
+        },
+        {
+          "channel": 8,
+          "position": [
+            1750.0,
+            0.0
+          ],
+          "radius": 1000.0,
+          "orientation": 270.0
+        },
+        {
+          "channel": 9,
+          "position": [
+            1750.0,
+            0.0
+          ],
+          "radius": 1000.0,
+          "orientation": 0.0
+        },
+        {
+          "channel": 10,
+          "position": [
+            1750.0,
+            0.0
+          ],
+          "radius": 1000.0,
+          "orientation": 90.0
+        },
+        {
+          "channel": 11,
+          "position": [
+            1750.0,
+            0.0
+          ],
+          "radius": 1000.0,
+          "orientation": 180.0
+        },
+        {
+          "channel": 12,
+          "position": [
+            1750.0,
+            0.0
+          ],
+          "radius": 1000.0,
+          "orientation": 270.0
+        },
+        {
+          "channel": 13,
+          "position": [
+            1750.0,
+            0.0
+          ],
+          "radius": 1000.0,
+          "orientation": 0.0
+        },
+        {
+          "channel": 14,
+          "position": [
+            1750.0,
+            0.0
+          ],
+          "radius": 1000.0,
+          "orientation": 90.0
+        },
+        {
+          "channel": 15,
+          "position": [
+            1750.0,
+            0.0
+          ],
+          "radius": 1000.0,
+          "orientation": 180.0
+        },
+        {
+          "channel": 16,
+          "position": [
+            1750.0,
+            0.0
+          ],
+          "radius": 1000.0,
+          "orientation": 270.0
+        }
+      ]
+    },
+    {
+      "name": "stress_q4_collinear_opposite_16",
+      "seed": 72005,
+      "layout": "近共线长串，15源交错向东/向西，仅1全向",
+      "noise": "hashed",
+      "sources": [
+        {
+          "channel": 1,
+          "position": [
+            -1799.0,
+            0.002
+          ],
+          "radius": 1000.0,
+          "orientation": null
+        },
+        {
+          "channel": 2,
+          "position": [
+            -1559.1333333333332,
+            -0.002
+          ],
+          "radius": 1000.0,
+          "orientation": 0.0
+        },
+        {
+          "channel": 3,
+          "position": [
+            -1319.2666666666667,
+            0.002
+          ],
+          "radius": 1000.0,
+          "orientation": 180.0
+        },
+        {
+          "channel": 4,
+          "position": [
+            -1079.4,
+            -0.002
+          ],
+          "radius": 1000.0,
+          "orientation": 0.0
+        },
+        {
+          "channel": 5,
+          "position": [
+            -839.5333333333333,
+            0.002
+          ],
+          "radius": 1000.0,
+          "orientation": 180.0
+        },
+        {
+          "channel": 6,
+          "position": [
+            -599.6666666666667,
+            -0.002
+          ],
+          "radius": 1000.0,
+          "orientation": 0.0
+        },
+        {
+          "channel": 7,
+          "position": [
+            -359.79999999999995,
+            0.002
+          ],
+          "radius": 1000.0,
+          "orientation": 180.0
+        },
+        {
+          "channel": 8,
+          "position": [
+            -119.9333333333334,
+            -0.002
+          ],
+          "radius": 1000.0,
+          "orientation": 0.0
+        },
+        {
+          "channel": 9,
+          "position": [
+            119.9333333333334,
+            0.002
+          ],
+          "radius": 1000.0,
+          "orientation": 180.0
+        },
+        {
+          "channel": 10,
+          "position": [
+            359.8000000000002,
+            -0.002
+          ],
+          "radius": 1000.0,
+          "orientation": 0.0
+        },
+        {
+          "channel": 11,
+          "position": [
+            599.6666666666665,
+            0.002
+          ],
+          "radius": 1000.0,
+          "orientation": 180.0
+        },
+        {
+          "channel": 12,
+          "position": [
+            839.5333333333333,
+            -0.002
+          ],
+          "radius": 1000.0,
+          "orientation": 0.0
+        },
+        {
+          "channel": 13,
+          "position": [
+            1079.4,
+            0.002
+          ],
+          "radius": 1000.0,
+          "orientation": 180.0
+        },
+        {
+          "channel": 14,
+          "position": [
+            1319.2666666666669,
+            -0.002
+          ],
+          "radius": 1000.0,
+          "orientation": 0.0
+        },
+        {
+          "channel": 15,
+          "position": [
+            1559.1333333333332,
+            0.002
+          ],
+          "radius": 1000.0,
+          "orientation": 180.0
+        },
+        {
+          "channel": 16,
+          "position": [
+            1799.0,
+            -0.002
+          ],
+          "radius": 1000.0,
+          "orientation": 0.0
+        }
+      ]
+    },
+    {
+      "name": "stress_q4_wrap_outward_10",
+      "seed": 72006,
+      "layout": "0度两侧长串、9定向近东向，最小接收半径",
+      "noise": "biased",
+      "sources": [
+        {
+          "channel": 1,
+          "position": [
+            899.9999999986292,
+            0.0015707963267940993
+          ],
+          "radius": 1000.0,
+          "orientation": null
+        },
+        {
+          "channel": 3,
+          "position": [
+            994.4444444429298,
+            -0.001735632978371258
+          ],
+          "radius": 1000.0,
+          "orientation": 359.9999
+        },
+        {
+          "channel": 5,
+          "position": [
+            1088.8888888872305,
+            0.0019004696299484162
+          ],
+          "radius": 1000.0,
+          "orientation": 0.0001
+        },
+        {
+          "channel": 7,
+          "position": [
+            1183.3333333315309,
+            -0.002065306281525575
+          ],
+          "radius": 1000.0,
+          "orientation": 359.9999
+        },
+        {
+          "channel": 9,
+          "position": [
+            1277.7777777758317,
+            0.0022301429331027336
+          ],
+          "radius": 1000.0,
+          "orientation": 0.0001
+        },
+        {
+          "channel": 11,
+          "position": [
+            1372.2222222201322,
+            -0.002394979584679892
+          ],
+          "radius": 1000.0,
+          "orientation": 359.9999
+        },
+        {
+          "channel": 13,
+          "position": [
+            1466.6666666644326,
+            0.0025598162362570503
+          ],
+          "radius": 1000.0,
+          "orientation": 0.00010000000000000002
+        },
+        {
+          "channel": 15,
+          "position": [
+            1561.1111111087332,
+            -0.002724652887834209
+          ],
+          "radius": 1000.0,
+          "orientation": 359.9999
+        },
+        {
+          "channel": 17,
+          "position": [
+            1655.555555553034,
+            0.002889489539411368
+          ],
+          "radius": 1000.0,
+          "orientation": 0.0001
+        },
+        {
+          "channel": 20,
+          "position": [
+            1749.9999999973345,
+            -0.0030543261909885258
+          ],
+          "radius": 1000.0,
+          "orientation": 359.9999
+        }
+      ]
+    },
+    {
+      "name": "stress_q4_near_invisible_10",
+      "seed": 72007,
+      "layout": "距离5米仍可因背面无信号；仅1全向，清除不依赖朝向",
+      "noise": "hashed",
+      "sources": [
+        {
+          "channel": 1,
+          "position": [
+            5.0,
+            0.0
+          ],
+          "radius": 1000.0,
+          "orientation": null
+        },
+        {
+          "channel": 3,
+          "position": [
+            -5.0,
+            0.0
+          ],
+          "radius": 1000.0,
+          "orientation": 180.0
+        },
+        {
+          "channel": 5,
+          "position": [
+            0.0,
+            5.0
+          ],
+          "radius": 1000.0,
+          "orientation": 90.0
+        },
+        {
+          "channel": 7,
+          "position": [
+            0.0,
+            -5.0
+          ],
+          "radius": 1000.0,
+          "orientation": 270.0
+        },
+        {
+          "channel": 9,
+          "position": [
+            20.0,
+            0.0
+          ],
+          "radius": 1000.0,
+          "orientation": 0.0
+        },
+        {
+          "channel": 11,
+          "position": [
+            -20.0,
+            0.0
+          ],
+          "radius": 1000.0,
+          "orientation": 180.0
+        },
+        {
+          "channel": 13,
+          "position": [
+            20.00001,
+            0.0
+          ],
+          "radius": 1000.0,
+          "orientation": 0.0
+        },
+        {
+          "channel": 15,
+          "position": [
+            -20.00001,
+            0.0
+          ],
+          "radius": 1000.0,
+          "orientation": 180.0
+        },
+        {
+          "channel": 17,
+          "position": [
+            5.00001,
+            0.0
+          ],
+          "radius": 1000.0,
+          "orientation": 0.0
+        },
+        {
+          "channel": 20,
+          "position": [
+            -5.00001,
+            0.0
+          ],
+          "radius": 1000.0,
+          "orientation": 180.0
+        }
+      ]
+    }
+  ]
+}

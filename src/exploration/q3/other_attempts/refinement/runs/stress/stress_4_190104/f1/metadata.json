@@ -1,0 +1,212 @@
+{
+  "config": {
+    "name": "r3_covering",
+    "initial_points": [
+      [
+        -129.903811,
+        -75.0
+      ],
+      [
+        519.615242,
+        300.0
+      ]
+    ],
+    "try_radius_m": 30.0,
+    "local_action_limit": 16,
+    "local_offset_fraction": 0.5,
+    "local_offset_min_m": 30.0,
+    "local_offset_max_m": 300.0,
+    "shared_scan_gap_m": 0.0,
+    "route_mode": "nearest",
+    "planning": "covering"
+  },
+  "phase": "completion",
+  "initial_finish_s": 428.6766576281286,
+  "initial_statistics": {
+    "found": 3,
+    "two_bearings": 3,
+    "radius_le20": 0,
+    "radius_le60": 3,
+    "radii_m": {
+      "6": 31.22615896558768,
+      "8": 31.22615896558768,
+      "16": 31.22615896558768
+    }
+  },
+  "stations": 15,
+  "target": null,
+  "reason": "joint_cover_scan",
+  "selected_second": {
+    "id": "p2_all",
+    "q": [
+      364.85650546801645,
+      557.9588741067988
+    ],
+    "channels": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "set": "all",
+    "costs_s": [
+      3339.557164079319,
+      3603.8701372002524,
+      3677.8405197526918,
+      3180.918457727103,
+      3086.9511224668395,
+      3253.8428880044166,
+      3161.408065612705,
+      3199.8161956025724,
+      3210.6521552963027,
+      3232.367294886705,
+      2895.3637895624192,
+      3392.0514343260797,
+      3282.7813358260046,
+      2918.9410307725057,
+      3286.2488683204824,
+      2879.5189432914303
+    ],
+    "mean_s": 3225.133087670489,
+    "errors": []
+  },
+  "refinement_level": 1,
+  "samples": 4,
+  "skipped": [
+    {
+      "channel": 6,
+      "position": [
+        1296.530004957803,
+        -411.8115332649829
+      ],
+      "at_action": 100,
+      "prior_position": [
+        400.0,
+        1200.0
+      ],
+      "squared_distance_margin": 240762.30990947457
+    },
+    {
+      "channel": 8,
+      "position": [
+        1296.530004957803,
+        -411.8115332649829
+      ],
+      "at_action": 100,
+      "prior_position": [
+        400.0,
+        1200.0
+      ],
+      "squared_distance_margin": 240762.30990947457
+    },
+    {
+      "channel": 16,
+      "position": [
+        1296.530004957803,
+        -411.8115332649829
+      ],
+      "at_action": 100,
+      "prior_position": [
+        400.0,
+        1200.0
+      ],
+      "squared_distance_margin": 240762.30990947457
+    },
+    {
+      "channel": 6,
+      "position": [
+        1296.530004957803,
+        -411.8115332649829
+      ],
+      "at_action": 107,
+      "prior_position": [
+        400.0,
+        1200.0
+      ],
+      "squared_distance_margin": 240762.30990947457
+    },
+    {
+      "channel": 8,
+      "position": [
+        1296.530004957803,
+        -411.8115332649829
+      ],
+      "at_action": 107,
+      "prior_position": [
+        400.0,
+        1200.0
+      ],
+      "squared_distance_margin": 240762.30990947457
+    },
+    {
+      "channel": 16,
+      "position": [
+        1296.530004957803,
+        -411.8115332649829
+      ],
+      "at_action": 107,
+      "prior_position": [
+        400.0,
+        1200.0
+      ],
+      "squared_distance_margin": 240762.30990947457
+    },
+    {
+      "channel": 6,
+      "position": [
+        1202.2232183160095,
+        -3.014826867626134
+      ],
+      "at_action": 118,
+      "prior_position": [
+        965.9258262890684,
+        258.81904510252076
+      ],
+      "squared_distance_margin": 440431.6930017517
+    },
+    {
+      "channel": 8,
+      "position": [
+        1202.2232183160095,
+        -3.014826867626134
+      ],
+      "at_action": 118,
+      "prior_position": [
+        965.9258262890684,
+        258.81904510252076
+      ],
+      "squared_distance_margin": 440431.6930017517
+    },
+    {
+      "channel": 16,
+      "position": [
+        1202.2232183160095,
+        -3.014826867626134
+      ],
+      "at_action": 118,
+      "prior_position": [
+        965.9258262890684,
+        258.81904510252076
+      ],
+      "squared_distance_margin": 440431.6930017517
+    }
+  ],
+  "kept_to_progress": [],
+  "refinement_decisions": []
+}

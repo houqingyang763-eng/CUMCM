@@ -1,0 +1,47 @@
+{
+  "case": "stress_2_190102",
+  "seed": 190102,
+  "layout": "stress",
+  "noise": "zero",
+  "policy": "patrol",
+  "real_n": 10,
+  "source_count": 10,
+  "success": false,
+  "cleared": 10,
+  "total_s": 4542.535242675654,
+  "per_source_s": null,
+  "wall_s": 0.8307090000016615,
+  "actions": 210,
+  "initial_finish_s": null,
+  "phase_costs": {
+    "initial": {
+      "actions": 20,
+      "move_s": 30.00000007488248,
+      "measure_s": 100.0,
+      "switch_s": 19.0,
+      "success_clear_s": 0.0,
+      "fail_clear_s": 0.0
+    },
+    "completion": {
+      "actions": 94,
+      "move_s": 1331.9000699543747,
+      "measure_s": 470.0,
+      "switch_s": 91.0,
+      "success_clear_s": 0.0,
+      "fail_clear_s": 0.0
+    },
+    "service": {
+      "actions": 96,
+      "move_s": 1940.6351726463972,
+      "measure_s": 430.0,
+      "switch_s": 80.0,
+      "success_clear_s": 50.0,
+      "fail_clear_s": 0.0
+    }
+  },
+  "move_s": 3302.5352426756535,
+  "measure_s": 1000.0,
+  "switch_s": 190.0,
+  "success_clear_s": 50.0,
+  "fail_clear_s": 0.0
+}

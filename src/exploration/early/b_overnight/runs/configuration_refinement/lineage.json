@@ -1,0 +1,56 @@
+{
+  "default": {
+    "kind": "default"
+  },
+  "elite_00": {
+    "kind": "elite",
+    "prior_directory": "experiments\\b_overnight\\runs\\configuration_search",
+    "prior_name": "candidate_03"
+  },
+  "elite_01": {
+    "kind": "elite",
+    "prior_directory": "experiments\\b_overnight\\runs\\configuration_search",
+    "prior_name": "candidate_08"
+  },
+  "elite_02": {
+    "kind": "elite",
+    "prior_directory": "experiments\\b_overnight\\runs\\configuration_search",
+    "prior_name": "candidate_05"
+  },
+  "mutation_00": {
+    "kind": "lognormal_mutation",
+    "prior_name": "candidate_03",
+    "log_sigma": 0.25
+  },
+  "mutation_01": {
+    "kind": "lognormal_mutation",
+    "prior_name": "candidate_08",
+    "log_sigma": 0.25
+  },
+  "mutation_02": {
+    "kind": "lognormal_mutation",
+    "prior_name": "candidate_05",
+    "log_sigma": 0.25
+  },
+  "mutation_03": {
+    "kind": "lognormal_mutation",
+    "prior_name": "candidate_03",
+    "log_sigma": 0.25
+  },
+  "mutation_04": {
+    "kind": "lognormal_mutation",
+    "prior_name": "candidate_08",
+    "log_sigma": 0.25
+  },
+  "mutation_05": {
+    "kind": "lognormal_mutation",
+    "prior_name": "candidate_05",
+    "log_sigma": 0.25
+  },
+  "exploration_00": {
+    "kind": "global_loguniform"
+  },
+  "exploration_01": {
+    "kind": "global_loguniform"
+  }
+}

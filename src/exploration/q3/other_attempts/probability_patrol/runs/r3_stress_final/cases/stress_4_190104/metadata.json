@@ -1,0 +1,46 @@
+{
+  "config": {
+    "name": "r3_covering",
+    "initial_points": [
+      [
+        -129.903811,
+        -75.0
+      ],
+      [
+        519.615242,
+        300.0
+      ]
+    ],
+    "try_radius_m": 30.0,
+    "local_action_limit": 16,
+    "local_offset_fraction": 0.5,
+    "local_offset_min_m": 30.0,
+    "local_offset_max_m": 300.0,
+    "shared_scan_gap_m": 0.0,
+    "route_mode": "nearest",
+    "planning": "covering"
+  },
+  "phase": "completion",
+  "initial_finish_s": 418.0000001028847,
+  "initial_statistics": {
+    "found": 10,
+    "two_bearings": 3,
+    "radius_le20": 0,
+    "radius_le60": 0,
+    "radii_m": {
+      "1": 528.8514805692733,
+      "2": 528.8514805692733,
+      "4": 528.8514805692733,
+      "6": 375.0000030706887,
+      "8": 375.0000030706887,
+      "11": 528.8514805692733,
+      "12": 528.8514805692733,
+      "13": 528.8514805692733,
+      "15": 528.8514805692733,
+      "16": 375.0000030706887
+    }
+  },
+  "stations": 15,
+  "target": null,
+  "reason": "joint_cover_scan"
+}

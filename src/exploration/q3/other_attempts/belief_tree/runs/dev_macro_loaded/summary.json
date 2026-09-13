@@ -1,0 +1,175 @@
+{
+  "summary": {
+    "m3": {
+      "finished": 4,
+      "all_clear": true,
+      "failures": [],
+      "mean_min": 63.776843209748755,
+      "per_source_min": 4.575265228658828,
+      "worst_min": 73.77435728791951,
+      "mean_wall_s": 2325.8360449500033
+    }
+  },
+  "rows": [
+    {
+      "case": "uniform_biased_330011",
+      "layout": "uniform",
+      "noise": "biased",
+      "m3": {
+        "case": "uniform_biased_330011",
+        "seed": 330011,
+        "layout": "uniform",
+        "noise": "biased",
+        "policy": "patrol",
+        "real_n": 13,
+        "source_count": 13,
+        "success": true,
+        "cleared": 13,
+        "total_s": 4426.461437275171,
+        "per_source_s": 340.49703363655163,
+        "wall_s": 3836.3442127000017,
+        "actions": 239,
+        "initial_finish_s": null,
+        "phase_costs": {
+          "belief": {
+            "actions": 239,
+            "move_s": 3032.461437275169,
+            "measure_s": 1110.0,
+            "switch_s": 207.0,
+            "success_clear_s": 65.0,
+            "fail_clear_s": 12.0
+          }
+        },
+        "move_s": 3032.461437275169,
+        "measure_s": 1110.0,
+        "switch_s": 207.0,
+        "success_clear_s": 65.0,
+        "fail_clear_s": 12.0,
+        "error": null,
+        "failreason": null,
+        "fail_clears": 4,
+        "measure_count": 222
+      }
+    },
+    {
+      "case": "edge_biased_330014",
+      "layout": "edge",
+      "noise": "biased",
+      "m3": {
+        "case": "edge_biased_330014",
+        "seed": 330014,
+        "layout": "edge",
+        "noise": "biased",
+        "policy": "patrol",
+        "real_n": 16,
+        "source_count": 16,
+        "success": true,
+        "cleared": 16,
+        "total_s": 4310.6027762566355,
+        "per_source_s": 269.4126735160397,
+        "wall_s": 2540.421891999984,
+        "actions": 226,
+        "initial_finish_s": null,
+        "phase_costs": {
+          "belief": {
+            "actions": 226,
+            "move_s": 3003.602776256635,
+            "measure_s": 1025.0,
+            "switch_s": 187.0,
+            "success_clear_s": 80.0,
+            "fail_clear_s": 15.0
+          }
+        },
+        "move_s": 3003.602776256635,
+        "measure_s": 1025.0,
+        "switch_s": 187.0,
+        "success_clear_s": 80.0,
+        "fail_clear_s": 15.0,
+        "error": null,
+        "failreason": null,
+        "fail_clears": 5,
+        "measure_count": 205
+      }
+    },
+    {
+      "case": "cluster_biased_330017",
+      "layout": "cluster",
+      "noise": "biased",
+      "m3": {
+        "case": "cluster_biased_330017",
+        "seed": 330017,
+        "layout": "cluster",
+        "noise": "biased",
+        "policy": "patrol",
+        "real_n": 12,
+        "source_count": 12,
+        "success": true,
+        "cleared": 12,
+        "total_s": 3011.7242363000655,
+        "per_source_s": 250.97701969167213,
+        "wall_s": 1273.4961928000266,
+        "actions": 188,
+        "initial_finish_s": null,
+        "phase_costs": {
+          "belief": {
+            "actions": 188,
+            "move_s": 1909.724236300066,
+            "measure_s": 880.0,
+            "switch_s": 162.0,
+            "success_clear_s": 60.0,
+            "fail_clear_s": 0.0
+          }
+        },
+        "move_s": 1909.724236300066,
+        "measure_s": 880.0,
+        "switch_s": 162.0,
+        "success_clear_s": 60.0,
+        "fail_clear_s": 0.0,
+        "error": null,
+        "failreason": null,
+        "fail_clears": 0,
+        "measure_count": 176
+      }
+    },
+    {
+      "case": "line_biased_330020",
+      "layout": "line",
+      "noise": "biased",
+      "m3": {
+        "case": "line_biased_330020",
+        "seed": 330020,
+        "layout": "line",
+        "noise": "biased",
+        "policy": "patrol",
+        "real_n": 15,
+        "source_count": 15,
+        "success": true,
+        "cleared": 15,
+        "total_s": 3557.653920507829,
+        "per_source_s": 237.17692803385526,
+        "wall_s": 1653.0818823000009,
+        "actions": 165,
+        "initial_finish_s": null,
+        "phase_costs": {
+          "belief": {
+            "actions": 165,
+            "move_s": 2607.653920507829,
+            "measure_s": 730.0,
+            "switch_s": 133.0,
+            "success_clear_s": 75.0,
+            "fail_clear_s": 12.0
+          }
+        },
+        "move_s": 2607.653920507829,
+        "measure_s": 730.0,
+        "switch_s": 133.0,
+        "success_clear_s": 75.0,
+        "fail_clear_s": 12.0,
+        "error": null,
+        "failreason": null,
+        "fail_clears": 4,
+        "measure_count": 146
+      }
+    }
+  ]
+}

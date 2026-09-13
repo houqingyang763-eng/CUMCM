@@ -1,0 +1,84 @@
+{
+  "comparisons": [
+    {
+      "reference": "f3",
+      "candidate": "f4",
+      "cases": 1,
+      "saving_min": -0.3897535505834488,
+      "ci95_min": null,
+      "wins": 0,
+      "losses": 1,
+      "ties": 0,
+      "worst_loss_min": 0.3897535505834488,
+      "cost_savings_min": {
+        "move_s": -0.5564202172501382,
+        "measure_s": 0.16666666666666666,
+        "switch_s": 0.0,
+        "fail_clear_s": 0.0
+      },
+      "worse_cases": [
+        {
+          "case": "uniform_hashed_1392164241",
+          "extra_min": 0.3897535505834488
+        }
+      ]
+    },
+    {
+      "reference": "f1",
+      "candidate": "f4",
+      "cases": 1,
+      "saving_min": 4.196885924287312,
+      "ci95_min": null,
+      "wins": 1,
+      "losses": 0,
+      "ties": 0,
+      "worst_loss_min": 0.0,
+      "cost_savings_min": {
+        "move_s": 3.230219257620623,
+        "measure_s": 0.9166666666666666,
+        "switch_s": 0.15,
+        "fail_clear_s": -0.1
+      },
+      "worse_cases": []
+    }
+  ],
+  "rechecks": [
+    {
+      "case": "uniform_hashed_1392164241",
+      "step": 78,
+      "proposed": "mirror1_unknown1",
+      "accepted": false,
+      "mean_saving_s": -20.954610999345846
+    },
+    {
+      "case": "uniform_hashed_1392164241",
+      "step": 91,
+      "proposed": "clear2",
+      "accepted": true,
+      "mean_saving_s": 5.512469897889957
+    },
+    {
+      "case": "uniform_hashed_1392164241",
+      "step": 94,
+      "proposed": "clear3",
+      "accepted": true,
+      "mean_saving_s": 0.166066507462574
+    },
+    {
+      "case": "uniform_hashed_1392164241",
+      "step": 96,
+      "proposed": "scan_unknown_now",
+      "accepted": false,
+      "mean_saving_s": 0.0
+    },
+    {
+      "case": "uniform_hashed_1392164241",
+      "step": 118,
+      "proposed": "clear2",
+      "accepted": true,
+      "mean_saving_s": 22.422703876762284
+    }
+  ],
+  "accepted": 3,
+  "rejected": 2
+}

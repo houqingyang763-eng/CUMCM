@@ -1,0 +1,51 @@
+{
+  "case": "edge_biased_280109",
+  "seed": 280109,
+  "layout": "edge",
+  "noise": "biased",
+  "policy": "patrol",
+  "real_n": 14,
+  "source_count": 14,
+  "success": true,
+  "cleared": 14,
+  "total_s": 4583.574744312406,
+  "per_source_s": 327.3981960223147,
+  "wall_s": 1.2874429000075907,
+  "actions": 233,
+  "initial_finish_s": 418.0000001028847,
+  "phase_costs": {
+    "initial": {
+      "actions": 40,
+      "move_s": 180.0000001028847,
+      "measure_s": 200.0,
+      "switch_s": 38.0,
+      "success_clear_s": 0.0,
+      "fail_clear_s": 0.0
+    },
+    "completion": {
+      "actions": 20,
+      "move_s": 195.51120658686108,
+      "measure_s": 100.0,
+      "switch_s": 19.0,
+      "success_clear_s": 0.0,
+      "fail_clear_s": 0.0
+    },
+    "service": {
+      "actions": 173,
+      "move_s": 2842.0635376226624,
+      "measure_s": 790.0,
+      "switch_s": 146.0,
+      "success_clear_s": 70.0,
+      "fail_clear_s": 3.0
+    }
+  },
+  "move_s": 3217.574744312408,
+  "measure_s": 1090.0,
+  "switch_s": 203.0,
+  "success_clear_s": 70.0,
+  "fail_clear_s": 3.0,
+  "error": null,
+  "failreason": null,
+  "fail_clears": 1,
+  "measure_count": 218
+}

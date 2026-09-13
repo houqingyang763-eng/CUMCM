@@ -1,0 +1,124 @@
+{
+  "wc_q4_edge_outward10_78100": {
+    "stage": "initial",
+    "family": "edge",
+    "direction_design": "outward",
+    "geometry_rotation_deg": 15,
+    "source_count": 10,
+    "omni_count": 1,
+    "fixed_noise": "zero; only two-decimal bearing rounding",
+    "purpose": "主动寻找空间/朝向大开销，不代表抽样分布"
+  },
+  "wc_q4_edge_outward16_78101": {
+    "stage": "initial",
+    "family": "edge",
+    "direction_design": "outward",
+    "geometry_rotation_deg": 7.5,
+    "source_count": 16,
+    "omni_count": 1,
+    "fixed_noise": "zero; only two-decimal bearing rounding",
+    "purpose": "主动寻找空间/朝向大开销，不代表抽样分布"
+  },
+  "wc_q4_edge_tangent10_78102": {
+    "stage": "initial",
+    "family": "edge",
+    "direction_design": "tangent",
+    "geometry_rotation_deg": 8,
+    "source_count": 10,
+    "omni_count": 1,
+    "fixed_noise": "zero; only two-decimal bearing rounding",
+    "purpose": "主动寻找空间/朝向大开销，不代表抽样分布"
+  },
+  "wc_q4_edge_oblique16_78103": {
+    "stage": "initial",
+    "family": "edge",
+    "direction_design": "oblique",
+    "geometry_rotation_deg": 20,
+    "source_count": 16,
+    "omni_count": 1,
+    "fixed_noise": "zero; only two-decimal bearing rounding",
+    "purpose": "主动寻找空间/朝向大开销，不代表抽样分布"
+  },
+  "wc_q4_four_cluster10_78104": {
+    "stage": "initial",
+    "family": "clusters",
+    "direction_design": "outward",
+    "geometry_rotation_deg": 13,
+    "source_count": 10,
+    "omni_count": 1,
+    "fixed_noise": "zero; only two-decimal bearing rounding",
+    "purpose": "主动寻找空间/朝向大开销，不代表抽样分布"
+  },
+  "wc_q4_four_cluster16_78105": {
+    "stage": "initial",
+    "family": "clusters",
+    "direction_design": "oblique",
+    "geometry_rotation_deg": 0,
+    "source_count": 16,
+    "omni_count": 1,
+    "fixed_noise": "zero; only two-decimal bearing rounding",
+    "purpose": "主动寻找空间/朝向大开销，不代表抽样分布"
+  },
+  "wc_q4_radial_pairs10_78106": {
+    "stage": "initial",
+    "family": "pairs",
+    "direction_design": "outward",
+    "geometry_rotation_deg": 17,
+    "source_count": 10,
+    "omni_count": 1,
+    "fixed_noise": "zero; only two-decimal bearing rounding",
+    "purpose": "主动寻找空间/朝向大开销，不代表抽样分布"
+  },
+  "wc_q4_interlaced16_78107": {
+    "stage": "initial",
+    "family": "interlaced",
+    "direction_design": "beam_edge",
+    "geometry_rotation_deg": 4,
+    "source_count": 16,
+    "omni_count": 1,
+    "fixed_noise": "zero; only two-decimal bearing rounding",
+    "purpose": "主动寻找空间/朝向大开销，不代表抽样分布"
+  },
+  "wc_q4_radial_pairs10_78106_rigid_rotation": {
+    "stage": "perturbation",
+    "parent": "wc_q4_radial_pairs10_78106",
+    "kind": "rigid_rotation",
+    "parameters": 7.5,
+    "fixed_noise": "zero; source-independent and channel-independent"
+  },
+  "wc_q4_radial_pairs10_78106_orientation_jitter": {
+    "stage": "perturbation",
+    "parent": "wc_q4_radial_pairs10_78106",
+    "kind": "orientation_jitter",
+    "parameters": 12,
+    "fixed_noise": "zero; source-independent and channel-independent"
+  },
+  "wc_q4_radial_pairs10_78106_channel_permutation": {
+    "stage": "perturbation",
+    "parent": "wc_q4_radial_pairs10_78106",
+    "kind": "channel_permutation",
+    "parameters": 78202,
+    "fixed_noise": "zero; source-independent and channel-independent"
+  },
+  "wc_q4_edge_outward10_78100_rigid_rotation": {
+    "stage": "perturbation",
+    "parent": "wc_q4_edge_outward10_78100",
+    "kind": "rigid_rotation",
+    "parameters": 7.5,
+    "fixed_noise": "zero; source-independent and channel-independent"
+  },
+  "wc_q4_edge_outward10_78100_orientation_jitter": {
+    "stage": "perturbation",
+    "parent": "wc_q4_edge_outward10_78100",
+    "kind": "orientation_jitter",
+    "parameters": 12,
+    "fixed_noise": "zero; source-independent and channel-independent"
+  },
+  "wc_q4_edge_outward10_78100_channel_permutation": {
+    "stage": "perturbation",
+    "parent": "wc_q4_edge_outward10_78100",
+    "kind": "channel_permutation",
+    "parameters": 78205,
+    "fixed_noise": "zero; source-independent and channel-independent"
+  }
+}

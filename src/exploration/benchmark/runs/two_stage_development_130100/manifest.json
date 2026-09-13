@@ -1,0 +1,54 @@
+{
+  "stage": "development",
+  "policies": [
+    "scan7_r60",
+    "scan13_r60",
+    "scan19_r60",
+    "scan7_r30"
+  ],
+  "python": "3.13.5",
+  "case_sha256": "11abcb53c203250f23852ef24441a4a32c9291ad85396d3c08cca438eb25e947",
+  "source_sha256": {
+    "b_adaptive_q3\\geometry.py": "68a081fcaec7fc084a0293c8674c7a2fc363606058e79b44fa359ce36b4bdbaf",
+    "b_adaptive_q3\\policy.py": "0885c02e697e655bca498ee0d2b88368be778fdf3a529b67432af962e5b9a05f",
+    "b_adaptive_q3\\run_local.py": "cc528fc6d77d286e8b1b7e80f3e0a621bcfa506c97bc015245a5fdd892f04ba9",
+    "b_adaptive_q3\\simulation.py": "76bc0037c08d3b2a3cc347daa8a36a6d789103d943b42afdf9d8823f974494cc",
+    "b_adaptive_q3\\state.py": "1ea0699e5051b66c51649da0a7812eae1852381e79d41b1d0e88eb4b5e18f15b",
+    "b_adaptive_q3\\summarize.py": "6aef2316a3db75700f8914e873ebcd5d6143c1bf9b7651f8473d49a52f31042a",
+    "b_adaptive_q3\\test_core.py": "e70ebfeaf358efbf3c34a3b4a45d7acd9b16903b64ccce9cbe3ca19283037c93",
+    "b_benchmark_scale\\estimate_seven.py": "d4ef61dc861805508f358f7d600f584ea00e4ef6fd470ec34f8c78d6ec6c4eb2",
+    "b_benchmark_scale\\run_two_stage.py": "dcd584c8c6a609a6dc81c460a6e287d2b771af8e8b0b6b8d27ee23cd483cc4e4",
+    "b_benchmark_scale\\test_two_stage.py": "4b57e99ff2521e2a69ff5f742d90942a078c38f8582062532eb19f1528d92f5e",
+    "b_benchmark_scale\\two_stage.py": "37d991166fff33f772fe8a6a400a545cd89420f5654e566a93348b6d0b3d1598",
+    "b_overnight\\task_cost.py": "47b20e3bff43ce86fb9d4d0ba1e795a042dea3b984887811033e09dd5c21d283",
+    "b_oracle_q3\\oracle.py": "1b1118bff78f46e112ff6b2a536092a8e0a33686cec6cde57d6df5c5cc3aba19"
+  },
+  "created": "2026-09-11 20:34:54 +0800",
+  "environment": "自建固定空间误差场，舍入两位小数；不读取官方隐藏案例",
+  "configs": {
+    "scan7_r60": {
+      "point_count": 7,
+      "scan_radius_m": 60,
+      "try_radius_m": 30.0,
+      "local_action_limit": 24
+    },
+    "scan13_r60": {
+      "point_count": 13,
+      "scan_radius_m": 60,
+      "try_radius_m": 30.0,
+      "local_action_limit": 24
+    },
+    "scan19_r60": {
+      "point_count": 19,
+      "scan_radius_m": 60,
+      "try_radius_m": 30.0,
+      "local_action_limit": 24
+    },
+    "scan7_r30": {
+      "point_count": 7,
+      "scan_radius_m": 30,
+      "try_radius_m": 30.0,
+      "local_action_limit": 24
+    }
+  }
+}

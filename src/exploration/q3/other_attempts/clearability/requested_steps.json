@@ -1,0 +1,468 @@
+[
+  {
+    "original_step": 50,
+    "channel": 2,
+    "q": [
+      -1240.580892505854,
+      -542.3689358775697
+    ],
+    "original_reason": "refined_shared_scan",
+    "before_radius": 189.22595066103543,
+    "before_utility": 7.395076598438411e-20,
+    "distance_from_origin": 1353.9590146882545,
+    "keep_as_optional": true,
+    "filter_reason": "current_vs_better_view",
+    "prediction": {
+      "mean_u": 1.0,
+      "gain": 1.0,
+      "before_u": 7.395076598438411e-20,
+      "rate": 0.16666666666666666,
+      "alternative_rate": 0.015111928363016247
+    },
+    "best_new_view": {
+      "q": [
+        -1256.2972657596124,
+        -135.31226460983558
+      ],
+      "seconds": 65.99999999999997,
+      "rate": 0.015111928363016247,
+      "mean_u": 0.997387271959072,
+      "gain": 0.997387271959072,
+      "before_u": 7.395076598438411e-20
+    },
+    "candidate_count": 22,
+    "old_decision": {
+      "chosen": "mirror1_unknown1",
+      "predicted_saving_s": 1.606895024564892,
+      "options": [
+        {
+          "id": "original",
+          "kind": "original",
+          "costs_s": [
+            2555.7986484011994,
+            2673.427456523078,
+            2421.499585153356,
+            2694.6621468636877
+          ],
+          "mean_s": 2586.3469592353304
+        },
+        {
+          "id": "mirror1_unknown1",
+          "kind": "scan",
+          "q": [
+            -1240.580892505854,
+            -542.3689358775697
+          ],
+          "channel": 2,
+          "scan_unknown": true,
+          "costs_s": [
+            2535.1245326147355,
+            2718.236283237934,
+            2404.0908071229105,
+            2681.508633867482
+          ],
+          "mean_s": 2584.7400642107655
+        }
+      ]
+    }
+  },
+  {
+    "original_step": 73,
+    "channel": 9,
+    "q": [
+      -613.868668347005,
+      111.26910363422695
+    ],
+    "original_reason": "planned_clearance_scan",
+    "before_radius": 53.27489920057419,
+    "before_utility": 0.00544468658482442,
+    "distance_from_origin": 623.8714253768076,
+    "keep_as_optional": false,
+    "filter_reason": "low_terminal_utility_better_breakthrough_available",
+    "prediction": {
+      "mean_u": 0.10507217999089549,
+      "gain": 0.09962749340607108,
+      "before_u": 0.00544468658482442,
+      "rate": 0.01660458223434518,
+      "alternative_rate": 0.005114027673427268
+    },
+    "best_new_view": {
+      "q": [
+        -896.8629077941757,
+        881.9353188361788
+      ],
+      "seconds": 170.19648654145846,
+      "rate": 0.005114027673427268,
+      "mean_u": 0.8758342286779346,
+      "gain": 0.8703895420931101,
+      "before_u": 0.00544468658482442
+    },
+    "candidate_count": 23
+  },
+  {
+    "original_step": 78,
+    "channel": 9,
+    "q": [
+      -689.8076322152233,
+      448.34744792884624
+    ],
+    "original_reason": "planned_clearance_scan",
+    "before_radius": 53.27489920057419,
+    "before_utility": 0.00544468658482442,
+    "distance_from_origin": 822.7089421701227,
+    "keep_as_optional": false,
+    "filter_reason": "current_vs_better_view",
+    "prediction": {
+      "mean_u": 0.052802488898422,
+      "gain": 0.047357802313597576,
+      "before_u": 0.00544468658482442,
+      "rate": 0.007892967052266263,
+      "alternative_rate": 0.009092596539920308
+    },
+    "best_new_view": {
+      "q": [
+        -896.8629077941757,
+        881.9353188361788
+      ],
+      "seconds": 102.09793524171674,
+      "rate": 0.009092596539920308,
+      "mean_u": 0.9337800192966658,
+      "gain": 0.9283353327118413,
+      "before_u": 0.00544468658482442
+    },
+    "candidate_count": 22
+  },
+  {
+    "original_step": 83,
+    "channel": 9,
+    "q": [
+      -921.1443621847241,
+      395.2273817510756
+    ],
+    "original_reason": "planned_clearance_scan",
+    "before_radius": 53.26496454060834,
+    "before_utility": 0.005460079786205509,
+    "distance_from_origin": 1002.3530412337325,
+    "keep_as_optional": false,
+    "filter_reason": "low_terminal_utility_better_breakthrough_available",
+    "prediction": {
+      "mean_u": 0.12774224890222097,
+      "gain": 0.12228216911601546,
+      "before_u": 0.005460079786205509,
+      "rate": 0.02038036151933591,
+      "alternative_rate": 0.00883892582557729
+    },
+    "best_new_view": {
+      "q": [
+        -900.5893438322498,
+        867.8152540135419
+      ],
+      "seconds": 100.60693543055619,
+      "rate": 0.00883892582557729,
+      "mean_u": 0.8947173195955355,
+      "gain": 0.8892572398093299,
+      "before_u": 0.005460079786205509
+    },
+    "candidate_count": 22
+  },
+  {
+    "original_step": 85,
+    "channel": 15,
+    "q": [
+      -900.5893438322498,
+      867.8152540135419
+    ],
+    "original_reason": "single_center_try",
+    "before_radius": 29.462513952315117,
+    "before_utility": 0.840924381461996,
+    "distance_from_origin": 1250.665615311619,
+    "certified_plans": [
+      {
+        "id": "clear2",
+        "kind": "multiclear",
+        "channel": 15,
+        "points": [
+          [
+            -897.7954436445208,
+            854.1961986213203
+          ],
+          [
+            -902.86581106795,
+            881.5302912079408
+          ]
+        ],
+        "radii": [
+          15.564547180838677,
+          15.56454717043444
+        ],
+        "worst_local_s": 105.47254496054646
+      },
+      {
+        "id": "clear3",
+        "kind": "multiclear",
+        "channel": 15,
+        "points": [
+          [
+            -897.1350495514176,
+            849.0914274976913
+          ],
+          [
+            -901.769359558057,
+            867.7593043611643
+          ],
+          [
+            -905.1316802169202,
+            885.8854038722279
+          ]
+        ],
+        "radii": [
+          10.422743581411641,
+          11.65308387162462,
+          10.92984596843297
+        ],
+        "worst_local_s": 109.43369375503552
+      }
+    ],
+    "old_decision": {
+      "chosen": "original",
+      "predicted_saving_s": 0.0,
+      "options": [
+        {
+          "id": "original",
+          "kind": "original",
+          "costs_s": [
+            1625.4326362208767,
+            1752.6105654883136,
+            1726.4019818860488,
+            1725.721651915289
+          ],
+          "mean_s": 1707.5417088776321
+        },
+        {
+          "id": "clear2",
+          "kind": "multiclear",
+          "channel": 15,
+          "points": [
+            [
+              -897.7954436445208,
+              854.1961986213203
+            ],
+            [
+              -902.86581106795,
+              881.5302912079408
+            ]
+          ],
+          "radii": [
+            15.564547180838677,
+            15.56454717043444
+          ],
+          "worst_local_s": 105.47254496054646,
+          "costs_s": [
+            1557.0718927542484,
+            1818.314531203568,
+            1697.1733480744433,
+            1869.3404945504653
+          ],
+          "mean_s": 1735.4750666456812
+        },
+        {
+          "id": "clear3",
+          "kind": "multiclear",
+          "channel": 15,
+          "points": [
+            [
+              -897.1350495514176,
+              849.0914274976913
+            ],
+            [
+              -901.769359558057,
+              867.7593043611643
+            ],
+            [
+              -905.1316802169202,
+              885.8854038722279
+            ]
+          ],
+          "radii": [
+            10.422743581411641,
+            11.65308387162462,
+            10.92984596843297
+          ],
+          "worst_local_s": 109.43369375503552,
+          "costs_s": [
+            1615.2397248657426,
+            1770.6562921513669,
+            1699.082737177589,
+            1877.5870662687967
+          ],
+          "mean_s": 1740.6414551158737
+        }
+      ]
+    }
+  },
+  {
+    "original_step": 99,
+    "channel": 10,
+    "q": [
+      -501.0434426303208,
+      1216.0202180906035
+    ],
+    "original_reason": "planned_clearance_scan",
+    "before_radius": 36.132558443803354,
+    "before_utility": 0.42557960252917576,
+    "distance_from_origin": 1315.1994914110796,
+    "keep_as_optional": true,
+    "filter_reason": "current_vs_better_view",
+    "prediction": {
+      "mean_u": 0.9962616617234078,
+      "gain": 0.5706820591942321,
+      "before_u": 0.42557960252917576,
+      "rate": 0.09511367653237202,
+      "alternative_rate": 0.09511367653237202
+    },
+    "best_new_view": {
+      "q": [
+        -501.0434426303208,
+        1216.0202180906035
+      ],
+      "seconds": 6.0,
+      "rate": 0.09511367653237202,
+      "mean_u": 0.9962616617234078,
+      "gain": 0.5706820591942321,
+      "before_u": 0.42557960252917576
+    },
+    "candidate_count": 22
+  },
+  {
+    "original_step": 101,
+    "channel": 16,
+    "q": [
+      -456.96296055544275,
+      1711.4620860459033
+    ],
+    "original_reason": "refined_shared_scan",
+    "before_radius": 53.45378690564949,
+    "before_utility": 0.005174781232572763,
+    "distance_from_origin": 1771.4168395079093,
+    "keep_as_optional": true,
+    "filter_reason": "current_vs_better_view",
+    "prediction": {
+      "mean_u": 1.0,
+      "gain": 0.9948252187674272,
+      "before_u": 0.005174781232572763,
+      "rate": 0.19896504375348545,
+      "alternative_rate": 0.013689842599762218
+    },
+    "best_new_view": {
+      "q": [
+        -786.8789292357585,
+        1307.1139862475563
+      ],
+      "seconds": 65.00000000000001,
+      "rate": 0.013689842599762218,
+      "mean_u": 0.8950145502171171,
+      "gain": 0.8898397689845443,
+      "before_u": 0.005174781232572763
+    },
+    "candidate_count": 20,
+    "old_decision": {
+      "chosen": "mirror1_unknown1",
+      "predicted_saving_s": 2.8236859419168923,
+      "options": [
+        {
+          "id": "original",
+          "kind": "original",
+          "costs_s": [
+            1525.5459477337747,
+            1302.1792185289316,
+            1836.611305977154,
+            1411.6660227202854
+          ],
+          "mean_s": 1519.0006237400364
+        },
+        {
+          "id": "mirror0_unknown1",
+          "kind": "scan",
+          "q": [
+            -399.7958632343552,
+            1693.243332414513
+          ],
+          "channel": 16,
+          "scan_unknown": true,
+          "costs_s": [
+            1591.1929097569343,
+            1343.1792185289316,
+            1787.7419539866985,
+            1452.6660227202854
+          ],
+          "mean_s": 1543.6950262482123
+        },
+        {
+          "id": "mirror1_unknown0",
+          "kind": "scan",
+          "q": [
+            -456.96296055544275,
+            1711.4620860459033
+          ],
+          "channel": 16,
+          "scan_unknown": false,
+          "costs_s": [
+            1525.9536282194588,
+            1300.4118829213432,
+            1839.081755346477,
+            1415.6674319381875
+          ],
+          "mean_s": 1520.2786746063666
+        },
+        {
+          "id": "mirror1_unknown1",
+          "kind": "scan",
+          "q": [
+            -456.96296055544275,
+            1711.4620860459033
+          ],
+          "channel": 16,
+          "scan_unknown": true,
+          "costs_s": [
+            1514.1156915471286,
+            1341.4118829213432,
+            1752.5127447858192,
+            1456.6674319381875
+          ],
+          "mean_s": 1516.1769377981195
+        }
+      ]
+    }
+  },
+  {
+    "original_step": 135,
+    "channel": 5,
+    "q": [
+      1588.8845508024597,
+      -35.78671851442501
+    ],
+    "original_reason": "planned_clearance_scan",
+    "before_radius": 480.38542454458326,
+    "before_utility": 5.503898682297097e-56,
+    "distance_from_origin": 1589.2875148948867,
+    "keep_as_optional": false,
+    "filter_reason": "provable_negative_or_same_location",
+    "prediction": {
+      "mean_u": 5.503898682297097e-56,
+      "gain": 0.0,
+      "certain_redundant": true
+    },
+    "best_new_view": {
+      "q": [
+        125.5516265566361,
+        -1188.2845192517857
+      ],
+      "seconds": 377.5369473159024,
+      "rate": 0.0020779729017270446,
+      "mean_u": 0.7845115459231962,
+      "gain": 0.7845115459231962,
+      "before_u": 5.503898682297097e-56
+    },
+    "candidate_count": 20
+  }
+]

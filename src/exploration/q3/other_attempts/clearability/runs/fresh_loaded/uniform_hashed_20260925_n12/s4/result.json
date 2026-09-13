@@ -1,0 +1,43 @@
+{
+  "case": "uniform_hashed_20260925_n12",
+  "seed": 20260925,
+  "layout": "uniform",
+  "noise": "hashed",
+  "policy": "patrol",
+  "real_n": 12,
+  "source_count": 12,
+  "success": false,
+  "cleared": 8,
+  "total_s": 2791.8199366338736,
+  "per_source_s": null,
+  "wall_s": 3.6858118000091054,
+  "actions": 163,
+  "initial_finish_s": 388.00000007488245,
+  "phase_costs": {
+    "initial": {
+      "actions": 40,
+      "move_s": 150.00000007488245,
+      "measure_s": 200.0,
+      "switch_s": 38.0,
+      "success_clear_s": 0.0,
+      "fail_clear_s": 0.0
+    },
+    "service": {
+      "actions": 123,
+      "move_s": 1683.8199365589915,
+      "measure_s": 570.0,
+      "switch_s": 107.0,
+      "success_clear_s": 40.0,
+      "fail_clear_s": 3.0
+    }
+  },
+  "move_s": 1833.8199366338738,
+  "measure_s": 770.0,
+  "switch_s": 145.0,
+  "success_clear_s": 40.0,
+  "fail_clear_s": 3.0,
+  "error": "Traceback (most recent call last):\n  File \"C:\\Users\\HOU\\Desktop\\CUMCM\\experiments\\b_q3\\probability_patrol\\runner.py\", line 197, in execute_case\n    action = policy.choose(state)\n  File \"C:\\Users\\HOU\\Desktop\\CUMCM\\experiments\\b_q3\\probability_patrol\\patrol.py\", line 223, in choose\n    return self.choose_joint(state)\n           ~~~~~~~~~~~~~~~~~^^^^^^^\n  File \"C:\\Users\\HOU\\Desktop\\CUMCM\\experiments\\b_q3\\clearability\\policy.py\", line 211, in choose_joint\n    raise AssertionError('empty proposed station: no useful primary or unknown scan')\nAssertionError: empty proposed station: no useful primary or unknown scan\n",
+  "failreason": "AssertionError: empty proposed station: no useful primary or unknown scan",
+  "fail_clears": 1,
+  "measure_count": 154
+}

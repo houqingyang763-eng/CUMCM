@@ -1,0 +1,338 @@
+[
+  {
+    "case": "q4_edge_tangent_hashed_31002",
+    "seed": 31002,
+    "layout": "edge_tangent",
+    "noise": "hashed",
+    "policy": "reference",
+    "source_count": 16,
+    "directional_count": 10,
+    "cleared": 16,
+    "success": true,
+    "error": null,
+    "cleared_ratio": 1.0,
+    "average_localization_clear_s": 812.8887687313753,
+    "virtual_time_s": 13006.220299702005,
+    "wall_time_s": 0.6158250000007683,
+    "planning_s": 0.041697200140333734,
+    "checking_s": 0.5444824999503908,
+    "actions": 722,
+    "measure_count": 357,
+    "scan_position_count": 31,
+    "failed_clears": 349,
+    "no_signal_count": 341,
+    "fallback": true,
+    "absence_proofs": {
+      "8": {
+        "kind": "sixteen_source_cap"
+      },
+      "10": {
+        "kind": "sixteen_source_cap"
+      },
+      "14": {
+        "kind": "sixteen_source_cap"
+      },
+      "20": {
+        "kind": "sixteen_source_cap"
+      }
+    },
+    "move_s": 9767.220299702003,
+    "switch_s": 327.0,
+    "measure_s": 1785.0,
+    "clear_s": 1127.0
+  },
+  {
+    "case": "q4_edge_tangent_hashed_31002",
+    "seed": 31002,
+    "layout": "edge_tangent",
+    "noise": "hashed",
+    "policy": "q4",
+    "source_count": 16,
+    "directional_count": 10,
+    "cleared": 16,
+    "success": true,
+    "error": null,
+    "cleared_ratio": 1.0,
+    "average_localization_clear_s": 327.38640167047623,
+    "virtual_time_s": 5238.18242672762,
+    "wall_time_s": 0.3903876999975182,
+    "planning_s": 0.29763889996684156,
+    "checking_s": 0.0803073000133736,
+    "actions": 288,
+    "measure_count": 266,
+    "scan_position_count": 45,
+    "failed_clears": 6,
+    "no_signal_count": 218,
+    "fallback": false,
+    "absence_proofs": {
+      "8": {
+        "kind": "sixteen_source_cap"
+      },
+      "10": {
+        "kind": "sixteen_source_cap"
+      },
+      "14": {
+        "kind": "sixteen_source_cap"
+      },
+      "20": {
+        "kind": "sixteen_source_cap"
+      }
+    },
+    "move_s": 3566.182426727621,
+    "switch_s": 244.0,
+    "measure_s": 1330.0,
+    "clear_s": 98.0
+  },
+  {
+    "case": "q4_edge_tangent_hashed_31002",
+    "seed": 31002,
+    "layout": "edge_tangent",
+    "noise": "hashed",
+    "policy": "directional",
+    "source_count": 16,
+    "directional_count": 10,
+    "cleared": 16,
+    "success": true,
+    "error": null,
+    "cleared_ratio": 1.0,
+    "average_localization_clear_s": 327.1603951712562,
+    "virtual_time_s": 5234.566322740099,
+    "wall_time_s": 0.5482716999977129,
+    "planning_s": 0.4557940000668168,
+    "checking_s": 0.07893530000001192,
+    "actions": 289,
+    "measure_count": 269,
+    "scan_position_count": 49,
+    "failed_clears": 4,
+    "no_signal_count": 218,
+    "fallback": false,
+    "absence_proofs": {
+      "8": {
+        "kind": "sixteen_source_cap"
+      },
+      "10": {
+        "kind": "sixteen_source_cap"
+      },
+      "14": {
+        "kind": "sixteen_source_cap"
+      },
+      "20": {
+        "kind": "sixteen_source_cap"
+      }
+    },
+    "move_s": 3553.5663227401005,
+    "switch_s": 244.0,
+    "measure_s": 1345.0,
+    "clear_s": 92.0
+  },
+  {
+    "case": "q4_line_aligned_hashed_31003",
+    "seed": 31003,
+    "layout": "line_aligned",
+    "noise": "hashed",
+    "policy": "reference",
+    "source_count": 10,
+    "directional_count": 6,
+    "cleared": 10,
+    "success": true,
+    "error": null,
+    "cleared_ratio": 1.0,
+    "average_localization_clear_s": 1332.5390021837752,
+    "virtual_time_s": 13325.390021837753,
+    "wall_time_s": 0.5898906000002171,
+    "planning_s": 0.03826690005371347,
+    "checking_s": 0.5244725998782087,
+    "actions": 732,
+    "measure_count": 475,
+    "scan_position_count": 37,
+    "failed_clears": 247,
+    "no_signal_count": 465,
+    "fallback": true,
+    "absence_proofs": {
+      "18": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "1": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "2": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "3": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "4": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "9": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "11": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "12": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "14": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "17": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      }
+    },
+    "move_s": 9721.390021837751,
+    "switch_s": 438.0,
+    "measure_s": 2375.0,
+    "clear_s": 791.0
+  },
+  {
+    "case": "q4_line_aligned_hashed_31003",
+    "seed": 31003,
+    "layout": "line_aligned",
+    "noise": "hashed",
+    "policy": "q4",
+    "source_count": 10,
+    "directional_count": 6,
+    "cleared": 10,
+    "success": true,
+    "error": null,
+    "cleared_ratio": 1.0,
+    "average_localization_clear_s": 1616.8643414920516,
+    "virtual_time_s": 16168.643414920516,
+    "wall_time_s": 2.1451823999959743,
+    "planning_s": 1.806094599822245,
+    "checking_s": 0.3097244999589748,
+    "actions": 745,
+    "measure_count": 679,
+    "scan_position_count": 242,
+    "failed_clears": 56,
+    "no_signal_count": 647,
+    "fallback": true,
+    "absence_proofs": {
+      "18": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "1": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "2": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "3": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "4": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "9": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "11": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "12": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "14": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "17": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      }
+    },
+    "move_s": 12094.64341492051,
+    "switch_s": 461.0,
+    "measure_s": 3395.0,
+    "clear_s": 218.0
+  },
+  {
+    "case": "q4_line_aligned_hashed_31003",
+    "seed": 31003,
+    "layout": "line_aligned",
+    "noise": "hashed",
+    "policy": "directional",
+    "source_count": 10,
+    "directional_count": 6,
+    "cleared": 10,
+    "success": true,
+    "error": null,
+    "cleared_ratio": 1.0,
+    "average_localization_clear_s": 1185.6752759049546,
+    "virtual_time_s": 11856.752759049547,
+    "wall_time_s": 5.35129820000293,
+    "planning_s": 5.06318360001751,
+    "checking_s": 0.2623960001365049,
+    "actions": 641,
+    "measure_count": 522,
+    "scan_position_count": 109,
+    "failed_clears": 109,
+    "no_signal_count": 485,
+    "fallback": false,
+    "absence_proofs": {
+      "2": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "18": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "17": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "14": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "12": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "11": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "9": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "4": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "3": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "1": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      }
+    },
+    "move_s": 8440.752759049545,
+    "switch_s": 429.0,
+    "measure_s": 2610.0,
+    "clear_s": 377.0
+  }
+]

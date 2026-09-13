@@ -1,0 +1,76 @@
+[
+  {
+    "mode": "F1",
+    "chosen": {
+      "kind": "measure",
+      "position": [
+        965.9258262890684,
+        258.81904510252076
+      ],
+      "channel": 19,
+      "reason": "incumbent_joint_cover_scan",
+      "phase": "belief"
+    },
+    "reply": {
+      "accepted": true,
+      "measure_result": "direction",
+      "svd_deg": 100.52,
+      "virtual_time_s": 512.6412871741261,
+      "costs": {
+        "move_s": 89.64128707124142,
+        "switch_s": 0,
+        "operation_s": 5
+      }
+    },
+    "if_F1_finishes_min": 55.61751105600589
+  },
+  {
+    "mode": "U1",
+    "chosen": {
+      "kind": "measure",
+      "position": [
+        1075.2997537634928,
+        -267.43696518455556
+      ],
+      "channel": 20,
+      "reason": "either_transverse",
+      "phase": "belief"
+    },
+    "reply": {
+      "accepted": true,
+      "measure_result": "direction",
+      "svd_deg": 197.66,
+      "virtual_time_s": 582.8420582703222,
+      "costs": {
+        "move_s": 158.8420581674375,
+        "switch_s": 1,
+        "operation_s": 5
+      }
+    },
+    "if_F1_finishes_min": 54.67497355185666
+  },
+  {
+    "mode": "T3",
+    "chosen": {
+      "kind": "clear",
+      "position": [
+        886.0283259384745,
+        -293.0722195026186
+      ],
+      "channel": 5,
+      "reason": "cover_attempt",
+      "phase": "belief"
+    },
+    "reply": {
+      "accepted": true,
+      "clear_result": "success",
+      "virtual_time_s": 562.4264259520853,
+      "costs": {
+        "move_s": 139.4264258492006,
+        "switch_s": 0,
+        "operation_s": 5
+      }
+    },
+    "if_F1_finishes_min": 54.09927261064524
+  }
+]

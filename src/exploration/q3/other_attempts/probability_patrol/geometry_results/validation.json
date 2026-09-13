@@ -1,0 +1,231 @@
+{
+  "rows": [
+    {
+      "role": "coverage",
+      "independent_integral": {
+        "p_discovered": 0.7596090746764942,
+        "p_two_detected": 0.12508592613801398
+      },
+      "finer_integral": {
+        "p_discovered": 0.7596090398971729,
+        "p_two_detected": 0.12508595717794768
+      },
+      "quadrature_refinement_difference": -3.4779321311795286e-08,
+      "mc_200k": {
+        "points": [
+          [
+            -692.820323027551,
+            -399.99999999999994
+          ],
+          [
+            692.820323027551,
+            399.99999999999994
+          ]
+        ],
+        "p_discovered": 0.758732192212635,
+        "radius_integrated_analytically": true,
+        "p_two_detected": 0.12472715302639335,
+        "p_two_directions_angle_30_150": 0.09224531797286618,
+        "initial_move_s": 480.0,
+        "initial_20_channel_scan_s": 239.0,
+        "initial_full_scan_time_min": 11.983333333333333,
+        "per_n": {
+          "10": {
+            "expected_discovered": 7.58732192212635,
+            "expected_undiscovered": 2.4126780778736503,
+            "p_all_discovered_iid": 0.06322445744191194
+          },
+          "11": {
+            "expected_discovered": 8.346054114338985,
+            "expected_undiscovered": 2.653945885661015,
+            "p_all_discovered_iid": 0.047970431196356286
+          },
+          "12": {
+            "expected_discovered": 9.10478630655162,
+            "expected_undiscovered": 2.89521369344838,
+            "p_all_discovered_iid": 0.036396710422996775
+          },
+          "13": {
+            "expected_discovered": 9.863518498764256,
+            "expected_undiscovered": 3.136481501235745,
+            "p_all_discovered_iid": 0.027615355888568806
+          },
+          "14": {
+            "expected_discovered": 10.62225069097689,
+            "expected_undiscovered": 3.37774930902311,
+            "p_all_discovered_iid": 0.02095265951206591
+          },
+          "15": {
+            "expected_discovered": 11.380982883189525,
+            "expected_undiscovered": 3.619017116810475,
+            "p_all_discovered_iid": 0.015897457284274687
+          },
+          "16": {
+            "expected_discovered": 12.13971507540216,
+            "expected_undiscovered": 3.86028492459784,
+            "p_all_discovered_iid": 0.012061912615904455
+          }
+        }
+      },
+      "minimum_R1000": {
+        "p_discovered": 0.585158023903848,
+        "p_two_detected": 0.032125948950208406
+      },
+      "mc_minus_integral": -0.0008768824638591965,
+      "reverse_order_initial_move_min": 8.0
+    },
+    {
+      "role": "short_start",
+      "independent_integral": {
+        "p_discovered": 0.654801193301848,
+        "p_two_detected": 0.3073189244206284
+      },
+      "finer_integral": {
+        "p_discovered": 0.6547967637695283,
+        "p_two_detected": 0.3073188930629229
+      },
+      "quadrature_refinement_difference": -4.429532319716323e-06,
+      "mc_200k": {
+        "points": [
+          [
+            -129.9038105676658,
+            -74.99999999999999
+          ],
+          [
+            519.6152422706632,
+            299.99999999999994
+          ]
+        ],
+        "p_discovered": 0.6554838017457432,
+        "radius_integrated_analytically": true,
+        "p_two_detected": 0.3067859599228655,
+        "p_two_directions_angle_30_150": 0.24236427963875917,
+        "initial_move_s": 180.0,
+        "initial_20_channel_scan_s": 239.0,
+        "initial_full_scan_time_min": 6.983333333333333,
+        "per_n": {
+          "10": {
+            "expected_discovered": 6.554838017457431,
+            "expected_undiscovered": 3.4451619825425683,
+            "p_all_discovered_iid": 0.014642648566594923
+          },
+          "11": {
+            "expected_discovered": 7.210321819203175,
+            "expected_undiscovered": 3.789678180796825,
+            "p_all_discovered_iid": 0.009598018950058497
+          },
+          "12": {
+            "expected_discovered": 7.865805620948918,
+            "expected_undiscovered": 4.134194379051082,
+            "p_all_discovered_iid": 0.0062913459506120295
+          },
+          "13": {
+            "expected_discovered": 8.521289422694661,
+            "expected_undiscovered": 4.478710577305339,
+            "p_all_discovered_iid": 0.0041238753618048594
+          },
+          "14": {
+            "expected_discovered": 9.176773224440405,
+            "expected_undiscovered": 4.823226775559595,
+            "p_all_discovered_iid": 0.0027031335000814514
+          },
+          "15": {
+            "expected_discovered": 9.832257026186147,
+            "expected_undiscovered": 5.167742973813852,
+            "p_all_discovered_iid": 0.0017718602232596671
+          },
+          "16": {
+            "expected_discovered": 10.48774082793189,
+            "expected_undiscovered": 5.512259172068109,
+            "p_all_discovered_iid": 0.001161425675304308
+          }
+        }
+      },
+      "minimum_R1000": {
+        "p_discovered": 0.45247698876160447,
+        "p_two_detected": 0.1648069545332726
+      },
+      "mc_minus_integral": 0.0006826084438951163,
+      "reverse_order_initial_move_min": 4.5
+    },
+    {
+      "role": "edge_robustness",
+      "independent_integral": {
+        "p_discovered": 0.7157712555631022,
+        "p_two_detected": 0.03418650396861064
+      },
+      "finer_integral": {
+        "p_discovered": 0.7157724526817275,
+        "p_two_detected": 0.03418522528441465
+      },
+      "quadrature_refinement_difference": 1.19711862534011e-06,
+      "mc_200k": {
+        "points": [
+          [
+            -952.6279441628826,
+            -549.9999999999999
+          ],
+          [
+            952.6279441628826,
+            549.9999999999999
+          ]
+        ],
+        "p_discovered": 0.7147609840444161,
+        "radius_integrated_analytically": true,
+        "p_two_detected": 0.03409771769897824,
+        "p_two_directions_angle_30_150": 0.01684699115579746,
+        "initial_move_s": 660.0,
+        "initial_20_channel_scan_s": 239.0,
+        "initial_full_scan_time_min": 14.983333333333333,
+        "per_n": {
+          "10": {
+            "expected_discovered": 7.1476098404441615,
+            "expected_undiscovered": 2.8523901595558385,
+            "p_all_discovered_iid": 0.03480233480877807
+          },
+          "11": {
+            "expected_discovered": 7.862370824488577,
+            "expected_undiscovered": 3.1376291755114227,
+            "p_all_discovered_iid": 0.024875351074965447
+          },
+          "12": {
+            "expected_discovered": 8.577131808532993,
+            "expected_undiscovered": 3.4228681914670065,
+            "p_all_discovered_iid": 0.01777993041279263
+          },
+          "13": {
+            "expected_discovered": 9.291892792577409,
+            "expected_undiscovered": 3.7081072074225903,
+            "p_all_discovered_iid": 0.012708400558088901
+          },
+          "14": {
+            "expected_discovered": 10.006653776621826,
+            "expected_undiscovered": 3.9933462233781745,
+            "p_all_discovered_iid": 0.00908346888853023
+          },
+          "15": {
+            "expected_discovered": 10.721414760666242,
+            "expected_undiscovered": 4.278585239333758,
+            "p_all_discovered_iid": 0.006492509161302706
+          },
+          "16": {
+            "expected_discovered": 11.436175744710658,
+            "expected_undiscovered": 4.563824255289342,
+            "p_all_discovered_iid": 0.0046405922370501085
+          }
+        }
+      },
+      "minimum_R1000": {
+        "p_discovered": 0.5400608665603122,
+        "p_two_detected": 0.0
+      },
+      "mc_minus_integral": -0.0010102715186860456,
+      "reverse_order_initial_move_min": 11.0
+    }
+  ],
+  "repeat_same_position_same_bearing": true,
+  "visit_reverse_same_probabilities": true,
+  "R1000_area_upper_bound": 0.617283950617284,
+  "all_discovered_upper_bound_N10": 0.008032483730439422,
+  "all_discovered_upper_bound_N16": 0.0004443853849420576
+}

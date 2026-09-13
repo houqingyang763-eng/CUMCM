@@ -1,0 +1,64 @@
+<div id="__PAIR_ID__">
+  <h3>__PAIR_TITLE__</h3>
+  <div data-pair="cost" aria-label="新旧方案整局时间组成"></div>
+  <div class="viz-row tabular-nums" data-pair="difference"></div>
+  <div class="viz-controls">
+    <button class="btn" type="button" data-pair="start">从头看</button>
+    <button class="btn" type="button" data-pair="old-end">旧方案完成时</button>
+    <button class="btn" type="button" data-pair="end">两者完整轨迹</button>
+    <button class="btn" type="button" data-pair="play">同步播放</button>
+    <label class="form-label">共同关注频道 <select class="form-select" data-pair="channel"></select></label>
+    <label class="form-check"><input class="form-check-input" type="checkbox" data-pair="zoom"><span class="form-check-label">两侧局部放大</span></label>
+    <label class="form-check"><input class="form-check-input" type="checkbox" checked data-pair="truth"><span class="form-check-label">真值讲解层（算法不可见）</span></label>
+  </div>
+  <label class="form-label"><span data-pair="clock" class="tabular-nums"></span><input class="form-range" data-pair="time" type="range" min="0" step="any" value="0"></label>
+  <div class="text-small" data-pair="alignment" aria-live="polite">按同一虚拟时刻已完成的动作对齐；每侧也可独立逐步查看。</div>
+  <div class="pair-panels">__PANELS__</div>
+  <script type="application/json" id="__PAIR_ID__-data">__PAIR_DATA__</script>
+</div>
+<style>
+#__PAIR_ID__ .pair-panels {display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px;}
+#__PAIR_ID__ .pair-panels section {min-width:0;}
+#__PAIR_ID__ [data-ui="case"] {overflow-wrap:anywhere;}
+#__PAIR_ID__ [data-pair="cost"] svg {display:block;width:100%;}
+#__PAIR_ID__ [data-pair="cost"] text {fill:var(--foreground);font-size:12px;}
+@media(max-width:760px){#__PAIR_ID__ .pair-panels {grid-template-columns:1fr;}}
+</style>
+<script>
+(() => {
+ const root=document.getElementById('__PAIR_ID__');
+ const d=JSON.parse(document.getElementById('__PAIR_ID__-data').textContent);
+ const ui={};root.querySelectorAll('[data-pair]').forEach(e=>ui[e.dataset.pair]=e);
+ const runs=Array.from(root.querySelectorAll('.pair-panels [id^="run-replay-"]')).filter(e=>e.tagName==='DIV');
+ const maxTime=Math.max(d.old_total,d.new_total);let timer=null,programmatic=false;
+ const minute=n=>(n/60).toFixed(2);
+ ui.difference.textContent=`新模型多用 ${minute(d.extra_s)} 分钟 · 两者均 ${d.sources}/${d.sources} 全清 · 已发现源补测无信号：旧 ${d.known_negative[0]} 次 / 新 ${d.known_negative[1]} 次`;
+ ui.time.max=Math.ceil(maxTime);
+ ui.channel.add(new Option('各侧自动关注',0));for(let j=1;j<=20;j++)ui.channel.add(new Option('C'+j,j));
+ const dispatch=(name,detail)=>runs.forEach(r=>r.dispatchEvent(new CustomEvent(name,{detail})));
+ function stop(){if(timer)clearInterval(timer);timer=null;ui.play.textContent='同步播放';}
+ function seek(value){programmatic=true;ui.time.value=Math.min(maxTime,Math.max(0,value));const t=Number(ui.time.value);
+  ui.clock.textContent=`共同虚拟时刻 ${minute(t)} / ${minute(maxTime)} 分钟`;
+  dispatch('replay-seek-time',t);if(Number(ui.channel.value))dispatch('replay-focus-channel',ui.channel.value);
+  ui.alignment.textContent='按同一虚拟时刻已完成的动作对齐；移动途中不插入虚构帧。';programmatic=false;
+ }
+ ui.time.oninput=()=>{stop();seek(Number(ui.time.value));};
+ ui.start.onclick=()=>{stop();seek(0);};ui['old-end'].onclick=()=>{stop();seek(d.old_total+.00001);};ui.end.onclick=()=>{stop();seek(maxTime+.00001);};
+ ui.play.onclick=()=>{if(timer){stop();return;}if(Number(ui.time.value)>=maxTime)seek(0);ui.play.textContent='暂停';timer=setInterval(()=>{seek(Math.min(maxTime,Number(ui.time.value)+30));if(Number(ui.time.value)>=maxTime)stop();},300);};
+ ui.channel.onchange=()=>dispatch('replay-focus-channel',ui.channel.value);
+ ui.zoom.onchange=()=>dispatch('replay-zoom',ui.zoom.checked);ui.truth.onchange=()=>dispatch('replay-truth',ui.truth.checked);
+ for(const run of runs){for(const type of ['click','input','change'])run.addEventListener(type,()=>{if(!programmatic){stop();ui.alignment.textContent='已单独调整某侧；拖动共同时间条可重新对齐。';}});}
+ function svg(tag,attrs={},text=''){const e=document.createElementNS('http://www.w3.org/2000/svg',tag);for(const[k,v]of Object.entries(attrs))e.setAttribute(k,v);if(text)e.textContent=text;return e;}
+ function drawCosts(){const w=Math.max(280,ui.cost.clientWidth),left=86,right=80,bw=w-left-right;
+  const s=svg('svg',{viewBox:`0 0 ${w} 133`,role:'img','aria-label':'整局虚拟时间，移动、检测、切频和清除分别计费'});
+  const parts=[['move','移动','var(--viz-series-1)'],['measure','检测','var(--viz-series-2)'],['switch','切频','var(--viz-series-3)'],['clear','清除','var(--viz-series-4)']];
+  d.cost_rows.forEach((r,i)=>{const y=12+i*38;let x=left;s.append(svg('text',{x:0,y:y+16},i?'新模型':'旧方案'));
+   parts.forEach(([key,name,color])=>{const width=r[key]/maxTime*bw;s.append(svg('rect',{x,y,width,height:22,fill:color,'data-tooltip':`${i?'新模型':'旧方案'} · ${name} ${minute(r[key])} 分钟`}));x+=width;});
+   s.append(svg('text',{x:x+7,y:y+16},minute(r.total)+' 分钟'));
+  });
+  parts.forEach(([key,name,color],i)=>{const x=(i%4)*Math.min(88,w/4);s.append(svg('rect',{x,y:96,width:10,height:10,fill:color}),svg('text',{x:x+15,y:105},name));});
+  ui.cost.replaceChildren(s);
+ }
+ new ResizeObserver(drawCosts).observe(ui.cost);drawCosts();seek(maxTime+.00001);
+})();
+</script>

@@ -1,0 +1,190 @@
+{
+  "prefix": 40,
+  "position": [
+    519.615242,
+    300.0
+  ],
+  "chosen_action": {
+    "kind": "measure",
+    "position": [
+      965.9258262890684,
+      258.81904510252076
+    ],
+    "channel": 19,
+    "reason": "joint_cover_scan",
+    "phase": "service",
+    "step": 41,
+    "response": {
+      "accepted": true,
+      "measure_result": "direction",
+      "svd_deg": 100.52,
+      "virtual_time_s": 512.6412871741261,
+      "costs": {
+        "move_s": 89.64128707124142,
+        "switch_s": 0,
+        "operation_s": 5
+      }
+    },
+    "independent_costs": {
+      "move_s": 89.64128707124142,
+      "measure_s": 5.0,
+      "switch_s": 0.0,
+      "success_clear_s": 0.0,
+      "fail_clear_s": 0.0
+    },
+    "before": {
+      "position": [
+        519.615242,
+        300.0
+      ],
+      "measuring_channel": 19,
+      "virtual_time_s": 418.0000001028847,
+      "counts": {
+        "unknown": 8,
+        "found": 12,
+        "absent": 0,
+        "cleared": 0
+      },
+      "ever_seen_count": 12,
+      "selected_channel": {
+        "channel": 19,
+        "status": "found",
+        "directions": 1,
+        "measurements": 2,
+        "center": [
+          672.6325890692368,
+          1112.975220843924
+        ],
+        "radius_m": 527.3982462268184
+      }
+    },
+    "after": {
+      "position": [
+        965.9258262890684,
+        258.81904510252076
+      ],
+      "measuring_channel": 19,
+      "virtual_time_s": 512.6412871741261,
+      "counts": {
+        "unknown": 8,
+        "found": 12,
+        "absent": 0,
+        "cleared": 0
+      },
+      "ever_seen_count": 12,
+      "selected_channel": {
+        "channel": 19,
+        "status": "found",
+        "directions": 2,
+        "measurements": 3,
+        "center": [
+          747.0469922391869,
+          1447.8834400634387
+        ],
+        "radius_m": 110.261314118384
+      }
+    },
+    "decision_wall_s": 0.029615399980684742,
+    "execute_audit_wall_s": 0.000745700002880767
+  },
+  "clear_candidates": [
+    {
+      "channel": 1,
+      "radius_m": 32.25253912725128,
+      "direct_options": [
+        {
+          "id": "clear2",
+          "worst_local_s": 183.4555405443827
+        },
+        {
+          "id": "clear3",
+          "worst_local_s": 188.0412568204942
+        }
+      ]
+    },
+    {
+      "channel": 4,
+      "radius_m": 21.539391371755066,
+      "direct_options": [
+        {
+          "id": "clear2",
+          "worst_local_s": 180.91378718710004
+        },
+        {
+          "id": "clear3",
+          "worst_local_s": 185.14483293842935
+        }
+      ]
+    },
+    {
+      "channel": 5,
+      "radius_m": 38.88623163594571,
+      "direct_options": [
+        {
+          "id": "clear3",
+          "worst_local_s": 155.37050268952183
+        }
+      ]
+    },
+    {
+      "channel": 6,
+      "radius_m": 25.239974428865736,
+      "direct_options": [
+        {
+          "id": "clear2",
+          "worst_local_s": 173.44133051430683
+        },
+        {
+          "id": "clear3",
+          "worst_local_s": 177.8170899575779
+        }
+      ]
+    },
+    {
+      "channel": 8,
+      "radius_m": 70.3032782873961,
+      "direct_options": []
+    },
+    {
+      "channel": 11,
+      "radius_m": 38.16911016444521,
+      "direct_options": [
+        {
+          "id": "clear3",
+          "worst_local_s": 207.35303668524122
+        }
+      ]
+    },
+    {
+      "channel": 13,
+      "radius_m": 80.15909958888327,
+      "direct_options": []
+    },
+    {
+      "channel": 15,
+      "radius_m": 630.2400289999409,
+      "direct_options": []
+    },
+    {
+      "channel": 16,
+      "radius_m": 545.1409518888061,
+      "direct_options": []
+    },
+    {
+      "channel": 18,
+      "radius_m": 85.50257072296766,
+      "direct_options": []
+    },
+    {
+      "channel": 19,
+      "radius_m": 527.3982462268184,
+      "direct_options": []
+    },
+    {
+      "channel": 20,
+      "radius_m": 55.07354474215218,
+      "direct_options": []
+    }
+  ],
+  "scope": "public_state_feasibility_only_not_full_cost_comparison"
+}

@@ -1,0 +1,195 @@
+{
+  "config": {
+    "name": "r3_covering",
+    "initial_points": [
+      [
+        -129.903811,
+        -75.0
+      ],
+      [
+        519.615242,
+        300.0
+      ]
+    ],
+    "try_radius_m": 30.0,
+    "local_action_limit": 16,
+    "local_offset_fraction": 0.5,
+    "local_offset_min_m": 30.0,
+    "local_offset_max_m": 300.0,
+    "shared_scan_gap_m": 0.0,
+    "route_mode": "nearest",
+    "planning": "covering"
+  },
+  "phase": "service",
+  "initial_finish_s": 388.00000007488245,
+  "initial_statistics": {
+    "found": 12,
+    "two_bearings": 10,
+    "radius_le20": 5,
+    "radius_le60": 10,
+    "radii_m": {
+      "2": 390.5264099278529,
+      "3": 11.736998462909844,
+      "6": 390.5333041862351,
+      "7": 53.647962669766976,
+      "8": 10.562531622759675,
+      "9": 11.606769205993254,
+      "10": 25.886630615864146,
+      "11": 20.00995753241174,
+      "12": 11.362204325295846,
+      "13": 27.71281151516341,
+      "14": 26.830549330564313,
+      "17": 10.936958073046759
+    }
+  },
+  "stations": 27,
+  "target": 14,
+  "reason": "certain_center",
+  "planned_unknown_stops": 0,
+  "planned_route_m": 129.2760303538744,
+  "planned_coverage_complete": true,
+  "plan_has_unknown_channels": false,
+  "plans_made": 26,
+  "selected_second": {
+    "id": "p4_all",
+    "q": [
+      -25.09809250418988,
+      515.7755592190464
+    ],
+    "channels": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "set": "all",
+    "costs_s": [
+      3055.3853231130815,
+      2682.728869002409,
+      2800.042115702936,
+      2858.473341056193,
+      3247.479098623798,
+      2977.5095848744545,
+      2891.638203319388,
+      3057.565717456208,
+      2858.3030794885453,
+      3006.4451425732027,
+      2387.962547281805,
+      2973.148054794075,
+      2908.915601168506,
+      2083.088016262467,
+      3139.568597134127,
+      2814.852865775678
+    ],
+    "mean_s": 2858.94413485168,
+    "errors": []
+  },
+  "refinement_level": 1,
+  "samples": 4,
+  "skipped": [
+    {
+      "channel": 10,
+      "position": [
+        -866.0254037844387,
+        499.99999999999994
+      ],
+      "at_action": 55,
+      "prior_position": [
+        -400.0,
+        800.0
+      ],
+      "squared_distance_margin": 609425.5440813906
+    },
+    {
+      "channel": 13,
+      "position": [
+        -866.0254037844387,
+        499.99999999999994
+      ],
+      "at_action": 55,
+      "prior_position": [
+        -400.0,
+        800.0
+      ],
+      "squared_distance_margin": 658629.21407254
+    },
+    {
+      "channel": 10,
+      "position": [
+        -1008.8581457398833,
+        18.569749713093817
+      ],
+      "at_action": 66,
+      "prior_position": [
+        -400.0,
+        800.0
+      ],
+      "squared_distance_margin": 741627.7622592415
+    },
+    {
+      "channel": 13,
+      "position": [
+        -1008.8581457398833,
+        18.569749713093817
+      ],
+      "at_action": 66,
+      "prior_position": [
+        -400.0,
+        800.0
+      ],
+      "squared_distance_margin": 827664.8980462096
+    },
+    {
+      "channel": 13,
+      "position": [
+        -1006.3596567515388,
+        7.4110021131915085
+      ],
+      "at_action": 76,
+      "prior_position": [
+        -400.0,
+        800.0
+      ],
+      "squared_distance_margin": 819894.4260075078
+    },
+    {
+      "channel": 10,
+      "position": [
+        -2.6636067881454933e-13,
+        -1450.0
+      ],
+      "at_action": 98,
+      "prior_position": [
+        -400.0,
+        800.0
+      ],
+      "squared_distance_margin": 823388.5433163883
+    }
+  ],
+  "kept_to_progress": [
+    {
+      "channel": 10,
+      "position": [
+        -1006.3596567515388,
+        7.4110021131915085
+      ]
+    }
+  ],
+  "refinement_decisions": []
+}

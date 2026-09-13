@@ -1,0 +1,582 @@
+[
+  {
+    "case": "uniform_smooth_170100",
+    "seed": 170100,
+    "layout": "uniform",
+    "noise": "smooth",
+    "policy": "patrol",
+    "real_n": 10,
+    "source_count": 10,
+    "success": true,
+    "cleared": 10,
+    "total_s": 3435.036854600538,
+    "per_source_s": 343.5036854600538,
+    "wall_s": 0.7958051999885356,
+    "actions": 188,
+    "initial_finish_s": 638.0,
+    "phase_costs": {
+      "initial": {
+        "actions": 40,
+        "move_s": 400.0,
+        "measure_s": 200.0,
+        "switch_s": 38.0,
+        "success_clear_s": 0.0,
+        "fail_clear_s": 0.0
+      },
+      "service": {
+        "actions": 148,
+        "move_s": 1925.0368546005384,
+        "measure_s": 690.0,
+        "switch_s": 132.0,
+        "success_clear_s": 50.0,
+        "fail_clear_s": 0.0
+      }
+    },
+    "move_s": 2325.0368546005384,
+    "measure_s": 890.0,
+    "switch_s": 170.0,
+    "success_clear_s": 50.0,
+    "fail_clear_s": 0.0,
+    "error": null,
+    "failreason": null,
+    "fail_clears": 0,
+    "measure_count": 178
+  },
+  {
+    "case": "uniform_biased_170101",
+    "seed": 170101,
+    "layout": "uniform",
+    "noise": "biased",
+    "policy": "patrol",
+    "real_n": 11,
+    "source_count": 11,
+    "success": true,
+    "cleared": 11,
+    "total_s": 3475.8438121432323,
+    "per_source_s": 315.9858011039302,
+    "wall_s": 0.7960702999989735,
+    "actions": 171,
+    "initial_finish_s": 638.0,
+    "phase_costs": {
+      "initial": {
+        "actions": 40,
+        "move_s": 400.0,
+        "measure_s": 200.0,
+        "switch_s": 38.0,
+        "success_clear_s": 0.0,
+        "fail_clear_s": 0.0
+      },
+      "service": {
+        "actions": 122,
+        "move_s": 1981.2674909017612,
+        "measure_s": 550.0,
+        "switch_s": 101.0,
+        "success_clear_s": 55.0,
+        "fail_clear_s": 3.0
+      },
+      "completion": {
+        "actions": 9,
+        "move_s": 93.576321241471,
+        "measure_s": 45.0,
+        "switch_s": 9.0,
+        "success_clear_s": 0.0,
+        "fail_clear_s": 0.0
+      }
+    },
+    "move_s": 2474.8438121432328,
+    "measure_s": 795.0,
+    "switch_s": 148.0,
+    "success_clear_s": 55.0,
+    "fail_clear_s": 3.0,
+    "error": null,
+    "failreason": null,
+    "fail_clears": 1,
+    "measure_count": 159
+  },
+  {
+    "case": "uniform_hashed_170102",
+    "seed": 170102,
+    "layout": "uniform",
+    "noise": "hashed",
+    "policy": "patrol",
+    "real_n": 12,
+    "source_count": 12,
+    "success": true,
+    "cleared": 12,
+    "total_s": 3420.177344014088,
+    "per_source_s": 285.01477866784063,
+    "wall_s": 0.8011684000084642,
+    "actions": 186,
+    "initial_finish_s": 638.0,
+    "phase_costs": {
+      "initial": {
+        "actions": 40,
+        "move_s": 400.0,
+        "measure_s": 200.0,
+        "switch_s": 38.0,
+        "success_clear_s": 0.0,
+        "fail_clear_s": 0.0
+      },
+      "service": {
+        "actions": 110,
+        "move_s": 1607.130392787582,
+        "measure_s": 490.0,
+        "switch_s": 94.0,
+        "success_clear_s": 60.0,
+        "fail_clear_s": 0.0
+      },
+      "completion": {
+        "actions": 36,
+        "move_s": 318.0469512265066,
+        "measure_s": 180.0,
+        "switch_s": 33.0,
+        "success_clear_s": 0.0,
+        "fail_clear_s": 0.0
+      }
+    },
+    "move_s": 2325.1773440140882,
+    "measure_s": 870.0,
+    "switch_s": 165.0,
+    "success_clear_s": 60.0,
+    "fail_clear_s": 0.0,
+    "error": null,
+    "failreason": null,
+    "fail_clears": 0,
+    "measure_count": 174
+  },
+  {
+    "case": "edge_smooth_170103",
+    "seed": 170103,
+    "layout": "edge",
+    "noise": "smooth",
+    "policy": "patrol",
+    "real_n": 13,
+    "source_count": 13,
+    "success": true,
+    "cleared": 13,
+    "total_s": 4776.420824399715,
+    "per_source_s": 367.41698649228573,
+    "wall_s": 0.9885221000004094,
+    "actions": 217,
+    "initial_finish_s": 638.0,
+    "phase_costs": {
+      "initial": {
+        "actions": 40,
+        "move_s": 400.0,
+        "measure_s": 200.0,
+        "switch_s": 38.0,
+        "success_clear_s": 0.0,
+        "fail_clear_s": 0.0
+      },
+      "service": {
+        "actions": 170,
+        "move_s": 2840.925133113487,
+        "measure_s": 785.0,
+        "switch_s": 148.0,
+        "success_clear_s": 65.0,
+        "fail_clear_s": 0.0
+      },
+      "completion": {
+        "actions": 7,
+        "move_s": 258.49569128622835,
+        "measure_s": 35.0,
+        "switch_s": 6.0,
+        "success_clear_s": 0.0,
+        "fail_clear_s": 0.0
+      }
+    },
+    "move_s": 3499.420824399715,
+    "measure_s": 1020.0,
+    "switch_s": 192.0,
+    "success_clear_s": 65.0,
+    "fail_clear_s": 0.0,
+    "error": null,
+    "failreason": null,
+    "fail_clears": 0,
+    "measure_count": 204
+  },
+  {
+    "case": "edge_biased_161104",
+    "seed": 161104,
+    "layout": "edge",
+    "noise": "biased",
+    "policy": "patrol",
+    "real_n": 16,
+    "source_count": 16,
+    "success": true,
+    "cleared": 16,
+    "total_s": 4552.680936560304,
+    "per_source_s": 284.542558535019,
+    "wall_s": 1.0778005000029225,
+    "actions": 217,
+    "initial_finish_s": 638.0,
+    "phase_costs": {
+      "initial": {
+        "actions": 40,
+        "move_s": 400.0,
+        "measure_s": 200.0,
+        "switch_s": 38.0,
+        "success_clear_s": 0.0,
+        "fail_clear_s": 0.0
+      },
+      "service": {
+        "actions": 177,
+        "move_s": 2886.680936560305,
+        "measure_s": 795.0,
+        "switch_s": 147.0,
+        "success_clear_s": 80.0,
+        "fail_clear_s": 6.0
+      }
+    },
+    "move_s": 3286.680936560305,
+    "measure_s": 995.0,
+    "switch_s": 185.0,
+    "success_clear_s": 80.0,
+    "fail_clear_s": 6.0,
+    "error": null,
+    "failreason": null,
+    "fail_clears": 2,
+    "measure_count": 199
+  },
+  {
+    "case": "edge_hashed_170105",
+    "seed": 170105,
+    "layout": "edge",
+    "noise": "hashed",
+    "policy": "patrol",
+    "real_n": 15,
+    "source_count": 15,
+    "success": true,
+    "cleared": 15,
+    "total_s": 4557.93118933802,
+    "per_source_s": 303.86207928920135,
+    "wall_s": 1.1207434999960242,
+    "actions": 213,
+    "initial_finish_s": 638.0,
+    "phase_costs": {
+      "initial": {
+        "actions": 40,
+        "move_s": 400.0,
+        "measure_s": 200.0,
+        "switch_s": 38.0,
+        "success_clear_s": 0.0,
+        "fail_clear_s": 0.0
+      },
+      "service": {
+        "actions": 168,
+        "move_s": 2581.569720111904,
+        "measure_s": 765.0,
+        "switch_s": 143.0,
+        "success_clear_s": 75.0,
+        "fail_clear_s": 0.0
+      },
+      "completion": {
+        "actions": 5,
+        "move_s": 325.3614692261154,
+        "measure_s": 25.0,
+        "switch_s": 5.0,
+        "success_clear_s": 0.0,
+        "fail_clear_s": 0.0
+      }
+    },
+    "move_s": 3306.93118933802,
+    "measure_s": 990.0,
+    "switch_s": 186.0,
+    "success_clear_s": 75.0,
+    "fail_clear_s": 0.0,
+    "error": null,
+    "failreason": null,
+    "fail_clears": 0,
+    "measure_count": 198
+  },
+  {
+    "case": "cluster_smooth_170106",
+    "seed": 170106,
+    "layout": "cluster",
+    "noise": "smooth",
+    "policy": "patrol",
+    "real_n": 16,
+    "source_count": 16,
+    "success": true,
+    "cleared": 16,
+    "total_s": 2676.659824951907,
+    "per_source_s": 167.2912390594942,
+    "wall_s": 0.8472763000027044,
+    "actions": 158,
+    "initial_finish_s": 638.0,
+    "phase_costs": {
+      "initial": {
+        "actions": 40,
+        "move_s": 400.0,
+        "measure_s": 200.0,
+        "switch_s": 38.0,
+        "success_clear_s": 0.0,
+        "fail_clear_s": 0.0
+      },
+      "service": {
+        "actions": 118,
+        "move_s": 1354.6598249519075,
+        "measure_s": 510.0,
+        "switch_s": 94.0,
+        "success_clear_s": 80.0,
+        "fail_clear_s": 0.0
+      }
+    },
+    "move_s": 1754.6598249519072,
+    "measure_s": 710.0,
+    "switch_s": 132.0,
+    "success_clear_s": 80.0,
+    "fail_clear_s": 0.0,
+    "error": null,
+    "failreason": null,
+    "fail_clears": 0,
+    "measure_count": 142
+  },
+  {
+    "case": "cluster_biased_170107",
+    "seed": 170107,
+    "layout": "cluster",
+    "noise": "biased",
+    "policy": "patrol",
+    "real_n": 10,
+    "source_count": 10,
+    "success": true,
+    "cleared": 10,
+    "total_s": 2797.111948233676,
+    "per_source_s": 279.7111948233676,
+    "wall_s": 0.7717740000080084,
+    "actions": 158,
+    "initial_finish_s": 638.0,
+    "phase_costs": {
+      "initial": {
+        "actions": 40,
+        "move_s": 400.0,
+        "measure_s": 200.0,
+        "switch_s": 38.0,
+        "success_clear_s": 0.0,
+        "fail_clear_s": 0.0
+      },
+      "service": {
+        "actions": 108,
+        "move_s": 1311.0402644791627,
+        "measure_s": 490.0,
+        "switch_s": 90.0,
+        "success_clear_s": 50.0,
+        "fail_clear_s": 0.0
+      },
+      "completion": {
+        "actions": 10,
+        "move_s": 159.07168375451266,
+        "measure_s": 50.0,
+        "switch_s": 9.0,
+        "success_clear_s": 0.0,
+        "fail_clear_s": 0.0
+      }
+    },
+    "move_s": 1870.1119482336753,
+    "measure_s": 740.0,
+    "switch_s": 137.0,
+    "success_clear_s": 50.0,
+    "fail_clear_s": 0.0,
+    "error": null,
+    "failreason": null,
+    "fail_clears": 0,
+    "measure_count": 148
+  },
+  {
+    "case": "cluster_hashed_170108",
+    "seed": 170108,
+    "layout": "cluster",
+    "noise": "hashed",
+    "policy": "patrol",
+    "real_n": 11,
+    "source_count": 11,
+    "success": true,
+    "cleared": 11,
+    "total_s": 2986.613700291288,
+    "per_source_s": 271.51033639011706,
+    "wall_s": 0.8104000000021188,
+    "actions": 184,
+    "initial_finish_s": 638.0,
+    "phase_costs": {
+      "initial": {
+        "actions": 40,
+        "move_s": 400.0,
+        "measure_s": 200.0,
+        "switch_s": 38.0,
+        "success_clear_s": 0.0,
+        "fail_clear_s": 0.0
+      },
+      "service": {
+        "actions": 144,
+        "move_s": 1505.613700291287,
+        "measure_s": 665.0,
+        "switch_s": 123.0,
+        "success_clear_s": 55.0,
+        "fail_clear_s": 0.0
+      }
+    },
+    "move_s": 1905.6137002912865,
+    "measure_s": 865.0,
+    "switch_s": 161.0,
+    "success_clear_s": 55.0,
+    "fail_clear_s": 0.0,
+    "error": null,
+    "failreason": null,
+    "fail_clears": 0,
+    "measure_count": 173
+  },
+  {
+    "case": "line_smooth_170109",
+    "seed": 170109,
+    "layout": "line",
+    "noise": "smooth",
+    "policy": "patrol",
+    "real_n": 12,
+    "source_count": 12,
+    "success": true,
+    "cleared": 12,
+    "total_s": 3456.4089759512735,
+    "per_source_s": 288.0340813292728,
+    "wall_s": 0.9788935000105994,
+    "actions": 204,
+    "initial_finish_s": 638.0,
+    "phase_costs": {
+      "initial": {
+        "actions": 40,
+        "move_s": 400.0,
+        "measure_s": 200.0,
+        "switch_s": 38.0,
+        "success_clear_s": 0.0,
+        "fail_clear_s": 0.0
+      },
+      "service": {
+        "actions": 123,
+        "move_s": 889.1969883249843,
+        "measure_s": 555.0,
+        "switch_s": 103.0,
+        "success_clear_s": 60.0,
+        "fail_clear_s": 0.0
+      },
+      "completion": {
+        "actions": 41,
+        "move_s": 969.2119876262904,
+        "measure_s": 205.0,
+        "switch_s": 37.0,
+        "success_clear_s": 0.0,
+        "fail_clear_s": 0.0
+      }
+    },
+    "move_s": 2258.4089759512744,
+    "measure_s": 960.0,
+    "switch_s": 178.0,
+    "success_clear_s": 60.0,
+    "fail_clear_s": 0.0,
+    "error": null,
+    "failreason": null,
+    "fail_clears": 0,
+    "measure_count": 192
+  },
+  {
+    "case": "line_biased_170110",
+    "seed": 170110,
+    "layout": "line",
+    "noise": "biased",
+    "policy": "patrol",
+    "real_n": 13,
+    "source_count": 13,
+    "success": true,
+    "cleared": 13,
+    "total_s": 3155.7108051914397,
+    "per_source_s": 242.74698501472614,
+    "wall_s": 0.914517800003523,
+    "actions": 183,
+    "initial_finish_s": 638.0,
+    "phase_costs": {
+      "initial": {
+        "actions": 40,
+        "move_s": 400.0,
+        "measure_s": 200.0,
+        "switch_s": 38.0,
+        "success_clear_s": 0.0,
+        "fail_clear_s": 0.0
+      },
+      "service": {
+        "actions": 115,
+        "move_s": 1348.4972439023722,
+        "measure_s": 510.0,
+        "switch_s": 96.0,
+        "success_clear_s": 65.0,
+        "fail_clear_s": 0.0
+      },
+      "completion": {
+        "actions": 28,
+        "move_s": 332.2135612890671,
+        "measure_s": 140.0,
+        "switch_s": 26.0,
+        "success_clear_s": 0.0,
+        "fail_clear_s": 0.0
+      }
+    },
+    "move_s": 2080.7108051914392,
+    "measure_s": 850.0,
+    "switch_s": 160.0,
+    "success_clear_s": 65.0,
+    "fail_clear_s": 0.0,
+    "error": null,
+    "failreason": null,
+    "fail_clears": 0,
+    "measure_count": 170
+  },
+  {
+    "case": "line_hashed_170111",
+    "seed": 170111,
+    "layout": "line",
+    "noise": "hashed",
+    "policy": "patrol",
+    "real_n": 14,
+    "source_count": 14,
+    "success": true,
+    "cleared": 14,
+    "total_s": 3173.5789664551344,
+    "per_source_s": 226.68421188965246,
+    "wall_s": 0.9239790999999968,
+    "actions": 187,
+    "initial_finish_s": 638.0,
+    "phase_costs": {
+      "initial": {
+        "actions": 40,
+        "move_s": 400.0,
+        "measure_s": 200.0,
+        "switch_s": 38.0,
+        "success_clear_s": 0.0,
+        "fail_clear_s": 0.0
+      },
+      "service": {
+        "actions": 141,
+        "move_s": 1534.2845562200448,
+        "measure_s": 635.0,
+        "switch_s": 114.0,
+        "success_clear_s": 70.0,
+        "fail_clear_s": 0.0
+      },
+      "completion": {
+        "actions": 6,
+        "move_s": 146.29441023508986,
+        "measure_s": 30.0,
+        "switch_s": 6.0,
+        "success_clear_s": 0.0,
+        "fail_clear_s": 0.0
+      }
+    },
+    "move_s": 2080.578966455135,
+    "measure_s": 865.0,
+    "switch_s": 158.0,
+    "success_clear_s": 70.0,
+    "fail_clear_s": 0.0,
+    "error": null,
+    "failreason": null,
+    "fail_clears": 0,
+    "measure_count": 173
+  }
+]

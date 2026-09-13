@@ -1,0 +1,225 @@
+{
+  "groups": {
+    "committed_base": {
+      "cases": 12,
+      "all_success": true,
+      "mean_s": 3991.5000161521943,
+      "slowest_quarter_mean_s": 5359.759132031942,
+      "slowest_quarter_cases": [
+        "edge_hashed_94105",
+        "edge_smooth_94103",
+        "edge_biased_94104"
+      ],
+      "worst_s": 5480.620608578256,
+      "worst_case": "edge_hashed_94105",
+      "real_total_s": 6.12546899998415,
+      "real_mean_s": 0.5104557499986792,
+      "real_worst_s": 1.6267125999947893,
+      "planning_total_s": 5.357457899946894,
+      "source_count": 153,
+      "cleared": 153,
+      "failed_clears": 0,
+      "fallback_cases": 0,
+      "costs": {
+        "move_s": 36538.00019382632,
+        "switch_s": 1570.0,
+        "measure_s": 9025.0,
+        "clear_s": 765.0
+      }
+    },
+    "completion": {
+      "cases": 12,
+      "all_success": true,
+      "mean_s": 3859.104721796718,
+      "slowest_quarter_mean_s": 4724.514515146751,
+      "slowest_quarter_cases": [
+        "edge_hashed_94105",
+        "uniform_biased_94101",
+        "edge_biased_94104"
+      ],
+      "worst_s": 4757.482797194313,
+      "worst_case": "edge_hashed_94105",
+      "real_total_s": 21.454271300011897,
+      "real_mean_s": 1.787855941667658,
+      "real_worst_s": 3.569620300004317,
+      "planning_total_s": 20.76468819987349,
+      "source_count": 153,
+      "cleared": 153,
+      "failed_clears": 15,
+      "fallback_cases": 0,
+      "costs": {
+        "move_s": 35742.25666156062,
+        "switch_s": 1532.0,
+        "measure_s": 8225.0,
+        "clear_s": 810.0
+      }
+    },
+    "configured": {
+      "cases": 12,
+      "all_success": true,
+      "mean_s": 3911.001708979721,
+      "slowest_quarter_mean_s": 4757.197305753699,
+      "slowest_quarter_cases": [
+        "uniform_hashed_94102",
+        "edge_hashed_94105",
+        "edge_biased_94104"
+      ],
+      "worst_s": 4790.502389106852,
+      "worst_case": "uniform_hashed_94102",
+      "real_total_s": 20.2920884999985,
+      "real_mean_s": 1.6910073749998749,
+      "real_worst_s": 3.5765473999999813,
+      "planning_total_s": 19.58901600017998,
+      "source_count": 153,
+      "cleared": 153,
+      "failed_clears": 16,
+      "fallback_cases": 0,
+      "costs": {
+        "move_s": 36513.02050775665,
+        "switch_s": 1501.0,
+        "measure_s": 8105.0,
+        "clear_s": 813.0
+      }
+    }
+  },
+  "pairs": {
+    "completion_minus_committed_base": {
+      "cases": 12,
+      "wins": 6,
+      "ties": 0,
+      "losses": 6,
+      "cases_detail": [
+        {
+          "case": "uniform_smooth_94100",
+          "difference_s": 144.35862966165132,
+          "ratio": 1.0403438742557856
+        },
+        {
+          "case": "uniform_biased_94101",
+          "difference_s": 59.8106419676451,
+          "ratio": 1.0128061229152205
+        },
+        {
+          "case": "uniform_hashed_94102",
+          "difference_s": -496.8331213851252,
+          "ratio": 0.8953496968426258
+        },
+        {
+          "case": "edge_smooth_94103",
+          "difference_s": -823.7219018077585,
+          "ratio": 0.8484930293991024
+        },
+        {
+          "case": "edge_biased_94104",
+          "difference_s": -476.02084186639604,
+          "ratio": 0.9077800449823145
+        },
+        {
+          "case": "edge_hashed_94105",
+          "difference_s": -723.1378113839428,
+          "ratio": 0.8680554880496401
+        },
+        {
+          "case": "cluster_smooth_94106",
+          "difference_s": 23.30952120826123,
+          "ratio": 1.00721263809173
+        },
+        {
+          "case": "cluster_biased_94107",
+          "difference_s": -19.689705938875022,
+          "ratio": 0.985277147394184
+        },
+        {
+          "case": "cluster_hashed_94108",
+          "difference_s": 151.15659872785272,
+          "ratio": 1.0464397463253026
+        },
+        {
+          "case": "line_smooth_94109",
+          "difference_s": 571.7804155282461,
+          "ratio": 1.150370124541004
+        },
+        {
+          "case": "line_biased_94110",
+          "difference_s": -193.4918317083616,
+          "ratio": 0.9513640261286923
+        },
+        {
+          "case": "line_hashed_94111",
+          "difference_s": 193.7358747310882,
+          "ratio": 1.0602109156534043
+        }
+      ]
+    },
+    "configured_minus_committed_base": {
+      "cases": 12,
+      "wins": 6,
+      "ties": 0,
+      "losses": 6,
+      "cases_detail": [
+        {
+          "case": "uniform_smooth_94100",
+          "difference_s": 160.142309075939,
+          "ratio": 1.0447549356455768
+        },
+        {
+          "case": "uniform_biased_94101",
+          "difference_s": -18.922170781912428,
+          "ratio": 0.9959485530185908
+        },
+        {
+          "case": "uniform_hashed_94102",
+          "difference_s": 42.94689814967296,
+          "ratio": 1.0090461076719326
+        },
+        {
+          "case": "edge_smooth_94103",
+          "difference_s": -796.1475700596793,
+          "ratio": 0.8535647695826852
+        },
+        {
+          "case": "edge_biased_94104",
+          "difference_s": -470.8196314063125,
+          "ratio": 0.9087876802631265
+        },
+        {
+          "case": "edge_hashed_94105",
+          "difference_s": -690.5101267020136,
+          "ratio": 0.8740087709006479
+        },
+        {
+          "case": "cluster_smooth_94106",
+          "difference_s": 67.87998920241307,
+          "ratio": 1.0210040262694895
+        },
+        {
+          "case": "cluster_biased_94107",
+          "difference_s": -6.359291507025546,
+          "ratio": 0.9952448801507747
+        },
+        {
+          "case": "cluster_hashed_94108",
+          "difference_s": 157.15659872785272,
+          "ratio": 1.0482831225344582
+        },
+        {
+          "case": "line_smooth_94109",
+          "difference_s": 529.6468340157821,
+          "ratio": 1.1392895913024976
+        },
+        {
+          "case": "line_biased_94110",
+          "difference_s": -195.52568167822483,
+          "ratio": 0.9508527989977118
+        },
+        {
+          "case": "line_hashed_94111",
+          "difference_s": 254.53215689382978,
+          "ratio": 1.0791057115832878
+        }
+      ]
+    }
+  },
+  "complete": true,
+  "tail_definition": "各策略12局中耗时最高3局的算术平均；未完成批次仅供保存，不作完整比较"
+}

@@ -1,0 +1,20 @@
+{
+  "comparison_type": "official_feedback_replay_and_independent_cost",
+  "actions": 117,
+  "replayed_actions": 117,
+  "action_mismatch_steps": [],
+  "max_position_difference_m": 0.0,
+  "max_step_cost_difference_s": 4.670713735777099e-07,
+  "max_cumulative_cost_difference_s": 1.2417613106663339e-06,
+  "official_total_s": 3567.387248,
+  "local_ledger_total_s": 3567.38724771808,
+  "replay_complete": true,
+  "replay_cleared": 11,
+  "same_hidden_environment_test_performed": false,
+  "unavailable": [
+    "各源真实坐标",
+    "各源接收半径",
+    "官方固定空间误差场/种子"
+  ],
+  "limits": "本地重放使用官方测向和清除反馈，不能独立验证Python环境是否产生相同反馈；源真值未公开，不能完整重建同一官方场景。"
+}

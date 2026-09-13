@@ -1,0 +1,54 @@
+{
+  "case": "line_biased_320121",
+  "seed": 320121,
+  "layout": "line",
+  "noise": "biased",
+  "policy": "P1_joint_tasks",
+  "real_n": 14,
+  "source_count": 14,
+  "success": true,
+  "cleared": 14,
+  "total_s": 2733.6057669478796,
+  "per_source_s": 195.2575547819914,
+  "wall_s": 267.87543140002526,
+  "actions": 153,
+  "initial_finish_s": 428.7951960795751,
+  "phase_costs": {
+    "initial": {
+      "actions": 40,
+      "move_s": 190.79519607957508,
+      "measure_s": 200.0,
+      "switch_s": 38.0,
+      "success_clear_s": 0.0,
+      "fail_clear_s": 0.0
+    },
+    "service": {
+      "actions": 101,
+      "move_s": 1119.5116055688436,
+      "measure_s": 420.0,
+      "switch_s": 78.0,
+      "success_clear_s": 70.0,
+      "fail_clear_s": 9.0
+    },
+    "completion": {
+      "actions": 12,
+      "move_s": 537.2989652994611,
+      "measure_s": 60.0,
+      "switch_s": 11.0,
+      "success_clear_s": 0.0,
+      "fail_clear_s": 0.0
+    }
+  },
+  "move_s": 1847.6057669478796,
+  "measure_s": 680.0,
+  "switch_s": 127.0,
+  "success_clear_s": 70.0,
+  "fail_clear_s": 9.0,
+  "error": null,
+  "failreason": null,
+  "fail_clears": 3,
+  "measure_count": 136,
+  "cached_opening_selection_wall_s": 66.99831779999658,
+  "accounted_wall_s": 334.87374920002185,
+  "opening_selection": "reused identical public-history selection; historical compute charged separately"
+}

@@ -1,0 +1,53 @@
+{
+  "config": {
+    "name": "r3_covering",
+    "initial_points": [
+      [
+        -129.903811,
+        -75.0
+      ],
+      [
+        519.615242,
+        300.0
+      ]
+    ],
+    "try_radius_m": 30.0,
+    "local_action_limit": 16,
+    "local_offset_fraction": 0.5,
+    "local_offset_min_m": 30.0,
+    "local_offset_max_m": 300.0,
+    "shared_scan_gap_m": 0.0,
+    "route_mode": "nearest",
+    "planning": "covering"
+  },
+  "phase": "service",
+  "initial_finish_s": 418.0000001028847,
+  "initial_statistics": {
+    "found": 12,
+    "two_bearings": 9,
+    "radius_le20": 3,
+    "radius_le60": 8,
+    "radii_m": {
+      "2": 530.3931641585472,
+      "3": 26.06633404108381,
+      "5": 21.622539497162258,
+      "7": 15.714960990123297,
+      "8": 26.475679793282676,
+      "10": 530.55711472502,
+      "13": 21.307184776476632,
+      "15": 536.7362847616268,
+      "17": 17.228837831916618,
+      "18": 18.576586462959224,
+      "19": 142.92861774772658,
+      "20": 28.188003506865766
+    }
+  },
+  "stations": 22,
+  "target": 4,
+  "reason": "certain_center",
+  "planned_unknown_stops": 0,
+  "planned_route_m": 20.278781657094335,
+  "planned_coverage_complete": true,
+  "plan_has_unknown_channels": false,
+  "plans_made": 21
+}

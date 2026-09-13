@@ -1,0 +1,510 @@
+{
+  "case": "uniform_hashed_1392164241",
+  "scope": "same_state_common_F1_hindsight_only",
+  "decisions": [
+    {
+      "at_action": 59,
+      "channel": 1,
+      "chosen": "original",
+      "best_hindsight": "original",
+      "regret_s": 0.0,
+      "chosen_vs_original_saving": 0.0,
+      "options": [
+        {
+          "id": "original",
+          "predicted_s": 2462.87833464394,
+          "actual_common_f1_s": 2610.3252943490033,
+          "error": null
+        },
+        {
+          "id": "scan_unknown_now",
+          "predicted_s": 2469.96928187311,
+          "actual_common_f1_s": 2617.798410731796,
+          "error": null
+        },
+        {
+          "id": "clear2",
+          "predicted_s": 2610.4669947610896,
+          "actual_common_f1_s": 2723.507017671558,
+          "error": null
+        },
+        {
+          "id": "clear3",
+          "predicted_s": 2573.919001606598,
+          "actual_common_f1_s": 2646.494345249889,
+          "error": null
+        }
+      ]
+    },
+    {
+      "at_action": 66,
+      "channel": 18,
+      "chosen": "original",
+      "best_hindsight": "clear2",
+      "regret_s": 77.52056605803818,
+      "chosen_vs_original_saving": 0.0,
+      "options": [
+        {
+          "id": "original",
+          "predicted_s": 2449.8653130254247,
+          "actual_common_f1_s": 2542.477287993256,
+          "error": null
+        },
+        {
+          "id": "clear2",
+          "predicted_s": 2552.901785599354,
+          "actual_common_f1_s": 2464.956721935218,
+          "error": null
+        },
+        {
+          "id": "clear3",
+          "predicted_s": 2550.819950903935,
+          "actual_common_f1_s": 2467.773538042297,
+          "error": null
+        }
+      ]
+    },
+    {
+      "at_action": 77,
+      "channel": 3,
+      "chosen": "mirror1_unknown1",
+      "best_hindsight": "mirror1_unknown1",
+      "regret_s": 0.0,
+      "chosen_vs_original_saving": 48.756757307458884,
+      "options": [
+        {
+          "id": "original",
+          "predicted_s": 2508.6537849656497,
+          "actual_common_f1_s": 2477.477287993256,
+          "error": null
+        },
+        {
+          "id": "mirror0_unknown0",
+          "predicted_s": 2490.862051609913,
+          "actual_common_f1_s": 2473.7168543344155,
+          "error": null
+        },
+        {
+          "id": "mirror0_unknown1",
+          "predicted_s": 2532.862051609913,
+          "actual_common_f1_s": 2461.5881401373094,
+          "error": null
+        },
+        {
+          "id": "mirror1_unknown1",
+          "predicted_s": 2466.4116694220743,
+          "actual_common_f1_s": 2428.7205306857973,
+          "error": null
+        }
+      ]
+    },
+    {
+      "at_action": 87,
+      "channel": 3,
+      "chosen": "mirror1_unknown0",
+      "best_hindsight": "original",
+      "regret_s": 17.599141096350195,
+      "chosen_vs_original_saving": -17.599141096350195,
+      "options": [
+        {
+          "id": "original",
+          "predicted_s": 2212.818011767016,
+          "actual_common_f1_s": 2209.8723878917854,
+          "error": null
+        },
+        {
+          "id": "mirror0_unknown1",
+          "predicted_s": 2248.818011767016,
+          "actual_common_f1_s": 2245.8723878917854,
+          "error": null
+        },
+        {
+          "id": "mirror1_unknown0",
+          "predicted_s": 2176.0125988676464,
+          "actual_common_f1_s": 2227.4715289881356,
+          "error": null
+        },
+        {
+          "id": "mirror1_unknown1",
+          "predicted_s": 2212.0125988676464,
+          "actual_common_f1_s": 2263.471528988136,
+          "error": null
+        },
+        {
+          "id": "clear3",
+          "predicted_s": 2205.828455060371,
+          "actual_common_f1_s": 2220.3022163794153,
+          "error": null
+        }
+      ]
+    },
+    {
+      "at_action": 90,
+      "channel": 17,
+      "chosen": "clear3",
+      "best_hindsight": "clear3",
+      "regret_s": 0.0,
+      "chosen_vs_original_saving": 12.940888767996512,
+      "options": [
+        {
+          "id": "original",
+          "predicted_s": 1962.045799497731,
+          "actual_common_f1_s": 2135.14983517195,
+          "error": null
+        },
+        {
+          "id": "scan_unknown_now",
+          "predicted_s": 1999.0457994977307,
+          "actual_common_f1_s": 2172.14983517195,
+          "error": null
+        },
+        {
+          "id": "clear3",
+          "predicted_s": 1941.7683633846555,
+          "actual_common_f1_s": 2122.2089464039536,
+          "error": null
+        }
+      ]
+    },
+    {
+      "at_action": 92,
+      "channel": 15,
+      "chosen": "original",
+      "best_hindsight": "original",
+      "regret_s": 0.0,
+      "chosen_vs_original_saving": 0.0,
+      "options": [
+        {
+          "id": "original",
+          "predicted_s": 1862.6213328257613,
+          "actual_common_f1_s": 1970.302160641948,
+          "error": null
+        },
+        {
+          "id": "scan_unknown_now",
+          "predicted_s": 1862.6213328257613,
+          "actual_common_f1_s": 1970.302160641948,
+          "error": null
+        }
+      ]
+    },
+    {
+      "at_action": 100,
+      "channel": 15,
+      "chosen": "original",
+      "best_hindsight": "original",
+      "regret_s": 0.0,
+      "chosen_vs_original_saving": 0.0,
+      "options": [
+        {
+          "id": "original",
+          "predicted_s": 1596.5964378788676,
+          "actual_common_f1_s": 1833.6832216261341,
+          "error": null
+        },
+        {
+          "id": "scan_unknown_now",
+          "predicted_s": 1633.8464378788676,
+          "actual_common_f1_s": 1869.6832216261341,
+          "error": null
+        }
+      ]
+    },
+    {
+      "at_action": 102,
+      "channel": 15,
+      "chosen": "original",
+      "best_hindsight": "original",
+      "regret_s": 0.0,
+      "chosen_vs_original_saving": 0.0,
+      "options": [
+        {
+          "id": "original",
+          "predicted_s": 1614.0077196459756,
+          "actual_common_f1_s": 1722.7868788287842,
+          "error": null
+        },
+        {
+          "id": "scan_unknown_now",
+          "predicted_s": 1651.0077196459756,
+          "actual_common_f1_s": 1759.7868788287842,
+          "error": null
+        }
+      ]
+    },
+    {
+      "at_action": 105,
+      "channel": 4,
+      "chosen": "original",
+      "best_hindsight": "original",
+      "regret_s": 0.0,
+      "chosen_vs_original_saving": 0.0,
+      "options": [
+        {
+          "id": "original",
+          "predicted_s": 1509.4945062632587,
+          "actual_common_f1_s": 1691.4152510711235,
+          "error": null
+        },
+        {
+          "id": "scan_unknown_now",
+          "predicted_s": 1545.4945062632587,
+          "actual_common_f1_s": 1727.4152510711235,
+          "error": null
+        },
+        {
+          "id": "clear2",
+          "predicted_s": 1779.1944320226262,
+          "actual_common_f1_s": 1750.2111382307346,
+          "error": null
+        },
+        {
+          "id": "clear3",
+          "predicted_s": 1788.3126732769624,
+          "actual_common_f1_s": 1710.2538043927086,
+          "error": null
+        }
+      ]
+    },
+    {
+      "at_action": 108,
+      "channel": 15,
+      "chosen": "original",
+      "best_hindsight": "clear3",
+      "regret_s": 53.62208026033613,
+      "chosen_vs_original_saving": 0.0,
+      "options": [
+        {
+          "id": "original",
+          "predicted_s": 1303.0194412596893,
+          "actual_common_f1_s": 1531.6134471766427,
+          "error": null
+        },
+        {
+          "id": "clear3",
+          "predicted_s": 1358.6375668462938,
+          "actual_common_f1_s": 1477.9913669163066,
+          "error": null
+        }
+      ]
+    },
+    {
+      "at_action": 116,
+      "channel": 15,
+      "chosen": "clear3",
+      "best_hindsight": "clear2",
+      "regret_s": 13.881822733235822,
+      "chosen_vs_original_saving": 231.09986351314092,
+      "options": [
+        {
+          "id": "original",
+          "predicted_s": 1364.9111412405568,
+          "actual_common_f1_s": 1484.6134471766427,
+          "error": null
+        },
+        {
+          "id": "mirror1_unknown1",
+          "predicted_s": 1334.7456497643632,
+          "actual_common_f1_s": 1270.8369010239057,
+          "error": null
+        },
+        {
+          "id": "clear2",
+          "predicted_s": 1343.022467329724,
+          "actual_common_f1_s": 1239.631760930266,
+          "error": null
+        },
+        {
+          "id": "clear3",
+          "predicted_s": 1315.417644866423,
+          "actual_common_f1_s": 1253.5135836635018,
+          "error": null
+        }
+      ]
+    },
+    {
+      "at_action": 124,
+      "channel": 9,
+      "chosen": "original",
+      "best_hindsight": "original",
+      "regret_s": 0.0,
+      "chosen_vs_original_saving": 0.0,
+      "options": [
+        {
+          "id": "original",
+          "predicted_s": 1062.6459438490979,
+          "actual_common_f1_s": 1060.9543553823546,
+          "error": null
+        },
+        {
+          "id": "mirror1_unknown1",
+          "predicted_s": 1104.9355589311544,
+          "actual_common_f1_s": 1109.5319495748417,
+          "error": null
+        }
+      ]
+    },
+    {
+      "at_action": 132,
+      "channel": 9,
+      "chosen": "original",
+      "best_hindsight": "original",
+      "regret_s": 0.0,
+      "chosen_vs_original_saving": 0.0,
+      "options": [
+        {
+          "id": "original",
+          "predicted_s": 818.053251312465,
+          "actual_common_f1_s": 836.6863154046682,
+          "error": null
+        },
+        {
+          "id": "clear2",
+          "predicted_s": 850.1134760141458,
+          "actual_common_f1_s": 858.7390578515151,
+          "error": null
+        },
+        {
+          "id": "clear3",
+          "predicted_s": 845.1052035302424,
+          "actual_common_f1_s": 854.3993096960139,
+          "error": null
+        }
+      ]
+    },
+    {
+      "at_action": 133,
+      "channel": 8,
+      "chosen": "original",
+      "best_hindsight": "original",
+      "regret_s": 0.0,
+      "chosen_vs_original_saving": 0.0,
+      "options": [
+        {
+          "id": "original",
+          "predicted_s": 741.6355525200078,
+          "actual_common_f1_s": 750.1418979694913,
+          "error": null
+        },
+        {
+          "id": "scan_unknown_now",
+          "predicted_s": 772.3855525200078,
+          "actual_common_f1_s": 780.1418979694913,
+          "error": null
+        },
+        {
+          "id": "clear2",
+          "predicted_s": 964.1921518015839,
+          "actual_common_f1_s": 1054.5313868449475,
+          "error": null
+        },
+        {
+          "id": "clear3",
+          "predicted_s": 957.717671480999,
+          "actual_common_f1_s": 1054.8903901164817,
+          "error": null
+        }
+      ]
+    },
+    {
+      "at_action": 135,
+      "channel": 16,
+      "chosen": "original",
+      "best_hindsight": "original",
+      "regret_s": 0.0,
+      "chosen_vs_original_saving": 0.0,
+      "options": [
+        {
+          "id": "original",
+          "predicted_s": 561.6732105428654,
+          "actual_common_f1_s": 545.8230298412127,
+          "error": null
+        },
+        {
+          "id": "scan_unknown_now",
+          "predicted_s": 596.4062794320099,
+          "actual_common_f1_s": 576.8230298412127,
+          "error": null
+        }
+      ]
+    },
+    {
+      "at_action": 137,
+      "channel": 16,
+      "chosen": "original",
+      "best_hindsight": "scan_unknown_now",
+      "regret_s": 14.70665762060571,
+      "chosen_vs_original_saving": 0.0,
+      "options": [
+        {
+          "id": "original",
+          "predicted_s": 429.63893956625157,
+          "actual_common_f1_s": 471.55715809649655,
+          "error": null
+        },
+        {
+          "id": "scan_unknown_now",
+          "predicted_s": 459.63893956625157,
+          "actual_common_f1_s": 456.85050047589084,
+          "error": null
+        }
+      ]
+    },
+    {
+      "at_action": 144,
+      "channel": 16,
+      "chosen": "original",
+      "best_hindsight": "original",
+      "regret_s": 0.0,
+      "chosen_vs_original_saving": 0.0,
+      "options": [
+        {
+          "id": "original",
+          "predicted_s": 390.09835815719305,
+          "actual_common_f1_s": 295.55258164471434,
+          "error": null
+        },
+        {
+          "id": "clear2",
+          "predicted_s": 448.20591362385517,
+          "actual_common_f1_s": 426.14247014685725,
+          "error": null
+        },
+        {
+          "id": "clear3",
+          "predicted_s": 449.94210736438345,
+          "actual_common_f1_s": 425.4491675148488,
+          "error": null
+        }
+      ]
+    },
+    {
+      "at_action": 148,
+      "channel": 19,
+      "chosen": "original",
+      "best_hindsight": "original",
+      "regret_s": 0.0,
+      "chosen_vs_original_saving": 0.0,
+      "options": [
+        {
+          "id": "original",
+          "predicted_s": 232.44149608671444,
+          "actual_common_f1_s": 232.52449503619755,
+          "error": null
+        },
+        {
+          "id": "clear2",
+          "predicted_s": 294.57588335748505,
+          "actual_common_f1_s": 294.57588335748505,
+          "error": null
+        },
+        {
+          "id": "clear3",
+          "predicted_s": 295.92484313121474,
+          "actual_common_f1_s": 294.71053794752106,
+          "error": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "anchors31_900": {
+    "discovery_weight": 1.0,
+    "localization_weight": 1.0,
+    "clear_weight": 2.0,
+    "offset_scale": 0.5,
+    "min_offset_m": 60.0,
+    "max_offset_m": 600.0,
+    "adaptive_virtual_budget_s": 12000.0,
+    "adaptive_action_limit": 1000,
+    "domain_radius_m": 5000.0,
+    "discovery_value_s": 120.0,
+    "terminal_value_s": 75.0,
+    "detour_weight": 0.5,
+    "error_samples": [
+      -1.0,
+      0.0,
+      1.0
+    ],
+    "representative_limit": 5,
+    "work_gain_cap_s": 240.0,
+    "min_work_gain_s": 0.25,
+    "approach_offsets_m": [
+      60.0,
+      120.0
+    ],
+    "current_probe_ratio": 1.2,
+    "q4_anchor_value_s": 30.0
+  },
+  "anchors31_875": {
+    "discovery_weight": 1.0,
+    "localization_weight": 1.0,
+    "clear_weight": 2.0,
+    "offset_scale": 0.5,
+    "min_offset_m": 60.0,
+    "max_offset_m": 600.0,
+    "adaptive_virtual_budget_s": 12000.0,
+    "adaptive_action_limit": 1000,
+    "domain_radius_m": 5000.0,
+    "discovery_value_s": 120.0,
+    "terminal_value_s": 75.0,
+    "detour_weight": 0.5,
+    "error_samples": [
+      -1.0,
+      0.0,
+      1.0
+    ],
+    "representative_limit": 5,
+    "work_gain_cap_s": 240.0,
+    "min_work_gain_s": 0.25,
+    "approach_offsets_m": [
+      60.0,
+      120.0
+    ],
+    "current_probe_ratio": 1.2,
+    "q4_anchor_value_s": 30.0,
+    "anchor_spacing_m": 875.0
+  }
+}

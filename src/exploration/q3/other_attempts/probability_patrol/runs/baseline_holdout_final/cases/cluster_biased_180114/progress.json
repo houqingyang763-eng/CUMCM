@@ -1,0 +1,39 @@
+{
+  "case": "cluster_biased_180114",
+  "seed": 180114,
+  "layout": "cluster",
+  "noise": "biased",
+  "policy": "baseline",
+  "real_n": 14,
+  "source_count": 14,
+  "success": false,
+  "cleared": 14,
+  "total_s": 3001.2966439493434,
+  "per_source_s": null,
+  "wall_s": 0.49150469999585766,
+  "actions": 135,
+  "initial_finish_s": null,
+  "phase_costs": {
+    "scan": {
+      "actions": 106,
+      "move_s": 1440.0000000000002,
+      "measure_s": 530.0,
+      "switch_s": 105.0,
+      "success_clear_s": 0.0,
+      "fail_clear_s": 0.0
+    },
+    "service": {
+      "actions": 29,
+      "move_s": 781.2966439493432,
+      "measure_s": 50.0,
+      "switch_s": 10.0,
+      "success_clear_s": 70.0,
+      "fail_clear_s": 15.0
+    }
+  },
+  "move_s": 2221.2966439493434,
+  "measure_s": 580.0,
+  "switch_s": 115.0,
+  "success_clear_s": 70.0,
+  "fail_clear_s": 15.0
+}

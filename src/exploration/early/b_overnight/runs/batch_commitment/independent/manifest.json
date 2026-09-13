@@ -1,0 +1,92 @@
+{
+  "created_at": 1789064263.3007114,
+  "python": "3.13.5 (tags/v3.13.5:6cb20a2, Jun 11 2025, 16:15:46) [MSC v.1943 64 bit (AMD64)]",
+  "code_sha256": {
+    "b_overnight\\batch_commitment.py": "8aecb3028fcaad2412a493dd5a02a0f6b09f1859c4ced62dc87219dc01ba1dfa",
+    "b_overnight\\test_batch_commitment.py": "d807d34a317a1b8cebdcb02182bde42091dbe90d14e92730159f42bafada2488",
+    "b_overnight\\task_cost.py": "47b20e3bff43ce86fb9d4d0ba1e795a042dea3b984887811033e09dd5c21d283",
+    "b_overnight\\runner.py": "c68cbaf202787770206408642b738dd0d91ab7699d71febd0debcf697943a13b",
+    "b_overnight\\q4.py": "e9227c873c2da3ecf0f948762d5ef2da7f48f346d624cd57482f86c967cd3a9f",
+    "b_overnight\\q4run.py": "e5c54ee8dbbbf7c87d350464d84310e6845ea58b7fa38dfb7f5adfd3e6ffe3ff",
+    "b_overnight\\q4_anchor_design.py": "abde6593231d9cd6a43edd07a8d1c5d4431a072c16ab941d73bb83dbac8e00ad",
+    "b_overnight\\q4_coverage.py": "d4fba2dee928c9dd70343c0056ce8f886868b0cf9d5ec9fafae172fad16f209d",
+    "b_overnight\\coverage.py": "fab46e91db92b4b7f622bbb3bcd746e5153f217158f80b4e57de38c66ddf61e8",
+    "b_adaptive_q3\\geometry.py": "68a081fcaec7fc084a0293c8674c7a2fc363606058e79b44fa359ce36b4bdbaf",
+    "b_adaptive_q3\\policy.py": "0885c02e697e655bca498ee0d2b88368be778fdf3a529b67432af962e5b9a05f",
+    "b_adaptive_q3\\run_local.py": "cc528fc6d77d286e8b1b7e80f3e0a621bcfa506c97bc015245a5fdd892f04ba9",
+    "b_adaptive_q3\\simulation.py": "76bc0037c08d3b2a3cc347daa8a36a6d789103d943b42afdf9d8823f974494cc",
+    "b_adaptive_q3\\state.py": "1ea0699e5051b66c51649da0a7812eae1852381e79d41b1d0e88eb4b5e18f15b",
+    "b_adaptive_q3\\summarize.py": "6aef2316a3db75700f8914e873ebcd5d6143c1bf9b7651f8473d49a52f31042a",
+    "b_adaptive_q3\\test_core.py": "e70ebfeaf358efbf3c34a3b4a45d7acd9b16903b64ccce9cbe3ca19283037c93"
+  },
+  "cases_sha256": "329e82ca4d4e2242bd19640f07025302004ffd926e29bea46d7087fec4603ce4",
+  "validation_configs_sha256": "b40ab997c7e2acb65b52ee0badd4e0ed2630a1202f38b986579021a4fe8197d3",
+  "case_policy_orders": [
+    [
+      "committed_base",
+      "completion",
+      "configured"
+    ],
+    [
+      "completion",
+      "configured",
+      "committed_base"
+    ],
+    [
+      "configured",
+      "committed_base",
+      "completion"
+    ],
+    [
+      "committed_base",
+      "completion",
+      "configured"
+    ],
+    [
+      "completion",
+      "configured",
+      "committed_base"
+    ],
+    [
+      "configured",
+      "committed_base",
+      "completion"
+    ],
+    [
+      "committed_base",
+      "completion",
+      "configured"
+    ],
+    [
+      "completion",
+      "configured",
+      "committed_base"
+    ],
+    [
+      "configured",
+      "committed_base",
+      "completion"
+    ],
+    [
+      "committed_base",
+      "completion",
+      "configured"
+    ],
+    [
+      "completion",
+      "configured",
+      "committed_base"
+    ],
+    [
+      "configured",
+      "committed_base",
+      "completion"
+    ]
+  ],
+  "seed_base": 94100,
+  "frozen_before_execution": true,
+  "independent_cases_used_for_tuning": false,
+  "purpose": "批次承诺Base、Completion默认、第一轮configured的12例独立配对",
+  "metrics": "平均虚拟成本；每策略最慢3/12局均值；最差虚拟成本；含审计现实时间；配对胜负",
+  "interpretation": "自建误差场与布局，非官方分布；本批不随中间结果修改策略"
+}

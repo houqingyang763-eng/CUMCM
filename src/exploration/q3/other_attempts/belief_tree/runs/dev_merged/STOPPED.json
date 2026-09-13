@@ -1,0 +1,74 @@
+{
+  "reason": "结构修正仍无改善，停止当前候选；保留未完成轨迹，不作完成成绩",
+  "stopped_at_local": "2026-09-12 17:05",
+  "pending": [
+    {
+      "case": "cluster_smooth_330016",
+      "progress": {
+        "case": "cluster_smooth_330016",
+        "seed": 330016,
+        "layout": "cluster",
+        "noise": "smooth",
+        "policy": "patrol",
+        "real_n": 11,
+        "source_count": 11,
+        "success": false,
+        "cleared": 5,
+        "total_s": 2066.7116184355127,
+        "per_source_s": null,
+        "wall_s": 2211.0989887999895,
+        "actions": 42,
+        "initial_finish_s": null,
+        "phase_costs": {
+          "belief": {
+            "actions": 42,
+            "move_s": 1831.7116184355127,
+            "measure_s": 175.0,
+            "switch_s": 29.0,
+            "success_clear_s": 25.0,
+            "fail_clear_s": 6.0
+          }
+        },
+        "move_s": 1831.7116184355127,
+        "measure_s": 175.0,
+        "switch_s": 29.0,
+        "success_clear_s": 25.0,
+        "fail_clear_s": 6.0
+      }
+    },
+    {
+      "case": "line_smooth_330019",
+      "progress": {
+        "case": "line_smooth_330019",
+        "seed": 330019,
+        "layout": "line",
+        "noise": "smooth",
+        "policy": "patrol",
+        "real_n": 14,
+        "source_count": 14,
+        "success": false,
+        "cleared": 2,
+        "total_s": 1339.5239094696458,
+        "per_source_s": null,
+        "wall_s": 1995.9691040999896,
+        "actions": 32,
+        "initial_finish_s": null,
+        "phase_costs": {
+          "belief": {
+            "actions": 32,
+            "move_s": 1153.5239094696458,
+            "measure_s": 150.0,
+            "switch_s": 26.0,
+            "success_clear_s": 10.0,
+            "fail_clear_s": 0.0
+          }
+        },
+        "move_s": 1153.5239094696458,
+        "measure_s": 150.0,
+        "switch_s": 26.0,
+        "success_clear_s": 10.0,
+        "fail_clear_s": 0.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "case": "uniform_hashed_320104",
+  "seed": 320104,
+  "layout": "uniform",
+  "noise": "hashed",
+  "policy": "patrol",
+  "real_n": 11,
+  "source_count": 11,
+  "success": true,
+  "cleared": 11,
+  "total_s": 3294.782316939444,
+  "per_source_s": 299.5256651763131,
+  "wall_s": 0.9696698999905493,
+  "actions": 195,
+  "initial_finish_s": 418.0000001028847,
+  "phase_costs": {
+    "initial": {
+      "actions": 40,
+      "move_s": 180.0000001028847,
+      "measure_s": 200.0,
+      "switch_s": 38.0,
+      "success_clear_s": 0.0,
+      "fail_clear_s": 0.0
+    },
+    "service": {
+      "actions": 114,
+      "move_s": 1359.703595963529,
+      "measure_s": 515.0,
+      "switch_s": 97.0,
+      "success_clear_s": 55.0,
+      "fail_clear_s": 0.0
+    },
+    "completion": {
+      "actions": 41,
+      "move_s": 607.0787208730305,
+      "measure_s": 205.0,
+      "switch_s": 38.0,
+      "success_clear_s": 0.0,
+      "fail_clear_s": 0.0
+    }
+  },
+  "move_s": 2146.782316939444,
+  "measure_s": 920.0,
+  "switch_s": 173.0,
+  "success_clear_s": 55.0,
+  "fail_clear_s": 0.0,
+  "error": null,
+  "failreason": null,
+  "fail_clears": 0,
+  "measure_count": 184
+}

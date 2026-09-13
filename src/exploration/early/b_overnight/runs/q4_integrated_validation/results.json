@@ -1,0 +1,3524 @@
+[
+  {
+    "case": "q4_uniform_random_smooth_45100",
+    "seed": 45100,
+    "layout": "uniform_random",
+    "noise": "smooth",
+    "policy": "directional",
+    "source_count": 16,
+    "directional_count": 10,
+    "cleared": 16,
+    "success": true,
+    "error": null,
+    "cleared_ratio": 1.0,
+    "average_localization_clear_s": 276.8217301223231,
+    "virtual_time_s": 4429.14768195717,
+    "wall_time_s": 3.7904139999955078,
+    "planning_s": 3.7124759000580525,
+    "checking_s": 0.06743660003121477,
+    "actions": 156,
+    "measure_count": 140,
+    "scan_position_count": 38,
+    "failed_clears": 0,
+    "no_signal_count": 70,
+    "fallback": false,
+    "absence_proofs": {
+      "1": {
+        "kind": "sixteen_source_cap"
+      },
+      "2": {
+        "kind": "sixteen_source_cap"
+      },
+      "3": {
+        "kind": "sixteen_source_cap"
+      },
+      "13": {
+        "kind": "sixteen_source_cap"
+      }
+    },
+    "move_s": 3528.14768195717,
+    "switch_s": 121.0,
+    "measure_s": 700.0,
+    "clear_s": 80.0
+  },
+  {
+    "case": "q4_uniform_random_smooth_45100",
+    "seed": 45100,
+    "layout": "uniform_random",
+    "noise": "smooth",
+    "policy": "anchors25",
+    "source_count": 16,
+    "directional_count": 10,
+    "cleared": 16,
+    "success": true,
+    "error": null,
+    "cleared_ratio": 1.0,
+    "average_localization_clear_s": 283.4976227645794,
+    "virtual_time_s": 4535.96196423327,
+    "wall_time_s": 4.289878599993244,
+    "planning_s": 3.762935699967784,
+    "checking_s": 0.5172599999132217,
+    "actions": 160,
+    "measure_count": 144,
+    "scan_position_count": 38,
+    "failed_clears": 0,
+    "no_signal_count": 74,
+    "fallback": false,
+    "absence_proofs": {
+      "1": {
+        "kind": "sixteen_source_cap"
+      },
+      "2": {
+        "kind": "sixteen_source_cap"
+      },
+      "3": {
+        "kind": "sixteen_source_cap"
+      },
+      "13": {
+        "kind": "sixteen_source_cap"
+      }
+    },
+    "move_s": 3610.961964233272,
+    "switch_s": 125.0,
+    "measure_s": 720.0,
+    "clear_s": 80.0
+  },
+  {
+    "case": "q4_uniform_random_smooth_45100",
+    "seed": 45100,
+    "layout": "uniform_random",
+    "noise": "smooth",
+    "policy": "joint25",
+    "source_count": 16,
+    "directional_count": 10,
+    "cleared": 16,
+    "success": true,
+    "error": null,
+    "cleared_ratio": 1.0,
+    "average_localization_clear_s": 283.4976227645794,
+    "virtual_time_s": 4535.96196423327,
+    "wall_time_s": 4.309558200002357,
+    "planning_s": 3.9518519000557717,
+    "checking_s": 0.3470927000307711,
+    "actions": 160,
+    "measure_count": 144,
+    "scan_position_count": 38,
+    "failed_clears": 0,
+    "no_signal_count": 74,
+    "fallback": false,
+    "absence_proofs": {
+      "1": {
+        "kind": "sixteen_source_cap"
+      },
+      "2": {
+        "kind": "sixteen_source_cap"
+      },
+      "3": {
+        "kind": "sixteen_source_cap"
+      },
+      "13": {
+        "kind": "sixteen_source_cap"
+      }
+    },
+    "move_s": 3610.961964233272,
+    "switch_s": 125.0,
+    "measure_s": 720.0,
+    "clear_s": 80.0
+  },
+  {
+    "case": "q4_uniform_outward_biased_45101",
+    "seed": 45101,
+    "layout": "uniform_outward",
+    "noise": "biased",
+    "policy": "directional",
+    "source_count": 10,
+    "directional_count": 6,
+    "cleared": 10,
+    "success": true,
+    "error": null,
+    "cleared_ratio": 1.0,
+    "average_localization_clear_s": 1107.479096992391,
+    "virtual_time_s": 11074.790969923912,
+    "wall_time_s": 0.6345579000044381,
+    "planning_s": 0.5427616000088165,
+    "checking_s": 0.07232850004220381,
+    "actions": 509,
+    "measure_count": 481,
+    "scan_position_count": 57,
+    "failed_clears": 18,
+    "no_signal_count": 452,
+    "fallback": false,
+    "absence_proofs": {
+      "1": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "20": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "19": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "16": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "15": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "13": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "12": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "11": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "6": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "4": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      }
+    },
+    "move_s": 8123.790969923913,
+    "switch_s": 442.0,
+    "measure_s": 2405.0,
+    "clear_s": 104.0
+  },
+  {
+    "case": "q4_uniform_outward_biased_45101",
+    "seed": 45101,
+    "layout": "uniform_outward",
+    "noise": "biased",
+    "policy": "anchors25",
+    "source_count": 10,
+    "directional_count": 6,
+    "cleared": 10,
+    "success": true,
+    "error": null,
+    "cleared_ratio": 1.0,
+    "average_localization_clear_s": 674.6040577547208,
+    "virtual_time_s": 6746.040577547207,
+    "wall_time_s": 2.6211283000011463,
+    "planning_s": 0.3060751000084565,
+    "checking_s": 2.297286300032283,
+    "actions": 351,
+    "measure_count": 341,
+    "scan_position_count": 42,
+    "failed_clears": 0,
+    "no_signal_count": 312,
+    "fallback": false,
+    "absence_proofs": {
+      "4": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 2421,
+          "leaf_count": 1816,
+          "surrounded_leaves": 1288,
+          "outside_leaves": 528,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 8,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      },
+      "20": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 2421,
+          "leaf_count": 1816,
+          "surrounded_leaves": 1288,
+          "outside_leaves": 528,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 8,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      },
+      "19": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 2421,
+          "leaf_count": 1816,
+          "surrounded_leaves": 1288,
+          "outside_leaves": 528,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 8,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      },
+      "16": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 2421,
+          "leaf_count": 1816,
+          "surrounded_leaves": 1288,
+          "outside_leaves": 528,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 8,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      },
+      "15": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 2421,
+          "leaf_count": 1816,
+          "surrounded_leaves": 1288,
+          "outside_leaves": 528,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 8,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      },
+      "13": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 2421,
+          "leaf_count": 1816,
+          "surrounded_leaves": 1288,
+          "outside_leaves": 528,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 8,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      },
+      "12": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 2421,
+          "leaf_count": 1816,
+          "surrounded_leaves": 1288,
+          "outside_leaves": 528,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 8,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      },
+      "11": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 2421,
+          "leaf_count": 1816,
+          "surrounded_leaves": 1288,
+          "outside_leaves": 528,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 8,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      },
+      "6": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 2421,
+          "leaf_count": 1816,
+          "surrounded_leaves": 1288,
+          "outside_leaves": 528,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 8,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      },
+      "1": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 2421,
+          "leaf_count": 1816,
+          "surrounded_leaves": 1288,
+          "outside_leaves": 528,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 8,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      }
+    },
+    "move_s": 4678.040577547207,
+    "switch_s": 313.0,
+    "measure_s": 1705.0,
+    "clear_s": 50.0
+  },
+  {
+    "case": "q4_uniform_outward_biased_45101",
+    "seed": 45101,
+    "layout": "uniform_outward",
+    "noise": "biased",
+    "policy": "joint25",
+    "source_count": 10,
+    "directional_count": 6,
+    "cleared": 10,
+    "success": true,
+    "error": null,
+    "cleared_ratio": 1.0,
+    "average_localization_clear_s": 674.6040577547208,
+    "virtual_time_s": 6746.040577547207,
+    "wall_time_s": 1.9997901000024285,
+    "planning_s": 0.3460044000094058,
+    "checking_s": 1.6356592000302044,
+    "actions": 351,
+    "measure_count": 341,
+    "scan_position_count": 42,
+    "failed_clears": 0,
+    "no_signal_count": 312,
+    "fallback": false,
+    "absence_proofs": {
+      "4": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 2421,
+          "leaf_count": 1816,
+          "surrounded_leaves": 1288,
+          "outside_leaves": 528,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 8,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      },
+      "20": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 2421,
+          "leaf_count": 1816,
+          "surrounded_leaves": 1288,
+          "outside_leaves": 528,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 8,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      },
+      "19": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 2421,
+          "leaf_count": 1816,
+          "surrounded_leaves": 1288,
+          "outside_leaves": 528,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 8,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      },
+      "16": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 2421,
+          "leaf_count": 1816,
+          "surrounded_leaves": 1288,
+          "outside_leaves": 528,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 8,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      },
+      "15": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 2421,
+          "leaf_count": 1816,
+          "surrounded_leaves": 1288,
+          "outside_leaves": 528,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 8,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      },
+      "13": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 2421,
+          "leaf_count": 1816,
+          "surrounded_leaves": 1288,
+          "outside_leaves": 528,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 8,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      },
+      "12": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 2421,
+          "leaf_count": 1816,
+          "surrounded_leaves": 1288,
+          "outside_leaves": 528,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 8,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      },
+      "11": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 2421,
+          "leaf_count": 1816,
+          "surrounded_leaves": 1288,
+          "outside_leaves": 528,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 8,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      },
+      "6": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 2421,
+          "leaf_count": 1816,
+          "surrounded_leaves": 1288,
+          "outside_leaves": 528,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 8,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      },
+      "1": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 2421,
+          "leaf_count": 1816,
+          "surrounded_leaves": 1288,
+          "outside_leaves": 528,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 8,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      }
+    },
+    "move_s": 4678.040577547207,
+    "switch_s": 313.0,
+    "measure_s": 1705.0,
+    "clear_s": 50.0
+  },
+  {
+    "case": "q4_uniform_tangent_hashed_45102",
+    "seed": 45102,
+    "layout": "uniform_tangent",
+    "noise": "hashed",
+    "policy": "directional",
+    "source_count": 11,
+    "directional_count": 7,
+    "cleared": 11,
+    "success": true,
+    "error": null,
+    "cleared_ratio": 1.0,
+    "average_localization_clear_s": 921.6466827595381,
+    "virtual_time_s": 10138.113510354919,
+    "wall_time_s": 0.7030832000018563,
+    "planning_s": 0.630752100085374,
+    "checking_s": 0.05558499996550381,
+    "actions": 461,
+    "measure_count": 448,
+    "scan_position_count": 50,
+    "failed_clears": 2,
+    "no_signal_count": 418,
+    "fallback": false,
+    "absence_proofs": {
+      "6": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "19": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "16": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "13": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "12": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "10": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "9": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "7": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "4": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      }
+    },
+    "move_s": 7428.1135103549195,
+    "switch_s": 409.0,
+    "measure_s": 2240.0,
+    "clear_s": 61.0
+  },
+  {
+    "case": "q4_uniform_tangent_hashed_45102",
+    "seed": 45102,
+    "layout": "uniform_tangent",
+    "noise": "hashed",
+    "policy": "anchors25",
+    "source_count": 11,
+    "directional_count": 7,
+    "cleared": 11,
+    "success": true,
+    "error": null,
+    "cleared_ratio": 1.0,
+    "average_localization_clear_s": 624.1089704082557,
+    "virtual_time_s": 6865.198674490813,
+    "wall_time_s": 2.722372500000347,
+    "planning_s": 0.5502864000591217,
+    "checking_s": 2.154312100064999,
+    "actions": 341,
+    "measure_count": 327,
+    "scan_position_count": 37,
+    "failed_clears": 3,
+    "no_signal_count": 298,
+    "fallback": false,
+    "absence_proofs": {
+      "6": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 2421,
+          "leaf_count": 1816,
+          "surrounded_leaves": 1288,
+          "outside_leaves": 528,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 8,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      },
+      "19": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 2421,
+          "leaf_count": 1816,
+          "surrounded_leaves": 1288,
+          "outside_leaves": 528,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 8,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      },
+      "16": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 2421,
+          "leaf_count": 1816,
+          "surrounded_leaves": 1288,
+          "outside_leaves": 528,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 8,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      },
+      "13": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 2421,
+          "leaf_count": 1816,
+          "surrounded_leaves": 1288,
+          "outside_leaves": 528,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 8,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      },
+      "12": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 2421,
+          "leaf_count": 1816,
+          "surrounded_leaves": 1288,
+          "outside_leaves": 528,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 8,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      },
+      "10": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 2421,
+          "leaf_count": 1816,
+          "surrounded_leaves": 1288,
+          "outside_leaves": 528,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 8,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      },
+      "9": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 2421,
+          "leaf_count": 1816,
+          "surrounded_leaves": 1288,
+          "outside_leaves": 528,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 8,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      },
+      "7": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 2421,
+          "leaf_count": 1816,
+          "surrounded_leaves": 1288,
+          "outside_leaves": 528,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 8,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      },
+      "4": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 2421,
+          "leaf_count": 1816,
+          "surrounded_leaves": 1288,
+          "outside_leaves": 528,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 8,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      }
+    },
+    "move_s": 4864.198674490811,
+    "switch_s": 302.0,
+    "measure_s": 1635.0,
+    "clear_s": 64.0
+  },
+  {
+    "case": "q4_uniform_tangent_hashed_45102",
+    "seed": 45102,
+    "layout": "uniform_tangent",
+    "noise": "hashed",
+    "policy": "joint25",
+    "source_count": 11,
+    "directional_count": 7,
+    "cleared": 11,
+    "success": true,
+    "error": null,
+    "cleared_ratio": 1.0,
+    "average_localization_clear_s": 615.9628344484655,
+    "virtual_time_s": 6775.591178933121,
+    "wall_time_s": 2.4622552000000724,
+    "planning_s": 0.674401200034481,
+    "checking_s": 1.767662200050836,
+    "actions": 341,
+    "measure_count": 328,
+    "scan_position_count": 39,
+    "failed_clears": 2,
+    "no_signal_count": 299,
+    "fallback": false,
+    "absence_proofs": {
+      "6": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 2421,
+          "leaf_count": 1816,
+          "surrounded_leaves": 1288,
+          "outside_leaves": 528,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 8,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      },
+      "19": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 2421,
+          "leaf_count": 1816,
+          "surrounded_leaves": 1288,
+          "outside_leaves": 528,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 8,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      },
+      "16": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 2421,
+          "leaf_count": 1816,
+          "surrounded_leaves": 1288,
+          "outside_leaves": 528,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 8,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      },
+      "13": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 2421,
+          "leaf_count": 1816,
+          "surrounded_leaves": 1288,
+          "outside_leaves": 528,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 8,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      },
+      "12": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 2421,
+          "leaf_count": 1816,
+          "surrounded_leaves": 1288,
+          "outside_leaves": 528,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 8,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      },
+      "10": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 2421,
+          "leaf_count": 1816,
+          "surrounded_leaves": 1288,
+          "outside_leaves": 528,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 8,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      },
+      "9": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 2421,
+          "leaf_count": 1816,
+          "surrounded_leaves": 1288,
+          "outside_leaves": 528,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 8,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      },
+      "7": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 2421,
+          "leaf_count": 1816,
+          "surrounded_leaves": 1288,
+          "outside_leaves": 528,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 8,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      },
+      "4": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 2421,
+          "leaf_count": 1816,
+          "surrounded_leaves": 1288,
+          "outside_leaves": 528,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 8,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      }
+    },
+    "move_s": 4772.591178933121,
+    "switch_s": 302.0,
+    "measure_s": 1640.0,
+    "clear_s": 61.0
+  },
+  {
+    "case": "q4_edge_outward_smooth_45103",
+    "seed": 45103,
+    "layout": "edge_outward",
+    "noise": "smooth",
+    "policy": "directional",
+    "source_count": 12,
+    "directional_count": 8,
+    "cleared": 12,
+    "success": true,
+    "error": null,
+    "cleared_ratio": 1.0,
+    "average_localization_clear_s": 1022.1671035349692,
+    "virtual_time_s": 12266.005242419631,
+    "wall_time_s": 1.0125791000027675,
+    "planning_s": 0.8114303001202643,
+    "checking_s": 0.17614530001446838,
+    "actions": 651,
+    "measure_count": 560,
+    "scan_position_count": 54,
+    "failed_clears": 79,
+    "no_signal_count": 537,
+    "fallback": true,
+    "absence_proofs": {
+      "3": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "2": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "6": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "8": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "12": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "16": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "17": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "20": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      }
+    },
+    "move_s": 8650.005242419631,
+    "switch_s": 519.0,
+    "measure_s": 2800.0,
+    "clear_s": 297.0
+  },
+  {
+    "case": "q4_edge_outward_smooth_45103",
+    "seed": 45103,
+    "layout": "edge_outward",
+    "noise": "smooth",
+    "policy": "anchors25",
+    "source_count": 12,
+    "directional_count": 8,
+    "cleared": 12,
+    "success": true,
+    "error": null,
+    "cleared_ratio": 1.0,
+    "average_localization_clear_s": 553.5639801489032,
+    "virtual_time_s": 6642.7677617868385,
+    "wall_time_s": 4.752546600000642,
+    "planning_s": 0.18646349995105993,
+    "checking_s": 4.543794599965622,
+    "actions": 348,
+    "measure_count": 336,
+    "scan_position_count": 41,
+    "failed_clears": 0,
+    "no_signal_count": 310,
+    "fallback": false,
+    "absence_proofs": {
+      "3": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 2421,
+          "leaf_count": 1816,
+          "surrounded_leaves": 1288,
+          "outside_leaves": 528,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 8,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      },
+      "20": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 2421,
+          "leaf_count": 1816,
+          "surrounded_leaves": 1288,
+          "outside_leaves": 528,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 8,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      },
+      "17": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 2421,
+          "leaf_count": 1816,
+          "surrounded_leaves": 1288,
+          "outside_leaves": 528,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 8,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      },
+      "16": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 2421,
+          "leaf_count": 1816,
+          "surrounded_leaves": 1288,
+          "outside_leaves": 528,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 8,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      },
+      "12": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 2421,
+          "leaf_count": 1816,
+          "surrounded_leaves": 1288,
+          "outside_leaves": 528,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 8,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      },
+      "8": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 2421,
+          "leaf_count": 1816,
+          "surrounded_leaves": 1288,
+          "outside_leaves": 528,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 8,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      },
+      "6": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 2421,
+          "leaf_count": 1816,
+          "surrounded_leaves": 1288,
+          "outside_leaves": 528,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 8,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      },
+      "2": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 2421,
+          "leaf_count": 1816,
+          "surrounded_leaves": 1288,
+          "outside_leaves": 528,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 8,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      }
+    },
+    "move_s": 4586.7677617868385,
+    "switch_s": 316.0,
+    "measure_s": 1680.0,
+    "clear_s": 60.0
+  },
+  {
+    "case": "q4_edge_outward_smooth_45103",
+    "seed": 45103,
+    "layout": "edge_outward",
+    "noise": "smooth",
+    "policy": "joint25",
+    "source_count": 12,
+    "directional_count": 8,
+    "cleared": 12,
+    "success": true,
+    "error": null,
+    "cleared_ratio": 1.0,
+    "average_localization_clear_s": 553.5639801489032,
+    "virtual_time_s": 6642.7677617868385,
+    "wall_time_s": 3.3477977000002284,
+    "planning_s": 0.20475379999697907,
+    "checking_s": 3.124978700034262,
+    "actions": 348,
+    "measure_count": 336,
+    "scan_position_count": 41,
+    "failed_clears": 0,
+    "no_signal_count": 310,
+    "fallback": false,
+    "absence_proofs": {
+      "3": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 2421,
+          "leaf_count": 1816,
+          "surrounded_leaves": 1288,
+          "outside_leaves": 528,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 8,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      },
+      "20": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 2421,
+          "leaf_count": 1816,
+          "surrounded_leaves": 1288,
+          "outside_leaves": 528,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 8,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      },
+      "17": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 2421,
+          "leaf_count": 1816,
+          "surrounded_leaves": 1288,
+          "outside_leaves": 528,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 8,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      },
+      "16": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 2421,
+          "leaf_count": 1816,
+          "surrounded_leaves": 1288,
+          "outside_leaves": 528,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 8,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      },
+      "12": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 2421,
+          "leaf_count": 1816,
+          "surrounded_leaves": 1288,
+          "outside_leaves": 528,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 8,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      },
+      "8": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 2421,
+          "leaf_count": 1816,
+          "surrounded_leaves": 1288,
+          "outside_leaves": 528,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 8,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      },
+      "6": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 2421,
+          "leaf_count": 1816,
+          "surrounded_leaves": 1288,
+          "outside_leaves": 528,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 8,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      },
+      "2": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 2421,
+          "leaf_count": 1816,
+          "surrounded_leaves": 1288,
+          "outside_leaves": 528,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 8,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      }
+    },
+    "move_s": 4586.7677617868385,
+    "switch_s": 316.0,
+    "measure_s": 1680.0,
+    "clear_s": 60.0
+  },
+  {
+    "case": "q4_edge_tangent_biased_45104",
+    "seed": 45104,
+    "layout": "edge_tangent",
+    "noise": "biased",
+    "policy": "directional",
+    "source_count": 13,
+    "directional_count": 8,
+    "cleared": 13,
+    "success": true,
+    "error": null,
+    "cleared_ratio": 1.0,
+    "average_localization_clear_s": 744.4328365953608,
+    "virtual_time_s": 9677.62687573969,
+    "wall_time_s": 0.722332400000596,
+    "planning_s": 0.6444249999694875,
+    "checking_s": 0.06171029986580834,
+    "actions": 409,
+    "measure_count": 386,
+    "scan_position_count": 67,
+    "failed_clears": 10,
+    "no_signal_count": 341,
+    "fallback": false,
+    "absence_proofs": {
+      "2": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "20": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "10": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "9": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "8": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "4": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "3": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      }
+    },
+    "move_s": 7309.62687573969,
+    "switch_s": 343.0,
+    "measure_s": 1930.0,
+    "clear_s": 95.0
+  },
+  {
+    "case": "q4_edge_tangent_biased_45104",
+    "seed": 45104,
+    "layout": "edge_tangent",
+    "noise": "biased",
+    "policy": "anchors25",
+    "source_count": 13,
+    "directional_count": 8,
+    "cleared": 13,
+    "success": true,
+    "error": null,
+    "cleared_ratio": 1.0,
+    "average_localization_clear_s": 635.4515454474009,
+    "virtual_time_s": 8260.870090816212,
+    "wall_time_s": 4.193121600001177,
+    "planning_s": 1.0892604000182473,
+    "checking_s": 3.082183500082465,
+    "actions": 424,
+    "measure_count": 307,
+    "scan_position_count": 52,
+    "failed_clears": 104,
+    "no_signal_count": 274,
+    "fallback": false,
+    "absence_proofs": {
+      "3": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 2421,
+          "leaf_count": 1816,
+          "surrounded_leaves": 1288,
+          "outside_leaves": 528,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 8,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      },
+      "20": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 2421,
+          "leaf_count": 1816,
+          "surrounded_leaves": 1288,
+          "outside_leaves": 528,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 8,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      },
+      "10": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 2421,
+          "leaf_count": 1816,
+          "surrounded_leaves": 1288,
+          "outside_leaves": 528,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 8,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      },
+      "9": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 2421,
+          "leaf_count": 1816,
+          "surrounded_leaves": 1288,
+          "outside_leaves": 528,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 8,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      },
+      "8": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 2421,
+          "leaf_count": 1816,
+          "surrounded_leaves": 1288,
+          "outside_leaves": 528,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 8,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      },
+      "4": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 2421,
+          "leaf_count": 1816,
+          "surrounded_leaves": 1288,
+          "outside_leaves": 528,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 8,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      },
+      "2": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 2421,
+          "leaf_count": 1816,
+          "surrounded_leaves": 1288,
+          "outside_leaves": 528,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 8,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      }
+    },
+    "move_s": 6070.870090816212,
+    "switch_s": 278.0,
+    "measure_s": 1535.0,
+    "clear_s": 377.0
+  },
+  {
+    "case": "q4_edge_tangent_biased_45104",
+    "seed": 45104,
+    "layout": "edge_tangent",
+    "noise": "biased",
+    "policy": "joint25",
+    "source_count": 13,
+    "directional_count": 8,
+    "cleared": 13,
+    "success": true,
+    "error": null,
+    "cleared_ratio": 1.0,
+    "average_localization_clear_s": 549.2998154268807,
+    "virtual_time_s": 7140.89760054945,
+    "wall_time_s": 2.361462799999572,
+    "planning_s": 0.40717899995070184,
+    "checking_s": 1.936978400015505,
+    "actions": 329,
+    "measure_count": 311,
+    "scan_position_count": 56,
+    "failed_clears": 5,
+    "no_signal_count": 277,
+    "fallback": false,
+    "absence_proofs": {
+      "3": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 2421,
+          "leaf_count": 1816,
+          "surrounded_leaves": 1288,
+          "outside_leaves": 528,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 8,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      },
+      "20": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 2421,
+          "leaf_count": 1816,
+          "surrounded_leaves": 1288,
+          "outside_leaves": 528,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 8,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      },
+      "10": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 2421,
+          "leaf_count": 1816,
+          "surrounded_leaves": 1288,
+          "outside_leaves": 528,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 8,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      },
+      "9": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 2421,
+          "leaf_count": 1816,
+          "surrounded_leaves": 1288,
+          "outside_leaves": 528,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 8,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      },
+      "8": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 2421,
+          "leaf_count": 1816,
+          "surrounded_leaves": 1288,
+          "outside_leaves": 528,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 8,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      },
+      "4": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 2421,
+          "leaf_count": 1816,
+          "surrounded_leaves": 1288,
+          "outside_leaves": 528,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 8,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      },
+      "2": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 2421,
+          "leaf_count": 1816,
+          "surrounded_leaves": 1288,
+          "outside_leaves": 528,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 8,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      }
+    },
+    "move_s": 5227.897600549449,
+    "switch_s": 278.0,
+    "measure_s": 1555.0,
+    "clear_s": 80.0
+  },
+  {
+    "case": "q4_edge_aligned_hashed_45105",
+    "seed": 45105,
+    "layout": "edge_aligned",
+    "noise": "hashed",
+    "policy": "directional",
+    "source_count": 14,
+    "directional_count": 9,
+    "cleared": 14,
+    "success": true,
+    "error": null,
+    "cleared_ratio": 1.0,
+    "average_localization_clear_s": 750.3077857887304,
+    "virtual_time_s": 10504.309001042226,
+    "wall_time_s": 0.6403588999964995,
+    "planning_s": 0.5128789000227698,
+    "checking_s": 0.10851399986131582,
+    "actions": 520,
+    "measure_count": 484,
+    "scan_position_count": 64,
+    "failed_clears": 22,
+    "no_signal_count": 445,
+    "fallback": false,
+    "absence_proofs": {
+      "1": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "17": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "10": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "9": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "3": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "2": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      }
+    },
+    "move_s": 7500.309001042226,
+    "switch_s": 448.0,
+    "measure_s": 2420.0,
+    "clear_s": 136.0
+  },
+  {
+    "case": "q4_edge_aligned_hashed_45105",
+    "seed": 45105,
+    "layout": "edge_aligned",
+    "noise": "hashed",
+    "policy": "anchors25",
+    "source_count": 14,
+    "directional_count": 9,
+    "cleared": 14,
+    "success": true,
+    "error": null,
+    "cleared_ratio": 1.0,
+    "average_localization_clear_s": 531.3923608185964,
+    "virtual_time_s": 7439.49305146035,
+    "wall_time_s": 4.020702900001197,
+    "planning_s": 0.33484159999352414,
+    "checking_s": 3.6670099000184564,
+    "actions": 360,
+    "measure_count": 345,
+    "scan_position_count": 48,
+    "failed_clears": 1,
+    "no_signal_count": 305,
+    "fallback": false,
+    "absence_proofs": {
+      "1": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 2421,
+          "leaf_count": 1816,
+          "surrounded_leaves": 1288,
+          "outside_leaves": 528,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 8,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      },
+      "17": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 2421,
+          "leaf_count": 1816,
+          "surrounded_leaves": 1288,
+          "outside_leaves": 528,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 8,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      },
+      "10": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 2421,
+          "leaf_count": 1816,
+          "surrounded_leaves": 1288,
+          "outside_leaves": 528,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 8,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      },
+      "9": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 2421,
+          "leaf_count": 1816,
+          "surrounded_leaves": 1288,
+          "outside_leaves": 528,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 8,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      },
+      "3": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 2421,
+          "leaf_count": 1816,
+          "surrounded_leaves": 1288,
+          "outside_leaves": 528,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 8,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      },
+      "2": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 2421,
+          "leaf_count": 1816,
+          "surrounded_leaves": 1288,
+          "outside_leaves": 528,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 8,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      }
+    },
+    "move_s": 5321.493051460351,
+    "switch_s": 320.0,
+    "measure_s": 1725.0,
+    "clear_s": 73.0
+  },
+  {
+    "case": "q4_edge_aligned_hashed_45105",
+    "seed": 45105,
+    "layout": "edge_aligned",
+    "noise": "hashed",
+    "policy": "joint25",
+    "source_count": 14,
+    "directional_count": 9,
+    "cleared": 14,
+    "success": true,
+    "error": null,
+    "cleared_ratio": 1.0,
+    "average_localization_clear_s": 533.9465496192362,
+    "virtual_time_s": 7475.251694669307,
+    "wall_time_s": 2.84235240000271,
+    "planning_s": 0.3651547000044957,
+    "checking_s": 2.4570502000424312,
+    "actions": 361,
+    "measure_count": 346,
+    "scan_position_count": 49,
+    "failed_clears": 1,
+    "no_signal_count": 305,
+    "fallback": false,
+    "absence_proofs": {
+      "1": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 2421,
+          "leaf_count": 1816,
+          "surrounded_leaves": 1288,
+          "outside_leaves": 528,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 8,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      },
+      "17": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 2421,
+          "leaf_count": 1816,
+          "surrounded_leaves": 1288,
+          "outside_leaves": 528,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 8,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      },
+      "10": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 2421,
+          "leaf_count": 1816,
+          "surrounded_leaves": 1288,
+          "outside_leaves": 528,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 8,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      },
+      "9": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 2421,
+          "leaf_count": 1816,
+          "surrounded_leaves": 1288,
+          "outside_leaves": 528,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 8,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      },
+      "3": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 2421,
+          "leaf_count": 1816,
+          "surrounded_leaves": 1288,
+          "outside_leaves": 528,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 8,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      },
+      "2": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 2421,
+          "leaf_count": 1816,
+          "surrounded_leaves": 1288,
+          "outside_leaves": 528,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 8,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      }
+    },
+    "move_s": 5350.251694669308,
+    "switch_s": 322.0,
+    "measure_s": 1730.0,
+    "clear_s": 73.0
+  },
+  {
+    "case": "q4_cluster_tangent_smooth_45106",
+    "seed": 45106,
+    "layout": "cluster_tangent",
+    "noise": "smooth",
+    "policy": "directional",
+    "source_count": 15,
+    "directional_count": 10,
+    "cleared": 15,
+    "success": true,
+    "error": null,
+    "cleared_ratio": 1.0,
+    "average_localization_clear_s": 702.5622772396144,
+    "virtual_time_s": 10538.434158594217,
+    "wall_time_s": 1.1658903999996255,
+    "planning_s": 1.0719447999508702,
+    "checking_s": 0.07892279992665863,
+    "actions": 354,
+    "measure_count": 322,
+    "scan_position_count": 52,
+    "failed_clears": 17,
+    "no_signal_count": 284,
+    "fallback": false,
+    "absence_proofs": {
+      "8": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "20": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "18": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "16": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "10": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      }
+    },
+    "move_s": 8520.434158594217,
+    "switch_s": 282.0,
+    "measure_s": 1610.0,
+    "clear_s": 126.0
+  },
+  {
+    "case": "q4_cluster_tangent_smooth_45106",
+    "seed": 45106,
+    "layout": "cluster_tangent",
+    "noise": "smooth",
+    "policy": "anchors25",
+    "source_count": 15,
+    "directional_count": 10,
+    "cleared": 15,
+    "success": true,
+    "error": null,
+    "cleared_ratio": 1.0,
+    "average_localization_clear_s": 445.3114084752432,
+    "virtual_time_s": 6679.671127128648,
+    "wall_time_s": 2.968294700003753,
+    "planning_s": 0.9361458000348648,
+    "checking_s": 2.0173851000145078,
+    "actions": 270,
+    "measure_count": 252,
+    "scan_position_count": 37,
+    "failed_clears": 3,
+    "no_signal_count": 213,
+    "fallback": false,
+    "absence_proofs": {
+      "8": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 2421,
+          "leaf_count": 1816,
+          "surrounded_leaves": 1288,
+          "outside_leaves": 528,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 8,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      },
+      "20": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 2421,
+          "leaf_count": 1816,
+          "surrounded_leaves": 1288,
+          "outside_leaves": 528,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 8,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      },
+      "18": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 2421,
+          "leaf_count": 1816,
+          "surrounded_leaves": 1288,
+          "outside_leaves": 528,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 8,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      },
+      "16": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 2421,
+          "leaf_count": 1816,
+          "surrounded_leaves": 1288,
+          "outside_leaves": 528,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 8,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      },
+      "10": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 2421,
+          "leaf_count": 1816,
+          "surrounded_leaves": 1288,
+          "outside_leaves": 528,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 8,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      }
+    },
+    "move_s": 5109.671127128648,
+    "switch_s": 226.0,
+    "measure_s": 1260.0,
+    "clear_s": 84.0
+  },
+  {
+    "case": "q4_cluster_tangent_smooth_45106",
+    "seed": 45106,
+    "layout": "cluster_tangent",
+    "noise": "smooth",
+    "policy": "joint25",
+    "source_count": 15,
+    "directional_count": 10,
+    "cleared": 15,
+    "success": true,
+    "error": null,
+    "cleared_ratio": 1.0,
+    "average_localization_clear_s": 444.07526294813977,
+    "virtual_time_s": 6661.128944222097,
+    "wall_time_s": 2.1948014000008698,
+    "planning_s": 0.8649389000347583,
+    "checking_s": 1.3144645000356832,
+    "actions": 266,
+    "measure_count": 251,
+    "scan_position_count": 37,
+    "failed_clears": 0,
+    "no_signal_count": 213,
+    "fallback": false,
+    "absence_proofs": {
+      "8": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 2421,
+          "leaf_count": 1816,
+          "surrounded_leaves": 1288,
+          "outside_leaves": 528,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 8,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      },
+      "20": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 2421,
+          "leaf_count": 1816,
+          "surrounded_leaves": 1288,
+          "outside_leaves": 528,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 8,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      },
+      "18": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 2421,
+          "leaf_count": 1816,
+          "surrounded_leaves": 1288,
+          "outside_leaves": 528,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 8,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      },
+      "16": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 2421,
+          "leaf_count": 1816,
+          "surrounded_leaves": 1288,
+          "outside_leaves": 528,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 8,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      },
+      "10": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 2421,
+          "leaf_count": 1816,
+          "surrounded_leaves": 1288,
+          "outside_leaves": 528,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 8,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      }
+    },
+    "move_s": 5105.128944222095,
+    "switch_s": 226.0,
+    "measure_s": 1255.0,
+    "clear_s": 75.0
+  },
+  {
+    "case": "q4_cluster_aligned_biased_45107",
+    "seed": 45107,
+    "layout": "cluster_aligned",
+    "noise": "biased",
+    "policy": "directional",
+    "source_count": 16,
+    "directional_count": 10,
+    "cleared": 16,
+    "success": true,
+    "error": null,
+    "cleared_ratio": 1.0,
+    "average_localization_clear_s": 256.90234468779454,
+    "virtual_time_s": 4110.437515004713,
+    "wall_time_s": 1.1125975000031758,
+    "planning_s": 1.025338900006318,
+    "checking_s": 0.07758080000348855,
+    "actions": 197,
+    "measure_count": 157,
+    "scan_position_count": 26,
+    "failed_clears": 24,
+    "no_signal_count": 114,
+    "fallback": false,
+    "absence_proofs": {
+      "1": {
+        "kind": "sixteen_source_cap"
+      },
+      "4": {
+        "kind": "sixteen_source_cap"
+      },
+      "8": {
+        "kind": "sixteen_source_cap"
+      },
+      "13": {
+        "kind": "sixteen_source_cap"
+      }
+    },
+    "move_s": 3027.4375150047126,
+    "switch_s": 146.0,
+    "measure_s": 785.0,
+    "clear_s": 152.0
+  },
+  {
+    "case": "q4_cluster_aligned_biased_45107",
+    "seed": 45107,
+    "layout": "cluster_aligned",
+    "noise": "biased",
+    "policy": "anchors25",
+    "source_count": 16,
+    "directional_count": 10,
+    "cleared": 16,
+    "success": true,
+    "error": null,
+    "cleared_ratio": 1.0,
+    "average_localization_clear_s": 255.2984601614151,
+    "virtual_time_s": 4084.7753625826417,
+    "wall_time_s": 1.4466646000000765,
+    "planning_s": 0.8795586999476654,
+    "checking_s": 0.5574378999735927,
+    "actions": 188,
+    "measure_count": 157,
+    "scan_position_count": 28,
+    "failed_clears": 15,
+    "no_signal_count": 118,
+    "fallback": false,
+    "absence_proofs": {
+      "1": {
+        "kind": "sixteen_source_cap"
+      },
+      "4": {
+        "kind": "sixteen_source_cap"
+      },
+      "8": {
+        "kind": "sixteen_source_cap"
+      },
+      "13": {
+        "kind": "sixteen_source_cap"
+      }
+    },
+    "move_s": 3027.7753625826417,
+    "switch_s": 147.0,
+    "measure_s": 785.0,
+    "clear_s": 125.0
+  },
+  {
+    "case": "q4_cluster_aligned_biased_45107",
+    "seed": 45107,
+    "layout": "cluster_aligned",
+    "noise": "biased",
+    "policy": "joint25",
+    "source_count": 16,
+    "directional_count": 10,
+    "cleared": 16,
+    "success": true,
+    "error": null,
+    "cleared_ratio": 1.0,
+    "average_localization_clear_s": 256.3487633741815,
+    "virtual_time_s": 4101.580213986904,
+    "wall_time_s": 1.8409351000009337,
+    "planning_s": 1.1850948999854154,
+    "checking_s": 0.6440366999959224,
+    "actions": 193,
+    "measure_count": 177,
+    "scan_position_count": 29,
+    "failed_clears": 0,
+    "no_signal_count": 131,
+    "fallback": false,
+    "absence_proofs": {
+      "1": {
+        "kind": "sixteen_source_cap"
+      },
+      "4": {
+        "kind": "sixteen_source_cap"
+      },
+      "8": {
+        "kind": "sixteen_source_cap"
+      },
+      "13": {
+        "kind": "sixteen_source_cap"
+      }
+    },
+    "move_s": 2974.5802139869033,
+    "switch_s": 162.0,
+    "measure_s": 885.0,
+    "clear_s": 80.0
+  },
+  {
+    "case": "q4_cluster_random_hashed_45108",
+    "seed": 45108,
+    "layout": "cluster_random",
+    "noise": "hashed",
+    "policy": "directional",
+    "source_count": 10,
+    "directional_count": 6,
+    "cleared": 10,
+    "success": true,
+    "error": null,
+    "cleared_ratio": 1.0,
+    "average_localization_clear_s": 1107.58589185303,
+    "virtual_time_s": 11075.8589185303,
+    "wall_time_s": 1.2161784999989322,
+    "planning_s": 1.1327995001047384,
+    "checking_s": 0.0653921998818987,
+    "actions": 504,
+    "measure_count": 490,
+    "scan_position_count": 56,
+    "failed_clears": 4,
+    "no_signal_count": 456,
+    "fallback": false,
+    "absence_proofs": {
+      "2": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "20": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "19": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "18": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "16": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "15": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "14": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "7": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "4": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "3": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      }
+    },
+    "move_s": 8113.858918530301,
+    "switch_s": 450.0,
+    "measure_s": 2450.0,
+    "clear_s": 62.0
+  },
+  {
+    "case": "q4_cluster_random_hashed_45108",
+    "seed": 45108,
+    "layout": "cluster_random",
+    "noise": "hashed",
+    "policy": "anchors25",
+    "source_count": 10,
+    "directional_count": 6,
+    "cleared": 10,
+    "success": true,
+    "error": null,
+    "cleared_ratio": 1.0,
+    "average_localization_clear_s": 765.4195237475107,
+    "virtual_time_s": 7654.195237475106,
+    "wall_time_s": 3.493323499998951,
+    "planning_s": 1.2041514000229654,
+    "checking_s": 2.2706153999606613,
+    "actions": 343,
+    "measure_count": 326,
+    "scan_position_count": 38,
+    "failed_clears": 7,
+    "no_signal_count": 294,
+    "fallback": false,
+    "absence_proofs": {
+      "2": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 2421,
+          "leaf_count": 1816,
+          "surrounded_leaves": 1288,
+          "outside_leaves": 528,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 8,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      },
+      "20": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 2421,
+          "leaf_count": 1816,
+          "surrounded_leaves": 1288,
+          "outside_leaves": 528,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 8,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      },
+      "19": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 2421,
+          "leaf_count": 1816,
+          "surrounded_leaves": 1288,
+          "outside_leaves": 528,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 8,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      },
+      "18": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 2421,
+          "leaf_count": 1816,
+          "surrounded_leaves": 1288,
+          "outside_leaves": 528,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 8,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      },
+      "16": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 2421,
+          "leaf_count": 1816,
+          "surrounded_leaves": 1288,
+          "outside_leaves": 528,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 8,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      },
+      "15": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 2421,
+          "leaf_count": 1816,
+          "surrounded_leaves": 1288,
+          "outside_leaves": 528,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 8,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      },
+      "14": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 2421,
+          "leaf_count": 1816,
+          "surrounded_leaves": 1288,
+          "outside_leaves": 528,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 8,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      },
+      "7": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 2421,
+          "leaf_count": 1816,
+          "surrounded_leaves": 1288,
+          "outside_leaves": 528,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 8,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      },
+      "4": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 2421,
+          "leaf_count": 1816,
+          "surrounded_leaves": 1288,
+          "outside_leaves": 528,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 8,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      },
+      "3": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 2421,
+          "leaf_count": 1816,
+          "surrounded_leaves": 1288,
+          "outside_leaves": 528,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 8,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      }
+    },
+    "move_s": 5651.195237475106,
+    "switch_s": 302.0,
+    "measure_s": 1630.0,
+    "clear_s": 71.0
+  },
+  {
+    "case": "q4_cluster_random_hashed_45108",
+    "seed": 45108,
+    "layout": "cluster_random",
+    "noise": "hashed",
+    "policy": "joint25",
+    "source_count": 10,
+    "directional_count": 6,
+    "cleared": 10,
+    "success": true,
+    "error": null,
+    "cleared_ratio": 1.0,
+    "average_localization_clear_s": 766.4484804309888,
+    "virtual_time_s": 7664.484804309887,
+    "wall_time_s": 2.757645900004718,
+    "planning_s": 1.1728827999904752,
+    "checking_s": 1.5661873000208288,
+    "actions": 339,
+    "measure_count": 329,
+    "scan_position_count": 40,
+    "failed_clears": 0,
+    "no_signal_count": 295,
+    "fallback": false,
+    "absence_proofs": {
+      "2": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 2421,
+          "leaf_count": 1816,
+          "surrounded_leaves": 1288,
+          "outside_leaves": 528,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 8,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      },
+      "20": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 2421,
+          "leaf_count": 1816,
+          "surrounded_leaves": 1288,
+          "outside_leaves": 528,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 8,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      },
+      "19": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 2421,
+          "leaf_count": 1816,
+          "surrounded_leaves": 1288,
+          "outside_leaves": 528,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 8,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      },
+      "18": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 2421,
+          "leaf_count": 1816,
+          "surrounded_leaves": 1288,
+          "outside_leaves": 528,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 8,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      },
+      "16": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 2421,
+          "leaf_count": 1816,
+          "surrounded_leaves": 1288,
+          "outside_leaves": 528,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 8,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      },
+      "15": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 2421,
+          "leaf_count": 1816,
+          "surrounded_leaves": 1288,
+          "outside_leaves": 528,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 8,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      },
+      "14": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 2421,
+          "leaf_count": 1816,
+          "surrounded_leaves": 1288,
+          "outside_leaves": 528,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 8,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      },
+      "7": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 2421,
+          "leaf_count": 1816,
+          "surrounded_leaves": 1288,
+          "outside_leaves": 528,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 8,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      },
+      "4": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 2421,
+          "leaf_count": 1816,
+          "surrounded_leaves": 1288,
+          "outside_leaves": 528,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 8,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      },
+      "3": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 2421,
+          "leaf_count": 1816,
+          "surrounded_leaves": 1288,
+          "outside_leaves": 528,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 8,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      }
+    },
+    "move_s": 5666.484804309886,
+    "switch_s": 303.0,
+    "measure_s": 1645.0,
+    "clear_s": 50.0
+  },
+  {
+    "case": "q4_line_aligned_smooth_45109",
+    "seed": 45109,
+    "layout": "line_aligned",
+    "noise": "smooth",
+    "policy": "directional",
+    "source_count": 11,
+    "directional_count": 7,
+    "cleared": 11,
+    "success": true,
+    "error": null,
+    "cleared_ratio": 1.0,
+    "average_localization_clear_s": 901.7852536091963,
+    "virtual_time_s": 9919.637789701159,
+    "wall_time_s": 1.9463791999951354,
+    "planning_s": 1.8567294999884325,
+    "checking_s": 0.07264450002548983,
+    "actions": 463,
+    "measure_count": 433,
+    "scan_position_count": 62,
+    "failed_clears": 19,
+    "no_signal_count": 382,
+    "fallback": false,
+    "absence_proofs": {
+      "4": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "20": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "18": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "17": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "16": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "12": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "7": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "6": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "2": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      }
+    },
+    "move_s": 7253.6377897011635,
+    "switch_s": 389.0,
+    "measure_s": 2165.0,
+    "clear_s": 112.0
+  },
+  {
+    "case": "q4_line_aligned_smooth_45109",
+    "seed": 45109,
+    "layout": "line_aligned",
+    "noise": "smooth",
+    "policy": "anchors25",
+    "source_count": 11,
+    "directional_count": 7,
+    "cleared": 11,
+    "success": true,
+    "error": null,
+    "cleared_ratio": 1.0,
+    "average_localization_clear_s": 612.7059537517466,
+    "virtual_time_s": 6739.765491269213,
+    "wall_time_s": 5.463308200000029,
+    "planning_s": 1.9182288000447443,
+    "checking_s": 3.5260505001060665,
+    "actions": 342,
+    "measure_count": 307,
+    "scan_position_count": 47,
+    "failed_clears": 24,
+    "no_signal_count": 257,
+    "fallback": false,
+    "absence_proofs": {
+      "2": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 2421,
+          "leaf_count": 1816,
+          "surrounded_leaves": 1288,
+          "outside_leaves": 528,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 8,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      },
+      "20": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 2421,
+          "leaf_count": 1816,
+          "surrounded_leaves": 1288,
+          "outside_leaves": 528,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 8,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      },
+      "18": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 2421,
+          "leaf_count": 1816,
+          "surrounded_leaves": 1288,
+          "outside_leaves": 528,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 8,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      },
+      "17": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 2421,
+          "leaf_count": 1816,
+          "surrounded_leaves": 1288,
+          "outside_leaves": 528,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 8,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      },
+      "16": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 2421,
+          "leaf_count": 1816,
+          "surrounded_leaves": 1288,
+          "outside_leaves": 528,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 8,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      },
+      "12": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 2421,
+          "leaf_count": 1816,
+          "surrounded_leaves": 1288,
+          "outside_leaves": 528,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 8,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      },
+      "7": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 2421,
+          "leaf_count": 1816,
+          "surrounded_leaves": 1288,
+          "outside_leaves": 528,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 8,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      },
+      "6": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 2421,
+          "leaf_count": 1816,
+          "surrounded_leaves": 1288,
+          "outside_leaves": 528,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 8,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      },
+      "4": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 2421,
+          "leaf_count": 1816,
+          "surrounded_leaves": 1288,
+          "outside_leaves": 528,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 8,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      }
+    },
+    "move_s": 4800.765491269214,
+    "switch_s": 277.0,
+    "measure_s": 1535.0,
+    "clear_s": 127.0
+  },
+  {
+    "case": "q4_line_aligned_smooth_45109",
+    "seed": 45109,
+    "layout": "line_aligned",
+    "noise": "smooth",
+    "policy": "joint25",
+    "source_count": 11,
+    "directional_count": 7,
+    "cleared": 11,
+    "success": true,
+    "error": null,
+    "cleared_ratio": 1.0,
+    "average_localization_clear_s": 645.8483852536014,
+    "virtual_time_s": 7104.332237789615,
+    "wall_time_s": 4.099222500000906,
+    "planning_s": 1.7853760000143666,
+    "checking_s": 2.295311500041862,
+    "actions": 322,
+    "measure_count": 306,
+    "scan_position_count": 46,
+    "failed_clears": 5,
+    "no_signal_count": 255,
+    "fallback": false,
+    "absence_proofs": {
+      "2": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 2421,
+          "leaf_count": 1816,
+          "surrounded_leaves": 1288,
+          "outside_leaves": 528,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 8,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      },
+      "20": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 2421,
+          "leaf_count": 1816,
+          "surrounded_leaves": 1288,
+          "outside_leaves": 528,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 8,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      },
+      "18": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 2421,
+          "leaf_count": 1816,
+          "surrounded_leaves": 1288,
+          "outside_leaves": 528,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 8,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      },
+      "17": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 2421,
+          "leaf_count": 1816,
+          "surrounded_leaves": 1288,
+          "outside_leaves": 528,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 8,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      },
+      "16": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 2421,
+          "leaf_count": 1816,
+          "surrounded_leaves": 1288,
+          "outside_leaves": 528,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 8,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      },
+      "12": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 2421,
+          "leaf_count": 1816,
+          "surrounded_leaves": 1288,
+          "outside_leaves": 528,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 8,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      },
+      "7": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 2421,
+          "leaf_count": 1816,
+          "surrounded_leaves": 1288,
+          "outside_leaves": 528,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 8,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      },
+      "6": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 2421,
+          "leaf_count": 1816,
+          "surrounded_leaves": 1288,
+          "outside_leaves": 528,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 8,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      },
+      "4": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 2421,
+          "leaf_count": 1816,
+          "surrounded_leaves": 1288,
+          "outside_leaves": 528,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 8,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      }
+    },
+    "move_s": 5225.332237789616,
+    "switch_s": 279.0,
+    "measure_s": 1530.0,
+    "clear_s": 70.0
+  },
+  {
+    "case": "q4_line_random_biased_45110",
+    "seed": 45110,
+    "layout": "line_random",
+    "noise": "biased",
+    "policy": "directional",
+    "source_count": 12,
+    "directional_count": 8,
+    "cleared": 12,
+    "success": true,
+    "error": null,
+    "cleared_ratio": 1.0,
+    "average_localization_clear_s": 895.8477210435603,
+    "virtual_time_s": 10750.172652522724,
+    "wall_time_s": 1.5028850000016973,
+    "planning_s": 1.4231432998931268,
+    "checking_s": 0.06396879994281335,
+    "actions": 421,
+    "measure_count": 406,
+    "scan_position_count": 57,
+    "failed_clears": 3,
+    "no_signal_count": 356,
+    "fallback": false,
+    "absence_proofs": {
+      "9": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "18": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "16": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "15": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "13": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "12": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "10": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "8": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      }
+    },
+    "move_s": 8287.172652522724,
+    "switch_s": 364.0,
+    "measure_s": 2030.0,
+    "clear_s": 69.0
+  },
+  {
+    "case": "q4_line_random_biased_45110",
+    "seed": 45110,
+    "layout": "line_random",
+    "noise": "biased",
+    "policy": "anchors25",
+    "source_count": 12,
+    "directional_count": 8,
+    "cleared": 12,
+    "success": true,
+    "error": null,
+    "cleared_ratio": 1.0,
+    "average_localization_clear_s": 603.0651995485042,
+    "virtual_time_s": 7236.782394582051,
+    "wall_time_s": 4.85667430000467,
+    "planning_s": 1.547002799990878,
+    "checking_s": 3.2924114998822915,
+    "actions": 321,
+    "measure_count": 294,
+    "scan_position_count": 43,
+    "failed_clears": 15,
+    "no_signal_count": 250,
+    "fallback": false,
+    "absence_proofs": {
+      "8": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 2421,
+          "leaf_count": 1816,
+          "surrounded_leaves": 1288,
+          "outside_leaves": 528,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 8,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      },
+      "18": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 2421,
+          "leaf_count": 1816,
+          "surrounded_leaves": 1288,
+          "outside_leaves": 528,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 8,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      },
+      "16": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 2421,
+          "leaf_count": 1816,
+          "surrounded_leaves": 1288,
+          "outside_leaves": 528,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 8,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      },
+      "15": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 2421,
+          "leaf_count": 1816,
+          "surrounded_leaves": 1288,
+          "outside_leaves": 528,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 8,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      },
+      "13": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 2421,
+          "leaf_count": 1816,
+          "surrounded_leaves": 1288,
+          "outside_leaves": 528,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 8,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      },
+      "12": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 2421,
+          "leaf_count": 1816,
+          "surrounded_leaves": 1288,
+          "outside_leaves": 528,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 8,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      },
+      "10": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 2421,
+          "leaf_count": 1816,
+          "surrounded_leaves": 1288,
+          "outside_leaves": 528,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 8,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      },
+      "9": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 2421,
+          "leaf_count": 1816,
+          "surrounded_leaves": 1288,
+          "outside_leaves": 528,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 8,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      }
+    },
+    "move_s": 5398.782394582051,
+    "switch_s": 263.0,
+    "measure_s": 1470.0,
+    "clear_s": 105.0
+  },
+  {
+    "case": "q4_line_random_biased_45110",
+    "seed": 45110,
+    "layout": "line_random",
+    "noise": "biased",
+    "policy": "joint25",
+    "source_count": 12,
+    "directional_count": 8,
+    "cleared": 12,
+    "success": true,
+    "error": null,
+    "cleared_ratio": 1.0,
+    "average_localization_clear_s": 580.8197015060833,
+    "virtual_time_s": 6969.836418073,
+    "wall_time_s": 4.454772599994612,
+    "planning_s": 1.3722197999813943,
+    "checking_s": 3.0648024999536574,
+    "actions": 298,
+    "measure_count": 285,
+    "scan_position_count": 43,
+    "failed_clears": 1,
+    "no_signal_count": 235,
+    "fallback": false,
+    "absence_proofs": {
+      "9": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 2421,
+          "leaf_count": 1816,
+          "surrounded_leaves": 1288,
+          "outside_leaves": 528,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 8,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      },
+      "18": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 2421,
+          "leaf_count": 1816,
+          "surrounded_leaves": 1288,
+          "outside_leaves": 528,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 8,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      },
+      "16": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 2421,
+          "leaf_count": 1816,
+          "surrounded_leaves": 1288,
+          "outside_leaves": 528,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 8,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      },
+      "15": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 2421,
+          "leaf_count": 1816,
+          "surrounded_leaves": 1288,
+          "outside_leaves": 528,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 8,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      },
+      "13": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 2421,
+          "leaf_count": 1816,
+          "surrounded_leaves": 1288,
+          "outside_leaves": 528,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 8,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      },
+      "12": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 2421,
+          "leaf_count": 1816,
+          "surrounded_leaves": 1288,
+          "outside_leaves": 528,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 8,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      },
+      "10": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 2421,
+          "leaf_count": 1816,
+          "surrounded_leaves": 1288,
+          "outside_leaves": 528,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 8,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      },
+      "8": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 2421,
+          "leaf_count": 1816,
+          "surrounded_leaves": 1288,
+          "outside_leaves": 528,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 8,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      }
+    },
+    "move_s": 5224.836418073001,
+    "switch_s": 257.0,
+    "measure_s": 1425.0,
+    "clear_s": 63.0
+  },
+  {
+    "case": "q4_line_outward_hashed_45111",
+    "seed": 45111,
+    "layout": "line_outward",
+    "noise": "hashed",
+    "policy": "directional",
+    "source_count": 13,
+    "directional_count": 8,
+    "cleared": 13,
+    "success": true,
+    "error": null,
+    "cleared_ratio": 1.0,
+    "average_localization_clear_s": 794.9491964339907,
+    "virtual_time_s": 10334.33955364188,
+    "wall_time_s": 1.3949282000030507,
+    "planning_s": 1.2813896999359713,
+    "checking_s": 0.0910415000107605,
+    "actions": 410,
+    "measure_count": 375,
+    "scan_position_count": 58,
+    "failed_clears": 22,
+    "no_signal_count": 335,
+    "fallback": false,
+    "absence_proofs": {
+      "3": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "20": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "9": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "7": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "5": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "4": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      },
+      "1": {
+        "kind": "q4_37_triangular_anchors",
+        "misses": 37
+      }
+    },
+    "move_s": 7995.339553641879,
+    "switch_s": 333.0,
+    "measure_s": 1875.0,
+    "clear_s": 131.0
+  },
+  {
+    "case": "q4_line_outward_hashed_45111",
+    "seed": 45111,
+    "layout": "line_outward",
+    "noise": "hashed",
+    "policy": "anchors25",
+    "source_count": 13,
+    "directional_count": 8,
+    "cleared": 13,
+    "success": true,
+    "error": null,
+    "cleared_ratio": 1.0,
+    "average_localization_clear_s": 599.9757599585436,
+    "virtual_time_s": 7799.684879461066,
+    "wall_time_s": 3.8749059999972815,
+    "planning_s": 1.9630778999635368,
+    "checking_s": 1.893156199992518,
+    "actions": 338,
+    "measure_count": 282,
+    "scan_position_count": 39,
+    "failed_clears": 43,
+    "no_signal_count": 242,
+    "fallback": false,
+    "absence_proofs": {
+      "3": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 2421,
+          "leaf_count": 1816,
+          "surrounded_leaves": 1288,
+          "outside_leaves": 528,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 8,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      },
+      "20": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 2421,
+          "leaf_count": 1816,
+          "surrounded_leaves": 1288,
+          "outside_leaves": 528,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 8,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      },
+      "9": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 2421,
+          "leaf_count": 1816,
+          "surrounded_leaves": 1288,
+          "outside_leaves": 528,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 8,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      },
+      "7": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 2421,
+          "leaf_count": 1816,
+          "surrounded_leaves": 1288,
+          "outside_leaves": 528,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 8,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      },
+      "5": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 2421,
+          "leaf_count": 1816,
+          "surrounded_leaves": 1288,
+          "outside_leaves": 528,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 8,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      },
+      "4": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 2421,
+          "leaf_count": 1816,
+          "surrounded_leaves": 1288,
+          "outside_leaves": 528,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 8,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      },
+      "1": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 2421,
+          "leaf_count": 1816,
+          "surrounded_leaves": 1288,
+          "outside_leaves": 528,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 8,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      }
+    },
+    "move_s": 5938.684879461061,
+    "switch_s": 257.0,
+    "measure_s": 1410.0,
+    "clear_s": 194.0
+  },
+  {
+    "case": "q4_line_outward_hashed_45111",
+    "seed": 45111,
+    "layout": "line_outward",
+    "noise": "hashed",
+    "policy": "joint25",
+    "source_count": 13,
+    "directional_count": 8,
+    "cleared": 13,
+    "success": true,
+    "error": null,
+    "cleared_ratio": 1.0,
+    "average_localization_clear_s": 586.88341491533,
+    "virtual_time_s": 7629.484393899291,
+    "wall_time_s": 2.369123500000569,
+    "planning_s": 1.042822899958992,
+    "checking_s": 1.3085200999412336,
+    "actions": 311,
+    "measure_count": 290,
+    "scan_position_count": 47,
+    "failed_clears": 8,
+    "no_signal_count": 245,
+    "fallback": false,
+    "absence_proofs": {
+      "3": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 2421,
+          "leaf_count": 1816,
+          "surrounded_leaves": 1288,
+          "outside_leaves": 528,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 8,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      },
+      "20": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 2421,
+          "leaf_count": 1816,
+          "surrounded_leaves": 1288,
+          "outside_leaves": 528,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 8,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      },
+      "9": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 2421,
+          "leaf_count": 1816,
+          "surrounded_leaves": 1288,
+          "outside_leaves": 528,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 8,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      },
+      "7": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 2421,
+          "leaf_count": 1816,
+          "surrounded_leaves": 1288,
+          "outside_leaves": 528,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 8,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      },
+      "5": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 2421,
+          "leaf_count": 1816,
+          "surrounded_leaves": 1288,
+          "outside_leaves": 528,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 8,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      },
+      "4": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 2421,
+          "leaf_count": 1816,
+          "surrounded_leaves": 1288,
+          "outside_leaves": 528,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 8,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      },
+      "1": {
+        "kind": "q4_local_hull_union",
+        "statistics": {
+          "boxes_visited": 2421,
+          "leaf_count": 1816,
+          "surrounded_leaves": 1288,
+          "outside_leaves": 528,
+          "unresolved_leaves": 0,
+          "max_leaf_depth": 8,
+          "area_upper_m2": 0,
+          "rational_verified": true
+        }
+      }
+    },
+    "move_s": 5831.48439389929,
+    "switch_s": 259.0,
+    "measure_s": 1450.0,
+    "clear_s": 89.0
+  }
+]

@@ -1,0 +1,197 @@
+{
+  "positive_positions": [
+    [
+      1450,
+      -190
+    ],
+    [
+      1450,
+      190
+    ]
+  ],
+  "negative_positions": [
+    [
+      150,
+      0
+    ]
+  ],
+  "physical_compatible_source": [
+    300,
+    0
+  ],
+  "physical_source_radius_m": 1500,
+  "physical_source_orientation_deg": 0,
+  "cells": [
+    {
+      "name": "excluded_cell",
+      "polygon": [
+        [
+          -10,
+          -10
+        ],
+        [
+          10,
+          -10
+        ],
+        [
+          10,
+          10
+        ],
+        [
+          -10,
+          10
+        ]
+      ],
+      "certificate": {
+        "discarded": true,
+        "omni_possible": false,
+        "orientation_intervals": [],
+        "effective_negative_positions": [
+          [
+            150,
+            0
+          ]
+        ],
+        "polygon": [
+          [
+            -10,
+            -10
+          ],
+          [
+            10,
+            -10
+          ],
+          [
+            10,
+            10
+          ],
+          [
+            -10,
+            10
+          ]
+        ]
+      },
+      "positive_outer": [
+        [
+          [
+            0.0,
+            82.9716047610504
+          ],
+          [
+            262.0928362970416,
+            360.0
+          ]
+        ],
+        [
+          [
+            0.0,
+            97.90716370295843
+          ],
+          [
+            277.0283952389496,
+            360.0
+          ]
+        ]
+      ],
+      "negative_outer": [
+        [
+          85.91438222002512,
+          274.0856177799749
+        ]
+      ]
+    },
+    {
+      "name": "retained_cell",
+      "polygon": [
+        [
+          290,
+          -10
+        ],
+        [
+          310,
+          -10
+        ],
+        [
+          310,
+          10
+        ],
+        [
+          290,
+          10
+        ]
+      ],
+      "certificate": {
+        "discarded": false,
+        "omni_possible": false,
+        "orientation_intervals": [
+          [
+            0.0,
+            81.17962144797895
+          ],
+          [
+            278.82037855202105,
+            360.0
+          ]
+        ],
+        "effective_negative_positions": [
+          [
+            150,
+            0
+          ]
+        ],
+        "polygon": [
+          [
+            290,
+            -10
+          ],
+          [
+            310,
+            -10
+          ],
+          [
+            310,
+            10
+          ],
+          [
+            290,
+            10
+          ]
+        ]
+      },
+      "positive_outer": [
+        [
+          [
+            0.0,
+            81.17962144797895
+          ],
+          [
+            260.0493723120484,
+            360.0
+          ]
+        ],
+        [
+          [
+            0.0,
+            99.95062768795162
+          ],
+          [
+            278.82037855202105,
+            360.0
+          ]
+        ]
+      ],
+      "negative_outer": [
+        [
+          0.0,
+          94.08561777997488
+        ],
+        [
+          265.9143822200251,
+          360.0
+        ]
+      ]
+    }
+  ],
+  "source_sha256": "b18a39ffbbde1713a98a30f8d47c9efd178b6832187b3fb25d0d3502da581196",
+  "note": "整格连续角度外包，浮点容差；不是Fraction精确联合证书。"
+}

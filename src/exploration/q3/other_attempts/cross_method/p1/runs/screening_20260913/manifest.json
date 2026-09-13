@@ -1,0 +1,469 @@
+{
+  "code_hashes": {
+    "experiments/b_q3/cross_method/p1/p1_policy.py": "b6c528ef6b0f4b2ea8fdc277b61eec81bfd85d2c6be6ce9dc670a4cb8dbb42dc",
+    "experiments/b_q3/cross_method/p1/p1_run.py": "330769b61a8dee49620b9461607dd699b779e9904f1d22a2d6f22b68e1e61eaf",
+    "experiments/b_q3/cross_method/p1/p1_tasks.py": "7661149cf563fce53fbf9d1dc5b87cb3dcff3c8e607fdffb56806805698f6e0c",
+    "experiments/b_q3/cross_method/p1/test_p1.py": "4dd65b6e4d8bbc6e0b4b5c8c90b3c1a07ebd8ef71ad0fd222676fd7083294a82"
+  },
+  "design_manifest_sha256": "7b2f6a60e36327eb4dd252b456f7e64d3e20320f8319658856781295bb0bce34",
+  "python": "3.13.5",
+  "started_unix": 1789229547.5782483,
+  "workers": 2,
+  "scope": "eight fixed local cases; F3 reused; no official simulator",
+  "baseline_manifest": {
+    "status": "design_only_p1_not_implemented_or_run",
+    "created_at_local": "2026-09-12T23:49:52.468659+08:00",
+    "scenario_source": {
+      "path": "experiments/b_q3/refinement/runs/micro_confirm/cases.json",
+      "sha256": "db8431ead0557f1656bd3c134269c7fef9b4bff331a5bb04ddea7ac537724eb6"
+    },
+    "selection_rule": "micro_confirm original indices 0,3,6,9,12,15,18,21; four layouts times smooth/biased; selected for structural coverage and B0 compatibility, not P1 outcomes",
+    "case_content_hash_encoding": "UTF-8 JSON sort_keys=True ensure_ascii=False separators comma colon",
+    "baseline": {
+      "class": "RefinedPolicy",
+      "level": 3,
+      "samples": 4,
+      "config": {
+        "name": "r3_covering",
+        "initial_points": [
+          [
+            -129.903811,
+            -75.0
+          ],
+          [
+            519.615242,
+            300.0
+          ]
+        ],
+        "try_radius_m": 30.0,
+        "local_action_limit": 16,
+        "local_offset_fraction": 0.5,
+        "local_offset_min_m": 30.0,
+        "local_offset_max_m": 300.0,
+        "shared_scan_gap_m": 0.0,
+        "route_mode": "nearest",
+        "planning": "covering"
+      },
+      "config_artifact": {
+        "path": "experiments/b_q3/probability_patrol/configs/r3_covering.json",
+        "sha256": "b26c5ed0b7fdbeb30d172dd4bf49e2fe8e9371ae504bfe6b14cb1ca38f6d998e"
+      },
+      "historical_manifest": {
+        "path": "experiments/b_q3/refinement/runs/micro_confirm/manifest_current_f1_f2_f3_f4_baseline.json",
+        "sha256": "badd2f1df3be1549d6f17ba9837554c888236a7a1636514dd654a0ad0c359555"
+      },
+      "runtime_dependencies": [
+        {
+          "path": "experiments/b_q3/refinement/refined.py",
+          "sha256": "08fa7106993be820cc440e572ca4e5787ffae4ee199dd1ced59226d3b95dd2cd",
+          "matches_historical_manifest": true
+        },
+        {
+          "path": "experiments/b_q3/refinement/posterior.py",
+          "sha256": "8981374013fb530d754a8115847f89c37388d5a5f850c667d8008d8bfd79428c",
+          "matches_historical_manifest": true
+        },
+        {
+          "path": "experiments/b_q3/adaptive_second/adaptive.py",
+          "sha256": "517ccadee211f2b82fcb350c3a43d727cfa069a67a5a1e7ca3226f2bd112c6a6",
+          "matches_historical_manifest": true
+        },
+        {
+          "path": "experiments/b_q3/probability_patrol/patrol.py",
+          "sha256": "46a04c815eabf57cfda07c686842777132de3f72a6950b3b70102ec2000b41e6",
+          "matches_historical_manifest": true
+        },
+        {
+          "path": "experiments/b_q3/probability_patrol/covering_route.py",
+          "sha256": "6d0a8283ec97e9fff888eab622e7a09f2ae810ae8e9f83110fbbe4a58363ac8f",
+          "matches_historical_manifest": true
+        },
+        {
+          "path": "experiments/b_q3/probability_patrol/coverage_state.py",
+          "sha256": "f873d02cf1240192e18966fd21755691112d25fbce0f8a03d64a8efd66b5d368",
+          "matches_historical_manifest": true
+        },
+        {
+          "path": "experiments/b_q3/probability_patrol/runner.py",
+          "sha256": "15702913e79aad8861bd936759210814f76af6bc8eb995a1643882531c81b0ad",
+          "matches_historical_manifest": true
+        },
+        {
+          "path": "experiments/b_adaptive_q3/geometry.py",
+          "sha256": "68a081fcaec7fc084a0293c8674c7a2fc363606058e79b44fa359ce36b4bdbaf",
+          "matches_historical_manifest": true
+        },
+        {
+          "path": "experiments/b_adaptive_q3/simulation.py",
+          "sha256": "76bc0037c08d3b2a3cc347daa8a36a6d789103d943b42afdf9d8823f974494cc",
+          "matches_historical_manifest": true
+        },
+        {
+          "path": "experiments/b_adaptive_q3/state.py",
+          "sha256": "1ea0699e5051b66c51649da0a7812eae1852381e79d41b1d0e88eb4b5e18f15b",
+          "matches_historical_manifest": true
+        },
+        {
+          "path": "experiments/b_overnight/coverage.py",
+          "sha256": "fab46e91db92b4b7f622bbb3bcd746e5153f217158f80b4e57de38c66ddf61e8",
+          "matches_historical_manifest": true
+        }
+      ],
+      "current_only_design_sources": [
+        {
+          "path": "experiments/b_q3/clearability/channel_route.py",
+          "sha256": "24a17333d27a1a7df410395ed1bc2866651332040e53d11f3a25dfaa5bf75d81"
+        },
+        {
+          "path": "experiments/b_q3/clearability/policy.py",
+          "sha256": "ef4f8bda757c557dbd2f93e4468e19dcee77e84b3edc17202527d8f4316dd0e6"
+        }
+      ],
+      "reuse_status": "eight historical virtual trajectories compatible; check fingerprints again before execution; no claim of current runtime parity"
+    },
+    "screening_cases": [
+      {
+        "source_index_zero_based": 0,
+        "name": "uniform_smooth_320100",
+        "seed": 320100,
+        "layout": "uniform",
+        "noise": "smooth",
+        "source_count": 14,
+        "case_content_sha256": "c0dfc511c3bf2476ad27f0cd1782f798f72376730ae90fea15d43da8c683ab3a",
+        "artifacts": {
+          "selection.json": {
+            "path": "experiments/b_q3/refinement/runs/micro_confirm/uniform_smooth_320100/selection.json",
+            "sha256": "8f312af14ac0457b7871087409e855f286afda74f58d443cbcbeb0122a025d3e"
+          },
+          "f3/metadata.json": {
+            "path": "experiments/b_q3/refinement/runs/micro_confirm/uniform_smooth_320100/f3/metadata.json",
+            "sha256": "ab499cccad8cb411691c6afbdd0fcbb4601433d5377dfc2bbc16bec4871b4a28"
+          },
+          "f3/result.json": {
+            "path": "experiments/b_q3/refinement/runs/micro_confirm/uniform_smooth_320100/f3/result.json",
+            "sha256": "5825d035a49d69d8d5d34a9a1a1b405d08ab212f32e75d4374f170f844b93f3b"
+          },
+          "f3/actions.jsonl": {
+            "path": "experiments/b_q3/refinement/runs/micro_confirm/uniform_smooth_320100/f3/actions.jsonl",
+            "sha256": "2860eaadc53c82e5f61f3b74b7fc6021e299f8f1c41a9f2521ecc70f9a71a069"
+          }
+        },
+        "baseline_reuse_checks": {
+          "runtime_dependencies_match": true,
+          "config_level_samples_match": true,
+          "selection_metadata_second_station_match": true,
+          "public_first_station_history_seed_match": true,
+          "result_reports_all_clear": true,
+          "independent_action_costs_match": true
+        },
+        "baseline_action_count": 142,
+        "public_history_seed": 2748709860406138498,
+        "second_station_action_count": 20,
+        "second_station_no_op": false
+      },
+      {
+        "source_index_zero_based": 3,
+        "name": "uniform_biased_320103",
+        "seed": 320103,
+        "layout": "uniform",
+        "noise": "biased",
+        "source_count": 10,
+        "case_content_sha256": "72f6f961fd1831c24c0e14b672b9cee0e7d2de277850879b96f11bbd9063a9bb",
+        "artifacts": {
+          "selection.json": {
+            "path": "experiments/b_q3/refinement/runs/micro_confirm/uniform_biased_320103/selection.json",
+            "sha256": "e0197e4db6b3c3866456a16e85e645e8fe799caa99a70415f37cca6da9852fc5"
+          },
+          "f3/metadata.json": {
+            "path": "experiments/b_q3/refinement/runs/micro_confirm/uniform_biased_320103/f3/metadata.json",
+            "sha256": "76e9615b2d7d703fade8a4045d07e58c0301634c581403052cb8da4ab017adec"
+          },
+          "f3/result.json": {
+            "path": "experiments/b_q3/refinement/runs/micro_confirm/uniform_biased_320103/f3/result.json",
+            "sha256": "a0f051707e34321921cf000f280556f5c4ce6af98860d52b137db5c31018c5f9"
+          },
+          "f3/actions.jsonl": {
+            "path": "experiments/b_q3/refinement/runs/micro_confirm/uniform_biased_320103/f3/actions.jsonl",
+            "sha256": "abfffbeeba09da89e50e245ec6634435ea03025d3f37b253f05a52f2b73639cf"
+          }
+        },
+        "baseline_reuse_checks": {
+          "runtime_dependencies_match": true,
+          "config_level_samples_match": true,
+          "selection_metadata_second_station_match": true,
+          "public_first_station_history_seed_match": true,
+          "result_reports_all_clear": true,
+          "independent_action_costs_match": true
+        },
+        "baseline_action_count": 167,
+        "public_history_seed": 10521327692910850762,
+        "second_station_action_count": 20,
+        "second_station_no_op": false
+      },
+      {
+        "source_index_zero_based": 6,
+        "name": "edge_smooth_320106",
+        "seed": 320106,
+        "layout": "edge",
+        "noise": "smooth",
+        "source_count": 13,
+        "case_content_sha256": "2fb45d2c2c19d9e1e76f63bf8a998eb99077dc0c9558c3137ee3998e11ae0283",
+        "artifacts": {
+          "selection.json": {
+            "path": "experiments/b_q3/refinement/runs/micro_confirm/edge_smooth_320106/selection.json",
+            "sha256": "efb1e4e58f73ff184c349b26ebaf375b4f10e895b9615f10d71c48ab9751500e"
+          },
+          "f3/metadata.json": {
+            "path": "experiments/b_q3/refinement/runs/micro_confirm/edge_smooth_320106/f3/metadata.json",
+            "sha256": "0b334f1038d1a1179a22390529add37204f5ba1a58641446916156c16a2be695"
+          },
+          "f3/result.json": {
+            "path": "experiments/b_q3/refinement/runs/micro_confirm/edge_smooth_320106/f3/result.json",
+            "sha256": "42f4fbab63a6d939b5eab25335b2a1a5fd7d5072554498585891ab701912a367"
+          },
+          "f3/actions.jsonl": {
+            "path": "experiments/b_q3/refinement/runs/micro_confirm/edge_smooth_320106/f3/actions.jsonl",
+            "sha256": "71f03ea1bea1da96907326f752adbafbac612214a7b79fdedb4182fea5e1503b"
+          }
+        },
+        "baseline_reuse_checks": {
+          "runtime_dependencies_match": true,
+          "config_level_samples_match": true,
+          "selection_metadata_second_station_match": true,
+          "public_first_station_history_seed_match": true,
+          "result_reports_all_clear": true,
+          "independent_action_costs_match": true
+        },
+        "baseline_action_count": 244,
+        "public_history_seed": 4151226555641811885,
+        "second_station_action_count": 0,
+        "second_station_no_op": true
+      },
+      {
+        "source_index_zero_based": 9,
+        "name": "edge_biased_320109",
+        "seed": 320109,
+        "layout": "edge",
+        "noise": "biased",
+        "source_count": 16,
+        "case_content_sha256": "9e10964e5e5ef16a167036300566c6f194a9c563a200e20b327ccad3cc60b6e7",
+        "artifacts": {
+          "selection.json": {
+            "path": "experiments/b_q3/refinement/runs/micro_confirm/edge_biased_320109/selection.json",
+            "sha256": "2ca4dcd60537547425b5584137d5578dd6290a09898bda62f933f2b014abd209"
+          },
+          "f3/metadata.json": {
+            "path": "experiments/b_q3/refinement/runs/micro_confirm/edge_biased_320109/f3/metadata.json",
+            "sha256": "c4bc9da19a4635925426a2abfb89da8f808cb69f09ed167feef25539a58042df"
+          },
+          "f3/result.json": {
+            "path": "experiments/b_q3/refinement/runs/micro_confirm/edge_biased_320109/f3/result.json",
+            "sha256": "f41c9e52b093e4cf9b84018f3de53ef54cfdd3298512a24682b6b02c5a13d1bc"
+          },
+          "f3/actions.jsonl": {
+            "path": "experiments/b_q3/refinement/runs/micro_confirm/edge_biased_320109/f3/actions.jsonl",
+            "sha256": "7c788a9502a6064368775700d59143c88aef2e0c5ada53ec323292549dd81c26"
+          }
+        },
+        "baseline_reuse_checks": {
+          "runtime_dependencies_match": true,
+          "config_level_samples_match": true,
+          "selection_metadata_second_station_match": true,
+          "public_first_station_history_seed_match": true,
+          "result_reports_all_clear": true,
+          "independent_action_costs_match": true
+        },
+        "baseline_action_count": 247,
+        "public_history_seed": 4151226555641811885,
+        "second_station_action_count": 0,
+        "second_station_no_op": true
+      },
+      {
+        "source_index_zero_based": 12,
+        "name": "cluster_smooth_320112",
+        "seed": 320112,
+        "layout": "cluster",
+        "noise": "smooth",
+        "source_count": 12,
+        "case_content_sha256": "720769ddfce581b0dd4a4019e7ffdcfd99231d080429a1456c996e06fb380ad2",
+        "artifacts": {
+          "selection.json": {
+            "path": "experiments/b_q3/refinement/runs/micro_confirm/cluster_smooth_320112/selection.json",
+            "sha256": "7479f4ccb74c3f2fed9b0d2c327b53af55b2104b58c14325dc0b035720ab0522"
+          },
+          "f3/metadata.json": {
+            "path": "experiments/b_q3/refinement/runs/micro_confirm/cluster_smooth_320112/f3/metadata.json",
+            "sha256": "08e07a119b59ec4a1e84b346293f02f86a3571f74dac217557555eb30d35171f"
+          },
+          "f3/result.json": {
+            "path": "experiments/b_q3/refinement/runs/micro_confirm/cluster_smooth_320112/f3/result.json",
+            "sha256": "47b038d7fd80930b2042fbb0bc9b37795d84eeb9b52a49b0283b3e789ada41c8"
+          },
+          "f3/actions.jsonl": {
+            "path": "experiments/b_q3/refinement/runs/micro_confirm/cluster_smooth_320112/f3/actions.jsonl",
+            "sha256": "339f5391d1b3295b1f3d77b726692a4a6e52feff6d5adee4c3727ed868cd30d9"
+          }
+        },
+        "baseline_reuse_checks": {
+          "runtime_dependencies_match": true,
+          "config_level_samples_match": true,
+          "selection_metadata_second_station_match": true,
+          "public_first_station_history_seed_match": true,
+          "result_reports_all_clear": true,
+          "independent_action_costs_match": true
+        },
+        "baseline_action_count": 156,
+        "public_history_seed": 13688862859796907138,
+        "second_station_action_count": 20,
+        "second_station_no_op": false
+      },
+      {
+        "source_index_zero_based": 15,
+        "name": "cluster_biased_320115",
+        "seed": 320115,
+        "layout": "cluster",
+        "noise": "biased",
+        "source_count": 15,
+        "case_content_sha256": "8e3325e9ea5ae9debe07a0ceed310e11a1df8e996e2c0dcca41237186aeb2f51",
+        "artifacts": {
+          "selection.json": {
+            "path": "experiments/b_q3/refinement/runs/micro_confirm/cluster_biased_320115/selection.json",
+            "sha256": "697ec0608f5e614fb3c3b5e82831bd339deb620bbcb2fc10c76a3fa9628bcd06"
+          },
+          "f3/metadata.json": {
+            "path": "experiments/b_q3/refinement/runs/micro_confirm/cluster_biased_320115/f3/metadata.json",
+            "sha256": "0d04b575f324cef9079ff2b428504020f600fe3d08699c2e0396244ab89adb71"
+          },
+          "f3/result.json": {
+            "path": "experiments/b_q3/refinement/runs/micro_confirm/cluster_biased_320115/f3/result.json",
+            "sha256": "c2c8429d180d1ecb6a9e9b811a28cc535762d47113865e960a1318b62a07ddef"
+          },
+          "f3/actions.jsonl": {
+            "path": "experiments/b_q3/refinement/runs/micro_confirm/cluster_biased_320115/f3/actions.jsonl",
+            "sha256": "31332ca7849db183d0b3b8089eaa46747aac01427f543195d3a4fcff1564e648"
+          }
+        },
+        "baseline_reuse_checks": {
+          "runtime_dependencies_match": true,
+          "config_level_samples_match": true,
+          "selection_metadata_second_station_match": true,
+          "public_first_station_history_seed_match": true,
+          "result_reports_all_clear": true,
+          "independent_action_costs_match": true
+        },
+        "baseline_action_count": 189,
+        "public_history_seed": 5187945605714398131,
+        "second_station_action_count": 20,
+        "second_station_no_op": false
+      },
+      {
+        "source_index_zero_based": 18,
+        "name": "line_smooth_320118",
+        "seed": 320118,
+        "layout": "line",
+        "noise": "smooth",
+        "source_count": 11,
+        "case_content_sha256": "0fed693cea8c7fc8567afa0cb6defb0b6c5b1ce6911d0636ea0086ebf89f41ba",
+        "artifacts": {
+          "selection.json": {
+            "path": "experiments/b_q3/refinement/runs/micro_confirm/line_smooth_320118/selection.json",
+            "sha256": "ccd2b0b692c982588198085db4873cd4be84c29ca9ce2c280cc0e10cafd5cb0f"
+          },
+          "f3/metadata.json": {
+            "path": "experiments/b_q3/refinement/runs/micro_confirm/line_smooth_320118/f3/metadata.json",
+            "sha256": "9ed5e33687058759fbea426ade38880b75bb5074dec5c7b540d2ce1aacf598d8"
+          },
+          "f3/result.json": {
+            "path": "experiments/b_q3/refinement/runs/micro_confirm/line_smooth_320118/f3/result.json",
+            "sha256": "94c97be658f20b2bbf61184e71654ceac7c266cc2e651a2c4d66d27e77e9f5fe"
+          },
+          "f3/actions.jsonl": {
+            "path": "experiments/b_q3/refinement/runs/micro_confirm/line_smooth_320118/f3/actions.jsonl",
+            "sha256": "30186534afcbd7049fda7a033aee302aef3de876d50e2e7f1c8b8fd1c4cd4893"
+          }
+        },
+        "baseline_reuse_checks": {
+          "runtime_dependencies_match": true,
+          "config_level_samples_match": true,
+          "selection_metadata_second_station_match": true,
+          "public_first_station_history_seed_match": true,
+          "result_reports_all_clear": true,
+          "independent_action_costs_match": true
+        },
+        "baseline_action_count": 200,
+        "public_history_seed": 1427358938199591569,
+        "second_station_action_count": 20,
+        "second_station_no_op": false
+      },
+      {
+        "source_index_zero_based": 21,
+        "name": "line_biased_320121",
+        "seed": 320121,
+        "layout": "line",
+        "noise": "biased",
+        "source_count": 14,
+        "case_content_sha256": "ed8e74406079ba6256dd49166f2d14ad8d7003c46c696e9aca2ff177cacd8fbd",
+        "artifacts": {
+          "selection.json": {
+            "path": "experiments/b_q3/refinement/runs/micro_confirm/line_biased_320121/selection.json",
+            "sha256": "230799a722dd42dae3668e9dc558a682f6b8ff4413c869ae38f12a00fb51bcf4"
+          },
+          "f3/metadata.json": {
+            "path": "experiments/b_q3/refinement/runs/micro_confirm/line_biased_320121/f3/metadata.json",
+            "sha256": "eb99789aef56f7306f5303d03f7f594875e79e790ac1e01a8a4d54756415e3ee"
+          },
+          "f3/result.json": {
+            "path": "experiments/b_q3/refinement/runs/micro_confirm/line_biased_320121/f3/result.json",
+            "sha256": "232054ee9c9eea381b3b91da3d213297a243f768e6e8d984e1fa115f6739bf2f"
+          },
+          "f3/actions.jsonl": {
+            "path": "experiments/b_q3/refinement/runs/micro_confirm/line_biased_320121/f3/actions.jsonl",
+            "sha256": "a55b04f2654ba32b64e20c01e23eac49c20a456b00c72e04622430dd8c883903"
+          }
+        },
+        "baseline_reuse_checks": {
+          "runtime_dependencies_match": true,
+          "config_level_samples_match": true,
+          "selection_metadata_second_station_match": true,
+          "public_first_station_history_seed_match": true,
+          "result_reports_all_clear": true,
+          "independent_action_costs_match": true
+        },
+        "baseline_action_count": 136,
+        "public_history_seed": 2026147630223243124,
+        "second_station_action_count": 20,
+        "second_station_no_op": false
+      }
+    ],
+    "planned_execution": {
+      "candidate_name": "P1_joint_tasks",
+      "new_candidate_full_trajectories": 8,
+      "baseline_reruns_if_compatibility_changes_max": 8,
+      "p1_model_implemented": false,
+      "p1_experiments_run": 0,
+      "new_confirmation_cases_run": 0,
+      "local_self_built_only": true
+    },
+    "proposed_screening_rules": {
+      "all_cases_clear_and_legal": true,
+      "mean_total_saving_at_least_s": 30,
+      "mean_per_source_saving_positive": true,
+      "mean_move_saving_positive": true,
+      "both_savings_leave_one_out_positive": true,
+      "regression_audit_trigger_s": 60,
+      "threshold_status": "design recommendation, not an official condition or validated effect"
+    },
+    "read_only_validation": {
+      "checked_case_count": 8,
+      "checked_runtime_dependency_count": 11,
+      "checked_historical_action_count": 1481,
+      "max_abs_virtual_cost_drift_s": 0.0,
+      "scope": "existing JSON, public first-station history, source hashes, and independent cost arithmetic only; no environment or policy executed; historical geometry validation not rerun"
+    }
+  },
+  "runtime_limits": {
+    "actions": 3000,
+    "virtual_s": 10800,
+    "accounted_wall_s": 1200
+  }
+}

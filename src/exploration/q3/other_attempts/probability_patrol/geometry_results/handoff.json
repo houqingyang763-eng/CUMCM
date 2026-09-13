@@ -1,0 +1,185 @@
+{
+  "seed": 260912082,
+  "samples": 200000,
+  "rotation_deg": 30,
+  "basis": "coverage/short candidates from coarse study; third candidate deliberately protects against minimum-R edge prior mismatch; no whole-task time claim",
+  "selected": [
+    {
+      "role": "coverage",
+      "name": "coverage30",
+      "points": [
+        [
+          -692.820323027551,
+          -399.99999999999994
+        ],
+        [
+          692.820323027551,
+          399.99999999999994
+        ]
+      ],
+      "p_discovered": 0.7578887691132119,
+      "radius_integrated_analytically": true,
+      "p_two_detected": 0.12517250058774468,
+      "p_two_directions_angle_30_150": 0.09233462533550985,
+      "initial_move_s": 480.0,
+      "initial_20_channel_scan_s": 239.0,
+      "initial_full_scan_time_min": 11.983333333333333,
+      "per_n": {
+        "10": {
+          "expected_discovered": 7.578887691132119,
+          "expected_undiscovered": 2.421112308867881,
+          "p_all_discovered_iid": 0.06252514600831591
+        },
+        "11": {
+          "expected_discovered": 8.33677646024533,
+          "expected_undiscovered": 2.663223539754669,
+          "p_all_discovered_iid": 0.0473871059468664
+        },
+        "12": {
+          "expected_discovered": 9.094665229358544,
+          "expected_undiscovered": 2.905334770641457,
+          "p_all_discovered_iid": 0.03591415539790793
+        },
+        "13": {
+          "expected_discovered": 9.852553998471755,
+          "expected_undiscovered": 3.1474460015282455,
+          "p_all_discovered_iid": 0.02721893502826106
+        },
+        "14": {
+          "expected_discovered": 10.610442767584967,
+          "expected_undiscovered": 3.3895572324150334,
+          "p_all_discovered_iid": 0.02062892516514126
+        },
+        "15": {
+          "expected_discovered": 11.368331536698179,
+          "expected_undiscovered": 3.6316684633018212,
+          "p_all_discovered_iid": 0.01563443070153747
+        },
+        "16": {
+          "expected_discovered": 12.12622030581139,
+          "expected_undiscovered": 3.8737796941886096,
+          "p_all_discovered_iid": 0.011849159440174045
+        }
+      },
+      "initial_move_min": 8.0
+    },
+    {
+      "role": "short_start",
+      "name": "short30",
+      "points": [
+        [
+          -129.9038105676658,
+          -74.99999999999999
+        ],
+        [
+          519.6152422706632,
+          299.99999999999994
+        ]
+      ],
+      "p_discovered": 0.6544879747525741,
+      "radius_integrated_analytically": true,
+      "p_two_detected": 0.30757501773631923,
+      "p_two_directions_angle_30_150": 0.24294204357167964,
+      "initial_move_s": 180.0,
+      "initial_20_channel_scan_s": 239.0,
+      "initial_full_scan_time_min": 6.983333333333333,
+      "per_n": {
+        "10": {
+          "expected_discovered": 6.544879747525742,
+          "expected_undiscovered": 3.4551202524742584,
+          "p_all_discovered_iid": 0.014421708543855225
+        },
+        "11": {
+          "expected_discovered": 7.199367722278316,
+          "expected_undiscovered": 3.8006322777216845,
+          "p_all_discovered_iid": 0.009438834817339701
+        },
+        "12": {
+          "expected_discovered": 7.853855697030889,
+          "expected_undiscovered": 4.146144302969111,
+          "p_all_discovered_iid": 0.006177603883624744
+        },
+        "13": {
+          "expected_discovered": 8.508343671783464,
+          "expected_undiscovered": 4.4916563282165365,
+          "p_all_discovered_iid": 0.004043167454617196
+        },
+        "14": {
+          "expected_discovered": 9.162831646536038,
+          "expected_undiscovered": 4.837168353463962,
+          "p_all_discovered_iid": 0.0026462044789579285
+        },
+        "15": {
+          "expected_discovered": 9.817319621288613,
+          "expected_undiscovered": 5.182680378711388,
+          "p_all_discovered_iid": 0.0017319090102143654
+        },
+        "16": {
+          "expected_discovered": 10.471807596041186,
+          "expected_undiscovered": 5.528192403958814,
+          "p_all_discovered_iid": 0.0011335136205509353
+        }
+      },
+      "initial_move_min": 3.0
+    },
+    {
+      "role": "edge_robustness",
+      "name": "edge30",
+      "points": [
+        [
+          -952.6279441628826,
+          -549.9999999999999
+        ],
+        [
+          952.6279441628826,
+          549.9999999999999
+        ]
+      ],
+      "p_discovered": 0.7138719106130509,
+      "radius_integrated_analytically": true,
+      "p_two_detected": 0.03425774034973752,
+      "p_two_directions_angle_30_150": 0.01686775205243576,
+      "initial_move_s": 660.0,
+      "initial_20_channel_scan_s": 239.0,
+      "initial_full_scan_time_min": 14.983333333333333,
+      "per_n": {
+        "10": {
+          "expected_discovered": 7.138719106130509,
+          "expected_undiscovered": 2.861280893869491,
+          "p_all_discovered_iid": 0.03437185230951351
+        },
+        "11": {
+          "expected_discovered": 7.85259101674356,
+          "expected_undiscovered": 3.1474089832564403,
+          "p_all_discovered_iid": 0.024537099879502016
+        },
+        "12": {
+          "expected_discovered": 8.56646292735661,
+          "expected_undiscovered": 3.4335370726433894,
+          "p_all_discovered_iid": 0.017516346371883363
+        },
+        "13": {
+          "expected_discovered": 9.280334837969662,
+          "expected_undiscovered": 3.7196651620303385,
+          "p_all_discovered_iid": 0.01250442765145636
+        },
+        "14": {
+          "expected_discovered": 9.994206748582712,
+          "expected_undiscovered": 4.005793251417288,
+          "p_all_discovered_iid": 0.008926559658667815
+        },
+        "15": {
+          "expected_discovered": 10.708078659195763,
+          "expected_undiscovered": 4.291921340804237,
+          "p_all_discovered_iid": 0.006372420198734578
+        },
+        "16": {
+          "expected_discovered": 11.421950569808814,
+          "expected_undiscovered": 4.578049430191186,
+          "p_all_discovered_iid": 0.00454909178249985
+        }
+      },
+      "initial_move_min": 11.0
+    }
+  ]
+}

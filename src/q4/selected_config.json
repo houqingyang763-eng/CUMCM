@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "policy": "shared25",
+  "parameters": {
+    "discovery_weight": 1.0,
+    "localization_weight": 1.0,
+    "clear_weight": 2.0,
+    "offset_scale": 0.5,
+    "min_offset_m": 60.0,
+    "max_offset_m": 600.0,
+    "adaptive_virtual_budget_s": 12000.0,
+    "adaptive_action_limit": 1000,
+    "domain_radius_m": 5000.0,
+    "discovery_value_s": 120.0,
+    "terminal_value_s": 75.0,
+    "detour_weight": 0.5,
+    "error_samples": [
+      -1.0,
+      0.0,
+      1.0
+    ],
+    "representative_limit": 5,
+    "work_gain_cap_s": 240.0,
+    "min_work_gain_s": 0.25,
+    "approach_offsets_m": [
+      60.0,
+      120.0
+    ],
+    "current_probe_ratio": 1.2,
+    "q4_anchor_value_s": 30.0,
+    "initial_points": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        944.0,
+        0.0
+      ]
+    ],
+    "discovery_points": [],
+    "local_action_limit": 12,
+    "use_belief": true,
+    "use_multiclear": true,
+    "opportunistic_scan_from_known": 17,
+    "prune_planned_stops": true,
+    "prune_limit": 4,
+    "pool_size": 32,
+    "omni_prior": 0.5,
+    "rollout_samples": 0,
+    "rollout_pool_size": 96,
+    "rollout_base": "joint25",
+    "rollout_decision_limit": 12,
+    "rollout_wall_budget_s": 600.0
+  }
+}
